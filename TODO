@@ -3,11 +3,7 @@ GNU hello --- TODO
 Todo:
 
     * remove README-alpha from the distribution.
-    * check automake's support for `help2man'.
-    * check bug-gnu-hello again.
-    * Fix `make check'; cfg. Ulrich's remark at the end of TODO.
     * submit a new hello.pot.
-    * replace doc/gpl.texi by the one with the recent FSF address.
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=- cut here -=-=-=-=-=-=-=-=-=-=-=-=-=-
 
