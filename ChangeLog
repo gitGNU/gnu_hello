@@ -1,3 +1,8 @@
+2005-03-21  Karl Berry  <karl@gnu.org>
+
+	* doc/hello.texi: switch to GFDL; make Texinfo source follow
+	current practices.
+
 2005-03-20  Karl Berry  <karl@gnu.org>
 
 	* README, README-alpha, NEWS, THANKS, AUTHORS: text updates.
