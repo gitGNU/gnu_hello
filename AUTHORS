@@ -1,15 +1,20 @@
-Authors of GNU hello.
+$Id: AUTHORS,v 1.2 2005/03/20 23:53:34 karl Exp $
+Authors of GNU Hello.
+
+  Copyright (C) 1999, 2005 Free Software Foundation, Inc.
+  
+  Copying and distribution of this file, with or without modification,
+  are permitted in any medium without royalty provided the copyright
+  notice and this notice are preserved.
 
 The following contributions warranted legal paper exchanges with the
-Free Software Foundation.  Also see files ChangeLog and THANKS.
+Free Software Foundation.  See also the ChangeLog and THANKS files.
 
-hello           Mike Haertel
-                David MacKenzie
-                Jan Brittenson
-                Roland McGrath
-                Charles Hannum
-                The King
-
-                Karl Eichwalder Germany 1959
-
-AUTHORS ends here
+Mike Haertel
+David MacKenzie
+Jan Brittenson
+Roland McGrath
+Charles Hannum
+Karl Eichwalder		all files.
+Karl Berry 		all files.
+The King		releases.

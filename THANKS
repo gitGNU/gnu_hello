@@ -1,3 +1,12 @@
+$Id: THANKS,v 1.2 2005/03/20 23:53:34 karl Exp $
+Additional contributors to GNU Hello.
+ 
+  Copyright (C) 1999, 2005 Free Software Foundation, Inc.
+  
+  Copying and distribution of this file, with or without modification,
+  are permitted in any medium without royalty provided the copyright
+  notice and this notice are preserved.
+
 Thanks to:
 
     François Pinard for assistance and good ideas.
@@ -17,12 +26,6 @@ Thanks to:
 
     Fabrice Bauzac and Thomas Bushnell.
 
-Thanks to all the translators (run 'grep -e ^\"Last-Translator: po/*.po').
+    All the translators (run 'grep -e ^\"Last-Translator: po/*.po').
 
-Fuerth, 2002-06-08
---
-work : ke@suse.de                          |                   ,__o
-     : http://www.suse.de/~ke/             |                 _-\_<,
-home : keichwa@gmx.net                     |                (*)/'(*)
-
-
+See also the AUTHORS and ChangeLog files.

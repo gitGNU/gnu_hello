@@ -1,0 +1,22 @@
+$Id: README.dev,v 1.1 2005/03/20 23:53:34 karl Exp $
+This README.dev file describes the development environment.
+
+  Copyright (C) 2002, 2003, 2005 Free Software Foundation, Inc.
+
+  Copying and distribution of this file, with or without modification,
+  are permitted in any medium without royalty provided the copyright
+  notice and this notice are preserved.
+
+The development sources for GNU Texinfo are available through anonymous
+CVS at Savannah:
+  http://savannah.gnu.org/cvs/?group=texinfo
+
+This distribution uses whatever versions of Automake, Autoconf, and
+Gettext are listed in NEWS; usually the latest ones released.  If you
+are getting the sources from CVS (or change configure.ac), you'll need
+to have these tools installed to (re)build.  You'll also need help2man.
+All of these programs are available from ftp://ftp.gnu.org/gnu.
+
+After getting the CVS sources, and installing the tools above, you can run
+  ./bootstrap
+to do a fresh build.  After that first time, running make should suffice.
