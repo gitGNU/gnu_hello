@@ -1,3 +1,7 @@
+2005-03-27  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* configure.ac (AC_CONFIG_FILES): Add intl/Makefile.
+
 2005-03-21  Karl Berry  <karl@gnu.org>
 
 	* doc/hello.texi: switch to GFDL; make Texinfo source follow

@@ -1,5 +1,5 @@
-ChangeLog.inst
 Makefile
+Makefile.in
 VERSION
 .libs
 *.lo

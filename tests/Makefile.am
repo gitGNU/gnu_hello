@@ -1,5 +1,7 @@
-## Makefile for program tests directory in GNU hello.
-## Copyright (C) 1996 Free Software Foundation, Inc.
+## Process this file with automake to produce Makefile.in.
+## Makefile for hello/tests.
+##
+## Copyright (C) 1996, 2005 Free Software Foundation, Inc.
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -13,12 +15,7 @@
 ##
 ## You should have received a copy of the GNU General Public License
 ## along with this program; if not, write to the Free Software
-## Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
-## USA.
-
-## Process this file with automake to produce Makefile.in.
-
-AUTOMAKE_OPTIONS = 1.2 gnits
+## Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 TESTS = hello-1 world-1 nothing-1
 
@@ -27,6 +24,3 @@ EXTRA_DIST = $(TESTS)
 TESTS_ENVIRONMENT = top_srcdir=$(top_srcdir) PATH=.:../src:$$PATH \
 		    HELLO=`echo hello|sed '$(transform)'` \
 		    $(SHELL)
-
-## Makefile.am ends here.
-

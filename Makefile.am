@@ -1,5 +1,8 @@
+## Process this file with automake to produce Makefile.in (in this,
+## and all subdirectories).
+## 
 ## Makefile for the toplevel directory of GNU hello.
-## Copyright (C) 1997-98 Free Software Foundation, Inc.
+## Copyright (C) 1997, 1998, 2005 Free Software Foundation, Inc.
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -15,9 +18,7 @@
 ## along with this program; if not, write to the Free Software
 ## Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
-## Process this file with automake to produce Makefile.in
-
-AUTOMAKE_OPTIONS = 1.5 gnits dist-bzip2
+AUTOMAKE_OPTIONS = 1.5 gnu dist-bzip2
 ACLOCAL_AMFLAGS = -I m4
 
 MAINT_CHARSET = latin1

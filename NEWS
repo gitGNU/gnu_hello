@@ -1,4 +1,3 @@
-$Id: NEWS,v 1.2 2005/03/20 23:53:34 karl Exp $
 This NEWS file records noteworthy changes, very tersely.
 See the manual for detailed information.
 
@@ -12,6 +11,7 @@ See the manual for detailed information.
 
 * Distribution:
   . Update shared source files, such as texinfo.tex and getopt.c.
+  . automake 1.9.5, autoconf 2.59, gettext 0.14.3.
 
 
 Version 2.1.2 (20 July 2002)

@@ -1,6 +1,6 @@
 This is hello.info, produced by makeinfo version 4.8 from hello.texi.
 
-   This manual is for GNU Hello (version 2.1.2, 21 March 2005), which
+   This manual is for GNU Hello (version 2.9.90, 21 March 2005), which
 prints a friendly greeting (and serves as an example GNU package).
 
    Copyright (C) 1992, 1993, 1996, 2002, 2005 Free Software Foundation,
@@ -29,7 +29,7 @@ File: hello.info,  Node: Top,  Next: Instructions,  Up: (dir)
 GNU Hello
 *********
 
-This manual is for GNU Hello (version 2.1.2, 21 March 2005).
+This manual is for GNU Hello (version 2.9.90, 21 March 2005).
 
 * Menu:
 
@@ -616,14 +616,14 @@ Concept Index
 
 
 Tag Table:
-Node: Top1063
-Node: Instructions1512
-Node: Overview1835
-Node: Sample2372
-Node: Invoking hello3096
-Node: Problems3729
-Node: Copying This Manual4148
-Node: GNU Free Documentation License4387
-Node: Concept Index26795
+Node: Top1064
+Node: Instructions1514
+Node: Overview1837
+Node: Sample2374
+Node: Invoking hello3098
+Node: Problems3731
+Node: Copying This Manual4150
+Node: GNU Free Documentation License4389
+Node: Concept Index26797
 
 End Tag Table

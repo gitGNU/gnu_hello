@@ -1,5 +1,7 @@
-## Makefile for program src directory in GNU hello.
-## Copyright (C) 1999 Free Software Foundation, Inc.
+## Process this file with automake to produce Makefile.in.
+## Makefile.am for hello/contrib.
+##
+## Copyright (C) 1999, 2005 Free Software Foundation, Inc.
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -13,11 +15,6 @@
 ##
 ## You should have received a copy of the GNU General Public License
 ## along with this program; if not, write to the Free Software
-## Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
-## USA.
-
-## Process this file with automake to produce Makefile.in.
+## Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 EXTRA_DIST = de_franconian_po.txt evolution.txt hello.1
-
-## contrib/Makefile.am ends here

@@ -29,5 +29,3 @@ result=$?
 rm -f $tmpfiles
 
 exit $result
-
-# hello ends here
