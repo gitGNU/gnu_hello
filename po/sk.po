@@ -1,0 +1,189 @@
+# hello sk.po
+# Copyright (C) 1999, 2000, 2001, 2002 Free Software Foundation, Inc.
+# Marcel Telka <marcel@telka.sk>, 2002.
+# Stanislav Meduna <stano@meduna.org>, 2000, 2001.
+# Miroslav Vasko <vasko@debian.cz>, 1999.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hello 2.1.1\n"
+"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"PO-Revision-Date: 2002-06-11 10:32+0200\n"
+"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/getopt.c:693
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: voµba `%s' je nejasná\n"
+
+#: src/getopt.c:718
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: voµba `--%s' nepovoµuje argument\n"
+
+#: src/getopt.c:723
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: voµba `%c%s' nepovoµuje argument\n"
+
+#: src/getopt.c:741 src/getopt.c:914
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: voµba `%s' vy¾aduje argument\n"
+
+#: src/getopt.c:770
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: neznáma voµba `--%s'\n"
+
+#: src/getopt.c:774
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: neznáma voµba `%c%s'\n"
+
+#: src/getopt.c:800
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: nepovolená voµba -- %c\n"
+
+#: src/getopt.c:803
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: neplatná voµba -- %c\n"
+
+#: src/getopt.c:833 src/getopt.c:963
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: voµba vy¾aduje argument -- %c\n"
+
+#: src/getopt.c:880
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: voµba `-W %s' je nejasná\n"
+
+#: src/getopt.c:898
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: voµba `-W %s' nepovoµuje argument\n"
+
+#: src/hello.c:164
+msgid "Too many arguments\n"
+msgstr "Príli¹ veµa argumentov\n"
+
+#: src/hello.c:165
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Skúste `%s --help' pre viac informácií.\n"
+
+#. TRANSLATORS: --help output 1
+#. no-wrap
+#: src/hello.c:177
+msgid "GNU hello, THE greeting printing program.\n"
+msgstr "GNU hello, TEN program vypisujúci pozdrav.\n"
+
+#. TRANSLATORS: --help output 2
+#. no-wrap
+#: src/hello.c:182
+#, c-format
+msgid "Usage: %s [OPTION]\n"
+msgstr "Pou¾itie: %s [VO¥BA]\n"
+
+#. TRANSLATORS: --help output 3 : options 1/2
+#. no-wrap
+#: src/hello.c:188
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help          zobrazi» túto pomoc a skonèi»\n"
+"  -v, --version       zobrazi» informácie o verzii a skonèi»\n"
+
+#. TRANSLATORS: --help output 4 : options 2/2
+#. no-wrap
+#: src/hello.c:195
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -m, --mail              print your mail\n"
+msgstr ""
+"  -t, --traditional       pou¾i» tradièný formát pozdravu\n"
+"  -n, --next-generation   pou¾i» formát pozdravu ïal¹ej generácie\n"
+"  -m, --mail              vypísá» va¹u po¹tu\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS, please don't forget to add the contact address for
+#. your translation!
+#. no-wrap
+#: src/hello.c:205
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+"Správy o chybách zasielajte na adresu <%s> (iba anglicky).\n"
+"Komentáre k slovenskému prekladu zasielajte na adresu <sk-i18n@lists.linux.sk>.\n"
+
+#: src/hello.c:217
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+"of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+msgstr ""
+"Autorské práva (C) %s Free Software Foundation, Inc.\n"
+"Neexistuje ®IADNA záruka; dokonca ani záruka PREDAJNOSTI alebo VHODNOSTI\n"
+"PRE KONKRÉTNE ÚÈELY. Mô¾ete distribuova» kópie GNU %s podµa podmienok\n"
+"uvedených v GNU General Public License - GNU V¹eobecná verejná licencia.\n"
+"Pre viac informácií o týchto podmienkach, pozrite súbor nazvaný COPYING. \n"
+
+#: src/hello.c:228
+#, c-format
+msgid "%s: Incompatible flags: -m and -t\n"
+msgstr "%s: Nekompatibilné príznaky: -m a -t\n"
+
+#: src/hello.c:260
+#, c-format
+msgid "%s: Who are you?\n"
+msgstr "%s: Kto ste?\n"
+
+#: src/hello.c:282
+#, c-format
+msgid "%s: Cannot find your mail spool file.\n"
+msgstr "%s: Nemo¾no nájs» Vá¹ súbor s po¹tou.\n"
+
+#: src/hello.c:326
+msgid "Nothing happens here."
+msgstr "Niè sa tu nedeje."
+
+#: src/hello.c:332
+msgid "hello, world\n"
+msgstr "ahoj, svet\n"
+
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:340
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"+-------------+\n"
+"| Ahoj, svet! |\n"
+"+-------------+\n"
+
+#: src/hello.c:346
+msgid "Hello, world!"
+msgstr "Ahoj, svet!"
+
+#: src/hello.c:361
+#, c-format
+msgid "%s: Virtual memory exhausted\n"
+msgstr "%s: Bola vyèerpaná virtuálna pamä»\n"

@@ -1,0 +1,33 @@
+#! /bin/sh
+# This script takes one argument.
+
+trap 'rm -fr $tmpfiles' 1 2 3 15
+
+LANGUAGE=
+LC_ALL=
+LC_MESSAGES=
+LANG=
+export LANGUAGE LC_ALL LC_MESSAGES LANG
+
+tmpfiles="hello-test1.ok"
+cat <<EOF > hello-test1.ok
+Hello, world!
+EOF
+
+tmpfiles="$tmpfiles hello-test1.out"
+: ${HELLO=hello}
+${HELLO} > hello-test1.out
+
+# $HELLO > test.out
+# $HELLO sailor >> test.out
+# $HELLO --traditional >> test.out
+
+: ${DIFF=diff}
+${DIFF} hello-test1.ok hello-test1.out
+result=$?
+
+rm -f $tmpfiles
+
+exit $result
+
+# hello ends here

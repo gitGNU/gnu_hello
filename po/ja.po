@@ -1,0 +1,194 @@
+# Japanese messages GNU hello
+# Copyright (C) 1999, 2000, 2001, 2002 Free Software Foundation, Inc.
+# IIDA Yosiaki <iida@gnu.org>, 1999, 2000, 2001, 2002.
+# This file is distributed under the same license as the hello package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU hello 2.0.50\n"
+"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"PO-Revision-Date: 2002-02-08 12:19+09:00\n"
+"Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=EUC-JP\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/getopt.c:693
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: オプション `%s' は曖昧です\n"
+
+#: src/getopt.c:718
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: オプション `--%s' は引数を受け付けません\n"
+
+#: src/getopt.c:723
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: オプション `%c%s' は引数を受け付けません\n"
+
+#: src/getopt.c:741 src/getopt.c:914
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: オプション `%s' には引数が必要です\n"
+
+#: src/getopt.c:770
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: 認識できないオプション `--%s' です\n"
+
+#: src/getopt.c:774
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: 認識できないオプション `%c%s' です\n"
+
+#: src/getopt.c:800
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: 不正なオプションです -- %c\n"
+
+#: src/getopt.c:803
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: 無効なオプションです -- %c\n"
+
+#: src/getopt.c:833 src/getopt.c:963
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: オプションは引数を要求します -- %c\n"
+
+#: src/getopt.c:880
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: オプション `-W %s' は曖昧です\n"
+
+#: src/getopt.c:898
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: オプション `-W %s' は、引数を受け付けません\n"
+
+#: src/hello.c:164
+msgid "Too many arguments\n"
+msgstr "引数が多すぎます\n"
+
+#: src/hello.c:165
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "`%s --help' で、より詳細な情報を調べてみてください。\n"
+
+#. TRANSLATORS: --help output 1
+#. no-wrap
+#: src/hello.c:177
+msgid "GNU hello, THE greeting printing program.\n"
+msgstr "*あの*あいさつ表示プログラム、Hello の GNU 版です。\n"
+
+#. TRANSLATORS: --help output 2
+#. no-wrap
+#: src/hello.c:182
+#, c-format
+msgid "Usage: %s [OPTION]\n"
+msgstr "使用法: %s [オプション]\n"
+
+#. TRANSLATORS: --help output 3 : options 1/2
+#. no-wrap
+#: src/hello.c:188
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help          このメッセージを表示して、終了します\n"
+"  -v, --version       バージョン情報を表示して、終了します\n"
+
+#. TRANSLATORS: --help output 4 : options 2/2
+#. no-wrap
+#: src/hello.c:195
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -m, --mail              print your mail\n"
+msgstr ""
+"  -t, --traditional       伝統的なあいさつの書式を使います\n"
+"  -n, --next-generation   次世代のあいさつの書式を使います\n"
+"  -m, --mail              あなたへのメールを表示します\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS, please don't forget to add the contact address for
+#. your translation!
+#. no-wrap
+#: src/hello.c:205
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+"バグを見つけたら <%s> に報告してください。\n"
+"日本語の誤訳は <ja@li.org> に報告してください。\n"
+
+#: src/hello.c:217
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+"of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+msgstr ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+"of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+"\n"
+"-- 以下は参考訳です。法的な事項については上の記述にしたがってください。\n"
+"一切の保証はありません。商業性や特定目的適合性に関する保証すらありません。\n"
+"あなたは、GNU hello を GNU General Public License に基づいて再配布できま"
+"す。\n"
+"これらの事項についての詳しい情報は、COPYING というファイルを見てください。\n"
+
+#: src/hello.c:228
+#, c-format
+msgid "%s: Incompatible flags: -m and -t\n"
+msgstr "%s: 両立しないフラグ: -mと-t\n"
+
+#: src/hello.c:260
+#, c-format
+msgid "%s: Who are you?\n"
+msgstr "%s: あんた誰だい？\n"
+
+#: src/hello.c:282
+#, c-format
+msgid "%s: Cannot find your mail spool file.\n"
+msgstr "%s: あなたのメール・スプール・ファイルが見つかりません。\n"
+
+#: src/hello.c:326
+msgid "Nothing happens here."
+msgstr "ここでは何も起こらない。"
+
+#: src/hello.c:332
+msgid "hello, world\n"
+msgstr "世界よ、こんにちは\n"
+
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:340
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"┏━━━━━━━━━━┓\n"
+"┃世界よ、こんにちは！┃\n"
+"┗━━━━━━━━━━┛\n"
+
+#: src/hello.c:346
+msgid "Hello, world!"
+msgstr "世界よ、こんにちは！"
+
+#: src/hello.c:361
+#, c-format
+msgid "%s: Virtual memory exhausted\n"
+msgstr "%s: 仮想メモリを使い果たしました\n"

@@ -1,0 +1,186 @@
+# Irish translations for hello.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the hello package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hello 2.1.1\n"
+"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"PO-Revision-Date: 2003-05-05 15:48-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/getopt.c:693
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: Tá an rogha `%s' débhríoch\n"
+
+#: src/getopt.c:718
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh an rogha `--%s'\n"
+
+#: src/getopt.c:723
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh an rogha `%c%s'\n"
+
+#: src/getopt.c:741 src/getopt.c:914
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: ní foláir argóint don rogha `%s'\n"
+
+#: src/getopt.c:770
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: rogha anaithnid `--%s'\n"
+
+#: src/getopt.c:774
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: rogha anaithnid `%c%s'\n"
+
+#: src/getopt.c:800
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: rogha neamhcheadaithe -- %c\n"
+
+#: src/getopt.c:803
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: rogha neamhbhailí -- %c\n"
+
+#: src/getopt.c:833 src/getopt.c:963
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: ní foláir argóint don rogha -- %c\n"
+
+#: src/getopt.c:880
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: Tá an rogha `-W %s' débhríoch\n"
+
+#: src/getopt.c:898
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh an rogha `-W %s'\n"
+
+#: src/hello.c:164
+msgid "Too many arguments\n"
+msgstr "An iomarca argóintí\n"
+
+#: src/hello.c:165
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fháil.\n"
+
+#. TRANSLATORS: --help output 1
+#. no-wrap
+#: src/hello.c:177
+msgid "GNU hello, THE greeting printing program.\n"
+msgstr "GNU hello, níl ríomhchlár eile chun priontáil beannachtaí!\n"
+
+#. TRANSLATORS: --help output 2
+#. no-wrap
+#: src/hello.c:182
+#, c-format
+msgid "Usage: %s [OPTION]\n"
+msgstr "Úsáid: %s [ROGHA]\n"
+
+#. TRANSLATORS: --help output 3 : options 1/2
+#. no-wrap
+#: src/hello.c:188
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help          taispeáin an chabhair seo agus éirigh as\n"
+"  -v, --version       taispeáin eolas faoin leagan agus éirigh as\n"
+
+#. TRANSLATORS: --help output 4 : options 2/2
+#. no-wrap
+#: src/hello.c:195
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -m, --mail              print your mail\n"
+msgstr ""
+"  -t, --traditional       bain úsáid as beannacht ar an sean-nós\n"
+"  -n, --next-generation   bain úsáid as beannacht nua-aoiseach\n"
+"  -m, --mail              priontáil do phost\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS, please don't forget to add the contact address for
+#. your translation!
+#. no-wrap
+#: src/hello.c:205
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr "Seol tuairiscí fabhtanna chuig <%s>.\n"
+
+#: src/hello.c:217
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+"of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+msgstr ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"Níl baránta AR BITH ann; go fiú níl baránta ann d'INDÍOLTACHT nó\n"
+"FEILIÚNACHT DO FHEIDHM AR LEITH.  Is féidir leat GNU %s a scaipeadh de réir\n"
+"na coinníollacha den GNU General Public License.\n"
+"Féach ar an chomhad `COPYING' chun tuilleadh eolais a fháil.\n"
+
+#: src/hello.c:228
+#, c-format
+msgid "%s: Incompatible flags: -m and -t\n"
+msgstr "%s: Bratacha éaguibhreannacha: -m agus -t\n"
+
+#: src/hello.c:260
+#, c-format
+msgid "%s: Who are you?\n"
+msgstr "%s: Cé thú féin?\n"
+
+#: src/hello.c:282
+#, c-format
+msgid "%s: Cannot find your mail spool file.\n"
+msgstr "%s: Ní féidir an comhad a fháil a bhfuil do spól poist ann.\n"
+
+#: src/hello.c:326
+msgid "Nothing happens here."
+msgstr "Ní tharlaíonn dada anseo."
+
+#: src/hello.c:332
+msgid "hello, world\n"
+msgstr "Dia duit, a dhomhain\n"
+
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:340
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"+-----------------------+\n"
+"| Dia duit, a dhomhain! |\n"
+"+-----------------------+\n"
+
+#: src/hello.c:346
+msgid "Hello, world!"
+msgstr "Dia duit, a dhomhain!"
+
+#: src/hello.c:361
+#, c-format
+msgid "%s: Virtual memory exhausted\n"
+msgstr "%s: Cuimhne fhíorúil ídithe\n"

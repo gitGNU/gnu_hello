@@ -1,0 +1,195 @@
+# Turkish translations for hello messages.
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hello 2.0.50\n"
+"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"PO-Revision-Date: 2002-02-07 10:04+0200\n"
+"Last-Translator: Nilgün Belma Bugüner <nilgun@fide.org>\n"
+"Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: src/getopt.c:693
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: `%s' seçeneği belirsiz\n"
+
+#: src/getopt.c:718
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: `--%s' seçeneği argümansız kullanılır\n"
+
+#: src/getopt.c:723
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: `%c%s' argümansız kullanılır\n"
+
+#: src/getopt.c:741 src/getopt.c:914
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: `%s' seçeneği bir argümanla kullanılır\n"
+
+#: src/getopt.c:770
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: tanınmayan seçenek `--%s'\n"
+
+#: src/getopt.c:774
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: tanınmayan seçenek `%c%s'\n"
+
+#: src/getopt.c:800
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: kuraldışı seçenek -- %c\n"
+
+#: src/getopt.c:803
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: geçersiz seçenek -- %c\n"
+
+#: src/getopt.c:833 src/getopt.c:963
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: seçenek bir argümanla kullanılır -- %c\n"
+
+#: src/getopt.c:880
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: `-W %s' seçeneği belirsiz\n"
+
+#: src/getopt.c:898
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: `-W %s' seçeneği argümansız kullanılır\n"
+
+#: src/hello.c:164
+msgid "Too many arguments\n"
+msgstr "Çok fazla argüman\n"
+
+#: src/hello.c:165
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Daha fazla bilgi için `%s --help' yazın.\n"
+
+#. TRANSLATORS: --help output 1
+#. no-wrap
+#: src/hello.c:177
+msgid "GNU hello, THE greeting printing program.\n"
+msgstr "GNU hello. Karşılama iletisi programı.\n"
+
+#. TRANSLATORS: --help output 2
+#. no-wrap
+#: src/hello.c:182
+#, c-format
+msgid "Usage: %s [OPTION]\n"
+msgstr "Kullanımı: %s [SEÇENEK]\n"
+
+#. TRANSLATORS: --help output 3 : options 1/2
+#. no-wrap
+#: src/hello.c:188
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help              bu iletileri gösterir ve çıkar\n"
+"  -v, --version           sürümü gösterir ve çıkar\n"
+
+#. TRANSLATORS: --help output 4 : options 2/2
+#. no-wrap
+#: src/hello.c:195
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -m, --mail              print your mail\n"
+msgstr ""
+"  -t, --traditional       geleneksel karşılama biçemi kullanılır\n"
+"  -n, --next-generation   yeni nesil karşılama biçemi kullanılır\n"
+"  -m, --mail              e-posta adresinizi gösterir\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS, please don't forget to add the contact address for
+#. your translation!
+#. no-wrap
+#: src/hello.c:205
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+"Lütfen, yazılım hatalarını <%s>,\n"
+"çeviri hatalarını <gnu-tr-u12a@lists.sourceforge.net>\n"
+"adresine bildirin.\n"
+
+#: src/hello.c:217
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+"of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+msgstr ""
+"Telif Hakkı (C) %s Free Software Foundation, Inc.\n"
+"Hiçbir GARANTİSİ YOKTUR; hatta SATILABİLİRLİĞİ veya ŞAHSİ KULLANIMINIZA\n"
+"UYGUNLUĞU için bile garanti verilmez. GNU %s kopyalarını GNU genel\n"
+"Kamu Lisansı koşulları altında dağıtabilirsiniz.\n"
+"Bu maddeler hakkında daha detaylı bilgi almak için COPYING isimli\n"
+"dosyaya bakınız.\n"
+
+#: src/hello.c:228
+#, c-format
+msgid "%s: Incompatible flags: -m and -t\n"
+msgstr "%s: Uyumsuz bayraklar: -m ve -t\n"
+
+#: src/hello.c:260
+#, c-format
+msgid "%s: Who are you?\n"
+msgstr "%s: Siz kimsiniz?\n"
+
+#: src/hello.c:282
+#, c-format
+msgid "%s: Cannot find your mail spool file.\n"
+msgstr "%s: posta iletilerinizin bulunduğu dosya bulunamıyor.\n"
+
+#: src/hello.c:326
+msgid "Nothing happens here."
+msgstr "Hiçbir şey olmaz burada."
+
+#: src/hello.c:332
+msgid "hello, world\n"
+msgstr "merhaba, dünya\n"
+
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:340
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"┌─────────────────┐\n"
+"│ Merhaba, dünya! │\n"
+"└─────────────────┘\n"
+"Not:\n"
+"Bu iletiyi çizgiler içinde göremiyorsanız bir de\n"
+"export LANG=\"tr_TR.UTF-8\"\n"
+"unicode_start\n"
+"ile deneyin.\n"
+
+#: src/hello.c:346
+msgid "Hello, world!"
+msgstr "Merhaba, dünya!"
+
+#: src/hello.c:361
+#, c-format
+msgid "%s: Virtual memory exhausted\n"
+msgstr "%s: Sanal bellek tükendi\n"

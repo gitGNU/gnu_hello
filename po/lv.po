@@ -1,0 +1,212 @@
+# Latvieðu paziòojumi GNU hello.
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Ilya Ketris <ilya@gde.to>, 1999.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU hello 1.3.23\n"
+"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"PO-Revision-Date: 1999-07-30 14:17 +0200\n"
+"Last-Translator: Ilya Ketris <ilya@gde.to>\n"
+"Language-Team: Latvian <translations@lv.quite.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-13\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/getopt.c:693
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: atslçga \"%s\" nav viennozîmîga.\n"
+
+#: src/getopt.c:718
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: atslçga \"--%s\" nepieïauj argumentu.\n"
+
+#: src/getopt.c:723
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: atslçga \"%c%s\" nepieïauj argumentu.\n"
+
+#: src/getopt.c:741 src/getopt.c:914
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: atslçga \"%s\" prasa argumentu.\n"
+
+#: src/getopt.c:770
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: nezinâma atslçga \"--%s\".\n"
+
+#: src/getopt.c:774
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: nezinâma atslçga \"%c%s\".\n"
+
+#: src/getopt.c:800
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: atslçga -- %c nav atïauta.\n"
+
+#: src/getopt.c:803
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: atslçga %c nav pareiza.\n"
+
+#: src/getopt.c:833 src/getopt.c:963
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: atslçga \"%c\" prasa argumentu.\n"
+
+#: src/getopt.c:880
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: atslçga \"-W %s\" nav viennozîmîga.\n"
+
+#: src/getopt.c:898
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: atslçga \"-W %s\" nepieïauj argumentu.\n"
+
+#: src/hello.c:164
+msgid "Too many arguments\n"
+msgstr "Par daudz argumentu.\n"
+
+#: src/hello.c:165
+#, fuzzy, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Izpildiet \"%s --help\" tâlâkai informâcijai.\n"
+
+#. TRANSLATORS: --help output 1
+#. no-wrap
+#: src/hello.c:177
+msgid "GNU hello, THE greeting printing program.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 2
+#. no-wrap
+#: src/hello.c:182
+#, c-format
+msgid "Usage: %s [OPTION]\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3 : options 1/2
+#. no-wrap
+#: src/hello.c:188
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 4 : options 2/2
+#. no-wrap
+#: src/hello.c:195
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -m, --mail              print your mail\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS, please don't forget to add the contact address for
+#. your translation!
+#. no-wrap
+#: src/hello.c:205
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+
+#: src/hello.c:217
+#, fuzzy, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+"of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+msgstr ""
+"Copyright © %s Free Software Foundation, Inc.\n"
+"Nekâdu garantiju; ne pat KOMERCIZMANTOÐANAI vai DERÎGUMAM\n"
+"JEBKURAM NOLÛKAM.  Jûs varat izplatît GNU %s kopijas saskaòâ ar\n"
+"GNU General Public License.\n"
+"Tâlâkai informâcijai skatieties failu COPYING.\n"
+
+#: src/hello.c:228
+#, fuzzy, c-format
+msgid "%s: Incompatible flags: -m and -t\n"
+msgstr "%s: nesavietojamas atslçgas: -m un -t\n"
+
+#: src/hello.c:260
+#, c-format
+msgid "%s: Who are you?\n"
+msgstr "%s: Kas jûs esat?\n"
+
+#: src/hello.c:282
+#, fuzzy, c-format
+msgid "%s: Cannot find your mail spool file.\n"
+msgstr "%s: nevar atrast jûsu pasta failu.\n"
+
+#: src/hello.c:326
+msgid "Nothing happens here."
+msgstr "Ðeit nekas nenotiek."
+
+#: src/hello.c:332
+msgid "hello, world\n"
+msgstr "sveika, pasaule\n"
+
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:340
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+
+#: src/hello.c:346
+msgid "Hello, world!"
+msgstr "Sveika, pasaule!"
+
+#: src/hello.c:361
+#, fuzzy, c-format
+msgid "%s: Virtual memory exhausted\n"
+msgstr "%s: virtuâlâ atmiòa izsmelta\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "GNU hello, THE greeting printing program.\n"
+#~ "\n"
+#~ "Usage: %s [OPTION]\n"
+#~ "\n"
+#~ "  -h, --help          display this help and exit\n"
+#~ "  -v, --version       display version information and exit\n"
+#~ "  -t, --traditional   use traditional greeting format\n"
+#~ "  -m, --mail          print your mail\n"
+#~ "\n"
+#~ "Report bugs to bug-gnu-hello@prep.ai.mit.edu.\n"
+#~ msgstr ""
+#~ "Tas ir GNU Hello, sveicinâjuma programma.\n"
+#~ "Izsaukums: %s [ATSLÇGA]\n"
+#~ "  -h, --help          izvadît palîdzîbu\n"
+#~ "  -v, --version       izvadît versiju\n"
+#~ "  -t, --traditional   izmantot tradicionâlo sveicinâjuma formâtu\n"
+#~ "  -m, --mail          drukât jûsu pastu\n"
+#~ "\n"
+#~ "Ziòojiet kïudas uz bug-gnu-hello@gnu.ai.mit.edu.\n"
+
+#~ msgid ""
+#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
+#~ "This is free software; see the source for copying conditions.  There is "
+#~ "NO\n"
+#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR "
+#~ "PURPOSE.\n"
+#~ msgstr ""
+#~ "Copyright © %s Free Software Foundation, Inc.\n"
+#~ "Ðî prgrammatûra ir brîva; skatieties izplatîðanas noteikumus "
+#~ "izejtekstos.\n"
+#~ "Nekâdu garantiju; ne pat KOMERCIZMANTOÐANAI vai DERÎGUMAM\n"
+#~ "JEBKURAM NOLÛKAM.\n"

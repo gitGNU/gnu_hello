@@ -1,0 +1,187 @@
+# Polish translations for the GNU hello messages
+# Copyright (C) 1996, 1997, 1999, 2000, 2001 Free Software Foundation, Inc.
+# Rafa³ Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001.
+# corrections: Pawe³ Krawczyk <kravietz@pipeta.chemia.pk.edu.pl>, 1996
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU hello 1.3.32\n"
+"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"PO-Revision-Date: 2001-06-23 23:00+0200\n"
+"Last-Translator: Rafa³ Maszkowski <rzm@icm.edu.pl>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/getopt.c:693
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: opcja `%s' jest niejednoznaczna\n"
+
+#: src/getopt.c:718
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: opcja `--%s' nie mo¿e mieæ argumentu\n"
+
+#: src/getopt.c:723
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: opcja `%c%s' nie mo¿e miec argumentu\n"
+
+#: src/getopt.c:741 src/getopt.c:914
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: opcja`%s' wymaga argumentu\n"
+
+#: src/getopt.c:770
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: nierozpoznana opcja `--%s'\n"
+
+#: src/getopt.c:774
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: nierozpoznana opcja ~%c%s'\n"
+
+#: src/getopt.c:800
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: nielegalna opcja -- %c\n"
+
+#: src/getopt.c:803
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: nielegalna opcja -- %c\n"
+
+#: src/getopt.c:833 src/getopt.c:963
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: opcja wymaga argumentu -- %c\n"
+
+#: src/getopt.c:880
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: opcja `-W %s' jest niejednoznaczna\n"
+
+#: src/getopt.c:898
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: opcja `-W %s' nie mo¿e mieæ argumentu\n"
+
+#: src/hello.c:164
+msgid "Too many arguments\n"
+msgstr "Za du¿o argumentów\n"
+
+#: src/hello.c:165
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "U¿yj `%s --help' dla uzyskania informacji.\n"
+
+#. TRANSLATORS: --help output 1
+#. no-wrap
+#: src/hello.c:177
+msgid "GNU hello, THE greeting printing program.\n"
+msgstr "GNU hello, program wypisuj±cy podrowienie.\n"
+
+#. TRANSLATORS: --help output 2
+#. no-wrap
+#: src/hello.c:182
+#, c-format
+msgid "Usage: %s [OPTION]\n"
+msgstr "Sk³adnia: %s [OPCJA]\n"
+
+#. TRANSLATORS: --help output 3 : options 1/2
+#. no-wrap
+#: src/hello.c:188
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help          wy¶wietlenie tego opisu i zakoñczenie\n"
+"  -v, --version       wy¶wietlenie numeru wersji i zakoñczenie\n"
+
+#. TRANSLATORS: --help output 4 : options 2/2
+#. no-wrap
+#: src/hello.c:195
+#, fuzzy
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -m, --mail              print your mail\n"
+msgstr ""
+"  -t, --traditional   tradycyjny format przywitania\n"
+"  -m, --mail          wypisanie twojej poczty\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS, please don't forget to add the contact address for
+#. your translation!
+#. no-wrap
+#: src/hello.c:205
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+"Raporty o b³êdach proszê wysy³aæ do %s .\n"
+"B³êdy t³umaczenia: rzm@icm.edu.pl\n"
+
+#: src/hello.c:217
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+"of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+msgstr ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"Autorzy nie daj± ¯ADNYCH gwarancji, w tym równie¿ gwarancji PRZYDATNO¦CI\n"
+"DO SPRZEDA¯Y LUB DO KONKRETNYCH CELÓW. Redystrybucja GNU %s jest dozwolona\n"
+"na warunkach okre¶lonych w Ogólnej Licencji Publicznej GNU.\n"
+"Wiêcej informacji o licencji mozna znale¼æ w pliku COPYING.\n"
+
+#: src/hello.c:228
+#, c-format
+msgid "%s: Incompatible flags: -m and -t\n"
+msgstr "%s: Opcje -m i -t nie mog± byæ u¿yte razem\n"
+
+#: src/hello.c:260
+#, c-format
+msgid "%s: Who are you?\n"
+msgstr "%s: Kim jeste¶?\n"
+
+#: src/hello.c:282
+#, c-format
+msgid "%s: Cannot find your mail spool file.\n"
+msgstr "%s: Nie mo¿na znale¼æ pliku z twoj± poczt±.\n"
+
+#: src/hello.c:326
+msgid "Nothing happens here."
+msgstr "Nic siê tu nie dzieje."
+
+# Ima to smisel prevajati? :-)
+#: src/hello.c:332
+msgid "hello, world\n"
+msgstr "witaj ¶wiecie\n"
+
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:340
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+
+#: src/hello.c:346
+msgid "Hello, world!"
+msgstr "Witaj ¶wiecie!"
+
+# Morda ,,Zmanjkalo pomnilnika''?
+#: src/hello.c:361
+#, c-format
+msgid "%s: Virtual memory exhausted\n"
+msgstr "%s: Brak pamiêci wirtualnej\n"

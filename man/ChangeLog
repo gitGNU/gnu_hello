@@ -1,0 +1,42 @@
+2004-05-14  Karl Eichwalder  <ke@gnu.franken.de>
+
+	* Makefile.am (hello.1): Missing Perl at installation time is not
+	fatal.
+
+2002-07-20  Karl Eichwalder  <keichwa@gmx.net>
+
+	* Makefile.am (CLEANFILES): New variable, add $(man_MANS).
+
+2002-07-20  Karl Eichwalder  <keichwa@gmx.net>
+
+	* Makefile.am (hello.1): Add $(srcdir)/; thus perl will find
+	$(HELP2MAN) compilations takes place outside the source tree.
+
+2002-01-25  Karl Eichwalder  <keichwa@gmx.net>
+
+	* Makefile.am (hello.1): Use ../src/hello instead of $< for
+	compatibility.
+	Reported by Bruno Haible.
+
+2002-01-19  Karl Eichwalder  <keichwa@gmx.net>
+
+	* help2man: Copy version 1.024 from gettext-0.11-pre5+;
+	recommended by Bruno Haible.
+
+1999-10-03  Karl Eichwalder  <ke@gnu.franken.de>
+
+	* Makefile.am: Rewritten:
+	(man_MANS): New variable, add hello.1.
+	(HELP2MAN): Ditto, add help2man.
+	(noinst_SCRIPTS): Ditto, add $(HELP2MAN).
+	(EXTRA_DIST): Ditto, add $(man_MANS) $(noinst_SCRIPTS).
+	(hello.1): New target.
+	
+1999-08-21  Karl Eichwalder  <ke@gnu.franken.de>
+
+	* help2man: Add this file from the textutils package.
+
+	* Makefile.am: New file; filled with template information from the
+	textutils package.
+
+man/ChangeLog ends here

@@ -1,0 +1,22 @@
+2001-03-23  Karl Eichwalder  <keichwa@gmx.net>
+
+	* Tests completely re-written (using gettext as an example).
+	* Remove old files.
+
+Thu Jan  2 18:40:41 1997  Karl Eichwalder  <ke@ke.Central.DE>
+
+	* Makefile.am (EXTRA_DIST): Add `hello.in'.
+
+	* hello.in: Move `hello' to `hello.in'.
+
+Mon Dec 30 17:29:37 1996  Karl Eichwalder  <ke@ke.Central.DE>
+
+	* Makefile.am: New file.
+	(EXTRA_DIST): Add `testdata'.
+	(TESTS): Add `hello'.
+
+	* hello: New file.
+
+	* testdata: Copied from `../src/'.
+
+tests/ChangeLog ends here

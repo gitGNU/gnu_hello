@@ -1,0 +1,240 @@
+# GNU hello.
+# Copyright (C) 1996 Free Software Foundation, Inc.
+# Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996.
+#
+# $Header: /sources/hello/hello/po/sl.po,v 1.1 2004/12/06 00:50:51 karl Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hello 1.3.4\n"
+"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"PO-Revision-Date: 1996-04-09 17:09\n"
+"Last-Translator: Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>\n"
+"Language-Team: Slovenian <sl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/getopt.c:693
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: izbira ,%s' je dvoumna\n"
+
+#: src/getopt.c:718
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: izbira ,--%s' ne dovoljuje argumenta\n"
+
+#: src/getopt.c:723
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: izbira ,%c%s' ne dovoljuje argumenta\n"
+
+#: src/getopt.c:741 src/getopt.c:914
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: izbira ,%s' zahteva argument\n"
+
+#: src/getopt.c:770
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: neznana izbira ,--%s'\n"
+
+#: src/getopt.c:774
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: neznana izbira ,%c%s'\n"
+
+#: src/getopt.c:800
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: nedovoljena izbira -- %c\n"
+
+#: src/getopt.c:803
+#, fuzzy, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: nedovoljena izbira -- %c\n"
+
+#: src/getopt.c:833 src/getopt.c:963
+#, fuzzy, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: izbira ,%s' zahteva argument\n"
+
+#: src/getopt.c:880
+#, fuzzy, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: izbira ,%s' je dvoumna\n"
+
+#: src/getopt.c:898
+#, fuzzy, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: izbira ,--%s' ne dovoljuje argumenta\n"
+
+#: src/hello.c:164
+msgid "Too many arguments\n"
+msgstr "Preveè argumentov\n"
+
+#: src/hello.c:165
+#, fuzzy, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Poskusite ,%s --help' za izèrpnej¹a navodila\n"
+
+#. TRANSLATORS: --help output 1
+#. no-wrap
+#: src/hello.c:177
+msgid "GNU hello, THE greeting printing program.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 2
+#. no-wrap
+#: src/hello.c:182
+#, c-format
+msgid "Usage: %s [OPTION]\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3 : options 1/2
+#. no-wrap
+#: src/hello.c:188
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 4 : options 2/2
+#. no-wrap
+#: src/hello.c:195
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -m, --mail              print your mail\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS, please don't forget to add the contact address for
+#. your translation!
+#. no-wrap
+#: src/hello.c:205
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+
+#: src/hello.c:217
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+"of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+msgstr ""
+
+#: src/hello.c:228
+#, c-format
+msgid "%s: Incompatible flags: -m and -t\n"
+msgstr ""
+
+#: src/hello.c:260
+#, c-format
+msgid "%s: Who are you?\n"
+msgstr "%s: Kdo pa ste?\n"
+
+#: src/hello.c:282
+#, c-format
+msgid "%s: Cannot find your mail spool file.\n"
+msgstr ""
+
+#: src/hello.c:326
+msgid "Nothing happens here."
+msgstr "Tu se ne zgodi niè."
+
+#  Ima to smisel prevajati? :-)
+#: src/hello.c:332
+msgid "hello, world\n"
+msgstr "zdravo, svet\n"
+
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:340
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+
+#: src/hello.c:346
+msgid "Hello, world!"
+msgstr "Zdravo, svet!"
+
+#  Morda ,,Zmanjkalo pomnilnika''?
+#: src/hello.c:361
+#, fuzzy, c-format
+msgid "%s: Virtual memory exhausted\n"
+msgstr "%s: virtualni pomnilnik izèrpan\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "GNU hello, THE greeting printing program.\n"
+#~ "\n"
+#~ "Usage: %s [OPTION]\n"
+#~ "\n"
+#~ "  -h, --help          display this help and exit\n"
+#~ "  -v, --version       display version information and exit\n"
+#~ "  -t, --traditional   use traditional greeting format\n"
+#~ "  -m, --mail          print your mail\n"
+#~ "\n"
+#~ "Report bugs to bug-gnu-hello@prep.ai.mit.edu.\n"
+#~ msgstr ""
+#~ "To je GNU Hello, program, ki vas pozdravi.\n"
+#~ "\n"
+#~ "Uporaba:\n"
+#~ "\n"
+#~ "    %s [-htvm] [--help] [--version] [--traditional] [--mail]\n"
+#~ "\n"
+#~ "  -h, --help          ta navodila\n"
+#~ "  -v, --version       verzija programa\n"
+#~ "\n"
+#~ "  -t, --traditional   tradicionalna oblika pozdrava\n"
+#~ "  -m, --mail          novo prispela elektronska po¹ta\n"
+
+#~ msgid "%s: unrecognized option, character code 0%o\n"
+#~ msgstr "%s: neznana izbira, koda znaka 0%o\n"
+
+#~ msgid "%s: unrecognized option `-%c'\n"
+#~ msgstr "%s: neznana izbira ,-%c'\n"
+
+#~ msgid "%s: option `-%c' requires an argument\n"
+#~ msgstr "%s: izbira ,-%c' zahteva argument\n"
+
+#~ msgid "digits occur in two different argv-elements.\n"
+#~ msgstr "¹tevke nastopajo v dveh nivojih elementov \"argv\".\n"
+
+#~ msgid "option %c\n"
+#~ msgstr "izbira %c\n"
+
+#~ msgid "option a\n"
+#~ msgstr "izbira a\n"
+
+#~ msgid "option b\n"
+#~ msgstr "izbira b\n"
+
+#~ msgid "option c with value `%s'\n"
+#~ msgstr "izbira c z vrednostjo ,%s'\n"
+
+#~ msgid "?? getopt returned character code 0%o ??\n"
+#~ msgstr "?? \"getopt\" je vrnil znak s kodo 0%o ??\n"
+
+#~ msgid "non-option ARGV-elements: "
+#~ msgstr "elementi ARGV niso izbire: "
+
+#~ msgid "option %s"
+#~ msgstr "izbira %s"
+
+#~ msgid " with arg %s"
+#~ msgstr " z argumentom %s"
+
+#~ msgid "option d with value `%s'\n"
+#~ msgstr "opcija d z vrednostjo ,%s'\n"
