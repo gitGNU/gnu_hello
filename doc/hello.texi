@@ -1,93 +1,66 @@
 \input texinfo @c -*-texinfo-*-
 @c %**start of header
 @setfilename hello.info
-@settitle Printing a Greeting
-@finalout
-@setchapternewpage odd
+@include version.texi
+@settitle GNU Hello @value{VERSION}
 @c %**end of header
 
-@include version.texi
-
 @copying
-This file documents the GNU @code{hello} command for printing a
-greeting message.
+This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}),
+which prints a friendly greeting (and serves as an example GNU package).
 
-Copyright (C) 1992, 1993, 1996, 2002 Free Software Foundation, Inc.
+Copyright (C) 1992, 1993, 1996, 2002, 2005 Free Software Foundation,
+Inc.
 
-Permission is granted to make and distribute verbatim copies of
-this manual provided the copyright notice and this permission notice
-are preserved on all copies.
+@quotation
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, with the Front-Cover Texts being ``A GNU Manual,''
+and with the Back-Cover Texts as in (a) below.  A copy of the
+license is included in the section entitled ``GNU Free Documentation
+License.''
 
-@ignore
-Permission is granted to process this file through TeX and print the
-results, provided the printed document carries copying permission
-notice identical to this one except for the removal of this paragraph
-(this paragraph not being relevant to the printed manual).
-@end ignore
-
-Permission is granted to copy and distribute modified versions of this
-manual under the conditions for verbatim copying, provided that the entire
-resulting derived work is distributed under the terms of a permission
-notice identical to this one.
-
-Permission is granted to copy and distribute translations of this manual
-into another language, under the above conditions for modified versions,
-except that this permission notice may be stated in a translation approved
-by the Foundation.
+(a) The FSF's Back-Cover Text is: ``You have freedom to copy and modify
+this GNU Manual, like GNU software.  Copies published by the Free
+Software Foundation raise funds for GNU development.''
+@end quotation
 @end copying
 
-@ifinfo
-
-@dircategory Greeting Printing Program
-@dircategory Mail Reader
-@dircategory Programming
-
+@dircategory Basics
 @direntry
-* Hello, world!: (hello).       GNU `Hello, world'.
+* Hello: (hello).               Hello, GNU world.
 @end direntry
-
-@c old settings:
-@c INFO-DIR-CATEGORY Greeting Program
-@c INFO-DIR-CATEGORY Mail Reader
-@c INFO-DIR-CATEGORY Programming
-@c 
-@c START-INFO-DIR-ENTRY
-@c * Hello, world!: (hello).       GNU `Hello, world'.
-@c END-INFO-DIR-ENTRY
-@end ifinfo
-
 
 @titlepage
 @title GNU Hello
-@subtitle The Greeting Printing Program
-@subtitle Edition @value{EDITION}, for Hello Version @value{VERSION}
-@subtitle @value{UPDATED}
-@author by David MacKenzie and the GNU Hello Development Team
-
+@subtitle for version @value{VERSION}, @value{UPDATED}
+@author GNU Hello Development Team (@email{bug-texinfo@@gnu.org})
 @page
 @vskip 0pt plus 1filll
 @insertcopying
-
 @end titlepage
 
-@node Top, , , (dir)
+@contents
 
-@ifinfo
-This file documents the the GNU @code{hello} command to print a
-greeting message.
-@end ifinfo
+@ifnottex
+@node Top
+@top GNU Hello
+
+This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}).
+@end ifnottex
 
 @menu
 * Instructions::	How to read this manual. 
-* Copying::		How you can copy and share @code{hello}.
 * Overview::		Preliminary information.
 * Sample::		Sample output from @code{hello}.
 * Invoking hello::	How to run @code{hello}.
 * Problems::		Reporting bugs.
+* Copying This Manual:: Copying and sharing this documentation.
 * Concept Index::	Index of concepts.
 @end menu
 
-@node Instructions, Copying, , Top
+@node Instructions
 @chapter How to Read This Manual
 
 @cindex reading
@@ -95,15 +68,9 @@ greeting message.
 @cindex how to read
 To read this manual, begin at the beginning, reading from left to right
 and top to bottom, until you get to the end.  Then stop.  You may pause
-for a beer anywhere in the middle as well, if you wish.  (Please note,
-however, that The King strongly advises against heavy use of
-prescription pharmaceuticals, based on his extensive personal and
-professional experience.)
+anywhere in the middle as well, if you wish.
 
-@node Copying, Overview, Instructions, Top
-@include gpl.texi
-
-@node Overview, Sample, Copying, Top
+@node Overview
 @chapter Overview
 @cindex greetings
 @cindex overview
@@ -117,7 +84,7 @@ GNU @code{hello} was written by Mike Haertel, David MacKenzie, Jan
 Brittenson, Charles Hannum, Roland McGrath, Noah Friedman, Karl
 Eichwalder, and @w{The King}.
 
-@node Sample, Invoking hello, Overview, Top
+@node Sample
 @chapter Sample Output
 @cindex sample
 
@@ -192,30 +159,33 @@ than the more modern @samp{Hello, world!}.
 Print your mail on the standard output.
 @end table
 
-@node Problems, Concept Index, Invoking hello, Top
+@node Problems
 @chapter Reporting Bugs
 @cindex bugs
 @cindex problems
 
-If you find a bug in GNU @code{hello}, please send electronic mail
-to @email{bug-gnu-hello@@gnu.org}.  Include the version
-number, which you can find by running @w{@samp{hello --version}}.  Also
-include in your message the output that the program produced and the
-output you expected.@refill
+To report bugs or suggest enhancements for GNU @code{hello}, please
+send electronic mail to @email{bug-hello@@gnu.org}.
 
-If you have other questions, comments or suggestions about GNU
-@code{hello}, contact @w{The King} via electronic mail to
-@email{elvis@@graceland.gnu.ai.mit.edu}.  @w{The King} will try to help
-you out, although he may not have time to fix your problems.
+Include the version number, which you can find by running
+@w{@samp{hello --version}}.  Also include in your message the output
+that the program produced and the output you expected.
 
-@node Concept Index, , Problems, Top
+
+@node Copying This Manual
+@appendix Copying This Manual
+
+@menu
+* GNU Free Documentation License::  License for copying this manual.
+@end menu
+
+@include fdl.texi
+
+
+@node Concept Index
 @unnumbered Concept Index
 
 @cindex tail recursion
 @printindex cp
 
-@shortcontents
-@contents
 @bye
-
-@c hello.texi ends here
