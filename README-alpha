@@ -1,0 +1,12 @@
+This is a test release of GNU Hello.
+Please do not send reports about this release to any
+GNU mailing list or newsgroup.
+
+Please send all bug reports to Karl Eichwalder <ke@gnu.franken.de>.
+
+If you're interested in the development of GNU hello and/or in
+pre-testing forthcoming releases, please subscribe to the `hello-list'
+at https://lists.berlios.de/mailman/listinfo/hello-bug /
+
+The development site with CVS access is located at
+http://developer.berlios.de/projects/hello/ .

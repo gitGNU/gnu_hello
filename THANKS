@@ -1,0 +1,28 @@
+Thanks to:
+
+    François Pinard for assistance and good ideas.
+
+    Jochen Hein for pre-testing and bug reports.
+
+    Ulrich Drepper who never hesitates to answer questions concerning
+    i18n/l10n (gettext 0.10.35) and Autoconf/Makefile nitty gritties.
+
+    Tom Tromey for Automake support.
+
+    Kaveh R. Ghazi for reporting and solving compilation problems.
+
+    Bruno Haible for gettext help (0.10.36 and later).
+
+    Paul Eggert for feedback and patches.
+
+    Fabrice Bauzac and Thomas Bushnell.
+
+Thanks to all the translators (run 'grep -e ^\"Last-Translator: po/*.po').
+
+Fuerth, 2002-06-08
+--
+work : ke@suse.de                          |                   ,__o
+     : http://www.suse.de/~ke/             |                 _-\_<,
+home : keichwa@gmx.net                     |                (*)/'(*)
+
+
