@@ -5,7 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.1.1\n"
-"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"Report-Msgid-Bugs-To: ke@gnu.franken.de\n"
+"POT-Creation-Date: 2005-03-21 16:30-0800\n"
 "PO-Revision-Date: 2002-12-07 06:21+0100\n"
 "Last-Translator: Behdad Esfahbod <trans@behdad.org>\n"
 "Language-Team: Persian <translation-team-fa@lists.sourceforge.net>\n"
@@ -68,31 +69,31 @@ msgstr "%s: گزینه‌ی «-W %s» مبهم است\n"
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: گزینه‌ی «-W %s» آرگومان نمی‌پذیرد\n"
 
-#: src/hello.c:164
+#: src/hello.c:162
 msgid "Too many arguments\n"
 msgstr "آرگومان‌ها خیلی زیادند\n"
 
-#: src/hello.c:165
+#: src/hello.c:163
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "برای اطلاعات بیشتر «%s --help» را امتحان کنید.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:177
+#: src/hello.c:175
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "گنو سلام، برنامه‌ی خوش‌آمدگویی.                                \n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:182
+#: src/hello.c:180
 #, c-format
 msgid "Usage: %s [OPTION]\n"
 msgstr "طرز استفاده: ‪%s [گزینه]‏‬                                    \n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:188
+#: src/hello.c:186
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -102,7 +103,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:195
+#: src/hello.c:193
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -116,14 +117,14 @@ msgstr ""
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
 #. no-wrap
-#: src/hello.c:205
+#: src/hello.c:203
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "اشکال‌های برنامه را به <%s>،              \n"
 "و اشکال‌های ترجمه را به <fwpg@sharif.edu> گزارش دهید.        \n"
 
-#: src/hello.c:217
+#: src/hello.c:215
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -138,26 +139,27 @@ msgstr ""
 "شرایط مندرج در اجازه‌نامه‌ی عمومی گنو توزیع کنید.                   \n"
 "برای اطلاعات بیشتر در این موارد، پرونده‌ی COPYING را ببینید.        \n"
 
-#: src/hello.c:228
+#: src/hello.c:226
 #, c-format
 msgid "%s: Incompatible flags: -m and -t\n"
 msgstr "%s: ‫گزینه‌های ناسازگار: ‎-m و ‎-t‬\n"
 
-#: src/hello.c:260
+#: src/hello.c:258
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: شما کی این؟\n"
 
-#: src/hello.c:282
+#: src/hello.c:280
 #, c-format
 msgid "%s: Cannot find your mail spool file.\n"
 msgstr "%s: پرونده‌ی نامه‌های شما یافت نشد.\n"
 
-#: src/hello.c:326
+#: src/hello.c:324
 msgid "Nothing happens here."
 msgstr "اتفاقی نمی‌افتد."
 
-#: src/hello.c:332
+#: src/hello.c:330
+#, c-format
 msgid "hello, world\n"
 msgstr "سلام بر همه\n"
 
@@ -167,7 +169,8 @@ msgstr "سلام بر همه\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:340
+#: src/hello.c:338
+#, c-format
 msgid ""
 "+---------------+\n"
 "| Hello, world! |\n"
@@ -177,11 +180,11 @@ msgstr ""
 "║ سلام بر همه! ║\n"
 "‏‎╚═════════════╝‎\n"
 
-#: src/hello.c:346
+#: src/hello.c:344
 msgid "Hello, world!"
 msgstr "سلام بر همه!"
 
-#: src/hello.c:361
+#: src/hello.c:359
 #, c-format
 msgid "%s: Virtual memory exhausted\n"
 msgstr "%s: حافظه‌ی مجازی تمام شد\n"

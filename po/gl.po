@@ -5,7 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.0.50\n"
-"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"Report-Msgid-Bugs-To: ke@gnu.franken.de\n"
+"POT-Creation-Date: 2005-03-21 16:30-0800\n"
 "PO-Revision-Date: 2002-03-18 17:00+0100\n"
 "Last-Translator: Jacobo Tarrio <jtarrio@iname.com>\n"
 "Language-Team: Galician <gpul-traduccion@ceu.fi.udc.es>\n"
@@ -68,31 +69,31 @@ msgstr "%s: a opción `-W %s' é ambigua\n"
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: a opción `-W %s' non admite un argumento\n"
 
-#: src/hello.c:164
+#: src/hello.c:162
 msgid "Too many arguments\n"
 msgstr "Demasiados argumentos\n"
 
-#: src/hello.c:165
+#: src/hello.c:163
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Escriba `%s --help' para obter máis información.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:177
+#: src/hello.c:175
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello, *O* programa que amosa saúdos.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:182
+#: src/hello.c:180
 #, c-format
 msgid "Usage: %s [OPTION]\n"
 msgstr "Emprego: %s [OPCIÓN]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:188
+#: src/hello.c:186
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -102,7 +103,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:195
+#: src/hello.c:193
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -116,14 +117,14 @@ msgstr ""
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
 #. no-wrap
-#: src/hello.c:205
+#: src/hello.c:203
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Informe dos erros no programa a <%s>.\n"
 "Informe dos erros na traducción a <proxecto@trasno.net>.\n"
 
-#: src/hello.c:217
+#: src/hello.c:215
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -139,26 +140,27 @@ msgstr ""
 "Para obter máis información sobre estes temas, vexa o ficheiro chamado "
 "COPYING.\n"
 
-#: src/hello.c:228
+#: src/hello.c:226
 #, c-format
 msgid "%s: Incompatible flags: -m and -t\n"
 msgstr "%s: Modificadores incompatibles: -m e -t\n"
 
-#: src/hello.c:260
+#: src/hello.c:258
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: ¿Quen é vostede?\n"
 
-#: src/hello.c:282
+#: src/hello.c:280
 #, c-format
 msgid "%s: Cannot find your mail spool file.\n"
 msgstr "%s: Non se puido atopa-lo ficheiro co correo.\n"
 
-#: src/hello.c:326
+#: src/hello.c:324
 msgid "Nothing happens here."
 msgstr "Aquí non pasa nada."
 
-#: src/hello.c:332
+#: src/hello.c:330
+#, c-format
 msgid "hello, world\n"
 msgstr "ola, mundo\n"
 
@@ -168,7 +170,8 @@ msgstr "ola, mundo\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:340
+#: src/hello.c:338
+#, c-format
 msgid ""
 "+---------------+\n"
 "| Hello, world! |\n"
@@ -178,11 +181,11 @@ msgstr ""
 "| ¡Ola, mundo! |\n"
 "+--------------+\n"
 
-#: src/hello.c:346
+#: src/hello.c:344
 msgid "Hello, world!"
 msgstr "¡Ola, mundo!"
 
-#: src/hello.c:361
+#: src/hello.c:359
 #, c-format
 msgid "%s: Virtual memory exhausted\n"
 msgstr "%s: Memoria virtual esgotada\n"

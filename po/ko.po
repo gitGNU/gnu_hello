@@ -6,7 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 1.3.37\n"
-"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"Report-Msgid-Bugs-To: ke@gnu.franken.de\n"
+"POT-Creation-Date: 2005-03-21 16:30-0800\n"
 "PO-Revision-Date: 2002-02-01 20:42+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -69,31 +70,31 @@ msgstr "%s: `-W %s'는 모호한 옵션입니다\n"
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: `-W %s' 옵션은 인수를 허용하지 않습니다\n"
 
-#: src/hello.c:164
+#: src/hello.c:162
 msgid "Too many arguments\n"
 msgstr "인수가 너무 많습니다\n"
 
-#: src/hello.c:165
+#: src/hello.c:163
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "더 많은 정보를 보려면 `%s --help' 하십시오.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:177
+#: src/hello.c:175
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello, 인사말을 출력하는 바로 \"그\" 프로그램입니다.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:182
+#: src/hello.c:180
 #, c-format
 msgid "Usage: %s [OPTION]\n"
 msgstr "사용법: %s [옵션]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:188
+#: src/hello.c:186
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -103,7 +104,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:195
+#: src/hello.c:193
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -117,12 +118,12 @@ msgstr ""
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
 #. no-wrap
-#: src/hello.c:205
+#: src/hello.c:203
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "버그를 %s로(으로) 알려 주세요.\n"
 
-#: src/hello.c:217
+#: src/hello.c:215
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -137,26 +138,27 @@ msgstr ""
 "재배포할 수 있습니다.\n"
 "이에 관한 더 자세한 정보는, COPYING이라는 이름의 파일을 보십시오.\n"
 
-#: src/hello.c:228
+#: src/hello.c:226
 #, c-format
 msgid "%s: Incompatible flags: -m and -t\n"
 msgstr "%s: 동시에 사용할 수 없는 옵션: -m과 -t\n"
 
-#: src/hello.c:260
+#: src/hello.c:258
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: 당신은 누구세요?\n"
 
-#: src/hello.c:282
+#: src/hello.c:280
 #, c-format
 msgid "%s: Cannot find your mail spool file.\n"
 msgstr "%s: 편지 저장 파일을 찾지 못했습니다.\n"
 
-#: src/hello.c:326
+#: src/hello.c:324
 msgid "Nothing happens here."
 msgstr "여기선 아무 일도 일어나지 않습니다."
 
-#: src/hello.c:332
+#: src/hello.c:330
+#, c-format
 msgid "hello, world\n"
 msgstr "안녕, 여러분\n"
 
@@ -166,7 +168,8 @@ msgstr "안녕, 여러분\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:340
+#: src/hello.c:338
+#, c-format
 msgid ""
 "+---------------+\n"
 "| Hello, world! |\n"
@@ -176,11 +179,11 @@ msgstr ""
 "| 안녕, 여러분!  |\n"
 "+---------------+\n"
 
-#: src/hello.c:346
+#: src/hello.c:344
 msgid "Hello, world!"
 msgstr "안녕하세요, 여러분!"
 
-#: src/hello.c:361
+#: src/hello.c:359
 #, c-format
 msgid "%s: Virtual memory exhausted\n"
 msgstr "%s: 가상 메모리가 바닥남\n"
