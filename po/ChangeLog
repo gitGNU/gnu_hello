@@ -1,3 +1,7 @@
+2005-01-29  Karl Berry  <karl@gnu.org>
+
+	* vi.po: new file (Clytie Siddall).
+
 2004-05-16  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.14.1.
