@@ -1,5 +1,5 @@
 /* hello.c -- print a greeting message and exit.
-   Copyright (C) 1992, 1995, 1996, 1997-1999, 2000-2002
+   Copyright (C) 1992, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2005
                  Free Software Foundation, Inc.
 
    This program is free software; you can redistribute it and/or modify
@@ -13,9 +13,8 @@
    GNU General Public License for more details.
 
    You should have received a copy of the GNU General Public License
-   along with this program; if not, write to the Free Software
-   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
-   USA.  */
+   along with this program; if not, write to the Free Software Foundation,
+   Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.  */
 
 /* AIX requires this to be the first thing in the file.  */
 #if defined (_AIX) && !defined (__GNUC__)
@@ -38,11 +37,7 @@
 #include <unistd.h>
 #endif
 
-#if HAVE_LOCALE_H
-# include <locale.h>
-#else
-# define setlocale(Category, Locale)
-#endif
+#include <locale.h>
 #include "gettext.h"
 #define _(str) gettext (str)
 #define N_(str) gettext_noop (str)

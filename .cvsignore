@@ -1,8 +1,10 @@
 Makefile
 Makefile.in
 config.h
+config.in
 config.log
 config.status
+configure
 stamp-h*
 *.cache
 *.gz

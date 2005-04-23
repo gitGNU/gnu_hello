@@ -1,3 +1,13 @@
+2005-04-23  Karl Berry  <karl@gnu.org>
+
+	* src/hello.c (locale.h): unconditionally include, everything has
+	this now.
+	* m4/Makefile.am: remove, no longer needed.
+	* intl/*: remove, we'll use [external] gettext.
+	* configure.ac (AC_FUNC_ALLOCA): add.
+	(AC_CONFIG_FILES): no m4 or intl.
+	* Makefile.am (SUBDIRS): no m4 or intl.
+
 2005-03-27  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* configure.ac (AC_CONFIG_FILES): Add intl/Makefile.

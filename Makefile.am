@@ -29,7 +29,7 @@ ke_PRE = @ke_PRE@
 DISTCLEANFILES = stamp-h
 EXTRA_DIST = BUGS ChangeLog.O config.rpath
 
-SUBDIRS = contrib doc intl po src man m4 tests
+SUBDIRS = contrib doc po src man tests
 
 # To produce a diff against the previous version, untar this version
 # and the previous version in the same directory and run `make diff'.
