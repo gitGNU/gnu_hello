@@ -1,5 +1,7 @@
 2005-04-23  Karl Berry  <karl@gnu.org>
 
+	* po/Makevars (MSGID_BUGS_ADDRESS): change to bug-hello@gnu.org.
+
 	* src/hello.c (locale.h): unconditionally include, everything has
 	this now.
 	* m4/Makefile.am: remove, no longer needed.
