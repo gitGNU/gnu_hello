@@ -1,7 +1,7 @@
 ## Process this file with automake to produce Makefile.in (in this,
 ## and all subdirectories).
 ## 
-## Makefile for the toplevel directory of GNU hello.
+## Makefile for the top-level directory of GNU hello.
 ## Copyright (C) 1997, 1998, 2005 Free Software Foundation, Inc.
 ##
 ## This program is free software; you can redistribute it and/or modify
@@ -15,11 +15,10 @@
 ## GNU General Public License for more details.
 ##
 ## You should have received a copy of the GNU General Public License
-## along with this program; if not, write to the Free Software
-## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+## along with this program; if not, write to the Free Software Foundation,
+## Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
-AUTOMAKE_OPTIONS = 1.5 gnu dist-bzip2
-ACLOCAL_AMFLAGS = -I m4
+ACLOCAL_AMFLAGS = -I gnulib/m4
 
 MAINT_CHARSET = latin1
 
@@ -29,7 +28,7 @@ ke_PRE = @ke_PRE@
 DISTCLEANFILES = stamp-h
 EXTRA_DIST = BUGS ChangeLog.O config.rpath
 
-SUBDIRS = contrib doc po src man tests
+SUBDIRS = contrib gnulib/lib po src doc man tests
 
 # To produce a diff against the previous version, untar this version
 # and the previous version in the same directory and run `make diff'.

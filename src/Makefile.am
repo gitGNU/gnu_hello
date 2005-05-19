@@ -14,19 +14,16 @@
 ## GNU General Public License for more details.
 ##
 ## You should have received a copy of the GNU General Public License
-## along with this program; if not, write to the Free Software
-## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+## along with this program; if not, write to the Free Software Foundation,
+## Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 bin_PROGRAMS = hello
-hello_SOURCES = hello.c version.c getopt.c getopt1.c getopt.h system.h 
+hello_SOURCES = hello.c version.c system.h 
 noinst_HEADERS = gettext.h
 
-hello_LDADD = @LIBINTL@ @ALLOCA@
+hello_LDADD = @LIBINTL@ @ALLOCA@ ../gnulib/lib/libgnulib.a
 
 localedir = $(datadir)/locale
 
-INCLUDES = -I. -I$(srcdir) -I.. -I../intl -I$(top_srcdir)/intl
+INCLUDES = -I. -I$(srcdir) -I.. -I$(top_srcdir)/gnulib/lib
 DEFS = -DLOCALEDIR=\"$(localedir)\" @DEFS@
-
-## # Automake cannot handle this now (version 1.0).
-## $(bin_PROGRAMS): $(LDADD)

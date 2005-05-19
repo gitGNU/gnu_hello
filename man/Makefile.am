@@ -14,8 +14,8 @@
 ## GNU General Public License for more details.
 ##
 ## You should have received a copy of the GNU General Public License
-## along with this program; if not, write to the Free Software
-## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+## along with this program; if not, write to the Free Software Foundation,
+## Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 man_MANS = hello.1
 EXTRA_DIST = $(man_MANS)
@@ -27,5 +27,5 @@ common_mandeps = $(top_srcdir)/configure.ac
 # Depend on the source, not the binary; we don't need to regenerate the
 # binary when any source file changes, only the main one.
 hello.1: $(top_srcdir)/src/hello.c $(common_mandeps)
-	-$(HELP2MAN) --name="Friendly Greeting Program" \
+	-$(HELP2MAN) --name="Friendly GNU Greeting Program" \
 	  ../src/hello >$@
