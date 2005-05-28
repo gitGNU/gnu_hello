@@ -26,7 +26,7 @@ MAINT_CHARSET = latin1
 ke_PRE = @ke_PRE@
 
 DISTCLEANFILES = stamp-h
-EXTRA_DIST = BUGS ChangeLog.O config.rpath
+EXTRA_DIST = BUGS ChangeLog.O
 
 SUBDIRS = contrib gnulib/lib po src doc man tests
 

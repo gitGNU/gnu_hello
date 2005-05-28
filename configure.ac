@@ -50,7 +50,7 @@ dnl Checks for functions.
 AC_FUNC_ALLOCA
 
 # i18n support from GNU gettext.
-AM_GNU_GETTEXT_VERSION([0.14.4])
+AM_GNU_GETTEXT_VERSION([0.14.5])
 AM_GNU_GETTEXT([external])
 
 AC_CONFIG_FILES([Makefile \

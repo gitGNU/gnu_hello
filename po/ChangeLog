@@ -1,3 +1,12 @@
+2005-05-28  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* ORIG: New file, from gettext-0.14.5.
+
+2005-05-28  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.14.5.
+	* ORIG: New file, from gettext-0.14.5.
+
 2005-03-27  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.14.3.
