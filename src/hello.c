@@ -81,11 +81,12 @@ extern char *alloca ();
 
 struct option longopts[] =
 {
-  { "version", no_argument, NULL, 'v' },
+  { "greeting", required_argument, NULL, 'g' },
   { "help", no_argument, NULL, 'h' },
-  { "traditional", no_argument, NULL, 't' },
-  { "next-generation", no_argument, NULL, 'n' },
   { "mail", no_argument, NULL, 'm' },
+  { "next-generation", no_argument, NULL, 'n' },
+  { "traditional", no_argument, NULL, 't' },
+  { "version", no_argument, NULL, 'v' },
   { NULL, 0, NULL, 0 }
 };
 
@@ -100,6 +101,7 @@ main (argc, argv)
 {
   int optc;
   int h = 0, v = 0, t = 0, m = 0, n = 0, lose = 0, z = 0;
+  char *greeting = NULL;
 
   progname = argv[0];
 
@@ -114,12 +116,15 @@ main (argc, argv)
   textdomain (PACKAGE);
 #endif
 
-  while ((optc = getopt_long (argc, argv, "hmntv", longopts, (int *) 0))
+  while ((optc = getopt_long (argc, argv, "g:hmntv", longopts, (int *) 0))
          != EOF)
     switch (optc)
       {
       case 'v':
         v = 1;
+        break;
+      case 'g':
+        greeting = optarg;
         break;
       case 'h':
         h = 1;
@@ -178,6 +183,7 @@ Usage: %s [OPTION]\n"), progname);
       fputs (_("\
   -t, --traditional       use traditional greeting format\n\
   -n, --next-generation   use next-generation greeting format\n\
+  -g, --greeting=TEXT     use TEXT as the greeting message\n\
   -m, --mail              print your mail\n"), stdout);
 
       printf ("\n");
@@ -326,7 +332,11 @@ For more information about these matters, see the file named COPYING.\n"),
 +---------------+\n\
 "));
       else
-        puts (_("Hello, world!"));
+        {
+          if (!greeting)
+            greeting = _("Hello, world!");
+          puts (greeting);
+        }
     }
 
   exit (0);
