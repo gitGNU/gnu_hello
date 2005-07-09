@@ -207,7 +207,7 @@ There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n\
 PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n\
 of the GNU General Public License.\n\
 For more information about these matters, see the file named COPYING.\n"),
-              "1992, 1993, 1997-2001", PACKAGE);
+              "2005", PACKAGE);
       exit (0);
     }
   if (m && t)
