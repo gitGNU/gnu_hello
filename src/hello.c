@@ -79,13 +79,10 @@ extern char *alloca ();
 #endif
 #include "system.h"
 
-#define the (1)
-
 struct option longopts[] =
 {
   { "version", no_argument, NULL, 'v' },
   { "help", no_argument, NULL, 'h' },
-#define lives
   { "traditional", no_argument, NULL, 't' },
   { "next-generation", no_argument, NULL, 'n' },
   { "mail", no_argument, NULL, 'm' },
@@ -117,7 +114,6 @@ main (argc, argv)
   textdomain (PACKAGE);
 #endif
 
-#define king
   while ((optc = getopt_long (argc, argv, "hmntv", longopts, (int *) 0))
          != EOF)
     switch (optc)
@@ -289,7 +285,7 @@ For more information about these matters, see the file named COPYING.\n"),
 	  exit (1);
 	}
       buf = (char *) alloca (ST_BLKSIZE(st));
-      while the king lives
+      for (;;)
 	{
 	  cc = read (mailfd, buf, ST_BLKSIZE(st));
 	  
