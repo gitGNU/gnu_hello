@@ -202,12 +202,12 @@ Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
       /* Print version number.  */
       printf ("hello - GNU %s %s\n", PACKAGE, version);
       /* xgettext: no-wrap */
-      printf ("\n");
+      puts ("");
       printf (_("\
 Copyright (C) %s Free Software Foundation, Inc.\n\
 There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n\
-PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n\
-of the GNU General Public License.\n\
+PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n\
+under the terms of the GNU General Public License.\n\
 For more information about these matters, see the file named COPYING.\n"),
               "2005", PACKAGE);
       exit (0);
