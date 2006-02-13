@@ -1,6 +1,6 @@
 This is the README-alpha file for GNU Hello prereleases.
 
-  Copyright (C) 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005
+  Copyright (C) 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006
   Free Software Foundation, Inc.
 
   Copying and distribution of this file, with or without modification,
@@ -17,13 +17,11 @@ different list than for official releases.  In the case of GNU Hello,
 though, traffic is so low this is not necessary.  Therefore, please
 email bug reports, comments, etc. to bug-hello@gnu.org.
 
-You are welcome to join this list;
-to do so, visit http://lists.gnu.org/mailman/listinfo/bug-hello.
-It's archived at http://lists.gnu.org/pipermail/bug-hello.
+You are welcome to join this list; see the README for details.
 
 If you see a problem in this release that you've already reported, feel
 free to re-report it -- it's good to get a reminder.  If you sent a
 patch for a previous release, and you haven't received any feedback
 about it, please do re-send it, it likely got lost.
 
-For development environment information, see README.dev.
+For information on the development environment, see README.dev.

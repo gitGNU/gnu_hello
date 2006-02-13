@@ -1,6 +1,6 @@
 Authors of GNU Hello.
 
-  Copyright (C) 1999, 2005 Free Software Foundation, Inc.
+  Copyright (C) 1999, 2005, 2006 Free Software Foundation, Inc.
   
   Copying and distribution of this file, with or without modification,
   are permitted in any medium without royalty provided the copyright
@@ -14,6 +14,7 @@ David MacKenzie
 Jan Brittenson
 Roland McGrath
 Charles Hannum
+Bruce Korb		hello.c, configure.ac.
 Karl Eichwalder		all files.
 Karl Berry 		all files.
 The King		releases.

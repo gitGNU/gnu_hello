@@ -3,7 +3,7 @@ Hello prints a friendly greeting.  It also serves as a sample GNU
 package, showing practices that may be useful for GNU projects.
 
   Copyright (C) 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001,
-  2002, 2004, 2005 Free Software Foundation, Inc.
+  2002, 2004, 2005, 2006 Free Software Foundation, Inc.
 
   Copying and distribution of this file, with or without modification,
   are permitted in any medium without royalty provided the copyright
@@ -20,14 +20,15 @@ Home page: http://www.gnu.org/software/hello/
 Mailing list: bug-hello@gnu.org
 - please use this list for all discussion: bug reports, enhancements, etc.
 - archived at: http://lists.gnu.org/pipermail/bug-hello
-- anyone is welcome to join the list; to do so, visit:
+- anyone is welcome to join the list; to do so, visit
   http://lists.gnu.org/mailman/listinfo/bug-hello
 - there is no corresponding newsgroup.
 
 Bug reports:
  Please include enough information for the maintainers to reproduce the
  problem.  Generally speaking, that means:
-- the contents of any input files necessary to reproduce the bug (crucial!).
+- the contents of any input files necessary to reproduce the bug
+  and command line invocations of the program(s) involved (crucial!).
 - a description of the problem and any samples of the erroneous output.
 - the version number of the program(s) involved (use --version).
 - hardware, operating system, and compiler versions (uname -a).
@@ -44,11 +45,9 @@ you can still make significant contributions by writing test cases,
 checking the documentation against the implementation, translating the
 program strings to other languages, etc.
 
-The basic algorithm is described in: "The C Programming Language", by
-B.W. Kernighan and D.M. Ritchie, Prentice-Hall, New Jersey, 1978;
-the program is an enhancement of the one published in that book.
-
-The GNU implementation of this classic program is brought to you by
-the efforts of several people.  Please see the ./AUTHORS file.
+The basic Hello algorithm was described by B.W. Kernighan and
+D.M. Ritchie.  The GNU implementation is an enhancement of the one
+published in that book, brought to you by the efforts of several people.
+Please see the ./AUTHORS file.
 
 GNU Hello is free software.  See the file COPYING for copying conditions.

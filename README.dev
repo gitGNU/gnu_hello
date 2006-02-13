@@ -1,14 +1,13 @@
 This README.dev file describes the development environment.
 
-  Copyright (C) 2002, 2003, 2005 Free Software Foundation, Inc.
+  Copyright (C) 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
 
   Copying and distribution of this file, with or without modification,
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
 
-The development sources for GNU Texinfo are available through anonymous
-CVS at Savannah:
-  http://savannah.gnu.org/cvs/?group=texinfo
+The development sources are available through anonymous CVS at Savannah:
+  http://savannah.gnu.org/cvs/?group=hello
 
 This distribution uses whatever versions of Automake, Autoconf, and
 Gettext are listed in NEWS; usually the latest ones released.  If you
