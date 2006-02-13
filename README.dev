@@ -15,6 +15,11 @@ are getting the sources from CVS (or change configure.ac), you'll need
 to have these tools installed to (re)build.  You'll also need help2man.
 All of these programs are available from ftp://ftp.gnu.org/gnu.
 
+This distribution also uses Gnulib (http://www.gnu.org/software/gnulib)
+to share common files.  The files are checked in to CVS.  If you want to
+update from the current gnulib, do a cvs checkout of gnulib, and then
+run gnulib-tool --import in the top-level directory of hello.
+
 After getting the CVS sources, and installing the tools above, you can run
   ./bootstrap
 to do a fresh build.  After that first time, running make should suffice.
