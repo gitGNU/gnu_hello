@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
-"Report-Msgid-Bugs-To: ke@gnu.franken.de\n"
-"POT-Creation-Date: 2005-03-21 16:30-0800\n"
+"Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
+"POT-Creation-Date: 2006-02-14 10:51-0800\n"
 "PO-Revision-Date: 2004-01-17 23:44-0500\n"
 "Last-Translator: Aleksandar Jelenak <jelenak@netlinkplus.net>\n"
 "Language-Team: Serbian <sr@li.org>\n"
@@ -71,31 +71,31 @@ msgstr "%s: опција „-W %s“ је двосмислена\n"
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: опција „-W %s“ не дозвољава аргумент\n"
 
-#: src/hello.c:162
+#: src/hello.c:152
 msgid "Too many arguments\n"
 msgstr "Исувише аргумената\n"
 
-#: src/hello.c:163
+#: src/hello.c:153
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Пробајте „%s --help“ за подробније објашњење.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:175
+#: src/hello.c:165
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "ГНУ hello, ЧУВЕНИ програм за исписивање поздрава.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:180
+#: src/hello.c:170
 #, c-format
 msgid "Usage: %s [OPTION]\n"
 msgstr "Употреба: %s [ОПЦИЈА]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:186
+#: src/hello.c:176
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -105,10 +105,12 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:193
+#: src/hello.c:183
+#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
+"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 "  -m, --mail              print your mail\n"
 msgstr ""
 "  -t, --traditional       користи традиционалан поздравни облик\n"
@@ -119,20 +121,20 @@ msgstr ""
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
 #. no-wrap
-#: src/hello.c:203
+#: src/hello.c:194
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Пријавите грешке на адресу <%s>.\n"
 "Поруке у вези превода шаљите на адресу <sr@li.org>.\n"
 
-#: src/hello.c:215
-#, c-format
+#: src/hello.c:206
+#, fuzzy, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
-"of the GNU General Public License.\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
+"under the terms of the GNU General Public License.\n"
 "For more information about these matters, see the file named COPYING.\n"
 msgstr ""
 "Ауторска права (C) %s Free Software Foundation, Inc.\n"
@@ -141,26 +143,26 @@ msgstr ""
 "Можете расподељивати копије ГНУ %s под условима ГНУ Опште јавне лиценце.\n"
 "Погледајте датотеку COPYING за подробније објашњење ових ствари.\n"
 
-#: src/hello.c:226
+#: src/hello.c:217
 #, c-format
 msgid "%s: Incompatible flags: -m and -t\n"
 msgstr "%s: несагласне опције: -m and -t\n"
 
-#: src/hello.c:258
+#: src/hello.c:249
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: Ко сте ви?\n"
 
-#: src/hello.c:280
+#: src/hello.c:271
 #, c-format
 msgid "%s: Cannot find your mail spool file.\n"
 msgstr "%s: Ваше поштанско сандуче није пронађено.\n"
 
-#: src/hello.c:324
+#: src/hello.c:315
 msgid "Nothing happens here."
 msgstr "Ништа се не дешава."
 
-#: src/hello.c:330
+#: src/hello.c:321
 #, c-format
 msgid "hello, world\n"
 msgstr "поздрав свима\n"
@@ -171,7 +173,7 @@ msgstr "поздрав свима\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:338
+#: src/hello.c:329
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -182,11 +184,11 @@ msgstr ""
 "| Поздрав свима! |\n"
 "+----------------+\n"
 
-#: src/hello.c:344
+#: src/hello.c:337
 msgid "Hello, world!"
 msgstr "Здраво, свете!"
 
-#: src/hello.c:359
+#: src/hello.c:354
 #, c-format
 msgid "%s: Virtual memory exhausted\n"
 msgstr "%s: Виртуална меморија исцрпљена\n"

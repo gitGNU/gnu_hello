@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
+"POT-Creation-Date: 2006-02-14 10:51-0800\n"
 "PO-Revision-Date: 2005-04-28 16:39+0800\n"
 "Last-Translator: Wei-Lun Chao <chaoweilun@pcmail.com.tw>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -70,31 +70,31 @@ msgstr "%s：選項‘-W %s’不明確\n"
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s：選項‘-W %s’不可配合引數使用\n"
 
-#: src/hello.c:164
+#: src/hello.c:152
 msgid "Too many arguments\n"
 msgstr "引數過多\n"
 
-#: src/hello.c:165
+#: src/hello.c:153
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "請嘗試執行‘%s --help’來獲取更多資訊。\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:177
+#: src/hello.c:165
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello，問候印出程式。\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:182
+#: src/hello.c:170
 #, c-format
 msgid "Usage: %s [OPTION]\n"
 msgstr "用法：%s [選項]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:188
+#: src/hello.c:176
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -104,10 +104,12 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:195
+#: src/hello.c:183
+#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
+"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 "  -m, --mail              print your mail\n"
 msgstr ""
 "  -t, --traditional       使用傳統問候格式\n"
@@ -118,18 +120,18 @@ msgstr ""
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
 #. no-wrap
-#: src/hello.c:205
+#: src/hello.c:194
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "請向 <%s> 回報錯誤。\n"
 
-#: src/hello.c:217
-#, c-format
+#: src/hello.c:206
+#, fuzzy, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
-"of the GNU General Public License.\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
+"under the terms of the GNU General Public License.\n"
 "For more information about these matters, see the file named COPYING.\n"
 msgstr ""
 "版權所有 (C) %s 自由軟體基金會 (Free Software Foundation, Inc.)\n"
@@ -137,26 +139,27 @@ msgstr ""
 "您可在 GNU 公共授權 (GNU General Public License) 的條款下散佈 GNU %s。\n"
 "欲知更多的詳情, 請看檔名為 COPYING 的檔案。\n"
 
-#: src/hello.c:228
+#: src/hello.c:217
 #, c-format
 msgid "%s: Incompatible flags: -m and -t\n"
 msgstr "%s: 不相容的旗標: -m 與 -t\n"
 
-#: src/hello.c:260
+#: src/hello.c:249
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: 您是哪位？\n"
 
-#: src/hello.c:282
+#: src/hello.c:271
 #, c-format
 msgid "%s: Cannot find your mail spool file.\n"
 msgstr "%s：無法找到您的郵件排程檔案。\n"
 
-#: src/hello.c:326
+#: src/hello.c:315
 msgid "Nothing happens here."
 msgstr "這兒什麼也沒發生。"
 
-#: src/hello.c:332
+#: src/hello.c:321
+#, c-format
 msgid "hello, world\n"
 msgstr "哈囉，大家好\n"
 
@@ -166,7 +169,8 @@ msgstr "哈囉，大家好\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:340
+#: src/hello.c:329
+#, c-format
 msgid ""
 "+---------------+\n"
 "| Hello, world! |\n"
@@ -176,11 +180,11 @@ msgstr ""
 "│哈囉，大家好！│\n"
 "└───────┘\n"
 
-#: src/hello.c:346
+#: src/hello.c:337
 msgid "Hello, world!"
 msgstr "哈囉，大家好！"
 
-#: src/hello.c:361
+#: src/hello.c:354
 #, c-format
 msgid "%s: Virtual memory exhausted\n"
 msgstr "%s: 虛擬記憶體已耗盡\n"

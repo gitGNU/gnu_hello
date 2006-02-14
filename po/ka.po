@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
-"Report-Msgid-Bugs-To: ke@gnu.franken.de\n"
-"POT-Creation-Date: 2005-03-21 16:30-0800\n"
+"Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
+"POT-Creation-Date: 2006-02-14 10:51-0800\n"
 "PO-Revision-Date: 2003-02-25 13:00+0400\n"
 "Last-Translator: Nugzar Nebieridze <nugzar@nebieridze.com>\n"
 "Language-Team: Georgian <ka@li.org>\n"
@@ -69,31 +69,31 @@ msgstr "%s: `-W %s' პარამეტრი გაურკვეველ�
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: `-W %s' პარამეტრს მნიშვნელობა არ გადაეცემა\n"
 
-#: src/hello.c:162
+#: src/hello.c:152
 msgid "Too many arguments\n"
 msgstr "ზედმეტი პარამეტრები\n"
 
-#: src/hello.c:163
+#: src/hello.c:153
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "აკრიბეთ `%s --help' დამატებითი ინფორმაციისთვის.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:175
+#: src/hello.c:165
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello, მისალმების პროგრამა.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:180
+#: src/hello.c:170
 #, c-format
 msgid "Usage: %s [OPTION]\n"
 msgstr "გამოძახება: %s [პარამეტრი]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:186
+#: src/hello.c:176
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -103,10 +103,12 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:193
+#: src/hello.c:183
+#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
+"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 "  -m, --mail              print your mail\n"
 msgstr ""
 "  -t, --traditional       ტრადიციული მისალმება\n"
@@ -117,41 +119,41 @@ msgstr ""
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
 #. no-wrap
-#: src/hello.c:203
+#: src/hello.c:194
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "შეცდომების შესახებ გააგზავნეთ შეტყობინებები <%s>.\n"
 
-#: src/hello.c:215
+#: src/hello.c:206
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
-"of the GNU General Public License.\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
+"under the terms of the GNU General Public License.\n"
 "For more information about these matters, see the file named COPYING.\n"
 msgstr ""
 
-#: src/hello.c:226
+#: src/hello.c:217
 #, c-format
 msgid "%s: Incompatible flags: -m and -t\n"
 msgstr "%s: არათავსებადი პარამეტრები: -m და -t\n"
 
-#: src/hello.c:258
+#: src/hello.c:249
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: ვინ ბრძანდებით?\n"
 
-#: src/hello.c:280
+#: src/hello.c:271
 #, c-format
 msgid "%s: Cannot find your mail spool file.\n"
 msgstr "%s: ვერ ვიპოვე თქვენი ფოსტის ფაილი.\n"
 
-#: src/hello.c:324
+#: src/hello.c:315
 msgid "Nothing happens here."
 msgstr "აქ არაფერი ას ხდება."
 
-#: src/hello.c:330
+#: src/hello.c:321
 #, c-format
 msgid "hello, world\n"
 msgstr "სალამი მსოფლიოს!\n"
@@ -162,7 +164,7 @@ msgstr "სალამი მსოფლიოს!\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:338
+#: src/hello.c:329
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -173,11 +175,11 @@ msgstr ""
 "| სალამი მსოფლიოს! |\n"
 "+------------------+\n"
 
-#: src/hello.c:344
+#: src/hello.c:337
 msgid "Hello, world!"
 msgstr "სალამი მსოფლიოს!"
 
-#: src/hello.c:359
+#: src/hello.c:354
 #, c-format
 msgid "%s: Virtual memory exhausted\n"
 msgstr "%s: ვირტუალური მეხსიერება ამოწურულია\n"

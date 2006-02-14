@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 1.3.37\n"
-"Report-Msgid-Bugs-To: ke@gnu.franken.de\n"
-"POT-Creation-Date: 2005-03-21 16:30-0800\n"
+"Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
+"POT-Creation-Date: 2006-02-14 10:51-0800\n"
 "PO-Revision-Date: 2002-02-02 17:10+0100\n"
 "Last-Translator: Kjetil Torgrim Homme <kjetilho@linpro.no>\n"
 "Language-Team: Norwegian nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -71,31 +71,31 @@ msgstr "%s: flagget «-W %s» er fleirtydig\n"
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: flagget «-W %s» tek ikkje noko argument\n"
 
-#: src/hello.c:162
+#: src/hello.c:152
 msgid "Too many arguments\n"
 msgstr "For mange argument\n"
 
-#: src/hello.c:163
+#: src/hello.c:153
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Prøv «%s --help» for meir informasjon.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:175
+#: src/hello.c:165
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello, det BESTE programmet til å skriva helsingar.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:180
+#: src/hello.c:170
 #, c-format
 msgid "Usage: %s [OPTION]\n"
 msgstr "Bruk: %s [FLAGG]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:186
+#: src/hello.c:176
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -105,10 +105,12 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:193
+#: src/hello.c:183
+#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
+"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 "  -m, --mail              print your mail\n"
 msgstr ""
 "  -t, --traditional       bruk tradisjonelt format på helsinga\n"
@@ -119,20 +121,20 @@ msgstr ""
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
 #. no-wrap
-#: src/hello.c:203
+#: src/hello.c:194
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Rapporter programfeil til <%s>.\n"
 "Feil i den norske teksten kan meldast til <i18n-nn@lister.ping.uio.no>.\n"
 
-#: src/hello.c:215
-#, c-format
+#: src/hello.c:206
+#, fuzzy, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
-"of the GNU General Public License.\n"
+"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
+"under the terms of the GNU General Public License.\n"
 "For more information about these matters, see the file named COPYING.\n"
 msgstr ""
 "(Fylgjande tekst er ei omsetjing som *kun* vert gitt på informativ basis.\n"
@@ -144,26 +146,26 @@ msgstr ""
 "under vilkåra i GNU General Public License.\n"
 "For meir informasjon om dette, sjå fila med namnet COPYING.\n"
 
-#: src/hello.c:226
+#: src/hello.c:217
 #, c-format
 msgid "%s: Incompatible flags: -m and -t\n"
 msgstr "%s: Flagga -m og -t kan ikkje kombinerast.\n"
 
-#: src/hello.c:258
+#: src/hello.c:249
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: Kven er du?\n"
 
-#: src/hello.c:280
+#: src/hello.c:271
 #, c-format
 msgid "%s: Cannot find your mail spool file.\n"
 msgstr "%s: Kan ikkje finne epost-fila di.\n"
 
-#: src/hello.c:324
+#: src/hello.c:315
 msgid "Nothing happens here."
 msgstr "Her skjer ingen ting."
 
-#: src/hello.c:330
+#: src/hello.c:321
 #, c-format
 msgid "hello, world\n"
 msgstr "hei, verda\n"
@@ -174,7 +176,7 @@ msgstr "hei, verda\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:338
+#: src/hello.c:329
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -185,11 +187,11 @@ msgstr ""
 "|  Hei, verda!  |\n"
 "+---------------+\n"
 
-#: src/hello.c:344
+#: src/hello.c:337
 msgid "Hello, world!"
 msgstr "Hei, verda!"
 
-#: src/hello.c:359
+#: src/hello.c:354
 #, c-format
 msgid "%s: Virtual memory exhausted\n"
 msgstr "%s: Virtuelt minne oppbrukt\n"
