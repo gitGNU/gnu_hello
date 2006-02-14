@@ -3,7 +3,7 @@
 % Load plain if necessary, i.e., if running under initex.
 \expandafter\ifx\csname fmtname\endcsname\relax\input plain\fi
 %
-\def\texinfoversion{2006-02-11.16}
+\def\texinfoversion{2006-02-13.16}
 %
 % Copyright (C) 1985, 1986, 1988, 1990, 1991, 1992, 1993, 1994, 1995,
 % 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free
@@ -2957,6 +2957,7 @@ where each line of input produces a line of output.}
 
 \def\doignore#1{\begingroup
   % Scan in ``verbatim'' mode:
+  \obeylines
   \catcode`\@ = \other
   \catcode`\{ = \other
   \catcode`\} = \other
@@ -2987,7 +2988,6 @@ where each line of input produces a line of output.}
     \long\def\doignoretextyyy##1^^M@#1##2\_STOP_{\doignoreyyy{##2}\_STOP_}%
     %
     % And now expand that command.
-    \obeylines %
     \doignoretext ^^M%
   }%
 }
@@ -3016,14 +3016,14 @@ where each line of input produces a line of output.}
   \next
 }
 
-% Finish off ignored text by looking for a following \lisppar and
-% ignoring it, if present.  This happens in
-% verbatim environments, where otherwise the newline after an
-% ignored conditional would result in a blank line in the output.
-% It would be better to ignore everything to the end of the line, but
-% I'm not sure how to do that if we are *not* in a verbatim env.
-\def\enddoignore{\futurelet\next\finishignore}%
-\def\finishignore{\ifx\next\lisppar\aftergroup\gobble\fi\endgroup}
+% Finish off ignored text.
+{ \obeylines%
+  % Ignore anything after the last `@end #1'; this matters in verbatim
+  % environments, where otherwise the newline after an ignored conditional
+  % would result in a blank line in the output.
+  \gdef\enddoignore#1^^M{\endgroup\ignorespaces}%
+}
+
 
 % @set VAR sets the variable VAR to an empty value.
 % @set VAR REST-OF-LINE sets VAR to the value REST-OF-LINE.
