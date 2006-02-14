@@ -29,8 +29,6 @@ AC_PROG_CC
 # the C compiler is checked.  The others can be later, but we just
 # keep everything together.
 gl_EARLY
-gl_SOURCE_BASE(gnulib/lib)
-gl_M4_BASE(gnulib/m4)
 gl_LIB(libgnulib)
 gl_MODULES(getopt)
 gl_INIT
