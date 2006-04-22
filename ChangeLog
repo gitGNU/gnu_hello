@@ -1,3 +1,7 @@
+2006-04-22  Karl Berry  <karl@gnu.org>
+
+	* man/Makefile.am (hello.1): find help2man in $(srcdir).
+
 2006-02-14  Karl Berry  <karl@gnu.org>
 
 	* configure.ac (gl_SOURCE_BASE,gl_M4_BASE): delete, these are

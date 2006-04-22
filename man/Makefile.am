@@ -1,7 +1,7 @@
 ## Process this file with automake to produce Makefile.in
 ## Makefile.am for hello/man.
 ## 
-## Copyright (C) 1996, 1997, 2005 Free Software Foundation, Inc.
+## Copyright (C) 1996, 1997, 2005, 2006 Free Software Foundation, Inc.
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -27,5 +27,4 @@ common_mandeps = $(top_srcdir)/configure.ac
 # Depend on the source, not the binary; we don't need to regenerate the
 # binary when any source file changes, only the main one.
 hello.1: $(top_srcdir)/src/hello.c $(common_mandeps)
-	-$(HELP2MAN) --name="Friendly GNU Greeting Program" \
-	  ../src/hello >$@
+	$(PERL) $(srcdir)/$(HELP2MAN) --name="Friendly Greeting Program" ../src/hello >$@
