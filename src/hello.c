@@ -1,6 +1,6 @@
 /* hello.c -- print a greeting message and exit.
-   Copyright (C) 1992, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2005
-                 Free Software Foundation, Inc.
+   Copyright (C) 1992, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
+   2005, 2006 Free Software Foundation, Inc.
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -15,11 +15,6 @@
    You should have received a copy of the GNU General Public License
    along with this program; if not, write to the Free Software Foundation,
    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.  */
-
-/* AIX requires this to be the first thing in the file.  */
-#if defined (_AIX) && !defined (__GNUC__)
- #pragma alloca
-#endif
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -60,19 +55,6 @@ extern char *malloc ();
 #include <sys/file.h>
 #endif
 
-#ifdef	__GNUC__
-#undef	alloca
-#define	alloca(n)	__builtin_alloca (n)
-#else	/* Not GCC.  */
-#ifdef	HAVE_ALLOCA_H
-#include <alloca.h>
-#else	/* Not HAVE_ALLOCA_H.  */
-#ifndef	_AIX
-extern char *alloca ();
-#endif	/* Not _AIX.  */
-#endif	/* HAVE_ALLOCA_H.  */
-#endif	/* GCC.  */
-
 #ifdef HAVE_SYS_PARAM_H
 /* To possibly get the definition of DEV_BSIZE. */
 #include <sys/param.h>
@@ -83,7 +65,6 @@ struct option longopts[] =
 {
   { "greeting", required_argument, NULL, 'g' },
   { "help", no_argument, NULL, 'h' },
-  { "mail", no_argument, NULL, 'm' },
   { "next-generation", no_argument, NULL, 'n' },
   { "traditional", no_argument, NULL, 't' },
   { "version", no_argument, NULL, 'v' },
@@ -100,7 +81,7 @@ main (argc, argv)
      char *argv[];
 {
   int optc;
-  int h = 0, v = 0, t = 0, m = 0, n = 0, lose = 0, z = 0;
+  int h = 0, v = 0, t = 0, n = 0, lose = 0, z = 0;
   char *greeting = NULL;
 
   progname = argv[0];
@@ -116,7 +97,7 @@ main (argc, argv)
   textdomain (PACKAGE);
 #endif
 
-  while ((optc = getopt_long (argc, argv, "g:hmntv", longopts, (int *) 0))
+  while ((optc = getopt_long (argc, argv, "g:hntv", longopts, (int *) 0))
          != EOF)
     switch (optc)
       {
@@ -128,9 +109,6 @@ main (argc, argv)
         break;
       case 'h':
         h = 1;
-        break;
-      case 'm':
-        m = 1;
         break;
       case 'n':
         n = 1;
@@ -183,8 +161,7 @@ Usage: %s [OPTION]\n"), progname);
       fputs (_("\
   -t, --traditional       use traditional greeting format\n\
   -n, --next-generation   use next-generation greeting format\n\
-  -g, --greeting=TEXT     use TEXT as the greeting message\n\
-  -m, --mail              print your mail\n"), stdout);
+  -g, --greeting=TEXT     use TEXT as the greeting message\n"), stdout);
 
       printf ("\n");
       /* TRANSLATORS: --help output 5 (end)
@@ -211,105 +188,6 @@ under the terms of the GNU General Public License.\n\
 For more information about these matters, see the file named COPYING.\n"),
               "2005", PACKAGE);
       exit (0);
-    }
-  if (m && t)
-    {
-      fprintf (stderr, _("%s: Incompatible flags: -m and -t\n"), progname);
-      exit (1);
-    }
-  
-  if (m)
-    {
-      /* Try to read mail. */
-      char *mailname, *buf, *getenv ();
-      int mailfd, cc;
-      struct stat st;
-      
-      mailname = getenv ("MAIL");
-      if (!mailname)
-        {
-          static char *dirs[] =
-          {
-            "/var/spool/mail",
-            "/usr/spool/mail",
-            "/var/mail",
-            "/usr/mail",
-            0
-          };
-          char **d;
-          unsigned int dirlen, userlen;
-          
-          char *user = getenv ("USER");
-          
-          if (! user)
-            {
-              struct passwd *pwd = getpwuid (getuid ());
-              if (! pwd)
-                {
-                  fprintf (stderr, _("%s: Who are you?\n"), progname);
-                  exit (1);
-                }
-              user = pwd->pw_name;
-            }
-	  
-	  dirlen = 0;
-	  for (d = dirs; *d != 0; ++d)
-	    {
-	      unsigned int len = strlen (*d);
-	      if (len > dirlen)
-		dirlen = len;
-	    }
-
-	  userlen = strlen (user);
-
-	  mailname = (char *) alloca (dirlen + 1 + userlen + 1);
-
-	  d = dirs;
-	  do
-	    {
- 	      if (*d == 0) {
-            fprintf (stderr, _("%s: Cannot find your mail spool file.\n"),
-                     progname);
-            exit(1);
- 	      }
- 	      sprintf (mailname, "%s/%s", *d, user);
-	      mailfd = open (mailname, O_RDONLY);
-	    ++d;
-        } while (mailfd == -1 && (errno == ENOENT || errno == ENOTDIR));
-	}
-      else
-	mailfd = open (mailname, O_RDONLY);
-
-      if (mailfd == -1)
-	{
-	  perror (mailname);
-	  exit (1);
-	}
-      if (fstat (mailfd, &st) == -1)
-	{
-	  perror (mailname);
-	  exit (1);
-	}
-      buf = (char *) alloca (ST_BLKSIZE(st));
-      for (;;)
-	{
-	  cc = read (mailfd, buf, ST_BLKSIZE(st));
-	  
-	  if (cc == -1)
-	    {
-	      perror (mailname);
-	      exit (1);
-	    }
-	  if (cc == 0)
-	    break;
-	  
-	  cc = write (1, buf, cc);
-	  if (cc == -1)
-	    {
-	      perror (mailname);
-	      exit (1);
-	    }
-	}
     }
   else if (z)
     puts (_("Nothing happens here."));
@@ -341,21 +219,3 @@ For more information about these matters, see the file named COPYING.\n"),
 
   exit (0);
 }
-
-#ifdef C_ALLOCA /* xmalloc() is only used by alloca.c.  */
-
-char *
-xmalloc (size)
-     unsigned int size;
-{
-  char *ptr = malloc (size);
-  if (! ptr)
-    {
-      fprintf (stderr, _("%s: Virtual memory exhausted\n"), progname);
-      exit (1);
-    }
-  return ptr;
-}
-#endif /* C_ALLOCA */
-
-/* hello.c ends here */

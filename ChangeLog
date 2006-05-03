@@ -1,19 +1,7 @@
-2006-05-03  Karl Berry  <karl@gnu.org>
-
-	* src/getopt*: remove, these come from gnulib now.
-
-2006-04-22  Karl Berry  <karl@gnu.org>
-
-	* man/Makefile.am (hello.1): find help2man in $(srcdir).
-
 2006-02-14  Karl Berry  <karl@gnu.org>
 
 	* configure.ac (gl_SOURCE_BASE,gl_M4_BASE): delete, these are
 	passed only on the cmdline now (and cached).
-
-2005-08-19  Karl Berry  <karl@gnu.org>
-
-	* src/hello.c (main): version message formatting.
 
 2005-05-28  gettextize  <bug-gnu-gettext@gnu.org>
 
@@ -35,11 +23,6 @@
 2005-03-27  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* configure.ac (AC_CONFIG_FILES): Add intl/Makefile.
-
-2005-03-21  Karl Berry  <karl@gnu.org>
-
-	* doc/hello.texi: switch to GFDL; make Texinfo source follow
-	current practices.
 
 2005-03-20  Karl Berry  <karl@gnu.org>
 

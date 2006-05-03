@@ -1,10 +1,10 @@
 This is hello.info, produced by makeinfo version 4.8 from hello.texi.
 
-   This manual is for GNU Hello (version 2.9.90, 19 September 2005),
-which prints a friendly greeting (and serves as an example GNU package).
+   This manual is for GNU Hello (version 2.9.90, 3 May 2006), which
+prints a friendly greeting (and serves as an example GNU package).
 
-   Copyright (C) 1992, 1993, 1996, 2002, 2005 Free Software Foundation,
-Inc.
+   Copyright (C) 1992, 1993, 1996, 2002, 2005, 2006 Free Software
+Foundation, Inc.
 
      Permission is granted to copy, distribute and/or modify this
      document under the terms of the GNU Free Documentation License,
@@ -24,17 +24,16 @@ START-INFO-DIR-ENTRY
 END-INFO-DIR-ENTRY
 
 
-File: hello.info,  Node: Top,  Next: Instructions,  Up: (dir)
+File: hello.info,  Node: Top,  Next: Overview,  Up: (dir)
 
 GNU Hello
 *********
 
-This manual is for GNU Hello (version 2.9.90, 19 September 2005).
+This manual is for GNU Hello (version 2.9.90, 3 May 2006).
 
 * Menu:
 
-* Instructions::	How to read this manual.
-* Overview::		Preliminary information.
+* Overview::		General purpose and information.
 * Sample::		Sample output from `hello'.
 * Invoking hello::	How to run `hello'.
 * Problems::		Reporting bugs.
@@ -42,25 +41,37 @@ This manual is for GNU Hello (version 2.9.90, 19 September 2005).
 * Concept Index::	Index of concepts.
 
 
-File: hello.info,  Node: Instructions,  Next: Overview,  Prev: Top,  Up: Top
+File: hello.info,  Node: Overview,  Next: Sample,  Prev: Top,  Up: Top
 
-1 How to Read This Manual
-*************************
-
-To read this manual, begin at the beginning, reading from left to right
-and top to bottom, until you get to the end.  Then stop.  You may pause
-anywhere in the middle as well, if you wish.
-
-
-File: hello.info,  Node: Overview,  Next: Sample,  Prev: Instructions,  Up: Top
-
-2 Overview
+1 Overview
 **********
 
 The GNU `hello' program produces a familiar, friendly greeting.  It
 allows nonprogrammers to use a classic computer science tool which
 would otherwise be unavailable to them.  Because it is protected by the
-GNU General Public License, users are free to share and change it.
+GNU General Public License, users are free (in perpetuity) to share and
+change it.
+
+   Not to spoil the joke, but of course the practical purpose of GNU
+Hello is to serve as a minimal example of a GNU package.  It follows
+the GNU coding standards (*note Preface: (standards)Top.) and GNU
+maintainance standards (*note Preface: (maintain)Top.).  So although
+most manuals don't need to discuss the implementation, that is part of
+the goal here.
+
+   The Hello package also follows additional recommended development
+practices not embodied in the standards.  It uses Automake (*note
+Introduction: (Automake)Top.) and hence also Autoconf (*note
+Introduction: (Autoconf)Top.) for configuration, and Gnulib (*note
+Gnulib: (gnulib)Top.) to avoid duplication of common sources.
+
+   Internally, Hello uses the GNU `getopt_long' function to parse
+options, support GNU-style long options such as `--help'.  GNU Gettext
+(*note Introduction: (gettext)Top.) is used for internationalization
+support (Hello's greeting has been translated into many languages).
+Man pages are generated with GNU `help2man' (*note Overview:
+(help2man.GNU `help2man')Top.).  Finally, Texinfo (*note Introduction:
+(texinfo)Top.) is the documentation format for this manual.
 
    GNU `hello' was written by Mike Haertel, David MacKenzie, Jan
 Brittenson, Charles Hannum, Roland McGrath, Noah Friedman, Karl
@@ -69,7 +80,7 @@ Eichwalder, and The King.
 
 File: hello.info,  Node: Sample,  Next: Invoking hello,  Prev: Overview,  Up: Top
 
-3 Sample Output
+2 Sample Output
 ***************
 
 Here are some realistic examples of running GNU `hello'.
@@ -85,9 +96,8 @@ Here are some realistic examples of running GNU `hello'.
        -h, --help          display this help and exit
        -v, --version       display version information and exit
        -t, --traditional   use traditional greeting format
-       -m, --mail          print your mail
 
-     Report bugs to bug-gnu-hello@gnu.org.
+     Report bugs to bug-hello@gnu.org.
 
    This is the output of the command `hello --traditional':
 
@@ -96,7 +106,7 @@ Here are some realistic examples of running GNU `hello'.
 
 File: hello.info,  Node: Invoking hello,  Next: Problems,  Prev: Sample,  Up: Top
 
-4 Invoking `hello'
+3 Invoking `hello'
 ******************
 
 The format for running the `hello' program is:
@@ -120,22 +130,40 @@ The format for running the `hello' program is:
      Use the traditional greeting message `hello, world' rather than
      the more modern `Hello, world!'.
 
-`--mail'
-`-m'
-     Print your mail on the standard output.
 
 
 File: hello.info,  Node: Problems,  Next: Copying This Manual,  Prev: Invoking hello,  Up: Top
 
-5 Reporting Bugs
+4 Reporting Bugs
 ****************
 
 To report bugs or suggest enhancements for GNU `hello', please send
 electronic mail to <bug-hello@gnu.org>.
 
-   Include the version number, which you can find by running
-`hello --version'.  Also include in your message the output that the
-program produced and the output you expected.
+   For bug reports, please include enough information for the
+maintainers to reproduce the problem.  Generally speaking, that means:
+
+   * the version number of Hello (which you can find by running
+     `hello --version') and any other program(s) or       manual(s)
+     involved.
+
+   * hardware and operating system names and versions.
+
+   * the contents of any input files necessary to reproduce the bug.
+
+   * a description of the problem and samples of any erroneous output.
+
+   * any unusual options you gave to `configure'.
+
+   * anything else that you think would be helpful.
+
+   When in doubt whether something is needed or not, include it.  It's
+better to include too much than to leave out something important.
+
+   Patches are most welcome; if possible, please make them with
+`diff -c' (*note Overview: (diff)Top.) and include `ChangeLog' entries
+(*note Change Log: (emacs)Change Log.), and follow the existing coding
+style.
 
 
 File: hello.info,  Node: Copying This Manual,  Next: Concept Index,  Prev: Problems,  Up: Top
@@ -588,26 +616,46 @@ Concept Index
  [index ]
 * Menu:
 
-* bugs:                                  Problems.             (line  6)
-* creature, feeping:                     Invoking hello.       (line 29)
-* creeping feature:                      Invoking hello.       (line 29)
+* --help:                                Invoking hello.       (line 14)
+* --traditional:                         Invoking hello.       (line 24)
+* --version:                             Invoking hello.       (line 19)
+* -h:                                    Invoking hello.       (line 14)
+* -t:                                    Invoking hello.       (line 24)
+* -v:                                    Invoking hello.       (line 19)
+* authors:                               Overview.             (line 33)
+* Autoconf:                              Overview.             (line 19)
+* Automake:                              Overview.             (line 19)
+* Brittenson, Jan:                       Overview.             (line 33)
+* bug reporting:                         Problems.             (line  6)
+* checklist for bug reports:             Problems.             (line  9)
+* Eichwalder, Karl:                      Overview.             (line 33)
+* examples:                              Sample.               (line  6)
 * FDL, GNU Free Documentation License:   GNU Free Documentation License.
                                                                (line  6)
-* feature, creeping:                     Invoking hello.       (line 29)
-* feeping creature:                      Invoking hello.       (line 29)
+* Friedman, Noah:                        Overview.             (line 33)
+* getopt_long:                           Overview.             (line 25)
 * getting help:                          Invoking hello.       (line  6)
+* GNU coding standards:                  Overview.             (line 12)
+* GNU maintenance standards:             Overview.             (line 12)
+* Gnulib:                                Overview.             (line 19)
 * greetings:                             Overview.             (line  6)
+* Haertel, Mike:                         Overview.             (line 33)
+* Hannum, Charles:                       Overview.             (line 33)
 * help:                                  Invoking hello.       (line  6)
-* how to read:                           Instructions.         (line  6)
 * invoking:                              Invoking hello.       (line  6)
-* mail:                                  Invoking hello.       (line 29)
-* manual, how to read:                   Instructions.         (line  6)
+* joke, not:                             Overview.             (line 12)
+* King, The:                             Overview.             (line 33)
+* MacKenzie, David:                      Overview.             (line 33)
+* McGrath, Roland:                       Overview.             (line 33)
 * modern:                                Invoking hello.       (line 24)
 * options:                               Invoking hello.       (line  6)
 * overview:                              Overview.             (line  6)
+* patches, contributing:                 Problems.             (line 29)
 * problems:                              Problems.             (line  6)
-* reading:                               Instructions.         (line  6)
+* reporting bugs:                        Problems.             (line  6)
 * sample:                                Sample.               (line  6)
+* standards, GNU coding:                 Overview.             (line 12)
+* standards, GNU maintenance:            Overview.             (line 12)
 * tail recursion:                        Concept Index.        (line  6)
 * traditional:                           Invoking hello.       (line 24)
 * usage:                                 Invoking hello.       (line  6)
@@ -616,14 +664,13 @@ Concept Index
 
 
 Tag Table:
-Node: Top1068
-Node: Instructions1522
-Node: Overview1845
-Node: Sample2382
-Node: Invoking hello3106
-Node: Problems3739
-Node: Copying This Manual4158
-Node: GNU Free Documentation License4397
-Node: Concept Index26806
+Node: Top1067
+Node: Overview1476
+Node: Sample3173
+Node: Invoking hello3850
+Node: Problems4424
+Node: Copying This Manual5602
+Node: GNU Free Documentation License5841
+Node: Concept Index28250
 
 End Tag Table

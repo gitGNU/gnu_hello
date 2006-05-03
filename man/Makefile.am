@@ -27,4 +27,4 @@ common_mandeps = $(top_srcdir)/configure.ac
 # Depend on the source, not the binary; we don't need to regenerate the
 # binary when any source file changes, only the main one.
 hello.1: $(top_srcdir)/src/hello.c $(common_mandeps)
-	$(PERL) $(srcdir)/$(HELP2MAN) --name="Friendly Greeting Program" ../src/hello >$@
+	$(HELP2MAN) --name="Friendly Greeting Program" ../src/hello >$@

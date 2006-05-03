@@ -87,7 +87,6 @@ ETAGS = etags
 CTAGS = ctags
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 ACLOCAL = ${SHELL} /u/karl/gnu/src/hello/build-aux/missing --run aclocal-1.9
-ALLOCA = 
 AMDEP_FALSE = #
 AMDEP_TRUE = 
 AMTAR = ${SHELL} /u/karl/gnu/src/hello/build-aux/missing --run tar

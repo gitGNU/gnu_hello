@@ -25,8 +25,8 @@ dnl Checks for programs.
 # We need a C compiler.
 AC_PROG_CC
 
-# Since we use gnulib; gl_EARLY must be called as soon as possible after
-# the C compiler is checked.  The others can be later, but we just
+# Since we use gnulib: gl_EARLY must be called as soon as possible after
+# the C compiler is checked.  The others could be later, but we just
 # keep everything together.
 gl_EARLY
 gl_LIB(libgnulib)
@@ -43,9 +43,6 @@ AM_MISSING_PROG(HELP2MAN, help2man)
 dnl Checks for header files.
 AC_HEADER_STDC([])
 AC_CHECK_HEADERS([string.h fcntl.h sys/file.h sys/param.h])
-
-dnl Checks for functions.
-AC_FUNC_ALLOCA
 
 # i18n support from GNU gettext.
 AM_GNU_GETTEXT_VERSION([0.14.5])

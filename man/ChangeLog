@@ -1,3 +1,13 @@
+2006-05-03  Karl Berry  <karl@gnu.org>
+
+	* Makefile.am (hello.1): no, can't use $(srcdir)/help2man, because
+	it ends up being "./bin/sh help2man".
+
+2006-04-22  Karl Berry  <karl@gnu.org>
+
+	* Makefile.am (hello.1): find help2man in $(srcdir), for when
+	srcdir!=builddir.
+
 2004-05-14  Karl Eichwalder  <ke@gnu.franken.de>
 
 	* Makefile.am (hello.1): Missing Perl at installation time is not

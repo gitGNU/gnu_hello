@@ -1,3 +1,15 @@
+2006-05-03  Karl Berry  <karl@gnu.org>
+
+	* Makefile.am (noinst_HEADERS): remove, gettext.h comes from gnulib.
+	(hello_LDADD): remove @ALLOCA@.
+	* hello.c: remove mail reading stuff, and hence alloca stuff.
+	
+	* getopt*.c, gettext.h: remove these files, they come from gnulib.
+
+2005-08-19  Karl Berry  <karl@gnu.org>
+
+	* src/hello.c (main): version message formatting.
+
 2002-07-20  Karl Eichwalder  <ke@gnu.franken.de>
 
 	* Makefile.am (noinst_HEADERS): New variable. add gettext.h
