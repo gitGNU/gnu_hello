@@ -1,3 +1,7 @@
+2006-05-03  Karl Berry  <karl@gnu.org>
+
+	* src/getopt*: remove, these come from gnulib now.
+
 2006-04-22  Karl Berry  <karl@gnu.org>
 
 	* man/Makefile.am (hello.1): find help2man in $(srcdir).
