@@ -8,7 +8,7 @@ else
   chicken=
 fi
 
-echo "Bootstrapping CVS Hello with:"
+echo "Preparing CVS Hello infrastructure:"
 
 # This overwrites lots of files with older versions, so don't use it.
 # I keep the newest versions of files common between distributions up to

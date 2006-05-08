@@ -28,5 +28,5 @@ For the record, the first time invocation was
 Current gnulib information is recorded in gnulib/m4/gnulib-cache.m4.
 
 After getting the CVS sources, and installing the tools above, you can run
-  ./bootstrap
+  sh ./autogen.sh
 to do a fresh build.  After that first time, running make should suffice.
