@@ -20,7 +20,7 @@ to share common files, with the files being checked in to CVS.  If you
 want to update from the current gnulib, do a cvs checkout of gnulib, and
 then run
   gnulib-tool --update
-in the top-level directory of hello.
+in the top-level directory.
 
 For the record, the first time invocation was
   gnulib-tool --import --m4-base=gnulib/m4 --source-base=gnulib/lib \
