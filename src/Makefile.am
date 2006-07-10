@@ -24,5 +24,5 @@ hello_LDADD = @LIBINTL@ ../gnulib/lib/libgnulib.a
 
 localedir = $(datadir)/locale
 
-INCLUDES = -I. -I$(srcdir) -I.. -I$(top_srcdir)/gnulib/lib
+AM_CPPFLAGS = -I$(top_srcdir)/gnulib/lib -I$(top_builddir)/gnulib/lib
 DEFS = -DLOCALEDIR=\"$(localedir)\" @DEFS@
