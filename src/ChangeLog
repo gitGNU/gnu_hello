@@ -1,3 +1,7 @@
+2006-07-15  Karl Berry  <karl@gnu.org>
+
+	* hello.c (main): update copyright to 2006.
+
 2006-05-03  Karl Berry  <karl@gnu.org>
 
 	* Makefile.am (noinst_HEADERS): remove, gettext.h comes from gnulib.

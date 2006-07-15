@@ -186,7 +186,7 @@ There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n\
 PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n\
 under the terms of the GNU General Public License.\n\
 For more information about these matters, see the file named COPYING.\n"),
-              "2005", PACKAGE);
+              "2006", PACKAGE);
       exit (0);
     }
   else if (z)
