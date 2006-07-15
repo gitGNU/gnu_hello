@@ -16,49 +16,7 @@
    along with this program; if not, write to the Free Software Foundation,
    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.  */
 
-#ifdef HAVE_CONFIG_H
 #include <config.h>
-#endif
-
-#include <stdio.h>
-
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <pwd.h>
-#include <errno.h>
-
-#ifdef HAVE_UNISTD_H
-#include <unistd.h>
-#endif
-
-#ifndef errno
-extern int errno;
-#endif
-
-#ifdef	STDC_HEADERS
-#include <stdlib.h>
-#else	/* Not STDC_HEADERS */
-extern void exit ();
-extern char *malloc ();
-#endif	/* STDC_HEADERS */
-
-#ifdef	HAVE_STRING_H
-#include <string.h>
-#else
-#include <strings.h>
-#endif
-
-#ifdef HAVE_FCNTL_H
-#include <fcntl.h>
-#endif
-#ifdef HAVE_SYS_FILE_H
-#include <sys/file.h>
-#endif
-
-#ifdef HAVE_SYS_PARAM_H
-/* To possibly get the definition of DEV_BSIZE. */
-#include <sys/param.h>
-#endif
 #include "system.h"
 
 struct option longopts[] =
@@ -70,8 +28,6 @@ struct option longopts[] =
   { "version", no_argument, NULL, 'v' },
   { NULL, 0, NULL, 0 }
 };
-
-extern char version[];
 
 static char *progname;
 
@@ -177,7 +133,7 @@ Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
   if (v)
     {
       /* Print version number.  */
-      printf ("hello - GNU %s %s\n", PACKAGE, version);
+      printf ("hello (GNU %s) %s\n", PACKAGE, VERSION);
       /* xgettext: no-wrap */
       puts ("");
       printf (_("\

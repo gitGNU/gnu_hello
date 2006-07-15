@@ -1,5 +1,10 @@
 2006-07-15  Karl Berry  <karl@gnu.org>
 
+	* hello.c: remove most of the includes, no longer needed.
+	* system.h: move system includes to here.
+	* version.c: remove, just use the VERSION autotool variable.
+	* Makefile.am (hello_SOURCES): remove version.c
+
 	* hello.c (main): update copyright to 2006.
 
 2006-05-03  Karl Berry  <karl@gnu.org>

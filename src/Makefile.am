@@ -18,7 +18,7 @@
 ## Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 bin_PROGRAMS = hello
-hello_SOURCES = hello.c version.c system.h 
+hello_SOURCES = hello.c system.h 
 
 hello_LDADD = @LIBINTL@ ../gnulib/lib/libgnulib.a
 
