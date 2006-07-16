@@ -1,4 +1,11 @@
 Makefile
 Makefile.in
 stamp-vti
-.info*
+hello.??
+hello.??s
+*.aux
+*.dvi
+*.info*
+*.log
+*.pdf
+*.toc
