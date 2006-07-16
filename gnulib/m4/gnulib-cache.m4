@@ -15,10 +15,10 @@
 
 
 # Specification in the form of a command-line invocation:
-#   gnulib-tool --import --dir=. --lib=libgnu --source-base=gnulib/lib --m4-base=gnulib/m4 --doc-base=doc --aux-dir=build-aux --macro-prefix=gl gettext
+#   gnulib-tool --import --dir=. --lib=libgnu --source-base=gnulib/lib --m4-base=gnulib/m4 --doc-base=doc --aux-dir=build-aux --macro-prefix=gl closeout gettext
 
 # Specification in the form of a few gnulib-tool.m4 macro invocations:
-gl_MODULES([gettext])
+gl_MODULES([closeout gettext])
 gl_AVOID([])
 gl_SOURCE_BASE([gnulib/lib])
 gl_M4_BASE([gnulib/m4])

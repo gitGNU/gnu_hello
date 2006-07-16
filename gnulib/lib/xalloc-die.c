@@ -1,5 +1,7 @@
-/* system.h: system-dependent declarations; include this first.
-   Copyright (C) 1996, 2005, 2006 Free Software Foundation, Inc.
+/* Report a memory allocation failure and exit.
+
+   Copyright (C) 1997, 1998, 1999, 2000, 2002, 2003, 2004, 2006 Free
+   Software Foundation, Inc.
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -15,22 +17,28 @@
    along with this program; if not, write to the Free Software Foundation,
    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.  */
 
-#ifndef HELLO_SYSTEM_H
+#ifdef HAVE_CONFIG_H
+# include <config.h>
+#endif
 
-/* Assume ANSI C89 headers are available.  */
-#include <getopt.h>
-#include <locale.h>
-#include <stdio.h>
+#include "xalloc.h"
+
 #include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
 
-/* Internationalization.  */
+#include "error.h"
+#include "exitfail.h"
+
 #include "gettext.h"
-#define _(str) gettext (str)
-#define N_(str) gettext_noop (str)
+#define _(msgid) gettext (msgid)
 
-/* Check for errors on write.  */
-#include "closeout.h"
+void
+xalloc_die (void)
+{
+  error (exit_failure, 0, "%s", _("memory exhausted"));
 
-#endif /* HELLO_SYSTEM_H */
+  /* The `noreturn' cannot be given to error, since it may return if
+     its first argument is 0.  To help compilers understand the
+     xalloc_die does not return, call abort.  Also, the abort is a
+     safety feature if exit_failure is 0 (which shouldn't happen).  */
+  abort ();
+}

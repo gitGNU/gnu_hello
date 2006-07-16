@@ -172,5 +172,10 @@ For more information about these matters, see the file named COPYING.\n"),
         }
     }
 
+  /* Exit unsuccessfully if the write failed.  (This is implemented in
+     the Gnulib module "closeout".  */
+  close_stdout ();
+  
+  /* Otherwise, exit successfully.  */
   exit (0);
 }

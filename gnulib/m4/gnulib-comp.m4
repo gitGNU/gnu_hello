@@ -27,17 +27,42 @@ AC_DEFUN([gl_EARLY],
 AC_DEFUN([gl_INIT],
 [
   AM_CONDITIONAL([GL_COND_LIBTOOL], [false])
+  gl_CLOSEOUT
+  gl_ERROR
+  gl_EXITFAIL
+  gl_FUNC_FPENDING
   dnl you must add AM_GNU_GETTEXT([external]) or similar to configure.ac.
   AM_GNU_GETTEXT_VERSION([0.14.5])
+  gl_QUOTEARG
+  AM_STDBOOL_H
+  gl_XALLOC
 ])
 
 # This macro records the list of files which have been installed by
 # gnulib-tool and may be removed by future gnulib-tool invocations.
 AC_DEFUN([gl_FILE_LIST], [
   build-aux/config.rpath
-  lib/dummy.c
+  lib/__fpending.c
+  lib/__fpending.h
+  lib/closeout.c
+  lib/closeout.h
+  lib/error.c
+  lib/error.h
+  lib/exit.h
+  lib/exitfail.c
+  lib/exitfail.h
   lib/gettext.h
+  lib/quotearg.c
+  lib/quotearg.h
+  lib/stdbool_.h
+  lib/xalloc-die.c
+  lib/xalloc.h
+  lib/xmalloc.c
+  m4/closeout.m4
   m4/codeset.m4
+  m4/error.m4
+  m4/exitfail.m4
+  m4/fpending.m4
   m4/gettext.m4
   m4/glibc2.m4
   m4/glibc21.m4
@@ -54,16 +79,22 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/lib-prefix.m4
   m4/longdouble.m4
   m4/longlong.m4
+  m4/mbrtowc.m4
+  m4/mbstate_t.m4
   m4/nls.m4
   m4/po.m4
   m4/printf-posix.m4
   m4/progtest.m4
+  m4/quotearg.m4
   m4/signed.m4
   m4/size_max.m4
+  m4/stdbool.m4
   m4/stdint_h.m4
+  m4/strerror_r.m4
   m4/uintmax_t.m4
   m4/ulonglong.m4
   m4/wchar_t.m4
   m4/wint_t.m4
+  m4/xalloc.m4
   m4/xsize.m4
 ])

@@ -1,5 +1,5 @@
-/* system.h: system-dependent declarations; include this first.
-   Copyright (C) 1996, 2005, 2006 Free Software Foundation, Inc.
+/* exit() function.
+   Copyright (C) 1995, 2001 Free Software Foundation, Inc.
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -15,22 +15,18 @@
    along with this program; if not, write to the Free Software Foundation,
    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.  */
 
-#ifndef HELLO_SYSTEM_H
+#ifndef _EXIT_H
+#define _EXIT_H
 
-/* Assume ANSI C89 headers are available.  */
-#include <getopt.h>
-#include <locale.h>
-#include <stdio.h>
+/* Get exit() declaration.  */
 #include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
 
-/* Internationalization.  */
-#include "gettext.h"
-#define _(str) gettext (str)
-#define N_(str) gettext_noop (str)
+/* Some systems do not define EXIT_*, despite otherwise supporting C89.  */
+#ifndef EXIT_SUCCESS
+# define EXIT_SUCCESS 0
+#endif
+#ifndef EXIT_FAILURE
+# define EXIT_FAILURE 1
+#endif
 
-/* Check for errors on write.  */
-#include "closeout.h"
-
-#endif /* HELLO_SYSTEM_H */
+#endif /* _EXIT_H */

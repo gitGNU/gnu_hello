@@ -1,5 +1,6 @@
-/* system.h: system-dependent declarations; include this first.
-   Copyright (C) 1996, 2005, 2006 Free Software Foundation, Inc.
+/* Close standard output.
+
+   Copyright (C) 1998, 2000, 2003, 2004 Free Software Foundation, Inc.
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -15,22 +16,18 @@
    along with this program; if not, write to the Free Software Foundation,
    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.  */
 
-#ifndef HELLO_SYSTEM_H
+#ifndef CLOSEOUT_H
+# define CLOSEOUT_H 1
 
-/* Assume ANSI C89 headers are available.  */
-#include <getopt.h>
-#include <locale.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
+# ifdef __cplusplus
+extern "C" {
+# endif
 
-/* Internationalization.  */
-#include "gettext.h"
-#define _(str) gettext (str)
-#define N_(str) gettext_noop (str)
+void close_stdout_set_file_name (const char *file);
+void close_stdout (void);
 
-/* Check for errors on write.  */
-#include "closeout.h"
+# ifdef __cplusplus
+}
+# endif
 
-#endif /* HELLO_SYSTEM_H */
+#endif

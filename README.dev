@@ -24,8 +24,9 @@ in the top-level directory.
 
 For the record, the first time invocation was
   gnulib-tool --import --m4-base=gnulib/m4 --source-base=gnulib/lib \
-    getopt gettext
-Current gnulib information is recorded in gnulib/m4/gnulib-cache.m4.
+    gettext
+Current gnulib information, including the gnulib-tool invocation with
+all the modules presently used, is recorded in gnulib/m4/gnulib-cache.m4.
 
 After getting the CVS sources, and installing the tools above, you can run
   sh ./autogen.sh

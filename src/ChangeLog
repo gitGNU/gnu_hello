@@ -1,3 +1,10 @@
+2006-07-16  Karl Berry  <karl@gnu.org>
+
+	* system.h: #include "closeout.h".
+	* hello.c (main): call close_stdout, to get an error at exit.
+
+	* Makefile.am (hello_LDADD): link with libgnu.a, not libgnulib.a.
+
 2006-07-15  Karl Berry  <karl@gnu.org>
 
 	* hello.c: remove most of the includes, no longer needed.

@@ -15,7 +15,7 @@ AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([dist-bzip2 readme-alpha])
 
 # Minimum Autoconf version required.
-AC_PREREQ(2.59)
+AC_PREREQ(2.60)
 
 # Where to generate output; srcdir location.
 AC_CONFIG_HEADERS([config.h:config.in])dnl Keep filename to 8.3 for MS-DOS.
@@ -40,7 +40,6 @@ AM_MISSING_PROG(HELP2MAN, help2man)
 
 dnl Checks for header files.
 AC_HEADER_STDC([])
-AC_CHECK_HEADERS([string.h fcntl.h sys/file.h sys/param.h])
 
 # i18n support from GNU gettext.
 AM_GNU_GETTEXT_VERSION([0.14.5])
