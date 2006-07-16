@@ -38,11 +38,8 @@ AC_PROG_RANLIB
 # is sufficient, and obviates the need to maintain man pages separately.
 AM_MISSING_PROG(HELP2MAN, help2man)
 
-dnl Checks for header files.
-AC_HEADER_STDC([])
-
 # i18n support from GNU gettext.
-AM_GNU_GETTEXT_VERSION([0.14.5])
+AM_GNU_GETTEXT_VERSION([0.14.6])
 AM_GNU_GETTEXT([external])
 
 AC_CONFIG_FILES([Makefile \
