@@ -79,6 +79,9 @@ would otherwise be unavailable to them.  Because it is protected by
 the GNU General Public License, users are free (in perpetuity) to
 share and change it.
 
+For the latest updates and other information, please visit the GNU
+Hello home page at @url{http://www.gnu.org/software/hello}.
+
 @cindex joke, not
 Not to spoil the joke, but of course the practical purpose of GNU
 Hello is to serve as a minimal example of a GNU package.  So, although
@@ -96,7 +99,7 @@ GNU Maintainers}).  These are the basic documents which all GNU
 packages should adhere to.
 
 The Hello package also implements recommended development practices
-not embodied in the standards, using other GNU packages.
+not embodied in the standards, using other GNU packages and features:
 
 @itemize @bullet
 
@@ -139,6 +142,10 @@ documentation format for this manual.  It supports output in Info,
 HTML, PDF, DVI, plain text, XML, and other formats.
 
 @end itemize
+
+GNU Hello is implemented in C.  GNU Gettext contains ``hello world''
+examples in a variety of other programming languages; see the Gettext
+home page at @url{http://www.gnu.org/software/gettext}.
 
 @cindex authors
 @cindex Haertel, Mike

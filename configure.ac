@@ -8,11 +8,11 @@ dnl This program is distributed in the hope that it will be useful, but
 dnl WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
 dnl implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-AC_INIT([GNU Hello], [2.9.90], [bug-hello@gnu.org])
+AC_INIT([GNU Hello], [2.1.90], [bug-hello@gnu.org])
 
 dnl Must come before AM_INIT_AUTOMAKE.
 AC_CONFIG_AUX_DIR([build-aux])
-AM_INIT_AUTOMAKE([check-news dist-bzip2 readme-alpha])
+AM_INIT_AUTOMAKE([dist-bzip2 readme-alpha])
 
 # Minimum Autoconf version required.
 AC_PREREQ(2.59)

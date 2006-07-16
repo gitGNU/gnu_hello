@@ -1,4 +1,5 @@
 /* hello.c -- print a greeting message and exit.
+
    Copyright (C) 1992, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
    2005, 2006 Free Software Foundation, Inc.
 
@@ -37,7 +38,7 @@ main (argc, argv)
      char *argv[];
 {
   int optc;
-  int h = 0, v = 0, t = 0, n = 0, lose = 0, z = 0;
+  int h = 0, v = 0, t = 0, n = 0, lose = 0;
   char *greeting = NULL;
 
   progname = argv[0];
@@ -77,9 +78,7 @@ main (argc, argv)
         break;
       }
   
-  if (optind == argc - 1 && strcmp (argv[optind], "sailor") == 0)
-    z = 1;
-  else if (lose || optind < argc)
+  if (lose || optind < argc)
     {
       /* Print error message and exit.  */
       if (optind < argc)
@@ -89,11 +88,13 @@ main (argc, argv)
       exit (1);
     }
 
-  /* `help' should come first.  If `help' is requested, ignore the other
-     options. */
+  /* If `help' or `version' is requested, ignore the other options. */
   if (h)
     {
-      /* Print help info and exit.  */
+      /* Print help info and exit.  This long message is split into
+         several pieces to help translators be able to align different
+         blocks and identify the various pieces.  */
+         
       /* TRANSLATORS: --help output 1
          no-wrap */
       fputs (_("\
@@ -102,7 +103,7 @@ GNU hello, THE greeting printing program.\n"), stdout);
       /* TRANSLATORS: --help output 2
          no-wrap */
       printf (_("\
-Usage: %s [OPTION]\n"), progname);
+Usage: %s [OPTION]...\n"), progname);
 
       printf ("\n");
       /* TRANSLATORS: --help output 3 : options 1/2
@@ -145,8 +146,6 @@ For more information about these matters, see the file named COPYING.\n"),
               "2006", PACKAGE);
       exit (0);
     }
-  else if (z)
-    puts (_("Nothing happens here."));
 
   else
     /* Print greeting message and exit. */
