@@ -1,5 +1,7 @@
 2006-07-16  Karl Berry  <karl@gnu.org>
 
+	* configure.ac (AC_HEADER_STDC): autoconf doc says no longer needed.
+
 	* configure.ac (AM_INIT_AUTOMAKE): remove check-news.
 	* Makefile.am (EXTRA_DIST): no more bugs; simplfy other ex
 
