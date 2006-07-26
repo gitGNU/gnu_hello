@@ -11,7 +11,7 @@ See the manual for detailed information.
 * Remove creeping non-feature of reading mail; simplify code accordingly.
 * Distribution:
   . Use gnulib for shared source files, such as texinfo.tex and getopt.c.
-  . update for automake 1.9.5, autoconf 2.60, gettext 0.14.6.
+  . update for automake 1.9.5, autoconf 2.60, gettext 0.15.
 
 
 Version 2.1.2 (20 July 2002)

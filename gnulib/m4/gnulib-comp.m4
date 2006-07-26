@@ -20,6 +20,8 @@
 AC_DEFUN([gl_EARLY],
 [
   AC_REQUIRE([AC_PROG_RANLIB])
+  AC_REQUIRE([AC_GNU_SOURCE])
+  AC_REQUIRE([gl_LOCK])
 ])
 
 # This macro should be invoked from ./configure.ac, in the section
@@ -27,12 +29,13 @@ AC_DEFUN([gl_EARLY],
 AC_DEFUN([gl_INIT],
 [
   AM_CONDITIONAL([GL_COND_LIBTOOL], [false])
+  gl_CLOSE_STREAM
   gl_CLOSEOUT
   gl_ERROR
   gl_EXITFAIL
   gl_FUNC_FPENDING
   dnl you must add AM_GNU_GETTEXT([external]) or similar to configure.ac.
-  AM_GNU_GETTEXT_VERSION([0.14.5])
+  AM_GNU_GETTEXT_VERSION([0.15])
   gl_QUOTEARG
   AM_STDBOOL_H
   gl_XALLOC
@@ -44,6 +47,8 @@ AC_DEFUN([gl_FILE_LIST], [
   build-aux/config.rpath
   lib/__fpending.c
   lib/__fpending.h
+  lib/close-stream.c
+  lib/close-stream.h
   lib/closeout.c
   lib/closeout.h
   lib/error.c
@@ -58,6 +63,7 @@ AC_DEFUN([gl_FILE_LIST], [
   lib/xalloc-die.c
   lib/xalloc.h
   lib/xmalloc.c
+  m4/close-stream.m4
   m4/closeout.m4
   m4/codeset.m4
   m4/error.m4
@@ -69,19 +75,20 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/iconv.m4
   m4/intdiv0.m4
   m4/intmax.m4
+  m4/inttypes-h.m4
   m4/inttypes-pri.m4
-  m4/inttypes.m4
   m4/inttypes_h.m4
-  m4/isc-posix.m4
   m4/lcmessage.m4
   m4/lib-ld.m4
   m4/lib-link.m4
   m4/lib-prefix.m4
+  m4/lock.m4
   m4/longdouble.m4
   m4/longlong.m4
   m4/mbrtowc.m4
   m4/mbstate_t.m4
   m4/nls.m4
+  m4/onceonly_2_57.m4
   m4/po.m4
   m4/printf-posix.m4
   m4/progtest.m4
@@ -93,6 +100,7 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/strerror_r.m4
   m4/uintmax_t.m4
   m4/ulonglong.m4
+  m4/visibility.m4
   m4/wchar_t.m4
   m4/wint_t.m4
   m4/xalloc.m4
