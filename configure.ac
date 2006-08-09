@@ -31,9 +31,6 @@ AC_PROG_CC
 gl_EARLY
 gl_INIT
 
-# Since we make a helper library.
-AC_PROG_RANLIB
-
 # GNU help2man creates man pages from --help output; in many cases, this
 # is sufficient, and obviates the need to maintain man pages separately.
 AM_MISSING_PROG(HELP2MAN, help2man)
