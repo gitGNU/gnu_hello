@@ -1,3 +1,7 @@
+2006-08-13  Karl Berry  <karl@gnu.org>
+
+	* POTFILES.in: update for gnulib, new source structure.
+
 2006-08-13  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.15.

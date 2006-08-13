@@ -1,12 +1,20 @@
+# This file is free software; as a special exception the author gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# 
 # List of source files containing translatable strings.
-# Copyright (C) 1995, 1996 Free Software Foundation, Inc.
+# The last line must not be a comment.
 
-# Common library files
-src/getopt.c
-# src/getopt1.c
-
-# Package source files
+# Package source files.
 src/hello.c
-# src/version.c
 
-# end of file POTFILE.in
+# Gnulib source files.
+gnulib/lib/error.c
+gnulib/lib/getopt.c
+gnulib/lib/closeout.c
+gnulib/lib/quotearg.c
+gnulib/lib/xalloc-die.c

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-02-14 10:51-0800\n"
+"POT-Creation-Date: 2006-08-13 06:47-0700\n"
 "PO-Revision-Date: 2002-02-02 20:01+0200\n"
 "Last-Translator: Toomas Soome <tsoome@ut.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -14,86 +14,31 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-15\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/getopt.c:693
-#, c-format
-msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: võti `%s' on segane\n"
-
-#: src/getopt.c:718
-#, c-format
-msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: võti `--%s' ei luba argumenti\n"
-
-#: src/getopt.c:723
-#, c-format
-msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: võti `%c%s' ei luba argumenti\n"
-
-#: src/getopt.c:741 src/getopt.c:914
-#, c-format
-msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: võti `%s' nõuab argumenti\n"
-
-#: src/getopt.c:770
-#, c-format
-msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: tundmatu võti `--%s'\n"
-
-#: src/getopt.c:774
-#, c-format
-msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: tundmatu võti `%c%s'\n"
-
-#: src/getopt.c:800
-#, c-format
-msgid "%s: illegal option -- %c\n"
-msgstr "%s: lubamatu võti -- %c\n"
-
-#: src/getopt.c:803
-#, c-format
-msgid "%s: invalid option -- %c\n"
-msgstr "%s: vigane võti -- %c\n"
-
-#: src/getopt.c:833 src/getopt.c:963
-#, c-format
-msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: võti nõuab argumenti -- %c\n"
-
-#: src/getopt.c:880
-#, c-format
-msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: võti  `-W %s' on segane\n"
-
-#: src/getopt.c:898
-#, c-format
-msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: võti `-W %s' ei luba argumenti\n"
-
-#: src/hello.c:152
+#: src/hello.c:85
 msgid "Too many arguments\n"
 msgstr "Liiga palju argumente\n"
 
-#: src/hello.c:153
+#: src/hello.c:86
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Lisainfo saamiseks proovige `%s --help'\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:165
+#: src/hello.c:100
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello, programm, mis trükib tervitusi.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:170
-#, c-format
-msgid "Usage: %s [OPTION]\n"
+#: src/hello.c:105
+#, fuzzy, c-format
+msgid "Usage: %s [OPTION]...\n"
 msgstr "Kasuta: %s [VÕTI]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:176
+#: src/hello.c:111
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -103,13 +48,12 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:183
+#: src/hello.c:118
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
-"  -m, --mail              print your mail\n"
 msgstr ""
 "  -t, --traditional      kasuta traditsionaalset tervituse vormi\n"
 "  -n, --next-generation  kasuta järgmise põlvkonna tervituse vormi\n"
@@ -119,12 +63,12 @@ msgstr ""
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
 #. no-wrap
-#: src/hello.c:194
+#: src/hello.c:128
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "Palun teatage vigadest aadressile <%s>.\n"
 
-#: src/hello.c:206
+#: src/hello.c:140
 #, fuzzy, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -138,26 +82,7 @@ msgstr ""
 "Te võite levitada GNU %s koopiaid vastavalt GNU üldise avaliku\n"
 "litsentsi tingimustele. Lisainfot saate failist nimega COPYING.\n"
 
-#: src/hello.c:217
-#, c-format
-msgid "%s: Incompatible flags: -m and -t\n"
-msgstr "%s: Mitteühilduvad võtmed: -m ja -t\n"
-
-#: src/hello.c:249
-#, c-format
-msgid "%s: Who are you?\n"
-msgstr "%s: Kes te olete?\n"
-
-#: src/hello.c:271
-#, c-format
-msgid "%s: Cannot find your mail spool file.\n"
-msgstr "%s: Ei leia teie postkasti.\n"
-
-#: src/hello.c:315
-msgid "Nothing happens here."
-msgstr "Siin ei toimu midagi."
-
-#: src/hello.c:321
+#: src/hello.c:154
 #, c-format
 msgid "hello, world\n"
 msgstr "tere kõik\n"
@@ -168,7 +93,7 @@ msgstr "tere kõik\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:329
+#: src/hello.c:162
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -179,11 +104,115 @@ msgstr ""
 "| Tere kõik |\n"
 "+-----------+\n"
 
-#: src/hello.c:337
+#: src/hello.c:170
 msgid "Hello, world!"
 msgstr "Tere kõik!"
 
-#: src/hello.c:354
+#: gnulib/lib/error.c:125
+msgid "Unknown system error"
+msgstr ""
+
+#: gnulib/lib/getopt.c:551 gnulib/lib/getopt.c:570
 #, c-format
-msgid "%s: Virtual memory exhausted\n"
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: võti `%s' on segane\n"
+
+#: gnulib/lib/getopt.c:603 gnulib/lib/getopt.c:607
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: võti `--%s' ei luba argumenti\n"
+
+#: gnulib/lib/getopt.c:616 gnulib/lib/getopt.c:621
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: võti `%c%s' ei luba argumenti\n"
+
+#: gnulib/lib/getopt.c:667 gnulib/lib/getopt.c:689 gnulib/lib/getopt.c:1020
+#: gnulib/lib/getopt.c:1042
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: võti `%s' nõuab argumenti\n"
+
+#: gnulib/lib/getopt.c:727 gnulib/lib/getopt.c:730
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: tundmatu võti `--%s'\n"
+
+#: gnulib/lib/getopt.c:738 gnulib/lib/getopt.c:741
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: tundmatu võti `%c%s'\n"
+
+#: gnulib/lib/getopt.c:796 gnulib/lib/getopt.c:799
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: lubamatu võti -- %c\n"
+
+#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: vigane võti -- %c\n"
+
+#: gnulib/lib/getopt.c:863 gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:1095
+#: gnulib/lib/getopt.c:1116
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: võti nõuab argumenti -- %c\n"
+
+#: gnulib/lib/getopt.c:935 gnulib/lib/getopt.c:954
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: võti  `-W %s' on segane\n"
+
+#: gnulib/lib/getopt.c:978 gnulib/lib/getopt.c:999
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: võti `-W %s' ei luba argumenti\n"
+
+#: gnulib/lib/closeout.c:74
+msgid "write error"
+msgstr ""
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
+#.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
+#. and use glyphs suitable for your language.
+#: gnulib/lib/quotearg.c:245
+msgid "`"
+msgstr ""
+
+#: gnulib/lib/quotearg.c:246
+msgid "'"
+msgstr ""
+
+#: gnulib/lib/xalloc-die.c:37
+#, fuzzy
+msgid "memory exhausted"
 msgstr "%s: Mälu on otsas\n"
+
+#~ msgid "%s: Incompatible flags: -m and -t\n"
+#~ msgstr "%s: Mitteühilduvad võtmed: -m ja -t\n"
+
+#~ msgid "%s: Who are you?\n"
+#~ msgstr "%s: Kes te olete?\n"
+
+#~ msgid "%s: Cannot find your mail spool file.\n"
+#~ msgstr "%s: Ei leia teie postkasti.\n"
+
+#~ msgid "Nothing happens here."
+#~ msgstr "Siin ei toimu midagi."
