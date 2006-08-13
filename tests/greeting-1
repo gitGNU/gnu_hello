@@ -1,12 +1,11 @@
 #! /bin/sh
-# Test standard GNU greeting.
+# Test arbitrary --greeting.
 # 
 # Copyright (C) 2001, 2006 Free Software Foundation, Inc.  
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
 # notice and this notice are preserved.
-# This script takes one argument.
 
 trap 'rm -fr $tmpfiles' 1 2 3 15
 
@@ -16,17 +15,17 @@ LC_MESSAGES=
 LANG=
 export LANGUAGE LC_ALL LC_MESSAGES LANG
 
-tmpfiles="hello-test1.ok"
-cat <<EOF > hello-test1.ok
-Hello, world!
+tmpfiles="greeting-test1.ok"
+cat <<EOF > greeting-test1.ok
+Nothing happens here.
 EOF
 
-tmpfiles="$tmpfiles hello-test1.out"
+tmpfiles="$tmpfiles greeting-test1.out"
 : ${HELLO=hello}
-${HELLO} > hello-test1.out
+${HELLO} -g 'Nothing happens here.' > greeting-test1.out
 
 : ${DIFF=diff}
-${DIFF} hello-test1.ok hello-test1.out
+${DIFF} greeting-test1.ok greeting-test1.out
 result=$?
 
 rm -f $tmpfiles

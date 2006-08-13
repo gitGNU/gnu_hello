@@ -1,3 +1,7 @@
+2006-08-13  Karl Berry  <karl@gnu.org>
+
+	* *-1: Simplify, change sailor test to arbitrary greeting.
+
 2001-03-23  Karl Eichwalder  <keichwa@gmx.net>
 
 	* Tests completely re-written (using gettext as an example).
