@@ -1,3 +1,8 @@
+2006-08-13  Karl Berry  <karl@gnu.org>
+
+	* Makefile.am (EXTRA_DIST): hello.1 is no longer contributed,
+	now it's generated with help2man.
+
 2000-03-13  Karl EICHWALDER  <ke@gnu.franken.de>
 
 	* Makefile.am (EXTRA_DIST): Add de_franconian_po.txt.
