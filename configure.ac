@@ -36,7 +36,7 @@ gl_INIT
 AM_MISSING_PROG(HELP2MAN, help2man)
 
 # i18n support from GNU gettext.
-AM_GNU_GETTEXT_VERSION([0.14.6])
+AM_GNU_GETTEXT_VERSION([0.15])
 AM_GNU_GETTEXT([external])
 
 AC_CONFIG_FILES([Makefile \
