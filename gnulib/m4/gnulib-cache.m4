@@ -15,7 +15,7 @@
 
 
 # Specification in the form of a command-line invocation:
-#   gnulib-tool --import --dir=. --lib=libgnu --source-base=gnulib/lib --m4-base=gnulib/m4 --doc-base=doc --aux-dir=build-aux --macro-prefix=gl --assume-autoconf=2.59 closeout gettext
+#   gnulib-tool --import --dir=. --lib=libgnu --source-base=gnulib/lib --m4-base=gnulib/m4 --doc-base=doc --aux-dir=build-aux --no-libtool --macro-prefix=gl closeout gettext
 
 # Specification in the form of a few gnulib-tool.m4 macro invocations:
 gl_MODULES([closeout gettext])
@@ -26,4 +26,3 @@ gl_DOC_BASE([doc])
 gl_TESTS_BASE([tests])
 gl_LIB([libgnu])
 gl_MACRO_PREFIX([gl])
-gl_AUTOCONF_MINVERSION([2.59])
