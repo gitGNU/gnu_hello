@@ -36,10 +36,12 @@ AC_DEFUN([gl_INIT],
   gl_ERROR
   gl_EXITFAIL
   gl_FUNC_FPENDING
+  gl_GETOPT
   dnl you must add AM_GNU_GETTEXT([external]) or similar to configure.ac.
   AM_GNU_GETTEXT_VERSION([0.15])
   gl_QUOTEARG
   AM_STDBOOL_H
+  gl_HEADER_UNISTD
   gl_XALLOC
 ])
 
@@ -58,6 +60,10 @@ AC_DEFUN([gl_FILE_LIST], [
   lib/exit.h
   lib/exitfail.c
   lib/exitfail.h
+  lib/getopt.c
+  lib/getopt1.c
+  lib/getopt_.h
+  lib/getopt_int.h
   lib/gettext.h
   lib/quotearg.c
   lib/quotearg.h
@@ -71,6 +77,7 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/error.m4
   m4/exitfail.m4
   m4/fpending.m4
+  m4/getopt.m4
   m4/gettext.m4
   m4/glibc2.m4
   m4/glibc21.m4
@@ -101,6 +108,7 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/strerror_r.m4
   m4/uintmax_t.m4
   m4/ulonglong.m4
+  m4/unistd_h.m4
   m4/visibility.m4
   m4/wchar_t.m4
   m4/wint_t.m4

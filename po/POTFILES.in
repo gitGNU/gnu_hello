@@ -5,7 +5,6 @@
 # notice and this notice are preserved.
 #  
 # List of source files containing translatable strings.
-# The last line must not be a comment.
 
 # Package source files.
 src/hello.c
