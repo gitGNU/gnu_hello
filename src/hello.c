@@ -139,10 +139,8 @@ Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
       puts ("");
       printf (_("\
 Copyright (C) %s Free Software Foundation, Inc.\n\
-There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n\
-PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n\
-under the terms of the GNU General Public License.\n\
-For more information about these matters, see the file named COPYING.\n"),
+License: GNU GPL v2+ (see http://www.gnu.org/licenses/license-list.html)\n\
+This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"),
               "2006", PACKAGE);
       exit (0);
     }
