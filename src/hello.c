@@ -127,11 +127,9 @@ Usage: %s [OPTION]...\n"), progname);
          no-wrap */
       printf (_("\
 Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
-
-      exit (0);
     }
 
-  if (v)
+  else if (v)
     {
       /* Print version number.  */
       printf ("hello (GNU %s) %s\n", PACKAGE, VERSION);
@@ -139,10 +137,9 @@ Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
       puts ("");
       printf (_("\
 Copyright (C) %s Free Software Foundation, Inc.\n\
-License: GNU GPL v2+ (see http://www.gnu.org/licenses/gpl.html)\n\
+License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n\
 This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"),
               "2006", PACKAGE);
-      exit (0);
     }
 
   else

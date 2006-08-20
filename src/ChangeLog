@@ -1,7 +1,10 @@
 2006-08-20  Karl Berry  <karl@gnu.org>
-
+	
 	* hello.c (main): try a new style for the --version output.
-
+	
+	* hello.c (main): do not exit(0) prematurely with --help or
+	--version, we need to go through close_stdout.
+	
 2006-07-16  Karl Berry  <karl@gnu.org>
 
 	* system.h: #include "closeout.h".
