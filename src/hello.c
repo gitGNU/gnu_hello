@@ -139,7 +139,7 @@ Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
       puts ("");
       printf (_("\
 Copyright (C) %s Free Software Foundation, Inc.\n\
-License: GNU GPL v2+ (see http://www.gnu.org/licenses/license-list.html)\n\
+License: GNU GPL v2+ (see http://www.gnu.org/licenses/gpl.html)\n\
 This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"),
               "2006", PACKAGE);
       exit (0);
