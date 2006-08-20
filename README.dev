@@ -19,7 +19,7 @@ This distribution also uses Gnulib (http://www.gnu.org/software/gnulib)
 to share common files, with the files being checked in to CVS.  If you
 want to update from the current gnulib, do a cvs checkout of gnulib, and
 then run
-  gnulib-tool --update
+  gnulib-tool --import
 in the top-level directory.
 
 For the record, the first time invocation was
