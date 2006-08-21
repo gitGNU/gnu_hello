@@ -105,7 +105,6 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/size_max.m4
   m4/stdbool.m4
   m4/stdint_h.m4
-  m4/strerror_r.m4
   m4/uintmax_t.m4
   m4/ulonglong.m4
   m4/unistd_h.m4
