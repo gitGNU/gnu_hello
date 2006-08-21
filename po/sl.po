@@ -2,13 +2,13 @@
 # Copyright (C) 1996 Free Software Foundation, Inc.
 # Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005.
 #
-# $Id: sl.po,v 1.5 2006/08/13 13:49:36 karl Exp $
+# $Id: sl.po,v 1.6 2006/08/21 20:33:55 karl Exp $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-08-13 06:47-0700\n"
+"POT-Creation-Date: 2006-08-20 16:46-0700\n"
 "PO-Revision-Date: 2005-08-31 12:06+0200\n"
 "Last-Translator: Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
@@ -72,24 +72,17 @@ msgstr ""
 "Poročila o napakah javite na <%s>, poročila o napakah v slovenskem prevodu\n"
 "uporabniškega vmesnika na <primoz.peterlin@biofiz.mf.uni-lj.si>.\n"
 
-#: src/hello.c:140
-#, fuzzy, c-format
+#: src/hello.c:138
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-"under the terms of the GNU General Public License.\n"
-"For more information about these matters, see the file named COPYING.\n"
+"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by "
+"law.\n"
 msgstr ""
-"Copyright (c) %s Free Software Foundation, Inc.\n"
-"Ta program se razširja BREZ KAKRŠNEGAKOLI JAMSTVA, niti jamstva USTREZNOSTI\n"
-"ZA PRODAJO ali PRIMERNOSTI ZA UPORABO. Kopije GNU %s lahko razširjate "
-"skladno\n"
-"s pogoji »GNU General Public License«.\n"
-"Za dodatne informacije si oglejte datoteko COPYING.\n"
 
 #  Ima to smisel prevajati? :-)
-#: src/hello.c:154
+#: src/hello.c:149
 #, c-format
 msgid "hello, world\n"
 msgstr "zdravo, svet\n"
@@ -100,7 +93,7 @@ msgstr "zdravo, svet\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:162
+#: src/hello.c:157
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -111,7 +104,7 @@ msgstr ""
 "| Zdravo, svet! |\n"
 "+---------------+\n"
 
-#: src/hello.c:170
+#: src/hello.c:165
 msgid "Hello, world!"
 msgstr "Zdravo, svet!"
 
@@ -119,59 +112,59 @@ msgstr "Zdravo, svet!"
 msgid "Unknown system error"
 msgstr ""
 
-#: gnulib/lib/getopt.c:551 gnulib/lib/getopt.c:570
+#: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
 msgstr "%s: izbira »%s« ni enoznačna\n"
 
-#: gnulib/lib/getopt.c:603 gnulib/lib/getopt.c:607
+#: gnulib/lib/getopt.c:580 gnulib/lib/getopt.c:584
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
 msgstr "%s: izbira »--%s« ne dovoljuje argumenta\n"
 
-#: gnulib/lib/getopt.c:616 gnulib/lib/getopt.c:621
+#: gnulib/lib/getopt.c:593 gnulib/lib/getopt.c:598
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
 msgstr "%s: izbira »%c%s« ne dovoljuje argumenta\n"
 
-#: gnulib/lib/getopt.c:667 gnulib/lib/getopt.c:689 gnulib/lib/getopt.c:1020
-#: gnulib/lib/getopt.c:1042
+#: gnulib/lib/getopt.c:641 gnulib/lib/getopt.c:660 gnulib/lib/getopt.c:976
+#: gnulib/lib/getopt.c:995
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
 msgstr "%s: izbira »%s« zahteva argument\n"
 
-#: gnulib/lib/getopt.c:727 gnulib/lib/getopt.c:730
+#: gnulib/lib/getopt.c:698 gnulib/lib/getopt.c:701
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
 msgstr "%s: neprepoznana izbira »--%s«\n"
 
-#: gnulib/lib/getopt.c:738 gnulib/lib/getopt.c:741
+#: gnulib/lib/getopt.c:709 gnulib/lib/getopt.c:712
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
 msgstr "%s: neprepoznana izbira »%c%s«\n"
 
-#: gnulib/lib/getopt.c:796 gnulib/lib/getopt.c:799
+#: gnulib/lib/getopt.c:764 gnulib/lib/getopt.c:767
 #, c-format
 msgid "%s: illegal option -- %c\n"
 msgstr "%s: nedovoljena izbira -- %c\n"
 
-#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
+#: gnulib/lib/getopt.c:773 gnulib/lib/getopt.c:776
 #, c-format
 msgid "%s: invalid option -- %c\n"
 msgstr "%s: neveljavna izbira -- %c\n"
 
-#: gnulib/lib/getopt.c:863 gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:1095
-#: gnulib/lib/getopt.c:1116
+#: gnulib/lib/getopt.c:828 gnulib/lib/getopt.c:844 gnulib/lib/getopt.c:1048
+#: gnulib/lib/getopt.c:1066
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
 msgstr "%s: izbira zahteva argument -- %c\n"
 
-#: gnulib/lib/getopt.c:935 gnulib/lib/getopt.c:954
+#: gnulib/lib/getopt.c:897 gnulib/lib/getopt.c:913
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
 msgstr "%s: izbira »-W %s« ni enoznačna\n"
 
-#: gnulib/lib/getopt.c:978 gnulib/lib/getopt.c:999
+#: gnulib/lib/getopt.c:937 gnulib/lib/getopt.c:955
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: izbira »-W %s« ne dovoljuje argumenta\n"
@@ -212,6 +205,22 @@ msgstr ""
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: zmanjkalo virtualnega pomnilnika\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
+#~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
+#~ "under the terms of the GNU General Public License.\n"
+#~ "For more information about these matters, see the file named COPYING.\n"
+#~ msgstr ""
+#~ "Copyright (c) %s Free Software Foundation, Inc.\n"
+#~ "Ta program se razširja BREZ KAKRŠNEGAKOLI JAMSTVA, niti jamstva "
+#~ "USTREZNOSTI\n"
+#~ "ZA PRODAJO ali PRIMERNOSTI ZA UPORABO. Kopije GNU %s lahko razširjate "
+#~ "skladno\n"
+#~ "s pogoji »GNU General Public License«.\n"
+#~ "Za dodatne informacije si oglejte datoteko COPYING.\n"
 
 #~ msgid "%s: Incompatible flags: -m and -t\n"
 #~ msgstr "%s: Izbiri -m in -t se medsebojno izključujeta.\n"

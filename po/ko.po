@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 1.3.37\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-08-13 06:47-0700\n"
+"POT-Creation-Date: 2006-08-20 16:46-0700\n"
 "PO-Revision-Date: 2002-02-01 20:42+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -69,22 +69,16 @@ msgstr ""
 msgid "Report bugs to <%s>.\n"
 msgstr "버그를 %s로(으로) 알려 주세요.\n"
 
-#: src/hello.c:140
-#, fuzzy, c-format
+#: src/hello.c:138
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-"under the terms of the GNU General Public License.\n"
-"For more information about these matters, see the file named COPYING.\n"
+"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by "
+"law.\n"
 msgstr ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"상품성이나 특정 목적에 대한 적합성을 비롯하여, 어떠한 보증도 하지 \n"
-"않습니다.  GNU %s는 GNU General Public License에 따라 복사본을\n"
-"재배포할 수 있습니다.\n"
-"이에 관한 더 자세한 정보는, COPYING이라는 이름의 파일을 보십시오.\n"
 
-#: src/hello.c:154
+#: src/hello.c:149
 #, c-format
 msgid "hello, world\n"
 msgstr "안녕, 여러분\n"
@@ -95,7 +89,7 @@ msgstr "안녕, 여러분\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:162
+#: src/hello.c:157
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -106,7 +100,7 @@ msgstr ""
 "| 안녕, 여러분!  |\n"
 "+---------------+\n"
 
-#: src/hello.c:170
+#: src/hello.c:165
 msgid "Hello, world!"
 msgstr "안녕하세요, 여러분!"
 
@@ -114,59 +108,59 @@ msgstr "안녕하세요, 여러분!"
 msgid "Unknown system error"
 msgstr ""
 
-#: gnulib/lib/getopt.c:551 gnulib/lib/getopt.c:570
+#: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
 msgstr "%s: `%s'는 모호한 옵션입니다\n"
 
-#: gnulib/lib/getopt.c:603 gnulib/lib/getopt.c:607
+#: gnulib/lib/getopt.c:580 gnulib/lib/getopt.c:584
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
 msgstr "%s: `--%s' 옵션은 인수가 필요하지 않습니다\n"
 
-#: gnulib/lib/getopt.c:616 gnulib/lib/getopt.c:621
+#: gnulib/lib/getopt.c:593 gnulib/lib/getopt.c:598
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
 msgstr "%s: `%c%s' 옵션은 인수가 필요하지 않습니다\n"
 
-#: gnulib/lib/getopt.c:667 gnulib/lib/getopt.c:689 gnulib/lib/getopt.c:1020
-#: gnulib/lib/getopt.c:1042
+#: gnulib/lib/getopt.c:641 gnulib/lib/getopt.c:660 gnulib/lib/getopt.c:976
+#: gnulib/lib/getopt.c:995
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
 msgstr "%s: `%s' 옵션은 인수가 필요합니다\n"
 
-#: gnulib/lib/getopt.c:727 gnulib/lib/getopt.c:730
+#: gnulib/lib/getopt.c:698 gnulib/lib/getopt.c:701
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
 msgstr "%s: 인식할 수 없는 옵션 `--%s'\n"
 
-#: gnulib/lib/getopt.c:738 gnulib/lib/getopt.c:741
+#: gnulib/lib/getopt.c:709 gnulib/lib/getopt.c:712
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
 msgstr "%s: 인식할 수 없는 옵션 `%c%s'\n"
 
-#: gnulib/lib/getopt.c:796 gnulib/lib/getopt.c:799
+#: gnulib/lib/getopt.c:764 gnulib/lib/getopt.c:767
 #, c-format
 msgid "%s: illegal option -- %c\n"
 msgstr "%s: 잘못된 옵션 -- %c\n"
 
-#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
+#: gnulib/lib/getopt.c:773 gnulib/lib/getopt.c:776
 #, c-format
 msgid "%s: invalid option -- %c\n"
 msgstr "%s: 부적절한 옵션 -- %c\n"
 
-#: gnulib/lib/getopt.c:863 gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:1095
-#: gnulib/lib/getopt.c:1116
+#: gnulib/lib/getopt.c:828 gnulib/lib/getopt.c:844 gnulib/lib/getopt.c:1048
+#: gnulib/lib/getopt.c:1066
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
 msgstr "%s: 인수가 필요한 옵션입니다 -- %c\n"
 
-#: gnulib/lib/getopt.c:935 gnulib/lib/getopt.c:954
+#: gnulib/lib/getopt.c:897 gnulib/lib/getopt.c:913
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
 msgstr "%s: `-W %s'는 모호한 옵션입니다\n"
 
-#: gnulib/lib/getopt.c:978 gnulib/lib/getopt.c:999
+#: gnulib/lib/getopt.c:937 gnulib/lib/getopt.c:955
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: `-W %s' 옵션은 인수를 허용하지 않습니다\n"
@@ -206,6 +200,20 @@ msgstr ""
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: 가상 메모리가 바닥남\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
+#~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
+#~ "under the terms of the GNU General Public License.\n"
+#~ "For more information about these matters, see the file named COPYING.\n"
+#~ msgstr ""
+#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
+#~ "상품성이나 특정 목적에 대한 적합성을 비롯하여, 어떠한 보증도 하지 \n"
+#~ "않습니다.  GNU %s는 GNU General Public License에 따라 복사본을\n"
+#~ "재배포할 수 있습니다.\n"
+#~ "이에 관한 더 자세한 정보는, COPYING이라는 이름의 파일을 보십시오.\n"
 
 #~ msgid "%s: Incompatible flags: -m and -t\n"
 #~ msgstr "%s: 동시에 사용할 수 없는 옵션: -m과 -t\n"
