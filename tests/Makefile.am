@@ -17,7 +17,7 @@
 # along with this program; if not, write to the Free Software Foundation,
 # Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
-TESTS = greeting-1 hello-1 traditional-1
+TESTS = greeting-1 greeting-2 hello-1 traditional-1
 
 EXTRA_DIST = $(TESTS)
 
