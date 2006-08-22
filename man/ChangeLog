@@ -1,3 +1,8 @@
+2006-08-22  Karl Berry  <karl@gnu.org>
+
+	* Makefile.am (hello.1): use -o, to help `missing'.
+	From Ralf Wildenhues.
+
 2006-05-03  Karl Berry  <karl@gnu.org>
 
 	* Makefile.am (hello.1): no, can't use $(srcdir)/help2man, because
