@@ -28,6 +28,6 @@ ${HELLO} -g 'Nothing happens here.' > greeting-test1.out
 ${DIFF} greeting-test1.ok greeting-test1.out
 result=$?
 
-rm -f $tmpfiles
+rm -fr $tmpfiles
 
 exit $result

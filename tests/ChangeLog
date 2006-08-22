@@ -1,5 +1,11 @@
 2006-08-21  Bruno Haible  <bruno@clisp.org>
 
+	* greeting-1: Remove also temporary subdirectories.
+	* hello-1: Likewise.
+	* traditional-1: Likewise.
+
+2006-08-21  Bruno Haible  <bruno@clisp.org>
+
 	* greeting-moon: New file.
 	* Makefile.am (TESTS): Add it.
 

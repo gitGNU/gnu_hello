@@ -28,6 +28,6 @@ ${HELLO} --traditional > traditional-test1.out
 ${DIFF} traditional-test1.ok traditional-test1.out
 result=$?
 
-rm -f $tmpfiles
+rm -fr $tmpfiles
 
 exit $result

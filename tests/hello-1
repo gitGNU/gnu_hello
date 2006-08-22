@@ -29,6 +29,6 @@ ${HELLO} > hello-test1.out
 ${DIFF} hello-test1.ok hello-test1.out
 result=$?
 
-rm -f $tmpfiles
+rm -fr $tmpfiles
 
 exit $result
