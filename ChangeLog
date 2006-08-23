@@ -1,3 +1,9 @@
+2006-08-23  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>  (tiny change)
+
+	* configure.ac (AC_CONFIG_FILES): Drop backslashes.
+
+	* Makefile.am (diff): Do not use `echo -e'.
+
 2006-08-23  Karl Berry  <karl@gnu.org>
 
 	* Pretest version 2.1.92.

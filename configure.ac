@@ -39,12 +39,12 @@ AM_MISSING_PROG(HELP2MAN, help2man)
 AM_GNU_GETTEXT_VERSION([0.15])
 AM_GNU_GETTEXT([external])
 
-AC_CONFIG_FILES([Makefile \
-           contrib/Makefile \
-           doc/Makefile \
-           gnulib/lib/Makefile \
-           man/Makefile \
-           po/Makefile.in \
-           src/Makefile \
+AC_CONFIG_FILES([Makefile
+           contrib/Makefile
+           doc/Makefile
+           gnulib/lib/Makefile
+           man/Makefile
+           po/Makefile.in
+           src/Makefile
            tests/Makefile])
 AC_OUTPUT

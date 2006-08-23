@@ -34,10 +34,9 @@ SUBDIRS = contrib gnulib/lib po src doc man tests
 hello_pre = 2.1.1
 #
 diff: diffcheck
-	echo -e "\
-To apply these patches, cd to the main directory of the package\n\
-and then use \`patch -p1 < hello-XXX.diff'.\n\
-Before building the program, run \`autogen.sh'.\n" > \
+	@(echo "To apply these patches, cd to the main directory of the package"; \
+	  echo "and then use \`patch -p1 < hello-XXX.diff'."; \
+	  echo "Before building the program, run \`autogen.sh'."; ) > \
 	    $(PACKAGE)-$(hello_pre)-$(VERSION).diff
 	-diff -rc2P --exclude=configure --exclude=config.h.in --exclude=*.info \
 	    --exclude=*.gmo --exclude=aclocal.m4 \
