@@ -138,7 +138,7 @@ Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
 Copyright (C) %s Free Software Foundation, Inc.\n\
 License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n\
 This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"),
-              "2006", PACKAGE);
+              "2006");
     }
 
   else
