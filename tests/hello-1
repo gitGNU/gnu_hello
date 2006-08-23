@@ -10,6 +10,9 @@
 
 trap 'rm -fr $tmpfiles' 1 2 3 15
 
+# We force the C locale here, since we are checking normal output,
+# which will be translated.
+
 LANGUAGE=
 LC_ALL=C
 LC_MESSAGES=

@@ -9,6 +9,9 @@
 
 trap 'rm -fr $tmpfiles' 1 2 3 15
 
+# No locale settings in this test, since we are using a fixed string;
+# nothing in the output should be locale-dependent.
+
 tmpfiles="greeting-test1.ok"
 cat <<EOF > greeting-test1.ok
 Nothing happens here.
