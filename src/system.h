@@ -16,13 +16,17 @@
    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.  */
 
 #ifndef HELLO_SYSTEM_H
+#define HELLO_SYSTEM_H
 
 /* Assume ANSI C89 headers are available.  */
-#include <getopt.h>
 #include <locale.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+/* Use POSIX headers.  If they are not available, we use the substitute
+   provided by gnulib.  */
+#include <getopt.h>
 #include <unistd.h>
 
 /* Internationalization.  */

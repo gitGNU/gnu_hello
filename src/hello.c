@@ -20,7 +20,10 @@
 #include <config.h>
 #include "system.h"
 
-struct option longopts[] =
+/* String containing name the program is called with.  */
+const char *program_name;
+ 
+static const struct option longopts[] =
 {
   { "greeting", required_argument, NULL, 'g' },
   { "help", no_argument, NULL, 'h' },
@@ -30,20 +33,16 @@ struct option longopts[] =
   { NULL, 0, NULL, 0 }
 };
 
-static char *progname;
-
 int
-main (argc, argv)
-     int argc;
-     char *argv[];
+main (int argc, char *argv[])
 {
   int optc;
   int h = 0, v = 0, t = 0, n = 0, lose = 0;
   char *greeting = NULL;
 
-  progname = argv[0];
+  program_name = argv[0];
 
-#ifdef HAVE_SETLOCALE
+#if HAVE_SETLOCALE
   /* Set locale via LC_ALL.  */
   setlocale (LC_ALL, "");
 #endif
@@ -84,7 +83,7 @@ main (argc, argv)
       if (optind < argc)
         fputs (_("Too many arguments\n"), stderr);
       fprintf (stderr, _("Try `%s --help' for more information.\n"), 
-               progname);
+               program_name);
       exit (1);
     }
 
@@ -103,7 +102,7 @@ GNU hello, THE greeting printing program.\n"), stdout);
       /* TRANSLATORS: --help output 2
          no-wrap */
       printf (_("\
-Usage: %s [OPTION]...\n"), progname);
+Usage: %s [OPTION]...\n"), program_name);
 
       printf ("\n");
       /* TRANSLATORS: --help output 3 : options 1/2
