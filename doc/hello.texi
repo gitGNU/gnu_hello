@@ -80,7 +80,7 @@ the GNU General Public License, users are free (in perpetuity) to
 share and change it.
 
 For the latest updates and other information, please visit the GNU
-Hello home page at @url{http://www.gnu.org/software/hello}.
+Hello home page at @url{http://www.gnu.org/software/hello/}.
 
 @cindex joke, not
 Not to spoil the joke, but of course the practical purpose of GNU
@@ -145,7 +145,7 @@ HTML, PDF, DVI, plain text, XML, and other formats.
 
 GNU Hello is implemented in C.  GNU Gettext contains ``hello world''
 examples in a variety of other programming languages; see the Gettext
-home page at @url{http://www.gnu.org/software/gettext}.
+home page at @url{http://www.gnu.org/software/gettext/}.
 
 @cindex authors
 @cindex Haertel, Mike
