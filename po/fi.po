@@ -1,13 +1,13 @@
 # Finnish messages for GNU hello
-# Copyright (C) 2000, 2001, 2002 Free Software Foundation, Inc.
-# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2000, 2001, 2002.
+# Copyright (C) 2000, 2001, 2002, 2006 Free Software Foundation, Inc.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2000, 2001, 2002, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.1\n"
+"Project-Id-Version: hello 2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-08-20 16:46-0700\n"
-"PO-Revision-Date: 2002-07-22 10:16+0300\n"
+"PO-Revision-Date: 2006-08-28 17:24+0300\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "Liian monta argumenttia\n"
 #: src/hello.c:86
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Lis‰tietoja saat komennolla \"%s --help\"\n"
+msgstr "Lis√§tietoja saat komennolla \"%s --help\"\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
@@ -32,9 +32,9 @@ msgstr "GNU hello, SE tervehdyksen tulostusohjelma.\n"
 #. TRANSLATORS: --help output 2
 #. no-wrap
 #: src/hello.c:105
-#, fuzzy, c-format
+#, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "K‰yttˆ: %s [VALITSIN]\n"
+msgstr "K√§ytt√∂: %s [VALITSIN]...\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
@@ -43,21 +43,20 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
 msgstr ""
-"  -h, --help          n‰ytt‰‰ t‰m‰n ohjeen ja poistuu\n"
-"  -v, --version       n‰ytt‰‰ versiotiedot ja poistuu\n"
+"  -h, --help          n√§ytt√§√§ t√§m√§n ohjeen ja poistuu\n"
+"  -v, --version       n√§ytt√§√§ versiotiedot ja poistuu\n"
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
 #: src/hello.c:118
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional       k‰ytt‰‰ perinteist‰ tervehdysmuotoa\n"
-"  -n, --next-generation   k‰ytt‰‰ uuden polven tervehdysmuotoa\n"
-"  -m, --mail              n‰ytt‰‰ s‰hkˆpostisi\n"
+"  -t, --traditional       k√§ytt√§√§ perinteist√§ tervehdysmuotoa\n"
+"  -n, --next-generation   k√§ytt√§√§ uuden polven tervehdysmuotoa\n"
+"  -g, --greeting=TEKSTI   k√§ytt√§√§ TEKSTI√§ tervehdyksen√§\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS, please don't forget to add the contact address for
@@ -75,9 +74,12 @@ msgstr ""
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"Copyright ¬© %s Free Software Foundation, Inc.\n"
+"Lisenssi: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"T√§m√§ on vapaa ohjelmisto. T√§lle ohjelmistolle EI my√∂nnet√§ takuuta lain\n"
+"sallimissa rajoissa.\n"
 
 #: src/hello.c:149
 #, c-format
@@ -107,7 +109,7 @@ msgstr "Terve maailma!"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
-msgstr ""
+msgstr "Tuntematon j√§rjestelm√§virhe"
 
 #: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
@@ -168,7 +170,7 @@ msgstr "%s: valitsin \"-W %s\" ei salli argumenttia\n"
 
 #: gnulib/lib/closeout.c:74
 msgid "write error"
-msgstr ""
+msgstr "kirjoitusvirhe"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -191,39 +193,37 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:245
 msgid "`"
-msgstr ""
+msgstr "‚Äù"
 
 #: gnulib/lib/quotearg.c:246
 msgid "'"
-msgstr ""
+msgstr "‚Äù"
 
 #: gnulib/lib/xalloc-die.c:37
-#, fuzzy
 msgid "memory exhausted"
-msgstr "%s: Virtuaalimuisti loppui\n"
+msgstr "muisti loppui"
 
-#, fuzzy
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-#~ "under the terms of the GNU General Public License.\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "Takuuta EI ole; ei edes MYYNTIKUNNOSTA tai SOVELTUVUUDESTA TIETTYYN\n"
-#~ "TARKOITUKSEEN. Voit levitt‰‰ GNU %s:sta kopioita GNU General Public\n"
+#~ "TARKOITUKSEEN. Voit levitt√§√§ GNU %s:sta kopioita GNU General Public\n"
 #~ "Licensen mukaisesti.\n"
-#~ "Tiedostosta COPYING lˆyd‰t lis‰tietoja n‰ist‰ seikoista.\n"
+#~ "Tiedostosta COPYING l√∂yd√§t lis√§tietoja n√§ist√§ seikoista.\n"
 
 #~ msgid "%s: Incompatible flags: -m and -t\n"
-#~ msgstr "%s: Valintaliput -m ja -t eiv‰t sovi yhteen\n"
+#~ msgstr "%s: Valintaliput -m ja -t eiv√§t sovi yhteen\n"
 
 #~ msgid "%s: Who are you?\n"
 #~ msgstr "%s: Kuka olet?\n"
 
 #~ msgid "%s: Cannot find your mail spool file.\n"
-#~ msgstr "%s: S‰hkˆpostilaatikkoasi ei lˆydy.\n"
+#~ msgstr "%s: S√§hk√∂postilaatikkoasi ei l√∂ydy.\n"
 
 #~ msgid "Nothing happens here."
-#~ msgstr "T‰‰ll‰ ei tapahdu mit‰‰n."
+#~ msgstr "T√§√§ll√§ ei tapahdu mit√§√§n."

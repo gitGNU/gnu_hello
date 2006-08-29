@@ -1,19 +1,20 @@
 # Turkish translations for hello messages.
-# Copyright (C) 2001 Free Software Foundation, Inc.
-# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# Nilgün Belma Bugüner <nilgun@buguner.name.tr>, 2001, ..., 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.0.50\n"
+"Project-Id-Version: hello 2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-08-20 16:46-0700\n"
-"PO-Revision-Date: 2002-02-07 10:04+0200\n"
-"Last-Translator: Nilgün Belma Bugüner <nilgun@fide.org>\n"
+"PO-Revision-Date: 2006-08-28 16:59+0300\n"
+"Last-Translator: Nilgün Belma Bugüner <nilgun@buguner.name.tr>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.9.5\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/hello.c:85
 msgid "Too many arguments\n"
@@ -33,9 +34,9 @@ msgstr "GNU hello. Karşılama iletisi programı.\n"
 #. TRANSLATORS: --help output 2
 #. no-wrap
 #: src/hello.c:105
-#, fuzzy, c-format
+#, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "Kullanımı: %s [SEÇENEK]\n"
+msgstr "Kullanımı: %s [SEÇENEK]...\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
@@ -50,7 +51,6 @@ msgstr ""
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
 #: src/hello.c:118
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 "  -t, --traditional       geleneksel karşılama biçemi kullanılır\n"
 "  -n, --next-generation   yeni nesil karşılama biçemi kullanılır\n"
-"  -m, --mail              e-posta adresinizi gösterir\n"
+"  -g, --greeting=METİN    karşılama iletisi olarak METİN kullanılır\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS, please don't forget to add the contact address for
@@ -69,17 +69,19 @@ msgstr ""
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Lütfen, yazılım hatalarını <%s>,\n"
-"çeviri hatalarını <gnu-tr-u12a@lists.sourceforge.net>\n"
-"adresine bildirin.\n"
+"çeviri hatalarını <gnu-tr@belgeler.org> adresine bildirin.\n"
 
 #: src/hello.c:138
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"Telif Hakkı © %s Free Software Foundation, Inc.\n"
+"Lisans: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"Bu bir özgür yazılım olduğundan yasaların izin verdiği ölçüde\n"
+"herhangi bir garanti verilmemektedir.\n"
 
 #: src/hello.c:149
 #, c-format
@@ -114,7 +116,7 @@ msgstr "Merhaba, dünya!"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
-msgstr ""
+msgstr "Bilinmeyen sistem hatası"
 
 #: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
@@ -175,7 +177,7 @@ msgstr "%s: `-W %s' seçeneği argümansız kullanılır\n"
 
 #: gnulib/lib/closeout.c:74
 msgid "write error"
-msgstr ""
+msgstr "yazma hatası"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -198,23 +200,21 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:245
 msgid "`"
-msgstr ""
+msgstr "`"
 
 #: gnulib/lib/quotearg.c:246
 msgid "'"
-msgstr ""
+msgstr "'"
 
 #: gnulib/lib/xalloc-die.c:37
-#, fuzzy
 msgid "memory exhausted"
-msgstr "%s: Sanal bellek tükendi\n"
+msgstr "bellek tükendi"
 
-#, fuzzy
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-#~ "under the terms of the GNU General Public License.\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Telif Hakkı (C) %s Free Software Foundation, Inc.\n"
