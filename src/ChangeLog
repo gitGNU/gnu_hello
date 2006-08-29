@@ -1,3 +1,9 @@
+2006-08-29  Karl Berry  <karl@gnu.org>
+
+	* hello.c (main) <--help output>: say that translators should add
+	another line for translation bugs.  Suggestion from Clytie
+	Siddall, 29 Aug 2006 17:31:37 +0930.
+
 2006-08-23  Karl Berry  <karl@gnu.org>
 
 	* hello.c (main): remove extra argument passed to printf in
