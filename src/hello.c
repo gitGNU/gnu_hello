@@ -121,8 +121,9 @@ Usage: %s [OPTION]...\n"), program_name);
 
       printf ("\n");
       /* TRANSLATORS: --help output 5 (end)
-         TRANSLATORS, please don't forget to add the contact address for
-         your translation!
+         TRANSLATORS: the placeholder indicates the bug-reporting address  
+         for this application. Please add _another line_ with the
+         address for translation bugs.
          no-wrap */
       printf (_("\
 Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
