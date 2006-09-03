@@ -28,4 +28,4 @@ common_mandeps = $(top_srcdir)/configure.ac
 # binary when any source file changes, only the main one.
 # Use -o so that the `missing' program can infer the output file.
 hello.1: $(top_srcdir)/src/hello.c $(common_mandeps)
-	$(HELP2MAN) --name="Friendly Greeting Program" ../src/hello -o $@
+	$(HELP2MAN) --name="friendly greeting program" ../src/hello -o $@

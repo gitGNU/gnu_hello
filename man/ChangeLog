@@ -1,3 +1,7 @@
+2006-09-02  Karl Berry  <karl@gnu.org>
+
+	* Makefile.am (hello.1): downcase description.
+
 2006-08-22  Karl Berry  <karl@gnu.org>
 
 	* Makefile.am (hello.1): use -o, to help `missing'.
