@@ -53,8 +53,7 @@ main (int argc, char *argv[])
   textdomain (PACKAGE);
 #endif
 
-  while ((optc = getopt_long (argc, argv, "g:hntv", longopts, (int *) 0))
-         != EOF)
+  while ((optc = getopt_long (argc, argv, "g:hntv", longopts, NULL) != -1)
     switch (optc)
       {
       case 'v':
