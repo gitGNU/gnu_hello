@@ -8,5 +8,4 @@ config.status
 configure
 stamp-h*
 *.cache
-*.gz
-*.bz2
+hello-*
