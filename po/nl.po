@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-08-20 16:46-0700\n"
+"POT-Creation-Date: 2006-10-15 17:04-0700\n"
 "PO-Revision-Date: 2002-02-02 19:28+0100\n"
 "Last-Translator: Ivo Timmermans <ivo@debian.org>\n"
 "Language-Team: Dutch <vertaling@nl.linux.org>\n"
@@ -15,31 +15,31 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:85
+#: src/hello.c:84
 msgid "Too many arguments\n"
 msgstr "Te veel argumenten\n"
 
-#: src/hello.c:86
+#: src/hello.c:85
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Probeer `%s --help' voor meer informatie.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:100
+#: src/hello.c:99
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello, HET groet programma.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:105
+#: src/hello.c:104
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Gebruik: %s [OPTIE]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:111
+#: src/hello.c:110
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:118
+#: src/hello.c:117
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -61,8 +61,9 @@ msgstr ""
 "  -m, --mail              geef uw mail weer\n"
 
 #. TRANSLATORS: --help output 5 (end)
-#. TRANSLATORS, please don't forget to add the contact address for
-#. your translation!
+#. TRANSLATORS: the placeholder indicates the bug-reporting address
+#. for this application. Please add _another line_ with the
+#. address for translation bugs.
 #. no-wrap
 #: src/hello.c:128
 #, c-format

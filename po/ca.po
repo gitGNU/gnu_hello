@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-08-20 16:46-0700\n"
+"POT-Creation-Date: 2006-10-15 17:04-0700\n"
 "PO-Revision-Date: 2002-05-16 20:07GMT\n"
 "Last-Translator: Jordi Valverde <jordi@eclipsi.net>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -15,31 +15,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.5\n"
 
-#: src/hello.c:85
+#: src/hello.c:84
 msgid "Too many arguments\n"
 msgstr "Masses arguments\n"
 
-#: src/hello.c:86
+#: src/hello.c:85
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Prova `%s --help' per més informació.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:100
+#: src/hello.c:99
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello, EL programa per escriure salutacions.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:105
+#: src/hello.c:104
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Ús: %s [OPCIÓ]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:111
+#: src/hello.c:110
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:118
+#: src/hello.c:117
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -62,8 +62,9 @@ msgstr ""
 "salutació.\n"
 
 #. TRANSLATORS: --help output 5 (end)
-#. TRANSLATORS, please don't forget to add the contact address for
-#. your translation!
+#. TRANSLATORS: the placeholder indicates the bug-reporting address
+#. for this application. Please add _another line_ with the
+#. address for translation bugs.
 #. no-wrap
 #: src/hello.c:128
 #, c-format

@@ -2,13 +2,13 @@
 # Copyright (C) 1996 Free Software Foundation, Inc.
 # Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005.
 #
-# $Id: sl.po,v 1.6 2006/08/21 20:33:55 karl Exp $
+# $Id: sl.po,v 1.7 2006/10/16 00:05:27 karl Exp $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-08-20 16:46-0700\n"
+"POT-Creation-Date: 2006-10-15 17:04-0700\n"
 "PO-Revision-Date: 2005-08-31 12:06+0200\n"
 "Last-Translator: Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:85
+#: src/hello.c:84
 msgid "Too many arguments\n"
 msgstr "Preveč argumentov\n"
 
-#: src/hello.c:86
+#: src/hello.c:85
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Poskusite »%s --help« za izčrpnejša navodila.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:100
+#: src/hello.c:99
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello: program, ki vas pozdravi.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:105
+#: src/hello.c:104
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Uporaba: %s [IZBIRA]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:111
+#: src/hello.c:110
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -50,7 +50,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:118
+#: src/hello.c:117
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -62,8 +62,9 @@ msgstr ""
 "  -m, --mail             izpis elektronske pošte\n"
 
 #. TRANSLATORS: --help output 5 (end)
-#. TRANSLATORS, please don't forget to add the contact address for
-#. your translation!
+#. TRANSLATORS: the placeholder indicates the bug-reporting address
+#. for this application. Please add _another line_ with the
+#. address for translation bugs.
 #. no-wrap
 #: src/hello.c:128
 #, c-format

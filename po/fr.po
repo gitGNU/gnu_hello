@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-08-20 16:46-0700\n"
+"POT-Creation-Date: 2006-10-15 17:04-0700\n"
 "PO-Revision-Date: 2002-08-04 08:00-0500\n"
 "Last-Translator: Michel Robitaille <robitail@IRO.UMontreal.CA>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -14,31 +14,31 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:85
+#: src/hello.c:84
 msgid "Too many arguments\n"
 msgstr "Trop de paramètres.\n"
 
-#: src/hello.c:86
+#: src/hello.c:85
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Pour plus d'informations, faire: « %s --help ».\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
-#: src/hello.c:100
+#: src/hello.c:99
 msgid "GNU hello, THE greeting printing program.\n"
 msgstr "GNU hello, LE programme de salutations et de bienvenue.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
-#: src/hello.c:105
+#: src/hello.c:104
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Usage: %s [OPTION]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
-#: src/hello.c:111
+#: src/hello.c:110
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
-#: src/hello.c:118
+#: src/hello.c:117
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -61,8 +61,9 @@ msgstr ""
 "  -m, --mail              lire votre courrier\n"
 
 #. TRANSLATORS: --help output 5 (end)
-#. TRANSLATORS, please don't forget to add the contact address for
-#. your translation!
+#. TRANSLATORS: the placeholder indicates the bug-reporting address
+#. for this application. Please add _another line_ with the
+#. address for translation bugs.
 #. no-wrap
 #: src/hello.c:128
 #, c-format
