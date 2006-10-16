@@ -1,3 +1,10 @@
+2006-10-15  Karl Berry  <karl@gnu.org>
+
+	* pretest version 2.1.93.
+	
+	* tests/*: try to remove \r from the output, so as not to fail on
+	Windows systems.
+
 2006-08-28  Bruno Haible  <bruno@clisp.org>
 
 	* configure.ac: Set HELP2MAN to a dummy when cross-compiling.

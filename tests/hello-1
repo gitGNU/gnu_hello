@@ -26,7 +26,7 @@ EOF
 
 tmpfiles="$tmpfiles hello-test1.out"
 : ${HELLO=hello}
-${HELLO} > hello-test1.out
+${HELLO}  | tr -d '\r' >hello-test1.out
 
 : ${DIFF=diff}
 ${DIFF} hello-test1.ok hello-test1.out

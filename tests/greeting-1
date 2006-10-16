@@ -19,11 +19,12 @@ EOF
 
 tmpfiles="$tmpfiles greeting-test1.out"
 : ${HELLO=hello}
-${HELLO} -g 'Nothing happens here.' >greeting-test1.out
+${HELLO} -g 'Nothing happens here.' | tr -d '\r' >greeting-test1.out
 
 # remove \r (CR) characters from the output, so that the tests work on
-# platforms with CRLF line endings.
-# 
+# platforms with CRLF line endings.  There is apparently no reliable
+# method (across Cygwin, MingW, etc.) to force an eol style.
+
 : ${DIFF=diff}
 ${DIFF} greeting-test1.ok greeting-test1.out
 result=$?

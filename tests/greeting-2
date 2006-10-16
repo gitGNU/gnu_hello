@@ -1,5 +1,6 @@
 #! /bin/sh
-# Test very long --greeting argument.
+# Test very long --greeting argument, and also show skipping a test.
+# (And one way to compute full moons.)
 # 
 # Copyright (C) 2001, 2006 Free Software Foundation, Inc.  
 #
@@ -25,7 +26,7 @@ remainder=`expr $seconds_since_2000 % 2551443`
 # Full moon is around remainder = 1760000, oscillating between ca. 1720000
 # and ca. 1805000. Allow a tolerance of +/- 24 h.
 if test `expr $remainder '>' 1650000` = 0 || test `expr $remainder '<' 1890000` = 0; then
-  { echo "Skipping test: not a full moon night"; rm -fr $tmpfiles; exit 77; }
+  { echo "$0: Skipping test: not a full moon night"; rm -fr $tmpfiles; exit 77; }
 fi
 
 # The exit 77 is the magic value which tells Automake's `make check'
@@ -35,7 +36,8 @@ fi
 
 tmpfiles="$tmpfiles greeting-test2.out"
 : ${HELLO=hello}
-${HELLO} -g 'Wuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuhhh!' > greeting-test2.out
+${HELLO} -g 'Wuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuhhh!' \
+| tr -d '\r' >greeting-test2.out
 
 : ${DIFF=diff}
 ${DIFF} greeting-test2.ok greeting-test2.out
