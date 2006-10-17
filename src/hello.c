@@ -42,10 +42,8 @@ main (int argc, char *argv[])
 
   program_name = argv[0];
 
-#if HAVE_SETLOCALE
   /* Set locale via LC_ALL.  */
   setlocale (LC_ALL, "");
-#endif
 
 #if ENABLE_NLS
   /* Set the text message domain.  */
