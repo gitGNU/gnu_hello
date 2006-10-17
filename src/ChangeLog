@@ -1,3 +1,9 @@
+2006-10-16  Karl Berry  <karl@gnu.org>
+
+	* hello.c (main): compare getopt_long result to -1, not EOF, since
+	EOF might not be -1.  Use NULL instead of (int *)0.  Both
+	suggestions from Eric Blake.
+
 2006-08-29  Karl Berry  <karl@gnu.org>
 
 	* hello.c (main) <--help output>: say that translators should add
