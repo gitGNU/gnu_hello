@@ -22,7 +22,7 @@
 
 /* String containing name the program is called with.  */
 const char *program_name;
- 
+
 static const struct option longopts[] =
 {
   { "greeting", required_argument, NULL, 'g' },
@@ -73,13 +73,13 @@ main (int argc, char *argv[])
         lose = 1;
         break;
       }
-  
+
   if (lose || optind < argc)
     {
       /* Print error message and exit.  */
       if (optind < argc)
         fputs (_("Too many arguments\n"), stderr);
-      fprintf (stderr, _("Try `%s --help' for more information.\n"), 
+      fprintf (stderr, _("Try `%s --help' for more information.\n"),
                program_name);
       exit (1);
     }
@@ -90,7 +90,7 @@ main (int argc, char *argv[])
       /* Print help info and exit.  This long message is split into
          several pieces to help translators be able to align different
          blocks and identify the various pieces.  */
-         
+
       /* TRANSLATORS: --help output 1
          no-wrap */
       fputs (_("\
@@ -118,7 +118,7 @@ Usage: %s [OPTION]...\n"), program_name);
 
       printf ("\n");
       /* TRANSLATORS: --help output 5 (end)
-         TRANSLATORS: the placeholder indicates the bug-reporting address  
+         TRANSLATORS: the placeholder indicates the bug-reporting address
          for this application. Please add _another line_ with the
          address for translation bugs.
          no-wrap */
@@ -167,7 +167,7 @@ This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
   /* Exit unsuccessfully if the write failed.  (This is implemented in
      the Gnulib module "closeout".  */
   close_stdout ();
-  
+
   /* Otherwise, exit successfully.  */
   exit (0);
 }

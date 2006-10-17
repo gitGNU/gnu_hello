@@ -1,6 +1,6 @@
 # Process this file with automake to produce Makefile.in (in this,
 # and all subdirectories).
-# 
+#
 # Makefile for the top-level directory of GNU hello.
 # Copyright (C) 1997, 1998, 2005, 2006 Free Software Foundation, Inc.
 #
@@ -30,7 +30,7 @@ SUBDIRS = contrib gnulib/lib po src doc man tests
 # `make diff' produces a diff against the previous version, given both
 # .tar.gz's in the current directory.  This should only be done when an
 # official release is made (and only if you care to provide diffs).
-# 
+#
 hello_pre = 2.1.1
 #
 diff: diffcheck

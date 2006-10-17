@@ -1,7 +1,30 @@
+2006-10-15  Bob Proulx  <bob@proulx.com>  (tiny change)
+
+	Remove trailing whitespace from files.
+	Using 'diff -w' afterward shows no changes.
+	* AUTHORS: Run Emacs function 'nuke-trailing-whitespace' on file.
+	* ChangeLog.O: Likewise.
+	* ChangeLog: Likewise.
+	* Makefile.am: Likewise.
+	* NEWS: Likewise.
+	* THANKS: Likewise.
+	* doc/ChangeLog: Likewise.
+	* doc/Makefile.am: Likewise.
+	* doc/hello.texi: Likewise.
+	* man/ChangeLog: Likewise.
+	* man/Makefile.am: Likewise.
+	* po/POTFILES.in: Likewise.
+	* src/ChangeLog: Likewise.
+	* src/Makefile.am: Likewise.
+	* src/hello.c: Likewise.
+	* tests/greeting-1: Likewise.
+	* tests/greeting-2: Likewise.
+	* tests/hello-1: Likewise.
+	* tests/traditional-1: Likewise.
 2006-10-15  Karl Berry  <karl@gnu.org>
 
 	* pretest version 2.1.93.
-	
+
 	* tests/*: try to remove \r from the output, so as not to fail on
 	Windows systems.
 
@@ -403,7 +426,7 @@
 	* install-sh: Ditto
 	* missing: Ditto.
 	* mkinstalldirs: Ditto.
-	
+
 1998-12-12  Karl Eichwalder  <ke@suse.de>
 
 	* configure.in: (VERSION): 1.3.21.
@@ -443,7 +466,7 @@
 	* configure.in (ALL_LINGUAS): Add da.
 
 1998-04-05  Karl Eichwalder  <ke@suse.de>
-	
+
 	* configure.in: (VERSION): 1.3.16.
 	* Makefile.am (ke_PRE): 1.3.15
 	* use automake 1.2h.
@@ -536,7 +559,7 @@ Wed Jan  8 16:29:06 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 Sun Jan  5 10:04:07 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
-	* configure.in (VERSION): 1.3.9. 
+	* configure.in (VERSION): 1.3.9.
 
 Sat Jan  4 10:23:55 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
@@ -555,7 +578,7 @@ Mon Dec 30 17:21:04 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* configure.in (AC_OUTPUT): Add `tests/Makefile'.
 	(AC_PROG_MAKE_SET, AC_PROG_INSTALL): Delete.
-	
+
 	* Makefile.am (SUBDIRS): Add `tests'.
 
 	* tests/: New directory.
@@ -613,7 +636,7 @@ Wed Dec  4 19:06:42 1996  Karl Eichwalder  <ke@ke.Central.DE>
 	@INTLSUB@ and @POSUB@.
 
 	* configure.in AM_GNU_GETTEXT replaces ud_GNU_GETTEXT.
-	
+
 	* Run `gettextize -f -c' to update all the files from the GNU
  	gettext library (0.10.25).
 
@@ -635,7 +658,7 @@ Tue Aug  6 11:58:19 1996  Kjetil Wiekhorst J|rgensen  <jorgens@voldsboks.pvv.ntn
 
 	* hello.c: Use ST_BLKSIZE instead of st_blksize. Use the system.h
 	headerfile.
-	
+
 
 Tue Mar 12 09:57:19 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
@@ -651,7 +674,7 @@ Sun Mar 10 13:13:03 1996  Karl Eichwalder  <ke@ke.Central.DE>
  	(AC_PREREQ) now 2.8; (AC_PROG_CPP) delete.
 
 	* make dist: 1.3.3; internal release.
-	
+
 	* aclocal.m4: ud_LC_MESSAGES, ud_WITH_NLS and ud_GNU_GETTEXT from
 	gettext-0.10.6.
 
@@ -681,7 +704,7 @@ Wed Dec 20 09:42:02 1995  Karl Eichwalder  <ke@ke.Central.DE>
 
   	* make dist 1.3-kh.
 	* configure.in (VERSION): 1.3-kh.
-	
+
 	* THANKS-ke: New file.
 
 Tue Dec 19 13:38:58 1995  Karl Eichwalder  <ke@ke.Central.DE>
@@ -694,7 +717,7 @@ Mon Dec 18 16:34:14 1995  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* doc: Move gpl.texinfo, hello.info, hello.texi, and texinfo.tex
  	to new directory `doc'.
-	
+
 	* src: Move Makefile.in, TAGS, alloca.c, getopt.c, getopt.h,
  	getopt1.c, hello.c, testdata, and version.c to new directory
  	`src'.
@@ -702,7 +725,7 @@ Mon Dec 18 16:34:14 1995  Karl Eichwalder  <ke@ke.Central.DE>
 Sat Dec 16 00:00:41 1995  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* texinfo.tex: Include version 2.150.
-	
+
 	* Makefile.in (install): Use install-info if available.
 	(clean): Add `*~ and `\#*'.
 	(configure, config.h, stamp-h, config.h.in, stamp-h.in): New

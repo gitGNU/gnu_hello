@@ -82,7 +82,7 @@ Wed Sep 16 19:30:08 1992  The King  (elvis@graceland.gnu.ai.mit.edu)
 
 Wed Sep  2 23:45:10 1992  Noah Friedman  (friedman@nutrimat.gnu.ai.mit.edu)
 
-	* hello.c (main): added zork output compatibility. 
+	* hello.c (main): added zork output compatibility.
 
 Wed Sep  2 22:58:15 1992  The King  (elvis@graceland.gnu.ai.mit.edu)
 

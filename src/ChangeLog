@@ -31,12 +31,12 @@
 	(main): Convert to ANSI C definition.
 
 2006-08-20  Karl Berry  <karl@gnu.org>
-	
+
 	* hello.c (main): try a new style for the --version output.
-	
+
 	* hello.c (main): do not exit(0) prematurely with --help or
 	--version, we need to go through close_stdout.
-	
+
 2006-07-16  Karl Berry  <karl@gnu.org>
 
 	* system.h: #include "closeout.h".
@@ -58,7 +58,7 @@
 	* Makefile.am (noinst_HEADERS): remove, gettext.h comes from gnulib.
 	(hello_LDADD): remove @ALLOCA@.
 	* hello.c: remove mail reading stuff, and hence alloca stuff.
-	
+
 	* getopt*.c, gettext.h: remove these files, they come from gnulib.
 
 2005-08-19  Karl Berry  <karl@gnu.org>
@@ -176,7 +176,7 @@ Sun Jan 19 12:10:46 1997  Karl Eichwalder  <ke@ke.Central.DE>
  	most recent year in which changes were made (according to the
  	Coding Standards).
 	Don't start error messages with capital letters.
-	
+
 Thu Jan  9 17:56:06 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c (main): Correct the address for reporting bugs.
@@ -238,7 +238,7 @@ Mon Dec 16 21:10:36 1996  Karl Eichwalder  <ke@ke.Central.DE>
 Thu Dec  5 16:15:56 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c: include <config.h> if HAVE_CONFIG_H and <locale.h> if
- 	HAVE_LOCALE_H.	
+ 	HAVE_LOCALE_H.
 	(main): adjust --help tableau.
 	(main): Change --version output to what is required by
  	GNU standards.
@@ -251,7 +251,7 @@ Thu Dec  5 16:15:56 1996  Karl Eichwalder  <ke@ke.Central.DE>
 	(bin_PROGRAMS, noinst_HEADERS, hello_SOURCES, EXTRA_DIST, datadir,
 	localedir, INCLUDES, DEFS, LDADD): set.
 	($(bin_PROGRAMS)): new target.
-	
+
 Mon Dec  2 19:55:02 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* Makefile.in (HDRS): add system.h.

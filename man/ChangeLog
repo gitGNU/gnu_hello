@@ -50,7 +50,7 @@
 	(noinst_SCRIPTS): Ditto, add $(HELP2MAN).
 	(EXTRA_DIST): Ditto, add $(man_MANS) $(noinst_SCRIPTS).
 	(hello.1): New target.
-	
+
 1999-08-21  Karl Eichwalder  <ke@gnu.franken.de>
 
 	* help2man: Add this file from the textutils package.

@@ -253,7 +253,7 @@ characters or other fancy stuff, using the Unicode UTF-8 locale.
 @opindex -t
 @cindex traditional
 @cindex modern
-Use the traditional greeting message @samp{hello, world} rather 
+Use the traditional greeting message @samp{hello, world} rather
 than the more modern @samp{Hello, world!}.
 
 @item --version
