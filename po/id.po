@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello-2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-15 17:04-0700\n"
+"POT-Creation-Date: 2006-10-18 15:40-0700\n"
 "PO-Revision-Date: 2006-09-27 20:12+0700\n"
 "Last-Translator: Tedi Heriyanto <tedi_heriyanto@yahoo.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
@@ -18,31 +18,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.2\n"
 
-#: src/hello.c:84
+#: src/hello.c:88
 msgid "Too many arguments\n"
 msgstr "Terlalu banyak argumen\n"
 
-#: src/hello.c:85
+#: src/hello.c:89
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Coba `%s --help' untuk informasi lebih jauh.\n"
 
-#. TRANSLATORS: --help output 1
-#. no-wrap
-#: src/hello.c:99
-msgid "GNU hello, THE greeting printing program.\n"
-msgstr "GNU hello, Program pencetak salam.\n"
+#: src/hello.c:96
+#, c-format
+msgid "hello, world\n"
+msgstr "hello, world\n"
 
-#. TRANSLATORS: --help output 2
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:105
+#, c-format
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+
+#: src/hello.c:114
+msgid "Hello, world!"
+msgstr "Hello, world!"
+
+#. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:104
+#: src/hello.c:149
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Pemakaian: %s [OPTION]...\n"
 
-#. TRANSLATORS: --help output 3 : options 1/2
+#. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:110
+#: src/hello.c:154
+msgid "Print a friendly, customizable greeting.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:160
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -50,9 +76,9 @@ msgstr ""
 "  -h, --help          tampilkan bantuan ini dan keluar\n"
 "  -v, --version       tampilkan informasi versi dan keluar\n"
 
-#. TRANSLATORS: --help output 4 : options 2/2
+#. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:117
+#: src/hello.c:167
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -64,15 +90,15 @@ msgstr ""
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
-#. for this application. Please add _another line_ with the
+#. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:128
+#: src/hello.c:178
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "Laporkan bug ke <%s>.\n"
 
-#: src/hello.c:138
+#: src/hello.c:196
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -84,32 +110,6 @@ msgstr ""
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
 "This is free software.  There is NO WARRANTY, to the extent permitted by "
 "law.\n"
-
-#: src/hello.c:149
-#, c-format
-msgid "hello, world\n"
-msgstr "hello, world\n"
-
-#. TRANSLATORS: Use box drawing characters or other fancy stuff
-#. if your encoding (e.g., UTF-8) allows it.  If done so add the
-#. following note, please:
-#.
-#. [Note: For best viewing results use a UTF-8 locale, please.]
-#.
-#: src/hello.c:157
-#, c-format
-msgid ""
-"+---------------+\n"
-"| Hello, world! |\n"
-"+---------------+\n"
-msgstr ""
-"+---------------+\n"
-"| Hello, world! |\n"
-"+---------------+\n"
-
-#: src/hello.c:165
-msgid "Hello, world!"
-msgstr "Hello, world!"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -206,3 +206,6 @@ msgstr "'"
 #: gnulib/lib/xalloc-die.c:37
 msgid "memory exhausted"
 msgstr "memori habis"
+
+#~ msgid "GNU hello, THE greeting printing program.\n"
+#~ msgstr "GNU hello, Program pencetak salam.\n"

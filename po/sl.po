@@ -2,13 +2,13 @@
 # Copyright (C) 1996 Free Software Foundation, Inc.
 # Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005.
 #
-# $Id: sl.po,v 1.7 2006/10/16 00:05:27 karl Exp $
+# $Id: sl.po,v 1.8 2006/10/18 22:41:24 karl Exp $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-15 17:04-0700\n"
+"POT-Creation-Date: 2006-10-18 15:40-0700\n"
 "PO-Revision-Date: 2005-08-31 12:06+0200\n"
 "Last-Translator: Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
@@ -16,31 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:84
+#: src/hello.c:88
 msgid "Too many arguments\n"
 msgstr "Preveč argumentov\n"
 
-#: src/hello.c:85
+#: src/hello.c:89
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Poskusite »%s --help« za izčrpnejša navodila.\n"
 
-#. TRANSLATORS: --help output 1
-#. no-wrap
-#: src/hello.c:99
-msgid "GNU hello, THE greeting printing program.\n"
-msgstr "GNU hello: program, ki vas pozdravi.\n"
+#  Ima to smisel prevajati? :-)
+#: src/hello.c:96
+#, c-format
+msgid "hello, world\n"
+msgstr "zdravo, svet\n"
 
-#. TRANSLATORS: --help output 2
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:105
+#, c-format
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"+---------------+\n"
+"| Zdravo, svet! |\n"
+"+---------------+\n"
+
+#: src/hello.c:114
+msgid "Hello, world!"
+msgstr "Zdravo, svet!"
+
+#. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:104
+#: src/hello.c:149
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Uporaba: %s [IZBIRA]\n"
 
-#. TRANSLATORS: --help output 3 : options 1/2
+#. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:110
+#: src/hello.c:154
+msgid "Print a friendly, customizable greeting.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:160
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -48,9 +75,9 @@ msgstr ""
 "  -h, --help          ta navodila\n"
 "  -v, --version       verzija programa\n"
 
-#. TRANSLATORS: --help output 4 : options 2/2
+#. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:117
+#: src/hello.c:167
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -63,17 +90,17 @@ msgstr ""
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
-#. for this application. Please add _another line_ with the
+#. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:128
+#: src/hello.c:178
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Poročila o napakah javite na <%s>, poročila o napakah v slovenskem prevodu\n"
 "uporabniškega vmesnika na <primoz.peterlin@biofiz.mf.uni-lj.si>.\n"
 
-#: src/hello.c:138
+#: src/hello.c:196
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -81,33 +108,6 @@ msgid ""
 "This is free software.  There is NO WARRANTY, to the extent permitted by "
 "law.\n"
 msgstr ""
-
-#  Ima to smisel prevajati? :-)
-#: src/hello.c:149
-#, c-format
-msgid "hello, world\n"
-msgstr "zdravo, svet\n"
-
-#. TRANSLATORS: Use box drawing characters or other fancy stuff
-#. if your encoding (e.g., UTF-8) allows it.  If done so add the
-#. following note, please:
-#.
-#. [Note: For best viewing results use a UTF-8 locale, please.]
-#.
-#: src/hello.c:157
-#, c-format
-msgid ""
-"+---------------+\n"
-"| Hello, world! |\n"
-"+---------------+\n"
-msgstr ""
-"+---------------+\n"
-"| Zdravo, svet! |\n"
-"+---------------+\n"
-
-#: src/hello.c:165
-msgid "Hello, world!"
-msgstr "Zdravo, svet!"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -206,6 +206,9 @@ msgstr ""
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: zmanjkalo virtualnega pomnilnika\n"
+
+#~ msgid "GNU hello, THE greeting printing program.\n"
+#~ msgstr "GNU hello: program, ki vas pozdravi.\n"
 
 #, fuzzy
 #~ msgid ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-15 17:04-0700\n"
+"POT-Creation-Date: 2006-10-18 15:40-0700\n"
 "PO-Revision-Date: 2002-03-18 17:00+0100\n"
 "Last-Translator: Jacobo Tarrio <jtarrio@iname.com>\n"
 "Language-Team: Galician <gpul-traduccion@ceu.fi.udc.es>\n"
@@ -14,31 +14,57 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/hello.c:84
+#: src/hello.c:88
 msgid "Too many arguments\n"
 msgstr "Demasiados argumentos\n"
 
-#: src/hello.c:85
+#: src/hello.c:89
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Escriba `%s --help' para obter máis información.\n"
 
-#. TRANSLATORS: --help output 1
-#. no-wrap
-#: src/hello.c:99
-msgid "GNU hello, THE greeting printing program.\n"
-msgstr "GNU hello, *O* programa que amosa saúdos.\n"
+#: src/hello.c:96
+#, c-format
+msgid "hello, world\n"
+msgstr "ola, mundo\n"
 
-#. TRANSLATORS: --help output 2
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:105
+#, c-format
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"+--------------+\n"
+"| ¡Ola, mundo! |\n"
+"+--------------+\n"
+
+#: src/hello.c:114
+msgid "Hello, world!"
+msgstr "¡Ola, mundo!"
+
+#. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:104
+#: src/hello.c:149
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Emprego: %s [OPCIÓN]\n"
 
-#. TRANSLATORS: --help output 3 : options 1/2
+#. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:110
+#: src/hello.c:154
+msgid "Print a friendly, customizable greeting.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:160
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -46,9 +72,9 @@ msgstr ""
 "  -h, --help          amosar esta axuda e saír\n"
 "  -v, --version       amosar información sobre a versión e saír\n"
 
-#. TRANSLATORS: --help output 4 : options 2/2
+#. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:117
+#: src/hello.c:167
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -61,17 +87,17 @@ msgstr ""
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
-#. for this application. Please add _another line_ with the
+#. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:128
+#: src/hello.c:178
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Informe dos erros no programa a <%s>.\n"
 "Informe dos erros na traducción a <proxecto@trasno.net>.\n"
 
-#: src/hello.c:138
+#: src/hello.c:196
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -79,32 +105,6 @@ msgid ""
 "This is free software.  There is NO WARRANTY, to the extent permitted by "
 "law.\n"
 msgstr ""
-
-#: src/hello.c:149
-#, c-format
-msgid "hello, world\n"
-msgstr "ola, mundo\n"
-
-#. TRANSLATORS: Use box drawing characters or other fancy stuff
-#. if your encoding (e.g., UTF-8) allows it.  If done so add the
-#. following note, please:
-#.
-#. [Note: For best viewing results use a UTF-8 locale, please.]
-#.
-#: src/hello.c:157
-#, c-format
-msgid ""
-"+---------------+\n"
-"| Hello, world! |\n"
-"+---------------+\n"
-msgstr ""
-"+--------------+\n"
-"| ¡Ola, mundo! |\n"
-"+--------------+\n"
-
-#: src/hello.c:165
-msgid "Hello, world!"
-msgstr "¡Ola, mundo!"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -202,6 +202,9 @@ msgstr ""
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: Memoria virtual esgotada\n"
+
+#~ msgid "GNU hello, THE greeting printing program.\n"
+#~ msgstr "GNU hello, *O* programa que amosa saúdos.\n"
 
 #, fuzzy
 #~ msgid ""

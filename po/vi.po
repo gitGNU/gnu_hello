@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.93\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-15 17:04-0700\n"
+"POT-Creation-Date: 2006-10-18 15:40-0700\n"
 "PO-Revision-Date: 2006-10-18 16:15+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com> \n"
@@ -16,31 +16,57 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.6fc1\n"
 
-#: src/hello.c:84
+#: src/hello.c:88
 msgid "Too many arguments\n"
 msgstr "Quá nhiều đối số\n"
 
-#: src/hello.c:85
+#: src/hello.c:89
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Thử lệnh « %s --help » để gọi thông tin thêm.\n"
 
-#. TRANSLATORS: --help output 1
-#. no-wrap
-#: src/hello.c:99
-msgid "GNU hello, THE greeting printing program.\n"
-msgstr "GNU hello, chương trình in lời chào mừng.\n"
+#: src/hello.c:96
+#, c-format
+msgid "hello, world\n"
+msgstr "chào thế giới\n"
 
-#. TRANSLATORS: --help output 2
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:105
+#, c-format
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"┏━━━━━━━━━┓\n"
+"┃  Chào thế giới !    ┃\n"
+"┗━━━━━━━━━┛\n"
+
+#: src/hello.c:114
+msgid "Hello, world!"
+msgstr "Chào thế giới !"
+
+#. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:104
+#: src/hello.c:149
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Cách sử dụng: %s [TÙY CHỌN]...\n"
 
-#. TRANSLATORS: --help output 3 : options 1/2
+#. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:110
+#: src/hello.c:154
+msgid "Print a friendly, customizable greeting.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:160
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -48,9 +74,9 @@ msgstr ""
 " -h, --help            hiển thị _trợ giúp_ này rồi thoát\n"
 " -v --version         hiển thị thông tin _phiên bản_ rồi thoát\n"
 
-#. TRANSLATORS: --help output 4 : options 2/2
+#. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:117
+#: src/hello.c:167
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -62,54 +88,29 @@ msgstr ""
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
-#. for this application. Please add _another line_ with the
+#. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:128
+#: src/hello.c:178
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Thông báo lỗi cho <%s>.\n"
 "Thông báo lỗi dịch cho <vi-VN@googlegroups.com> nhé.\n"
 
-#: src/hello.c:138
+#: src/hello.c:196
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by "
+"law.\n"
 msgstr ""
 "Tác quyền © năm %s Tổ Chực Phần Mềm Tự Do.\n"
 "Giấy Phép: Giấy Phép Công Cộng GNU (GPL) phiên bản 2+\n"
 "<http://www.gnu.org/licenses/gpl.html>\n"
 "Đây là phần mềm tự do. KHÔNG CÓ BẢO HÀNH NÀO CẢ,\n"
 "với điều kiện được pháp luật cho phép.\n"
-
-#: src/hello.c:149
-#, c-format
-msgid "hello, world\n"
-msgstr "chào thế giới\n"
-
-#. TRANSLATORS: Use box drawing characters or other fancy stuff
-#. if your encoding (e.g., UTF-8) allows it.  If done so add the
-#. following note, please:
-#.
-#. [Note: For best viewing results use a UTF-8 locale, please.]
-#.
-#: src/hello.c:157
-#, c-format
-msgid ""
-"+---------------+\n"
-"| Hello, world! |\n"
-"+---------------+\n"
-msgstr ""
-"┏━━━━━━━━━┓\n"
-"┃  Chào thế giới !    ┃\n"
-"┗━━━━━━━━━┛\n"
-
-#: src/hello.c:165
-msgid "Hello, world!"
-msgstr "Chào thế giới !"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -206,3 +207,6 @@ msgstr " »"
 #: gnulib/lib/xalloc-die.c:37
 msgid "memory exhausted"
 msgstr "hết bộ nhớ rồi"
+
+#~ msgid "GNU hello, THE greeting printing program.\n"
+#~ msgstr "GNU hello, chương trình in lời chào mừng.\n"

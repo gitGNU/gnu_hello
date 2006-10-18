@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-15 17:04-0700\n"
+"POT-Creation-Date: 2006-10-18 15:40-0700\n"
 "PO-Revision-Date: 2006-08-28 16:59+0300\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@buguner.name.tr>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
@@ -16,76 +16,16 @@ msgstr ""
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/hello.c:84
+#: src/hello.c:88
 msgid "Too many arguments\n"
 msgstr "Çok fazla argüman\n"
 
-#: src/hello.c:85
+#: src/hello.c:89
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Daha fazla bilgi için `%s --help' yazın.\n"
 
-#. TRANSLATORS: --help output 1
-#. no-wrap
-#: src/hello.c:99
-msgid "GNU hello, THE greeting printing program.\n"
-msgstr "GNU hello. Karşılama iletisi programı.\n"
-
-#. TRANSLATORS: --help output 2
-#. no-wrap
-#: src/hello.c:104
-#, c-format
-msgid "Usage: %s [OPTION]...\n"
-msgstr "Kullanımı: %s [SEÇENEK]...\n"
-
-#. TRANSLATORS: --help output 3 : options 1/2
-#. no-wrap
-#: src/hello.c:110
-msgid ""
-"  -h, --help          display this help and exit\n"
-"  -v, --version       display version information and exit\n"
-msgstr ""
-"  -h, --help              bu iletileri gösterir ve çıkar\n"
-"  -v, --version           sürümü gösterir ve çıkar\n"
-
-#. TRANSLATORS: --help output 4 : options 2/2
-#. no-wrap
-#: src/hello.c:117
-msgid ""
-"  -t, --traditional       use traditional greeting format\n"
-"  -n, --next-generation   use next-generation greeting format\n"
-"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
-msgstr ""
-"  -t, --traditional       geleneksel karşılama biçemi kullanılır\n"
-"  -n, --next-generation   yeni nesil karşılama biçemi kullanılır\n"
-"  -g, --greeting=METİN    karşılama iletisi olarak METİN kullanılır\n"
-
-#. TRANSLATORS: --help output 5 (end)
-#. TRANSLATORS: the placeholder indicates the bug-reporting address
-#. for this application. Please add _another line_ with the
-#. address for translation bugs.
-#. no-wrap
-#: src/hello.c:128
-#, c-format
-msgid "Report bugs to <%s>.\n"
-msgstr ""
-"Lütfen, yazılım hatalarını <%s>,\n"
-"çeviri hatalarını <gnu-tr@belgeler.org> adresine bildirin.\n"
-
-#: src/hello.c:138
-#, c-format
-msgid ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
-msgstr ""
-"Telif Hakkı © %s Free Software Foundation, Inc.\n"
-"Lisans: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Bu bir özgür yazılım olduğundan yasaların izin verdiği ölçüde\n"
-"herhangi bir garanti verilmemektedir.\n"
-
-#: src/hello.c:149
+#: src/hello.c:96
 #, c-format
 msgid "hello, world\n"
 msgstr "merhaba, dünya\n"
@@ -96,7 +36,7 @@ msgstr "merhaba, dünya\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:157
+#: src/hello.c:105
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -112,9 +52,69 @@ msgstr ""
 "unicode_start\n"
 "ile deneyin.\n"
 
-#: src/hello.c:165
+#: src/hello.c:114
 msgid "Hello, world!"
 msgstr "Merhaba, dünya!"
+
+#. TRANSLATORS: --help output 1 (synopsis)
+#. no-wrap
+#: src/hello.c:149
+#, c-format
+msgid "Usage: %s [OPTION]...\n"
+msgstr "Kullanımı: %s [SEÇENEK]...\n"
+
+#. TRANSLATORS: --help output 2 (brief description)
+#. no-wrap
+#: src/hello.c:154
+msgid "Print a friendly, customizable greeting.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:160
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help              bu iletileri gösterir ve çıkar\n"
+"  -v, --version           sürümü gösterir ve çıkar\n"
+
+#. TRANSLATORS: --help output 4: options 2/2
+#. no-wrap
+#: src/hello.c:167
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
+msgstr ""
+"  -t, --traditional       geleneksel karşılama biçemi kullanılır\n"
+"  -n, --next-generation   yeni nesil karşılama biçemi kullanılır\n"
+"  -g, --greeting=METİN    karşılama iletisi olarak METİN kullanılır\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: the placeholder indicates the bug-reporting address
+#. for this application.  Please add _another line_ with the
+#. address for translation bugs.
+#. no-wrap
+#: src/hello.c:178
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+"Lütfen, yazılım hatalarını <%s>,\n"
+"çeviri hatalarını <gnu-tr@belgeler.org> adresine bildirin.\n"
+
+#: src/hello.c:196
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by "
+"law.\n"
+msgstr ""
+"Telif Hakkı © %s Free Software Foundation, Inc.\n"
+"Lisans: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"Bu bir özgür yazılım olduğundan yasaların izin verdiği ölçüde\n"
+"herhangi bir garanti verilmemektedir.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -211,6 +211,9 @@ msgstr "'"
 #: gnulib/lib/xalloc-die.c:37
 msgid "memory exhausted"
 msgstr "bellek tükendi"
+
+#~ msgid "GNU hello, THE greeting printing program.\n"
+#~ msgstr "GNU hello. Karşılama iletisi programı.\n"
 
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-15 17:04-0700\n"
+"POT-Creation-Date: 2006-10-18 15:40-0700\n"
 "PO-Revision-Date: 2006-08-30 15:50+0300\n"
 "Last-Translator: Anton Zinoviev <zinoviev@debian.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -17,75 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/hello.c:84
+#: src/hello.c:88
 msgid "Too many arguments\n"
 msgstr "Твърде много аргументи\n"
 
-#: src/hello.c:85
+#: src/hello.c:89
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Използвайте „%s --help“ за повече информация\n"
 
-#. TRANSLATORS: --help output 1
-#. no-wrap
-#: src/hello.c:99
-msgid "GNU hello, THE greeting printing program.\n"
-msgstr "GNU hello - истинската програма за поздравяване\n"
-
-#. TRANSLATORS: --help output 2
-#. no-wrap
-#: src/hello.c:104
-#, c-format
-msgid "Usage: %s [OPTION]...\n"
-msgstr "Използване: %s [ОПЦИЯ]...\n"
-
-#. TRANSLATORS: --help output 3 : options 1/2
-#. no-wrap
-#: src/hello.c:110
-msgid ""
-"  -h, --help          display this help and exit\n"
-"  -v, --version       display version information and exit\n"
-msgstr ""
-"  -h, --help          извежда тази справка и завършва\n"
-"  -v, --version       извежда информация за версията и завършва\n"
-
-#. TRANSLATORS: --help output 4 : options 2/2
-#. no-wrap
-#: src/hello.c:117
-msgid ""
-"  -t, --traditional       use traditional greeting format\n"
-"  -n, --next-generation   use next-generation greeting format\n"
-"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
-msgstr ""
-"  -t, --traditional       използва традиционния формат за поздрав\n"
-"  -n, --next-generation   използва формат за поздрав от ново поколение\n"
-"  -g, --greeting=ТЕКСТ    използва ТЕКСТ като поздравително съобщение\n"
-
-#. TRANSLATORS: --help output 5 (end)
-#. TRANSLATORS: the placeholder indicates the bug-reporting address
-#. for this application. Please add _another line_ with the
-#. address for translation bugs.
-#. no-wrap
-#: src/hello.c:128
-#, c-format
-msgid "Report bugs to <%s>.\n"
-msgstr ""
-"Съобщавайте за програмни грешки на <%s>.\n"
-"За грешки в българския превод на <dict@fsa-bg.org>\n"
-
-#: src/hello.c:138
-#, c-format
-msgid ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
-msgstr ""
-"Авторски права: © %s Free Software Foundation, Inc.\n"
-"Лицензия: GNU GPL версия 2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Това е свободен софтуер. БЕЗ ГАРАНЦИЯ, до степента позволявана от закона.\n"
-
-#: src/hello.c:149
+#: src/hello.c:96
 #, c-format
 msgid "hello, world\n"
 msgstr "здравей, свят\n"
@@ -96,7 +37,7 @@ msgstr "здравей, свят\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:157
+#: src/hello.c:105
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -109,9 +50,68 @@ msgstr ""
 "\n"
 "[Забележка: За най-добре изглеждащ изход, моля използвайте кодиране UTF-8.]\n"
 
-#: src/hello.c:165
+#: src/hello.c:114
 msgid "Hello, world!"
 msgstr "Здравей, свят!"
+
+#. TRANSLATORS: --help output 1 (synopsis)
+#. no-wrap
+#: src/hello.c:149
+#, c-format
+msgid "Usage: %s [OPTION]...\n"
+msgstr "Използване: %s [ОПЦИЯ]...\n"
+
+#. TRANSLATORS: --help output 2 (brief description)
+#. no-wrap
+#: src/hello.c:154
+msgid "Print a friendly, customizable greeting.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:160
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help          извежда тази справка и завършва\n"
+"  -v, --version       извежда информация за версията и завършва\n"
+
+#. TRANSLATORS: --help output 4: options 2/2
+#. no-wrap
+#: src/hello.c:167
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
+msgstr ""
+"  -t, --traditional       използва традиционния формат за поздрав\n"
+"  -n, --next-generation   използва формат за поздрав от ново поколение\n"
+"  -g, --greeting=ТЕКСТ    използва ТЕКСТ като поздравително съобщение\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: the placeholder indicates the bug-reporting address
+#. for this application.  Please add _another line_ with the
+#. address for translation bugs.
+#. no-wrap
+#: src/hello.c:178
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+"Съобщавайте за програмни грешки на <%s>.\n"
+"За грешки в българския превод на <dict@fsa-bg.org>\n"
+
+#: src/hello.c:196
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by "
+"law.\n"
+msgstr ""
+"Авторски права: © %s Free Software Foundation, Inc.\n"
+"Лицензия: GNU GPL версия 2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"Това е свободен софтуер. БЕЗ ГАРАНЦИЯ, до степента позволявана от закона.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -208,3 +208,6 @@ msgstr "“"
 #: gnulib/lib/xalloc-die.c:37
 msgid "memory exhausted"
 msgstr "паметта е изчерпана"
+
+#~ msgid "GNU hello, THE greeting printing program.\n"
+#~ msgstr "GNU hello - истинската програма за поздравяване\n"

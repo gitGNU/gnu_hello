@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-15 17:04-0700\n"
+"POT-Creation-Date: 2006-10-18 15:40-0700\n"
 "PO-Revision-Date: 2006-08-26 16:00+0200\n"
 "Last-Translator: Rafa³ Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -16,31 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:84
+#: src/hello.c:88
 msgid "Too many arguments\n"
 msgstr "Za du¿o argumentów\n"
 
-#: src/hello.c:85
+#: src/hello.c:89
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "U¿yj `%s --help' dla uzyskania informacji.\n"
 
-#. TRANSLATORS: --help output 1
-#. no-wrap
-#: src/hello.c:99
-msgid "GNU hello, THE greeting printing program.\n"
-msgstr "GNU hello, program wypisuj±cy pozdrowienie.\n"
+# Ima to smisel prevajati? :-)
+#: src/hello.c:96
+#, c-format
+msgid "hello, world\n"
+msgstr "witaj ¶wiecie\n"
 
-#. TRANSLATORS: --help output 2
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:105
+#, c-format
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"+----------------+\n"
+"| Witaj ¶wiecie! |\n"
+"+----------------+\n"
+
+#: src/hello.c:114
+msgid "Hello, world!"
+msgstr "Witaj ¶wiecie!"
+
+#. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:104
+#: src/hello.c:149
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Sk³adnia: %s [OPCJA]...\n"
 
-#. TRANSLATORS: --help output 3 : options 1/2
+#. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:110
+#: src/hello.c:154
+msgid "Print a friendly, customizable greeting.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:160
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -48,9 +75,9 @@ msgstr ""
 "  -h, --help          wy¶wietlenie tego opisu i zakoñczenie\n"
 "  -v, --version       wy¶wietlenie numeru wersji i zakoñczenie\n"
 
-#. TRANSLATORS: --help output 4 : options 2/2
+#. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:117
+#: src/hello.c:167
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -62,15 +89,15 @@ msgstr ""
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
-#. for this application. Please add _another line_ with the
+#. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:128
+#: src/hello.c:178
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "Raporty o b³êdach proszê wysy³aæ do %s .\n"
 
-#: src/hello.c:138
+#: src/hello.c:196
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -83,33 +110,6 @@ msgstr ""
 "To jest wolne oprogramowanie. Autorzy nie daj± ¯ADNYCH gwarancji w "
 "granicach\n"
 "dozwolonych prawem.\n"
-
-# Ima to smisel prevajati? :-)
-#: src/hello.c:149
-#, c-format
-msgid "hello, world\n"
-msgstr "witaj ¶wiecie\n"
-
-#. TRANSLATORS: Use box drawing characters or other fancy stuff
-#. if your encoding (e.g., UTF-8) allows it.  If done so add the
-#. following note, please:
-#.
-#. [Note: For best viewing results use a UTF-8 locale, please.]
-#.
-#: src/hello.c:157
-#, c-format
-msgid ""
-"+---------------+\n"
-"| Hello, world! |\n"
-"+---------------+\n"
-msgstr ""
-"+----------------+\n"
-"| Witaj ¶wiecie! |\n"
-"+----------------+\n"
-
-#: src/hello.c:165
-msgid "Hello, world!"
-msgstr "Witaj ¶wiecie!"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -207,3 +207,6 @@ msgstr "\""
 #: gnulib/lib/xalloc-die.c:37
 msgid "memory exhausted"
 msgstr "pamiêæ wyczerpana"
+
+#~ msgid "GNU hello, THE greeting printing program.\n"
+#~ msgstr "GNU hello, program wypisuj±cy pozdrowienie.\n"
