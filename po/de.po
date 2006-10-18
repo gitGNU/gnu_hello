@@ -1,16 +1,16 @@
 # German messages for GNU hello.
-# Copyright (C) 1998, 2002 Free Software Foundation, Inc.
-# Karl Eichwalder <ke@suse.de>, 1998, 2000, 2001, 2002.
+# Copyright (C) 1998, 2002, 2006 Free Software Foundation, Inc.
+# Karl Eichwalder <ke@suse.de>, 1998, 2000, 2001, 2002, 2006.
 # Karl Eichwalder <ke@ke.Central.DE>, 1996-97.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.0.50\n"
+"Project-Id-Version: GNU hello 2.1.93\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-10-15 17:04-0700\n"
-"PO-Revision-Date: 2002-02-03 09:54+0100\n"
+"PO-Revision-Date: 2006-10-17 17:05+0200\n"
 "Last-Translator: Karl Eichwalder <ke@suse.de>\n"
-"Language-Team: German <de@li.org>\n"
+"Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,9 +33,9 @@ msgstr "Dies ist »GNU Hello«, DAS Willkommen-sag-Programm.\n"
 #. TRANSLATORS: --help output 2
 #. no-wrap
 #: src/hello.c:104
-#, fuzzy, c-format
+#, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "Syntax: %s [OPTION]\n"
+msgstr "Syntax: %s [OPTION]...\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
@@ -50,16 +50,14 @@ msgstr ""
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
 #: src/hello.c:117
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional       Traditionelle Willkommen-Formel verwenden\n"
-"  -n, --next-generation   Willkommen-Formel der „Nächsten Generation“ "
-"verwenden\n"
-"  -m, --mail              E-Mail anzeigen\n"
+"  -t, --traditional       Traditionelles Willkommensformat verwenden\n"
+"  -n, --next-generation   Willkommenformat der „Nächsten Generation“ verwenden\n"
+"  -g, --greeting=TEXT     TEXT als Willkommensmeldung verwenden\n"
 
 # Add address for the german translation.
 # 2000-03-13 05:50:49 CET -ke-
@@ -81,8 +79,7 @@ msgstr ""
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 
 #: src/hello.c:149
@@ -103,9 +100,9 @@ msgid ""
 "| Hello, world! |\n"
 "+---------------+\n"
 msgstr ""
-"╔═══════════════╗\n"
-"║ Hello, world! ║\n"
-"╚═══════════════╝\n"
+"╔══════════════╗\n"
+"║ Hallo, Welt! ║\n"
+"╚══════════════╝\n"
 
 #: src/hello.c:165
 msgid "Hello, world!"
@@ -113,7 +110,7 @@ msgstr "Hallo, Welt!"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
-msgstr ""
+msgstr "Unbekannt Systemfehler"
 
 #: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
@@ -209,12 +206,11 @@ msgstr ""
 msgid "memory exhausted"
 msgstr "%s: Arbeitsspeicher voll.\n"
 
-#, fuzzy
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-#~ "under the terms of the GNU General Public License.\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Copyright © %s Free Software Foundation, Inc.\n"
