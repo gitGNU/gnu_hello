@@ -2,6 +2,11 @@
 
 	* pretest version 2.1.95.
 	* configure.ac (AM_GNU_GETTEXT_VERSION): bump to 0.16.
+	update gnulib, too.
+	* gnulib/lib/.cvsignore: ignore .deps.
+
+	* doc/hello.texi (Sample output): remove wrong --help example.
+	Change node names to "Initial cap only" style.
 
 2006-10-18  Karl Berry  <karl@gnu.org>
 

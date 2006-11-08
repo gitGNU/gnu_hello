@@ -59,11 +59,11 @@ This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}).
 
 @menu
 * Overview::		General purpose and information.
-* Sample::		Sample output from @code{hello}.
+* Sample output::	Sample output from @code{hello}.
 * Invoking hello::	How to run @code{hello}.
-* Problems::		Reporting bugs.
-* Copying This Manual:: Copying and sharing this documentation.
-* Concept Index::	Index of concepts.
+* Reporting bugs::	Sending bug reports and feature suggestions.
+* Copying this manual:: Copying and sharing this documentation.
+* Concept index::	Index of concepts.
 @end menu
 
 
@@ -162,8 +162,8 @@ Brittenson, Charles Hannum, Roland McGrath, Noah Friedman, Karl
 Eichwalder, Karl Berry, and @w{The King}.
 
 
-@node Sample
-@chapter Sample Output
+@node Sample output
+@chapter Sample output
 
 @cindex sample output
 @cindex examples
@@ -182,30 +182,11 @@ This is the output of the command @samp{hello --traditional}:
 hello, world
 @end example
 
-@cindex help output
-This is the output of the command @samp{hello --help}:
+This is the output of the command @samp{hello --greeting=hi}:
 
 @example
-GNU hello, THE greeting printing program.
-
-Usage: hello [OPTION]...
-
-  -h, --help          display this help and exit
-  -v, --version       display version information and exit
-
-  -t, --traditional       use traditional greeting format
-  -n, --next-generation   use next-generation greeting format
-  -g, --greeting=TEXT     use TEXT as the greeting message
-
-Report bugs to bug-hello@@gnu.org.
+hi
 @end example
-
-@cindex environment variables
-For the @option{--help} output of GNU programs, it's strongly
-encouraged to include a brief (one or two sentences) description of
-what the program does, as well as the synopsis of how to run the
-program.  Any environment variables which affect execution should also
-be mentioned (Hello doesn't have any).
 
 
 @node Invoking hello
@@ -238,6 +219,13 @@ Output @var{text}.
 Print an informative help message on standard output and exit
 successfully.
 
+@cindex environment variables, help for
+For the @option{--help} output of GNU programs, it's strongly
+encouraged to include a brief (one or two sentences) description of
+what the program does, as well as the synopsis of how to run the
+program.  Any environment variables which affect execution should also
+be mentioned (Hello doesn't have any).
+
 @item --next-generation
 @itemx -n
 @opindex --next-generation
@@ -260,14 +248,14 @@ than the more modern @samp{Hello, world!}.
 @itemx -v
 @opindex --version
 @opindex -v
-Print the version number of @code{hello} on standard output
-and then exit successfully.
+Print the version number and licensing information of @code{hello} on
+standard output and then exit successfully.
 
 @end table
 
 
-@node Problems
-@chapter Reporting Bugs
+@node Reporting bugs
+@chapter Reporting bugs
 
 @cindex bug reporting
 @cindex problems
@@ -281,14 +269,15 @@ For bug reports, please include enough information for the maintainers
 to reproduce the problem.  Generally speaking, that means:
 
 @itemize @bullet
-@item The version number of Hello (which you can find by running
+@item The version numbers of Hello (which you can find by running
       @w{@samp{hello --version}}) and any other program(s) or
       manual(s) involved.
 @item Hardware and operating system names and versions.
 @item The contents of any input files necessary to reproduce the bug.
 @item The expected behavior and/or output.
 @item A description of the problem and samples of any erroneous output.
-@item Any unusual options you gave to @command{configure}.
+@item Options you gave to @command{configure} other than specifying
+      installation directories.
 @item Anything else that you think would be helpful.
 @end itemize
 
@@ -302,8 +291,8 @@ include @file{ChangeLog} entries (@pxref{Change Log,,, emacs, The GNU
 Emacs Manual}).  Please follow the existing coding style.
 
 
-@node Copying This Manual
-@appendix Copying This Manual
+@node Copying this manual
+@appendix Copying this manual
 
 @menu
 * GNU Free Documentation License::  License for copying this manual.
@@ -312,8 +301,8 @@ Emacs Manual}).  Please follow the existing coding style.
 @include fdl.texi
 
 
-@node Concept Index
-@unnumbered Concept Index
+@node Concept index
+@unnumbered Concept index
 
 @cindex tail recursion
 @printindex cp
