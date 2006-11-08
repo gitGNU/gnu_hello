@@ -1,4 +1,4 @@
-/* Close standard output, exiting with a diagnostic on error.
+/* Close standard output and standard error, exiting with a diagnostic on error.
 
    Copyright (C) 1998, 1999, 2000, 2001, 2002, 2004, 2006 Free
    Software Foundation, Inc.
@@ -17,9 +17,7 @@
    along with this program; if not, write to the Free Software Foundation,
    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.  */
 
-#ifdef HAVE_CONFIG_H
-# include <config.h>
-#endif
+#include <config.h>
 
 #include "closeout.h"
 
@@ -47,6 +45,8 @@ close_stdout_set_file_name (const char *file)
 
 /* Close standard output.  On error, issue a diagnostic and _exit
    with status 'exit_failure'.
+
+   Also close standard error.  On error, _exit with status 'exit_failure'.
 
    Since close_stdout is commonly registered via 'atexit', POSIX
    and the C standard both say that it should not call 'exit',
@@ -80,4 +80,7 @@ close_stdout (void)
 
       _exit (exit_failure);
     }
+
+   if (close_stream (stderr) != 0)
+     _exit (exit_failure);
 }

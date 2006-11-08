@@ -28,6 +28,10 @@ For the record, the first time invocation was
 Current gnulib information, including the gnulib-tool invocation with
 all the modules presently used, is recorded in gnulib/m4/gnulib-cache.m4.
 
+When updating gettext, besides the normal installation on the system, it
+is necessary to run gettextize -f in this hierarchy to update the po/
+infrastructure.  This is in addition to the gettext gnulib module.
+
 After getting the CVS sources, and installing the tools above, you can run
   sh ./autogen.sh
 to do a fresh build.  After that first time, running make should suffice.
