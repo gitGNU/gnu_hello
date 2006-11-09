@@ -42,18 +42,16 @@ main (int argc, char *argv[])
 {
   int optc;
   int t = 0, n = 0, lose = 0;
-  char *greeting = NULL;
+  const char *greeting = NULL;
 
   program_name = argv[0];
 
   /* Set locale via LC_ALL.  */
   setlocale (LC_ALL, "");
 
-#if ENABLE_NLS
   /* Set the text message domain.  */
   bindtextdomain (PACKAGE, LOCALEDIR);
   textdomain (PACKAGE);
-#endif
 
   while ((optc = getopt_long (argc, argv, "g:hntv", longopts, NULL)) != -1)
     switch (optc)
@@ -85,7 +83,8 @@ main (int argc, char *argv[])
     {
       /* Print error message and exit.  */
       if (optind < argc)
-        fputs (_("Too many arguments\n"), stderr);
+        fprintf (stderr, _("%s: extra operand: %s\n"),
+		 program_name, argv[optind]);
       fprintf (stderr, _("Try `%s --help' for more information.\n"),
                program_name);
       exit (1);
