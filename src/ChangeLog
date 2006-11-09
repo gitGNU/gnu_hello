@@ -1,3 +1,17 @@
+2006-11-09  Eric Blake  <ebb9@byu.net>
+
+	* hello.c (main): Use atexit, to avoid warning with 'gcc -Wall
+	-Werror'.
+	(my_exit): Delete, no longer needed.
+
+2006-11-09  Paul Eggert  <eggert@cs.ucla.edu>
+
+	* hello.c (main): Make greeting const char *, to avoid
+	a violation of the C standard when assigning _("...") to it.
+	Remove unnecessary #if ENABLE_NLS bracket.
+	If too many operands are given, report our name, and the first
+	extra one.
+
 2006-10-18  Karl Berry  <karl@gnu.org>
 
 	* hello.c (print_version, print_help, my_exit): new fns.

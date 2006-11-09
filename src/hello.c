@@ -33,7 +33,6 @@ static const struct option longopts[] =
   { NULL, 0, NULL, 0 }
 };
 
-static void my_exit (void);
 static void print_help (void);
 static void print_version (void);
 
@@ -53,20 +52,27 @@ main (int argc, char *argv[])
   bindtextdomain (PACKAGE, LOCALEDIR);
   textdomain (PACKAGE);
 
+  /* Even exiting has subtleties.  The /dev/full device on GNU/Linux
+     can be used for testing whether writes are checked properly.  For
+     instance, hello >/dev/null should exit unsuccessfully.  On exit,
+     if any writes failed, change the exit status.  This is
+     implemented in the Gnulib module "closeout".  */
+  atexit (close_stdout);
+
   while ((optc = getopt_long (argc, argv, "g:hntv", longopts, NULL)) != -1)
     switch (optc)
       {
       /* One goal here is having --help and --version exit immediately.  */
       case 'v':
         print_version ();
-        my_exit ();
+        exit (EXIT_SUCCESS);
         break;
       case 'g':
         greeting = optarg;
         break;
       case 'h':
         print_help ();
-        my_exit ();
+        exit (EXIT_SUCCESS);
         break;
       case 'n':
         n = 1;
@@ -87,7 +93,7 @@ main (int argc, char *argv[])
 		 program_name, argv[optind]);
       fprintf (stderr, _("Try `%s --help' for more information.\n"),
                program_name);
-      exit (1);
+      exit (EXIT_FAILURE);
     }
 
   /* Print greeting message and exit. */
@@ -114,24 +120,7 @@ main (int argc, char *argv[])
       puts (greeting);
     }
   
-  my_exit ();
-}
-
-
-
-/* Even exiting has subtleties.  The /dev/full device on GNU/Linux can
-   be used for testing whether writes are checked properly.  For instance,
-   hello >/dev/null should exit unsuccessfully.  */
-   
-static void
-my_exit (void)
-{
-  /* Exit unsuccessfully if the write failed.  This is implemented in
-     the Gnulib module "closeout".  */
-  close_stdout ();
-
-  /* Otherwise, exit successfully.  */
-  exit (0);
+  exit (EXIT_SUCCESS);
 }
 
 
