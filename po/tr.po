@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-18 15:40-0700\n"
+"POT-Creation-Date: 2006-11-08 08:43-0800\n"
 "PO-Revision-Date: 2006-08-28 16:59+0300\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@buguner.name.tr>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
@@ -208,7 +208,7 @@ msgstr "`"
 msgid "'"
 msgstr "'"
 
-#: gnulib/lib/xalloc-die.c:37
+#: gnulib/lib/xalloc-die.c:35
 msgid "memory exhausted"
 msgstr "bellek tükendi"
 

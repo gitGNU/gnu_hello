@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-18 15:40-0700\n"
+"POT-Creation-Date: 2006-11-08 08:43-0800\n"
 "PO-Revision-Date: 2006-08-26 16:00+0200\n"
 "Last-Translator: Rafa³ Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -204,7 +204,7 @@ msgid "'"
 msgstr "\""
 
 # Morda ,,Zmanjkalo pomnilnika''?
-#: gnulib/lib/xalloc-die.c:37
+#: gnulib/lib/xalloc-die.c:35
 msgid "memory exhausted"
 msgstr "pamiêæ wyczerpana"
 

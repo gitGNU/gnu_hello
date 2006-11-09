@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-18 15:40-0700\n"
+"POT-Creation-Date: 2006-11-08 08:43-0800\n"
 "PO-Revision-Date: 2002-06-24 13:21+0400\n"
 "Last-Translator: Oleg S. Tihonov <tihonov@ffke-campus.mipt.ru>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -196,7 +196,7 @@ msgstr ""
 msgid "'"
 msgstr ""
 
-#: gnulib/lib/xalloc-die.c:37
+#: gnulib/lib/xalloc-die.c:35
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: Виртуальная память исчерпана\n"

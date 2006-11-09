@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-10-18 15:40-0700\n"
+"POT-Creation-Date: 2006-11-08 08:43-0800\n"
 "PO-Revision-Date: 2002-11-03 18:02+0100\n"
 "Last-Translator: Cesar H. Roldan <cesar@hugoroldan.com.ar>\n"
 "Language-Team: es_AR <??????>\n"
@@ -198,7 +198,7 @@ msgstr ""
 msgid "'"
 msgstr ""
 
-#: gnulib/lib/xalloc-die.c:37
+#: gnulib/lib/xalloc-die.c:35
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: Memoria virtual agotada\n"
