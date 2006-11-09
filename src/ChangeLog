@@ -1,10 +1,10 @@
-2006-11-09  Eric Blake  <ebb9@byu.net>
+2006-11-09  Eric Blake	<ebb9@byu.net>
 
 	* hello.c (main): Use atexit, to avoid warning with 'gcc -Wall
 	-Werror'.
 	(my_exit): Delete, no longer needed.
 
-2006-11-09  Paul Eggert  <eggert@cs.ucla.edu>
+2006-11-09  Paul Eggert	 <eggert@cs.ucla.edu>
 
 	* hello.c (main): Make greeting const char *, to avoid
 	a violation of the C standard when assigning _("...") to it.
@@ -12,7 +12,7 @@
 	If too many operands are given, report our name, and the first
 	extra one.
 
-2006-10-18  Karl Berry  <karl@gnu.org>
+2006-10-18  Karl Berry	<karl@gnu.org>
 
 	* hello.c (print_version, print_help, my_exit): new fns.
 	(main): use them.
@@ -21,19 +21,19 @@
 
 	* hello.c (main): Remove HAVE_SETLOCALE conditional.
 
-2006-10-16  Karl Berry  <karl@gnu.org>
+2006-10-16  Karl Berry	<karl@gnu.org>
 
 	* hello.c (main): compare getopt_long result to -1, not EOF, since
 	EOF might not be -1.  Use NULL instead of (int *)0.  Both
 	suggestions from Eric Blake.
 
-2006-08-29  Karl Berry  <karl@gnu.org>
+2006-08-29  Karl Berry	<karl@gnu.org>
 
 	* hello.c (main) <--help output>: say that translators should add
 	another line for translation bugs.  Suggestion from Clytie
 	Siddall, 29 Aug 2006 17:31:37 +0930.
 
-2006-08-23  Karl Berry  <karl@gnu.org>
+2006-08-23  Karl Berry	<karl@gnu.org>
 
 	* hello.c (main): remove extra argument passed to printf in
 	version output.
@@ -49,21 +49,21 @@
 	* hello.c (longopts): Make const and static.
 	(main): Convert to ANSI C definition.
 
-2006-08-20  Karl Berry  <karl@gnu.org>
+2006-08-20  Karl Berry	<karl@gnu.org>
 
 	* hello.c (main): try a new style for the --version output.
 
 	* hello.c (main): do not exit(0) prematurely with --help or
 	--version, we need to go through close_stdout.
 
-2006-07-16  Karl Berry  <karl@gnu.org>
+2006-07-16  Karl Berry	<karl@gnu.org>
 
 	* system.h: #include "closeout.h".
 	* hello.c (main): call close_stdout, to get an error at exit.
 
 	* Makefile.am (hello_LDADD): link with libgnu.a, not libgnulib.a.
 
-2006-07-15  Karl Berry  <karl@gnu.org>
+2006-07-15  Karl Berry	<karl@gnu.org>
 
 	* hello.c: remove most of the includes, no longer needed.
 	* system.h: move system includes to here.
@@ -72,7 +72,7 @@
 
 	* hello.c (main): update copyright to 2006.
 
-2006-05-03  Karl Berry  <karl@gnu.org>
+2006-05-03  Karl Berry	<karl@gnu.org>
 
 	* Makefile.am (noinst_HEADERS): remove, gettext.h comes from gnulib.
 	(hello_LDADD): remove @ALLOCA@.
@@ -80,7 +80,7 @@
 
 	* getopt*.c, gettext.h: remove these files, they come from gnulib.
 
-2005-08-19  Karl Berry  <karl@gnu.org>
+2005-08-19  Karl Berry	<karl@gnu.org>
 
 	* src/hello.c (main): version message formatting.
 
@@ -171,7 +171,7 @@ Sat Mar 22 11:18:52 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* Makefile.am: General simplification:
 	(noinst_HEADERS, hello_DEPENDENCIES, EXTRA_DIST, datadir, LDADD,
- 	DEFS): Delete variables.
+	DEFS): Delete variables.
 	(hello_SOURCES): Add getopt.h system.h.
 	(hello_LDADD): New variable.  Add @INTLLIBS@ @ALLOCA@.
 	(INCLUDES): Remove `-I$(srcdir) -I..'; add `-DLOCALEDIR=\"$(localedir)\"'.
@@ -186,33 +186,33 @@ Sat Feb 22 18:19:40 1997  Karl Eichwalder  <ke@ke.Central.DE>
 Sat Jan 25 16:18:04 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c (main): Don't compute the program name for version
- 	output from `argv[0]'; `--help' ignores the other options (Coding
- 	Standards).
+	output from `argv[0]'; `--help' ignores the other options (Coding
+	Standards).
 
 Sun Jan 19 12:10:46 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c (main): Tweak the copyright notice.  Mention only the
- 	most recent year in which changes were made (according to the
- 	Coding Standards).
+	most recent year in which changes were made (according to the
+	Coding Standards).
 	Don't start error messages with capital letters.
 
-Thu Jan  9 17:56:06 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Thu Jan	 9 17:56:06 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c (main): Correct the address for reporting bugs.
 
-Mon Jan  6 09:09:23 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Mon Jan	 6 09:09:23 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c: Only include xmalloc() when ifdef C_ALLOCA (thanks to
- 	Kaveh R. Ghazi <ghazi@caip.rutgers.edu>).
+	Kaveh R. Ghazi <ghazi@caip.rutgers.edu>).
 
-Sun Jan  5 09:50:57 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Sun Jan	 5 09:50:57 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c (main): Add spurious \n to "Copyright...".
 
-Sat Jan  4 09:25:07 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Sat Jan	 4 09:25:07 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* Makefile.am (LDADD): Add @ALLOCA@, reported by Kaveh R. Ghazi
- 	<ghazi@caip.rutgers.edu>.
+	<ghazi@caip.rutgers.edu>.
 
 Tue Dec 31 09:00:13 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
@@ -228,13 +228,13 @@ Mon Dec 30 17:26:44 1996  Karl Eichwalder  <ke@ke.Central.DE>
 Wed Dec 18 14:02:25 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c (main): add "1993", reported by Karl Berry
- 	<karl@cs.umb.edu> (1993-06-02 12:42:13 -0400).
+	<karl@cs.umb.edu> (1993-06-02 12:42:13 -0400).
 	(main): Don't let `hello -m' loop forever when MAIL wasn't in the
- 	env and the 1st element of `dirs' didn't exist; reported (and
- 	solved) by several hello users.  Use the patch provided by
- 	amc@ecl.wustl.edu (Adam Costello)--it offers an additional message
- 	to translate--and use a part of Bart Robinson's
- 	<lomew@kira.cs.utah.edu> ChangeLog entry.
+	env and the 1st element of `dirs' didn't exist; reported (and
+	solved) by several hello users.	 Use the patch provided by
+	amc@ecl.wustl.edu (Adam Costello)--it offers an additional message
+	to translate--and use a part of Bart Robinson's
+	<lomew@kira.cs.utah.edu> ChangeLog entry.
 
 Tue Dec 17 16:54:17 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
@@ -247,20 +247,20 @@ Mon Dec 16 21:10:36 1996  Karl Eichwalder  <ke@ke.Central.DE>
 	* Makefile.am (hello_SOURCES): replace alloca.c with @ALLOCA@.
 
 	* alloca.c: new file from textutils-1.20, recommended by Kaveh
- 	R. Ghazi <ghazi@caip.rutgers.edu>.
+	R. Ghazi <ghazi@caip.rutgers.edu>.
 
 	* hello.c: include <sys/param.h> if HAVE_SYS_PARAM_H, include
- 	"system.h" not earlier than <sys/param.h>.
+	"system.h" not earlier than <sys/param.h>.
 	(main): use ST_BLKSIZE, both reported by Kaveh R. Ghazi
- 	<ghazi@caip.rutgers.edu>.
+	<ghazi@caip.rutgers.edu>.
 
-Thu Dec  5 16:15:56 1996  Karl Eichwalder  <ke@ke.Central.DE>
+Thu Dec	 5 16:15:56 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c: include <config.h> if HAVE_CONFIG_H and <locale.h> if
- 	HAVE_LOCALE_H.
+	HAVE_LOCALE_H.
 	(main): adjust --help tableau.
 	(main): Change --version output to what is required by
- 	GNU standards.
+	GNU standards.
 
 	* getopt.h, getopt.c, getopt1.c: New files from the GNU C Library.
 
@@ -271,39 +271,39 @@ Thu Dec  5 16:15:56 1996  Karl Eichwalder  <ke@ke.Central.DE>
 	localedir, INCLUDES, DEFS, LDADD): set.
 	($(bin_PROGRAMS)): new target.
 
-Mon Dec  2 19:55:02 1996  Karl Eichwalder  <ke@ke.Central.DE>
+Mon Dec	 2 19:55:02 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* Makefile.in (HDRS): add system.h.
 
 	* system.h: New file (contributed by Kaveh R. Ghazi
- 	<ghazi@caip.rutgers.edu>).
+	<ghazi@caip.rutgers.edu>).
 
 Sat Nov 30 17:45:18 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c (main): avoid illegal ptr/int combinations on alloca()
- 	(hints from Kaveh R. Ghazi <ghazi@caip.rutgers.edu>).
+	(hints from Kaveh R. Ghazi <ghazi@caip.rutgers.edu>).
 
 	* getopt.c: #include <libintl.h> (proposed by Kaveh R. Ghazi
- 	<ghazi@caip.rutgers.edu>).
+	<ghazi@caip.rutgers.edu>).
 
-Tue Mar  5 10:55:20 1996  Karl Eichwalder  <ke@ke.Central.DE>
+Tue Mar	 5 10:55:20 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* Makefile.in (check): Set LANGUAGE and LC_ALL (proposed by Ulrich
- 	Drepper <drepper@gnu.ai.mit.edu>).
+	Drepper <drepper@gnu.ai.mit.edu>).
 
 	* testdata: Remove spurious newline.
 
 	* hello.c: Stilistical chances (proposed by Ulrich Drepper
- 	<drepper@gnu.ai.mit.edu>).
+	<drepper@gnu.ai.mit.edu>).
 
 	* Makefile.in (VPATH): Add variable (reported by Ulrich Drepper
- 	<drepper@gnu.ai.mit.edu>).
+	<drepper@gnu.ai.mit.edu>).
 
 	* hello.c (main): New order for help info.
 
 	* Makefile.in (prefix): Add variable.
 
-Sun Mar  3 11:49:01 1996  Karl Eichwalder  <ke@ke.Central.DE>
+Sun Mar	 3 11:49:01 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* hello.c (main): read version information using settings in
 	config.h.
@@ -318,4 +318,9 @@ Tue Dec 19 08:26:09 1995  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* Makefile.in: New file.
 
-src/ChangeLog ends here
+Copyright (C) 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2005, 2006
+Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

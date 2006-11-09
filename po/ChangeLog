@@ -1,36 +1,36 @@
-2006-11-08  gettextize  <bug-gnu-gettext@gnu.org>
+2006-11-08  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.16.
 	* ORIG: New file, from gettext-0.16.
 
-2006-08-13  Karl Berry  <karl@gnu.org>
+2006-08-13  Karl Berry	<karl@gnu.org>
 
 	* POTFILES.in: update for gnulib, new source structure.
 
-2006-08-13  gettextize  <bug-gnu-gettext@gnu.org>
+2006-08-13  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.15.
 	* ORIG: New file, from gettext-0.15.
 
-2005-05-28  gettextize  <bug-gnu-gettext@gnu.org>
+2005-05-28  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* ORIG: New file, from gettext-0.14.5.
 
-2005-05-28  gettextize  <bug-gnu-gettext@gnu.org>
+2005-05-28  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.14.5.
 	* ORIG: New file, from gettext-0.14.5.
 
-2005-03-27  gettextize  <bug-gnu-gettext@gnu.org>
+2005-03-27  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.14.3.
 	* ORIG: New file, from gettext-0.14.3.
 
-2005-01-29  Karl Berry  <karl@gnu.org>
+2005-01-29  Karl Berry	<karl@gnu.org>
 
 	* vi.po: new file (Clytie Siddall).
 
-2004-05-16  gettextize  <bug-gnu-gettext@gnu.org>
+2004-05-16  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.14.1.
 	* Rules-quot: Upgrade to gettext-0.14.1.
@@ -122,7 +122,7 @@
 	* sk.po: Update (Marcel Telka).
 	* tr.po: Update (Nilgün Belma Bugüner).
 
-2002-05-22  gettextize  <bug-gnu-gettext@gnu.org>
+2002-05-22  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.11.2.
 	* remove-potcdate.sin: New file, from gettext-0.11.2.
@@ -147,7 +147,7 @@
 	* Makevars: New file, use Makevars.template from
 	gettext-0.11.
 
-2002-01-31  gettextize  <bug-gnu-gettext@gnu.org>
+2002-01-31  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.11.
 	* boldquot.sed: New file, from gettext-0.11.
@@ -161,7 +161,7 @@
 
 	* gl.po: Update (Jacobo Tarrio).
 
-2001-11-01  gettextize  <bug-gnu-gettext@gnu.org>
+2001-11-01  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.11-pre1.
 
@@ -193,7 +193,7 @@
 
 	* fr.po: Update (Michel Robitaille).
 
-2001-07-27  gettextize  <bug-gnu-utils@gnu.org>
+2001-07-27  gettextize	<bug-gnu-utils@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.10.39.
 
@@ -272,7 +272,7 @@
 
 	* uk.po: New file (Igor Sachko).
 
-2001-05-24  gettextize  <bug-gnu-utils@gnu.org>
+2001-05-24  gettextize	<bug-gnu-utils@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.10.38.
 
@@ -288,7 +288,7 @@
 
 	* ru.po: Update (Oleg S. Tihonov).
 
-2001-04-28  gettextize  <bug-gnu-utils@gnu.org>
+2001-04-28  gettextize	<bug-gnu-utils@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.10.37.
 
@@ -304,15 +304,15 @@
 
 	* Makefile.in.in (.po.gmo): Add --check switch.
 
-2001-03-31  gettextize  <bug-gnu-utils@gnu.org>
+2001-03-31  gettextize	<bug-gnu-utils@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.10.36.
 
-2001-03-22  gettextize  <bug-gnu-utils@gnu.org>
+2001-03-22  gettextize	<bug-gnu-utils@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.10.36.
 
-2001-03-19  gettextize  <bug-gnu-utils@gnu.org>
+2001-03-19  gettextize	<bug-gnu-utils@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.10.36.
 	* cat-id-tbl.c, stamp-cat-id: Remove files.
@@ -322,7 +322,7 @@
 	* el.po: Replace one char with '?' to please msgmerge (invalid
 	multibyte sequence).
 
-2001-03-19  gettextize  <bug-gnu-utils@gnu.org>
+2001-03-19  gettextize	<bug-gnu-utils@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.10.36.
 	* cat-id-tbl.c, stamp-cat-id: Remove files.
@@ -379,7 +379,7 @@
 
 2000-03-13  Karl EICHWALDER  <ke@gnu.franken.de>
 
-	* de.po: Translate all strings.  Resolve fuzzy marks.
+	* de.po: Translate all strings.	 Resolve fuzzy marks.
 
 2000-02-16  Karl EICHWALDER  <ke@gnu.franken.de>
 
@@ -480,7 +480,7 @@ Fri Feb 14 08:24:07 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* pl.po: Update.
 
-Sun Feb  2 18:42:04 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Sun Feb	 2 18:42:04 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* de.po es.po fr.po sv.po: Update.
 
@@ -492,19 +492,19 @@ Fri Jan 10 13:09:59 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* fr.po: Update.
 
-Wed Jan  8 08:53:41 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Wed Jan	 8 08:53:41 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* no.po: Update.
 
-Tue Jan  7 18:34:57 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Tue Jan	 7 18:34:57 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* es.po: Update.
 
-Sun Jan  5 09:58:47 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Sun Jan	 5 09:58:47 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* de.po fr.po: Updates.
 
-Sat Jan  4 17:49:59 1997  Karl Eichwalder  <ke@ke.Central.DE>
+Sat Jan	 4 17:49:59 1997  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* es.po: Update.
 
@@ -520,7 +520,7 @@ Wed Dec 11 20:05:00 1996  Karl Eichwalder  <ke@ke.Central.DE>
 	* POTFILES.in: remove `src/getopt1.c'.
 
 	* de.po es.po fr.po ko.po nl.po no.po pl.po pt.po sl.po sv.po: new
- 	files from alpha.gnu.ai.mit.edu:/gnu/po/maint/hello.
+	files from alpha.gnu.ai.mit.edu:/gnu/po/maint/hello.
 
 Fri Mar 15 12:43:14 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
@@ -531,15 +531,15 @@ Tue Mar 12 10:15:26 1996  Karl Eichwalder  <ke@ke.Central.DE>
 	* mailshar gnu-translation@prep.ai.mit.edu
 	hello-1.3.4/po/hello.pot.
 
-Fri Mar  8 20:40:50 1996  Karl Eichwalder  <ke@ke.Central.DE>
+Fri Mar	 8 20:40:50 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* de.po: New.
 
-Tue Mar  5 09:58:14 1996  Karl Eichwalder  <ke@ke.Central.DE>
+Tue Mar	 5 09:58:14 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* de.po: New.  Reflect current version 1.3.2; now 1.3.3.
 
-Sun Mar  3 21:06:15 1996  Karl Eichwalder  <ke@ke.Central.DE>
+Sun Mar	 3 21:06:15 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* Makefile.in.in ($(PACKAGE).pot): Add POTFILES.
 
@@ -552,10 +552,11 @@ Tue Dec 19 10:16:39 1995  Karl Eichwalder  <ke@ke.Central.DE>
 Fri Dec 15 11:59:51 1995  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* POTFILES.in: New file.  Lists `getopt.c', `getopt1.c',
- 	`hello.c', and `version.c'.
+	`hello.c', and `version.c'.
 
-po/ChangeLog ends here
+Copyright (C) 1995, 1996, 1997, 1998, 1999, 2002, 2003, 2004, 2005, 2006
+Free Software Foundation, Inc.
 
-Local Variables:
-coding: utf-8
-End:
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
