@@ -13,7 +13,7 @@
 
 2006-08-22  Bruno Haible  <bruno@clisp.org>
 
-	* greeting-moon: New file.
+	* greeting-2: New file.
 	* Makefile.am (TESTS): Add it.
 
 2006-08-13  Karl Berry  <karl@gnu.org>
