@@ -1,3 +1,9 @@
+2006-11-13  Karl Berry  <karl@gnu.org>
+
+	* hello.c (main): reinstall #if ENABLE_NLS, to avoid 
+        warnings with  --disable-nls CPPFLAGS=-Wall.  An alternative would
+	be to #define them away in system.h.  From Bruno Haible.
+
 2006-11-09  Eric Blake	<ebb9@byu.net>
 
 	* hello.c (main): Use atexit, to avoid warning with 'gcc -Wall

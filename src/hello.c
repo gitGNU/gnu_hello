@@ -48,9 +48,11 @@ main (int argc, char *argv[])
   /* Set locale via LC_ALL.  */
   setlocale (LC_ALL, "");
 
+#if ENABLE_NLS
   /* Set the text message domain.  */
   bindtextdomain (PACKAGE, LOCALEDIR);
   textdomain (PACKAGE);
+#endif
 
   /* Even exiting has subtleties.  The /dev/full device on GNU/Linux
      can be used for testing whether writes are checked properly.  For
@@ -62,7 +64,8 @@ main (int argc, char *argv[])
   while ((optc = getopt_long (argc, argv, "g:hntv", longopts, NULL)) != -1)
     switch (optc)
       {
-      /* One goal here is having --help and --version exit immediately.  */
+      /* One goal here is having --help and --version exit immediately,
+         per GNU coding standards.  */
       case 'v':
         print_version ();
         exit (EXIT_SUCCESS);
