@@ -48,6 +48,7 @@ AC_DEFUN([gl_INIT],
   gl_GETOPT
   dnl you must add AM_GNU_GETTEXT([external]) or similar to configure.ac.
   AM_GNU_GETTEXT_VERSION([0.15])
+  gl_INLINE
   gl_QUOTEARG
   AM_STDBOOL_H
   gl_HEADER_UNISTD
