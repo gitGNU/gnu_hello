@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello-2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-11-08 08:43-0800\n"
+"POT-Creation-Date: 2006-11-13 16:45-0800\n"
 "PO-Revision-Date: 2006-09-27 20:12+0700\n"
 "Last-Translator: Tedi Heriyanto <tedi_heriyanto@yahoo.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
@@ -18,16 +18,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.2\n"
 
-#: src/hello.c:88
-msgid "Too many arguments\n"
-msgstr "Terlalu banyak argumen\n"
+#: src/hello.c:95
+#, c-format
+msgid "%s: extra operand: %s\n"
+msgstr ""
 
-#: src/hello.c:89
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Coba `%s --help' untuk informasi lebih jauh.\n"
 
-#: src/hello.c:96
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
 msgstr "hello, world\n"
@@ -38,7 +39,7 @@ msgstr "hello, world\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:105
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -49,26 +50,26 @@ msgstr ""
 "| Hello, world! |\n"
 "+---------------+\n"
 
-#: src/hello.c:114
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "Hello, world!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:149
+#: src/hello.c:140
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Pemakaian: %s [OPTION]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:154
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
 msgstr ""
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:160
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -78,7 +79,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:167
+#: src/hello.c:158
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -93,12 +94,12 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:178
+#: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "Laporkan bug ke <%s>.\n"
 
-#: src/hello.c:196
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -206,6 +207,9 @@ msgstr "'"
 #: gnulib/lib/xalloc-die.c:35
 msgid "memory exhausted"
 msgstr "memori habis"
+
+#~ msgid "Too many arguments\n"
+#~ msgstr "Terlalu banyak argumen\n"
 
 #~ msgid "GNU hello, THE greeting printing program.\n"
 #~ msgstr "GNU hello, Program pencetak salam.\n"

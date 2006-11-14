@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.1.93\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-11-08 08:43-0800\n"
+"POT-Creation-Date: 2006-11-13 16:45-0800\n"
 "PO-Revision-Date: 2006-10-17 17:05+0200\n"
 "Last-Translator: Karl Eichwalder <ke@suse.de>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
@@ -15,16 +15,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/hello.c:88
-msgid "Too many arguments\n"
-msgstr "Zu viele Parameter\n"
+#: src/hello.c:95
+#, c-format
+msgid "%s: extra operand: %s\n"
+msgstr ""
 
-#: src/hello.c:89
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "»%s --help« gibt weitere Informationen.\n"
 
-#: src/hello.c:96
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
 msgstr "hallo, Welt\n"
@@ -35,7 +36,7 @@ msgstr "hallo, Welt\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:105
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -46,26 +47,26 @@ msgstr ""
 "║ Hallo, Welt! ║\n"
 "╚══════════════╝\n"
 
-#: src/hello.c:114
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "Hallo, Welt!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:149
+#: src/hello.c:140
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Syntax: %s [OPTION]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:154
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
 msgstr ""
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:160
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -75,7 +76,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:167
+#: src/hello.c:158
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -93,7 +94,7 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:178
+#: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
@@ -101,7 +102,7 @@ msgstr ""
 "Für die Verbesserung der deutschen Programm-Meldungen ist die Mailingliste\n"
 "<de@li.org> zuständig.\n"
 
-#: src/hello.c:196
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -207,6 +208,9 @@ msgstr ""
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: Arbeitsspeicher voll.\n"
+
+#~ msgid "Too many arguments\n"
+#~ msgstr "Zu viele Parameter\n"
 
 #~ msgid "GNU hello, THE greeting printing program.\n"
 #~ msgstr "Dies ist »GNU Hello«, DAS Willkommen-sag-Programm.\n"

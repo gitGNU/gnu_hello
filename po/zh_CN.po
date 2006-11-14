@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-11-08 08:43-0800\n"
+"POT-Creation-Date: 2006-11-13 16:45-0800\n"
 "PO-Revision-Date: 2004-03-04 19:15+0800\n"
 "Last-Translator: Meng Jie <zuxyhere@eastday.com>\n"
 "Language-Team: Chinese (simplified) <i18n-translation@lists.linux.net.cn>\n"
@@ -15,16 +15,17 @@ msgstr ""
 "Content-Type: text/plain; charset=gb2312\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/hello.c:88
-msgid "Too many arguments\n"
-msgstr "参数太多\n"
+#: src/hello.c:95
+#, c-format
+msgid "%s: extra operand: %s\n"
+msgstr ""
 
-#: src/hello.c:89
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "尝试‘%s --help’以获得更多信息。\n"
 
-#: src/hello.c:96
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
 msgstr "世界你好\n"
@@ -39,7 +40,7 @@ msgstr "世界你好\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:105
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -50,7 +51,7 @@ msgstr ""
 "│世界你好！│\n"
 "└─────┘\n"
 
-#: src/hello.c:114
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "世界你好！"
 
@@ -58,14 +59,14 @@ msgstr "世界你好！"
 #  no-wrap
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:149
+#: src/hello.c:140
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "用法：%s [选项]\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:154
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
 msgstr ""
 
@@ -73,7 +74,7 @@ msgstr ""
 #  no-wrap
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:160
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -85,7 +86,7 @@ msgstr ""
 #  no-wrap
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:167
+#: src/hello.c:158
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -105,12 +106,12 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:178
+#: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "向<%s>报告程序缺陷。\n"
 
-#: src/hello.c:196
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -215,6 +216,9 @@ msgstr ""
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s：虚拟内存已耗尽\n"
+
+#~ msgid "Too many arguments\n"
+#~ msgstr "参数太多\n"
 
 #  TRANSLATORS: --help output 1
 #  no-wrap

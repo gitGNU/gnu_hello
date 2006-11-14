@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-11-08 08:43-0800\n"
+"POT-Creation-Date: 2006-11-13 16:45-0800\n"
 "PO-Revision-Date: 2002-02-15 12:14+0200\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: Danish <dansk@klid.dk>\n"
@@ -15,16 +15,17 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:88
-msgid "Too many arguments\n"
-msgstr "For mange argumenter\n"
+#: src/hello.c:95
+#, c-format
+msgid "%s: extra operand: %s\n"
+msgstr ""
 
-#: src/hello.c:89
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Prøv '%s --help' for mere information.\n"
 
-#: src/hello.c:96
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
 msgstr "hej verden\n"
@@ -35,7 +36,7 @@ msgstr "hej verden\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:105
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -46,26 +47,26 @@ msgstr ""
 "| Hej, verden! |\n"
 "+---------------+\n"
 
-#: src/hello.c:114
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "Hej verden!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:149
+#: src/hello.c:140
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Brug: %s [TILVALG]\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:154
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
 msgstr ""
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:160
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -75,7 +76,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:167
+#: src/hello.c:158
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -91,14 +92,14 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:178
+#: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Rapportér fejl til <%s>. Rapportér fejl med danske oversættelser til "
 "<dansk@klid.dk>\n"
 
-#: src/hello.c:196
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -203,6 +204,9 @@ msgstr ""
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: virtuel hukommelse er opbrugt\n"
+
+#~ msgid "Too many arguments\n"
+#~ msgstr "For mange argumenter\n"
 
 #~ msgid "GNU hello, THE greeting printing program.\n"
 #~ msgstr "Dette er GNU Hello, PROGRAMMET for udskrift af hilsner.\n"
