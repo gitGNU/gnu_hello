@@ -1,15 +1,15 @@
 # Polish translations for the GNU hello messages
-# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004 Free Software Foundation, Inc.
-# Rafa³ Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004.
+# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006 Free Software Foundation, Inc.
+# Rafa³ Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006.
 # corrections: Pawe³ Krawczyk <kravietz@pipeta.chemia.pk.edu.pl>, 1996
 # typos corrections in 2.1.1: PLD 2003
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.1.91\n"
+"Project-Id-Version: GNU hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-11-13 16:45-0800\n"
-"PO-Revision-Date: 2006-08-26 16:00+0200\n"
+"PO-Revision-Date: 2006-11-16 17:00+0100\n"
 "Last-Translator: Rafa³ Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: nadmiarowy argument: %s\n"
 
 #: src/hello.c:97
 #, c-format
@@ -64,7 +64,7 @@ msgstr "Sk³adnia: %s [OPCJA]...\n"
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Wypisuje przyjazne konfigurowalne przywitanie.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -103,13 +103,11 @@ msgstr "Raporty o b³êdach proszê wysy³aæ do %s .\n"
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "Licencja: GNU GPL wersja 2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"To jest wolne oprogramowanie. Autorzy nie daj± ¯ADNYCH gwarancji w "
-"granicach\n"
+"To jest wolne oprogramowanie. Autorzy nie daj± ¯ADNYCH gwarancji w granicach\n"
 "dozwolonych prawem.\n"
 
 #: gnulib/lib/error.c:125
@@ -208,9 +206,3 @@ msgstr "\""
 #: gnulib/lib/xalloc-die.c:35
 msgid "memory exhausted"
 msgstr "pamiêæ wyczerpana"
-
-#~ msgid "Too many arguments\n"
-#~ msgstr "Za du¿o argumentów\n"
-
-#~ msgid "GNU hello, THE greeting printing program.\n"
-#~ msgstr "GNU hello, program wypisuj±cy pozdrowienie.\n"

@@ -4,20 +4,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.91\n"
+"Project-Id-Version: hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-11-13 16:45-0800\n"
-"PO-Revision-Date: 2006-08-28 17:24+0300\n"
+"PO-Revision-Date: 2006-11-16 21:00+0200\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: lisätoiminto: %s\n"
 
 #: src/hello.c:97
 #, c-format
@@ -42,9 +42,10 @@ msgid ""
 "| Hello, world! |\n"
 "+---------------+\n"
 msgstr ""
-"+----------------+\n"
-"| Terve maailma! |\n"
-"+----------------+\n"
+"[Huom: Parhaan näkymän saat käyttämällä UTF-8-merkistöä.]\n"
+"┌────────────────┐\n"
+"│ Terve maailma! │\n"
+"└────────────────┘\n"
 
 #: src/hello.c:122
 msgid "Hello, world!"
@@ -61,7 +62,7 @@ msgstr "Käyttö: %s [VALITSIN]...\n"
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Tulosta ystävällinen, muokattava tervehdys.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -102,8 +103,7 @@ msgstr ""
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
 "Lisenssi: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
@@ -215,8 +215,7 @@ msgstr "muisti loppui"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
