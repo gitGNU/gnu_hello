@@ -18,6 +18,7 @@ noinst_LIBRARIES = libgnu.a
 libgnu_a_SOURCES =
 libgnu_a_LIBADD = $(gl_LIBOBJS)
 libgnu_a_DEPENDENCIES = $(gl_LIBOBJS)
+EXTRA_libgnu_a_SOURCES =
 noinst_HEADERS =
 EXTRA_DIST =
 BUILT_SOURCES =
@@ -35,6 +36,8 @@ AM_CPPFLAGS =
 
 EXTRA_DIST += close-stream.c close-stream.h
 
+EXTRA_libgnu_a_SOURCES += close-stream.c
+
 ## end   gnulib module close-stream
 
 ## begin gnulib module closeout
@@ -42,12 +45,16 @@ EXTRA_DIST += close-stream.c close-stream.h
 
 EXTRA_DIST += closeout.c closeout.h
 
+EXTRA_libgnu_a_SOURCES += closeout.c
+
 ## end   gnulib module closeout
 
 ## begin gnulib module error
 
 
 EXTRA_DIST += error.c error.h
+
+EXTRA_libgnu_a_SOURCES += error.c
 
 ## end   gnulib module error
 
@@ -62,12 +69,16 @@ libgnu_a_SOURCES += exit.h
 
 EXTRA_DIST += exitfail.c exitfail.h
 
+EXTRA_libgnu_a_SOURCES += exitfail.c
+
 ## end   gnulib module exitfail
 
 ## begin gnulib module fpending
 
 
 EXTRA_DIST += __fpending.c __fpending.h
+
+EXTRA_libgnu_a_SOURCES += __fpending.c
 
 ## end   gnulib module fpending
 
@@ -85,6 +96,8 @@ getopt.h: getopt_.h
 MOSTLYCLEANFILES += getopt.h getopt.h-t
 
 EXTRA_DIST += getopt.c getopt1.c getopt_.h getopt_int.h
+
+EXTRA_libgnu_a_SOURCES += getopt.c getopt1.c
 
 ## end   gnulib module getopt
 
@@ -112,6 +125,8 @@ libgnu_a_SOURCES += gettext.h
 
 
 EXTRA_DIST += quotearg.c quotearg.h
+
+EXTRA_libgnu_a_SOURCES += quotearg.c
 
 ## end   gnulib module quotearg
 
@@ -151,6 +166,8 @@ MOSTLYCLEANFILES += unistd.h
 
 
 EXTRA_DIST += xalloc.h xmalloc.c
+
+EXTRA_libgnu_a_SOURCES += xmalloc.c
 
 ## end   gnulib module xalloc
 
