@@ -6,10 +6,10 @@
 # Filip Miletic <f.miletic@ewi.tudelft.nl>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.91\n"
+"Project-Id-Version: hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-11-13 16:45-0800\n"
-"PO-Revision-Date: 2006-09-02 12:17-0400\n"
+"PO-Revision-Date: 2006-11-16 22:54-0500\n"
 "Last-Translator: Aleksandar Jelenak <jelenak@verizon.net>\n"
 "Language-Team: Serbian <gnu@prevod.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: операнд вишак: %s\n"
 
 #: src/hello.c:97
 #, c-format
@@ -63,7 +63,7 @@ msgstr "Употреба: %s [ОПЦИЈА]...\n"
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Испиши пријатељски, прилагодљив поздрав.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -104,13 +104,11 @@ msgstr ""
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Ауторска права (C) %s Free Software Foundation, Inc.\n"
 "Лиценца: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Ово је слободни софтвер.  Без ИКАКВЕ ГАРАНЦИЈЕ, колико је законом "
-"дозвољено.\n"
+"Ово је слободни софтвер.  Без ИКАКВЕ ГАРАНЦИЈЕ, колико је законом дозвољено.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
