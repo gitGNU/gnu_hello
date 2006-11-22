@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.91\n"
+"Project-Id-Version: hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-11-13 16:45-0800\n"
-"PO-Revision-Date: 2006-08-25 15:48-0500\n"
-"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"PO-Revision-Date: 2006-11-15 15:48-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: oibreann breise: %s\n"
 
 #: src/hello.c:97
 #, c-format
@@ -62,7 +62,7 @@ msgstr "Úsáid: %s [ROGHA]...\n"
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Priontáil beannacht chairdiúil in-saincheaptha.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -101,13 +101,11 @@ msgstr "Seol tuairiscí fabhtanna chuig <%s>.\n"
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
 "Ceadúnas: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Is saorbhogearra é seo.  Níl baránta AR BITH ann, an oiread atá ceadaithe de "
-"réir dlí.\n"
+"Is saorbhogearra é seo.  Níl baránta AR BITH ann, an oiread atá ceadaithe de réir dlí.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"

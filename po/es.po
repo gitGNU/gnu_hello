@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.1.93\n"
+"Project-Id-Version: GNU hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-11-13 16:45-0800\n"
-"PO-Revision-Date: 2006-10-19 18:23+0200\n"
+"PO-Revision-Date: 2006-11-21 10:31+0100\n"
 "Last-Translator: Santiago Vila Doncel <sanvila@unex.es>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: operando extra: %s\n"
 
 #: src/hello.c:97
 #, c-format
@@ -62,7 +62,7 @@ msgstr "Modo de empleo: %s [OPCIÓN]...\n"
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Muestra un saludo amistoso y configurable.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -104,13 +104,11 @@ msgstr ""
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "Licencia: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Esto es software libre. No hay NINGUNA GARANTÍA, hasta donde permite la "
-"ley.\n"
+"Esto es software libre. No hay NINGUNA GARANTÍA, hasta donde permite la ley.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -217,19 +215,15 @@ msgstr "memoria agotada"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "No hay NINGUNA garantía; ni siquiera de COMERCIABILIDAD o IDONEIDAD PARA "
-#~ "UN\n"
-#~ "FIN DETERMINADO. Se pueden redistribuir copias de GNU %s bajo los "
-#~ "términos\n"
+#~ "No hay NINGUNA garantía; ni siquiera de COMERCIABILIDAD o IDONEIDAD PARA UN\n"
+#~ "FIN DETERMINADO. Se pueden redistribuir copias de GNU %s bajo los términos\n"
 #~ "de la Licencia Pública General de GNU.\n"
-#~ "Para más información sobre estas cuestiones, vea el fichero llamado "
-#~ "COPYING.\n"
+#~ "Para más información sobre estas cuestiones, vea el fichero llamado COPYING.\n"
 
 #~ msgid "%s: Incompatible flags: -m and -t\n"
 #~ msgstr "%s: Opciones incompatibles: -m y -t\n"
