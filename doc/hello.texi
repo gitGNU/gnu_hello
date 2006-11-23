@@ -112,7 +112,7 @@ for configuration.
 
 @item
 @cindex Gnulib
-It uses Gnulib (@pxref{Top,,Gnulib,gnulib,GNU gnulib}) to enhance
+It uses Gnulib (@pxref{Top,,Gnulib,gnulib,GNU Gnulib}) to enhance
 portability and avoid duplication of common sources.
 
 @item

@@ -1,3 +1,7 @@
+2006-11-23  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Introduction): capitalize Gnulib, for consistency.
+
 2006-11-08  Karl Berry  <karl@gnu.org>
 
 	* hello.texi (Sample output): remove wrong --help example.
