@@ -8,10 +8,10 @@ See the manual for detailed information.
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
 
+Version 2.2 (23 November 2006)
 * Remove creeping non-feature of reading mail; simplify code accordingly.
 * Many improvements to the tests to make them more useful examples.
 * --help and --version exit immediately, as specified by GNU standards.
-
 * Distribution:
   . use gnulib for shared source files, such as texinfo.tex and getopt.c.
   . update for automake 1.10, autoconf 2.61, gettext 0.16.

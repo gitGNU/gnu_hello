@@ -1,3 +1,9 @@
+2006-11-23  Karl Berry  <karl@gnu.org>
+
+	* Version 2.2.
+	
+	* Makefile.am (po-check): add utility target (from coreutils).
+
 2006-11-09  Karl Berry  <karl@gnu.org>
 
 	* pretest version 2.1.96.

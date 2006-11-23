@@ -81,4 +81,3 @@ po-check:
 	  diff -u $@-1 $@-2 || exit 1;					\
 	  rm -f $@-1 $@-2;						\
 	fi
-
