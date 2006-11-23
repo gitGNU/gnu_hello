@@ -7,10 +7,10 @@
 # following subject line: TP-Robot hello-VERSION.bg.po
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.91\n"
+"Project-Id-Version: hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2006-11-13 16:45-0800\n"
-"PO-Revision-Date: 2006-08-30 15:50+0300\n"
+"PO-Revision-Date: 2006-11-23 22:40+0200\n"
 "Last-Translator: Anton Zinoviev <zinoviev@debian.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: излишен операнд: %s\n"
 
 #: src/hello.c:97
 #, c-format
@@ -66,7 +66,7 @@ msgstr "Използване: %s [ОПЦИЯ]...\n"
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Извежда дружелюбен поздрав, който може да се настройва.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
