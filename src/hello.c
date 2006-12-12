@@ -56,7 +56,7 @@ main (int argc, char *argv[])
 
   /* Even exiting has subtleties.  The /dev/full device on GNU/Linux
      can be used for testing whether writes are checked properly.  For
-     instance, hello >/dev/null should exit unsuccessfully.  On exit,
+     instance, hello >/dev/full should exit unsuccessfully.  On exit,
      if any writes failed, change the exit status.  This is
      implemented in the Gnulib module "closeout".  */
   atexit (close_stdout);
