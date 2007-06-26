@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-11-13 16:45-0800\n"
+"POT-Creation-Date: 2007-06-26 15:18-0700\n"
 "PO-Revision-Date: 2002-08-04 08:00-0500\n"
 "Last-Translator: Michel Robitaille <robitail@IRO.UMontreal.CA>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -101,9 +101,10 @@ msgstr "Rapporter toutes anomalies à <%s>.\n"
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 
 #: gnulib/lib/error.c:125
@@ -190,11 +191,11 @@ msgstr ""
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:245
+#: gnulib/lib/quotearg.c:229
 msgid "`"
 msgstr ""
 
-#: gnulib/lib/quotearg.c:246
+#: gnulib/lib/quotearg.c:230
 msgid "'"
 msgstr ""
 

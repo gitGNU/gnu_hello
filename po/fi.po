@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-11-13 16:45-0800\n"
+"POT-Creation-Date: 2007-06-26 15:18-0700\n"
 "PO-Revision-Date: 2006-11-16 21:00+0200\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
@@ -99,12 +99,13 @@ msgstr ""
 "voit ilmoittaa listalle <translation-team-fi@lists.sourceforge.net>.\n"
 
 #: src/hello.c:187
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by "
-"law.\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
 "Lisenssi: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
@@ -195,11 +196,11 @@ msgstr "kirjoitusvirhe"
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:245
+#: gnulib/lib/quotearg.c:229
 msgid "`"
 msgstr "”"
 
-#: gnulib/lib/quotearg.c:246
+#: gnulib/lib/quotearg.c:230
 msgid "'"
 msgstr "”"
 

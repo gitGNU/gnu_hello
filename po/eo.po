@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.2\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2006-11-13 16:45-0800\n"
+"POT-Creation-Date: 2007-06-26 15:18-0700\n"
 "PO-Revision-Date: 2006-12-11 09:02+0000\n"
 "Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
@@ -96,15 +96,18 @@ msgid "Report bugs to <%s>.\n"
 msgstr "Raportu cimojn al <%s>.\n"
 
 #: src/hello.c:187
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"This is free software.  There is NO WARRANTY, to the extent permitted by law.\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Kopirajto (C) %s Free Software Foundation, Inc.\n"
 "Rajtigilo: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Ĉi tio estas libera programo. Estas NENIA GARANTIO, laŭ la grado leĝe permesata.\n"
+"Ĉi tio estas libera programo. Estas NENIA GARANTIO, laŭ la grado leĝe "
+"permesata.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -190,11 +193,11 @@ msgstr "skriberaro"
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:245
+#: gnulib/lib/quotearg.c:229
 msgid "`"
 msgstr "“"
 
-#: gnulib/lib/quotearg.c:246
+#: gnulib/lib/quotearg.c:230
 msgid "'"
 msgstr "”"
 
@@ -211,7 +214,8 @@ msgstr "memoro elĉerpiĝis"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
+#~ "terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
