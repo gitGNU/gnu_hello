@@ -9,7 +9,7 @@
 This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}),
 which prints a friendly greeting (and serves as an example GNU package).
 
-Copyright @copyright{} 1992, 1993, 1996, 2002, 2005, 2006 Free
+Copyright @copyright{} 1992, 1993, 1996, 2002, 2005, 2006, 2007 Free
 Software Foundation, Inc.
 
 @quotation
@@ -21,9 +21,9 @@ and with the Back-Cover Texts as in (a) below.  A copy of the license
 is included in the section entitled ``GNU Free Documentation
 License.''
 
-(a) The FSF's Back-Cover Text is: ``You have freedom to copy and modify
-this GNU Manual, like GNU software.  Copies published by the Free
-Software Foundation raise funds for GNU development.''
+(a) The FSF's Back-Cover Text is: ``You are free to copy and modify
+this GNU Manual. Buying copies from GNU Press supports the FSF in
+developing GNU and promoting software freedom.''
 @end quotation
 @end copying
 
