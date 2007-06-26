@@ -1,3 +1,7 @@
+2007-06-26  Karl Berry  <karl@gnu.org>
+
+	* hello.c (print_version): update notice in --version.
+
 2006-12-11  Karl Berry  <karl@gnu.org>
 
 	* hello.c: /dev/full, not /dev/null. Report from Reinder Verlinde,
