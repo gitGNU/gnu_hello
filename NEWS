@@ -2,12 +2,16 @@ This NEWS file records noteworthy changes, very tersely.
 See the manual for detailed information.
 
   Copyright (C) 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001,
-  2002, 2003, 2005, 2006 Free Software Foundation, Inc.
+  2002, 2003, 2005, 2006, 2007 Free Software Foundation, Inc.
 
   Copying and distribution of this file, with or without modification,
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
 
+Version 2.3 (29 June 2007)
+* GPL version 3.
+
+
 Version 2.2 (23 November 2006)
 * Remove creeping non-feature of reading mail; simplify code accordingly.
 * Many improvements to the tests to make them more useful examples.
