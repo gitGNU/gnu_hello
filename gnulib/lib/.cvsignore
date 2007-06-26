@@ -1,7 +1,7 @@
 Makefile
 Makefile.in
 .deps
-stdlib_.h
-unistd_.h
-wchar_.h
-wctype_.h
+stdlib.h
+unistd.h
+wchar.h
+wctype.h
