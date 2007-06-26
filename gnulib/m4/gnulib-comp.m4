@@ -1,5 +1,5 @@
 # DO NOT EDIT! GENERATED AUTOMATICALLY!
-# Copyright (C) 2004-2006 Free Software Foundation, Inc.
+# Copyright (C) 2004-2007 Free Software Foundation, Inc.
 #
 # This file is free software, distributed under the terms of the GNU
 # General Public License.  As a special exception to the GNU General
@@ -26,7 +26,6 @@ AC_DEFUN([gl_EARLY],
   m4_pattern_allow([^gl_LTLIBOBJS$])dnl a variable
   AC_REQUIRE([AC_PROG_RANLIB])
   AC_REQUIRE([AC_GNU_SOURCE])
-  AC_REQUIRE([gl_LOCK_EARLY])
 ])
 
 # This macro should be invoked from ./configure.ac, in the section
@@ -42,17 +41,23 @@ AC_DEFUN([gl_INIT],
   gl_ltlibdeps=
   gl_source_base='gnulib/lib'
   gl_CLOSE_STREAM
+  gl_MODULE_INDICATOR([close-stream])
   gl_CLOSEOUT
   gl_ERROR
   gl_EXITFAIL
   gl_FUNC_FPENDING
   gl_GETOPT
   dnl you must add AM_GNU_GETTEXT([external]) or similar to configure.ac.
-  AM_GNU_GETTEXT_VERSION([0.15])
+  AM_GNU_GETTEXT_VERSION([0.16.1])
+  AC_SUBST([LIBINTL])
+  AC_SUBST([LTLIBINTL])
   gl_INLINE
   gl_QUOTEARG
   AM_STDBOOL_H
-  gl_HEADER_UNISTD
+  gl_STDLIB_H
+  gl_UNISTD_H
+  gl_WCHAR_H
+  gl_WCTYPE_H
   gl_XALLOC
   LIBGNU_LIBDEPS="$gl_libdeps"
   AC_SUBST([LIBGNU_LIBDEPS])
@@ -96,6 +101,7 @@ AC_DEFUN([gl_LIBSOURCES],
 # gnulib-tool and may be removed by future gnulib-tool invocations.
 AC_DEFUN([gl_FILE_LIST], [
   build-aux/config.rpath
+  build-aux/link-warning.h
   lib/__fpending.c
   lib/__fpending.h
   lib/close-stream.c
@@ -104,7 +110,6 @@ AC_DEFUN([gl_FILE_LIST], [
   lib/closeout.h
   lib/error.c
   lib/error.h
-  lib/exit.h
   lib/exitfail.c
   lib/exitfail.h
   lib/getopt.c
@@ -115,9 +120,14 @@ AC_DEFUN([gl_FILE_LIST], [
   lib/quotearg.c
   lib/quotearg.h
   lib/stdbool_.h
+  lib/stdlib_.h
+  lib/unistd_.h
+  lib/wchar_.h
+  lib/wctype_.h
   lib/xalloc-die.c
   lib/xalloc.h
   lib/xmalloc.c
+  m4/absolute-header.m4
   m4/close-stream.m4
   m4/closeout.m4
   m4/codeset.m4
@@ -128,11 +138,14 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/gettext.m4
   m4/glibc2.m4
   m4/glibc21.m4
+  m4/gnulib-common.m4
   m4/iconv.m4
+  m4/include_next.m4
   m4/inline.m4
   m4/intdiv0.m4
   m4/intl.m4
   m4/intldir.m4
+  m4/intlmacosx.m4
   m4/intmax.m4
   m4/inttypes-pri.m4
   m4/inttypes_h.m4
@@ -141,7 +154,6 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/lib-link.m4
   m4/lib-prefix.m4
   m4/lock.m4
-  m4/longdouble.m4
   m4/longlong.m4
   m4/mbrtowc.m4
   m4/mbstate_t.m4
@@ -153,11 +165,14 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/size_max.m4
   m4/stdbool.m4
   m4/stdint_h.m4
+  m4/stdlib_h.m4
   m4/uintmax_t.m4
   m4/ulonglong.m4
   m4/unistd_h.m4
   m4/visibility.m4
+  m4/wchar.m4
   m4/wchar_t.m4
+  m4/wctype.m4
   m4/wint_t.m4
   m4/xalloc.m4
   m4/xsize.m4
