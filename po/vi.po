@@ -1,20 +1,20 @@
 # Vietnamese Translation for Hello.
-# Copyright © 2006 Free Software Foundation, Inc.
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2006.
+# Copyright © 2007 Free Software Foundation, Inc.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2007.
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.2\n"
+"Project-Id-Version: hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-06-26 15:18-0700\n"
-"PO-Revision-Date: 2006-12-12 21:30+1030\n"
+"PO-Revision-Date: 2007-07-01 14:51+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: LocFactoryEditor 1.6fc1\n"
+"X-Generator: LocFactoryEditor 1.6.4a6\n"
 
 #: src/hello.c:95
 #, c-format
@@ -100,16 +100,15 @@ msgstr ""
 "Thông báo lỗi dịch cho <vi-VN@googlegroups.com> nhé.\n"
 
 #: src/hello.c:187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Tác quyền © năm %s Tổ Chực Phần Mềm Tự Do.\n"
-"Giấy Phép: Giấy Phép Công Cộng GNU (GPL) phiên bản 2+\n"
+"Giấy Phép: Giấy Phép Công Cộng GNU (GPL) phiên bản 3+\n"
 "« http://www.gnu.org/licenses/gpl.html ».\n"
 "Đây là phần mềm tự do. KHÔNG CÓ BẢO HÀNH NÀO CẢ,\n"
 "với điều kiện được pháp luật cho phép.\n"
@@ -152,7 +151,7 @@ msgstr "%s: tùy chọn chưa được nhận diện « %c%s »\n"
 #: gnulib/lib/getopt.c:764 gnulib/lib/getopt.c:767
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: tùy chọn cấm « --%c »\n"
+msgstr "%s: tùy chọn bị cấm « --%c »\n"
 
 #: gnulib/lib/getopt.c:773 gnulib/lib/getopt.c:776
 #, c-format
