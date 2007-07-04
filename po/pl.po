@@ -1,15 +1,15 @@
 # Polish translations for the GNU hello messages
-# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006 Free Software Foundation, Inc.
-# Rafa³ Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006.
+# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006, 2007 Free Software Foundation, Inc.
+# Rafa³ Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006, 2007.
 # corrections: Pawe³ Krawczyk <kravietz@pipeta.chemia.pk.edu.pl>, 1996
 # typos corrections in 2.1.1: PLD 2003
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.1.96\n"
+"Project-Id-Version: GNU hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-06-26 15:18-0700\n"
-"PO-Revision-Date: 2006-11-16 17:00+0100\n"
+"PO-Revision-Date: 2007-07-01 12:00+0200\n"
 "Last-Translator: Rafa³ Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -99,18 +99,16 @@ msgid "Report bugs to <%s>.\n"
 msgstr "Raporty o b³êdach proszê wysy³aæ do %s .\n"
 
 #: src/hello.c:187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licencja: GNU GPL wersja 2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"To jest wolne oprogramowanie. Autorzy nie daj± ¯ADNYCH gwarancji w "
-"granicach\n"
+"Licencja GPLv3+: GNU GPL wersja 2 albo pó¼niejsza  <http://gnu.org/licenses/gpl.html>\n"
+"To jest wolne oprogramowanie. Autorzy nie daj± ¯ADNYCH gwarancji w granicach\n"
 "dozwolonych prawem.\n"
 
 #: gnulib/lib/error.c:125
