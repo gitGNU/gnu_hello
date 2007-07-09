@@ -1,13 +1,13 @@
 # Esperantaj mesaĝoj por GNU hello.
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2001-2002, 2006.
+# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2001-2002, 2006-2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.2\n"
+"Project-Id-Version: GNU hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-06-26 15:18-0700\n"
-"PO-Revision-Date: 2006-12-11 09:02+0000\n"
+"PO-Revision-Date: 2007-07-09 22:12+0100\n"
 "Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -96,18 +96,17 @@ msgid "Report bugs to <%s>.\n"
 msgstr "Raportu cimojn al <%s>.\n"
 
 #: src/hello.c:187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Kopirajto (C) %s Free Software Foundation, Inc.\n"
-"Rajtigilo: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Ĉi tio estas libera programo. Estas NENIA GARANTIO, laŭ la grado leĝe "
-"permesata.\n"
+"Rajtigilo GPLv3+: GNU-GPL versio 3 aŭ posta <http://www.gnu.org/licenses/gpl.html>\n"
+"Ĉi tio estas libera programo: vi rajtas ŝanĝi kaj pludoni kopiojn.\n"
+"Estas NENIA GARANTIO, laŭ la grado leĝe permesata.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -205,17 +204,13 @@ msgstr "”"
 msgid "memory exhausted"
 msgstr "memoro elĉerpiĝis"
 
-#~ msgid "Too many arguments\n"
-#~ msgstr "Tro da argumentoj\n"
-
 #~ msgid "GNU hello, THE greeting printing program.\n"
 #~ msgstr "GNU hello, LA salut-eltajpa programo.\n"
 
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
@@ -228,11 +223,5 @@ msgstr "memoro elĉerpiĝis"
 #~ msgid "%s: Incompatible flags: -m and -t\n"
 #~ msgstr "%s: Malkongruaj flagoj: -m kaj -t\n"
 
-#~ msgid "%s: Who are you?\n"
-#~ msgstr "%s: Kiu estas vi?\n"
-
 #~ msgid "%s: Cannot find your mail spool file.\n"
 #~ msgstr "%s: Ne povas trovi vian leterkestodosieron.\n"
-
-#~ msgid "Nothing happens here."
-#~ msgstr "Nenio okazas ĉi tie."
