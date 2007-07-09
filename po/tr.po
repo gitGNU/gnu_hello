@@ -1,19 +1,19 @@
 # Turkish translations for hello messages.
-# Copyright (C) 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007 Free Software Foundation, Inc.
 #
-# Nilgün Belma Bugüner <nilgun@buguner.name.tr>, 2001, ..., 2006.
+# Nilgün Belma Bugüner <nilgun@buguner.name.tr>, 2001, ..., 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.96\n"
+"Project-Id-Version: hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-06-26 15:18-0700\n"
-"PO-Revision-Date: 2006-11-16 18:31+0200\n"
+"PO-Revision-Date: 2007-07-09 11:16+0300\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@buguner.name.tr>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.1\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/hello.c:95
@@ -105,16 +105,15 @@ msgstr ""
 "çeviri hatalarını <gnu-tr@belgeler.org> adresine bildirin.\n"
 
 #: src/hello.c:187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Telif Hakkı © %s Free Software Foundation, Inc.\n"
-"Lisans: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
+"Lisans: GNU GPL v3+ <http://www.gnu.org/licenses/gpl.html>\n"
 "Bu bir özgür yazılım olduğundan yasaların izin verdiği ölçüde\n"
 "herhangi bir garanti verilmemektedir.\n"
 
