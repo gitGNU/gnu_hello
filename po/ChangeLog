@@ -1,3 +1,8 @@
+2007-07-11  Karl Berry  <karl@gnu.org>
+
+	* LINGUAS: add en@quot and en@boldquot, as recommended by the
+	gettext manual.
+
 2006-11-08  gettextize	<bug-gnu-gettext@gnu.org>
 
 	* Makefile.in.in: Upgrade to gettext-0.16.
