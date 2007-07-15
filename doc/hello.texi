@@ -60,7 +60,7 @@ This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}).
 * Sample output::	Sample output from @code{hello}.
 * Invoking hello::	How to run @code{hello}.
 * Reporting bugs::	Sending bug reports and feature suggestions.
-* Copying this manual:: Copying and sharing this documentation.
+* GNU Free Documentation License:: Copying and sharing this documentation.
 * Concept index::	Index of concepts.
 @end menu
 
@@ -289,12 +289,8 @@ include @file{ChangeLog} entries (@pxref{Change Log,,, emacs, The GNU
 Emacs Manual}).  Please follow the existing coding style.
 
 
-@node Copying this manual
-@appendix Copying this manual
-
-@menu
-* GNU Free Documentation License::  License for copying this manual.
-@end menu
+@node GNU Free Documentation License
+@appendix GNU Free Documentation License
 
 @include fdl.texi
 

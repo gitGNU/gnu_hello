@@ -1,3 +1,8 @@
+2007-07-14  Karl Berry  <karl@gnu.org>
+
+	* fdl.texi: new version without sectioning commands.
+	* hello.texi: update accordingly.
+
 2007-07-09  Karl Berry  <karl@gnu.org>
 
 	* hello.texi (@copying): rms says that only the GNU manuals
