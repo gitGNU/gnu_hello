@@ -1,13 +1,13 @@
 # Finnish messages for GNU hello
-# Copyright (C) 2000, 2001, 2002, 2006 Free Software Foundation, Inc.
-# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2000, 2001, 2002, 2006.
+# Copyright (C) 2000, 2001, 2002, 2006, 2007 Free Software Foundation, Inc.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2000, 2001, 2002, 2006, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.96\n"
+"Project-Id-Version: hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-06-26 15:18-0700\n"
-"PO-Revision-Date: 2006-11-16 21:00+0200\n"
+"PO-Revision-Date: 2007-07-23 14:26+0300\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -99,18 +99,17 @@ msgstr ""
 "voit ilmoittaa listalle <translation-team-fi@lists.sourceforge.net>.\n"
 
 #: src/hello.c:187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
-"Lisenssi: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Tämä on vapaa ohjelmisto. Tälle ohjelmistolle EI myönnetä takuuta lain\n"
-"sallimissa rajoissa.\n"
+"Lisenssi GPLv3+: GNU GPL versio 3 tai uudempi <http://gnu.org/licenses/gpl.html>\n"
+"Tämä on vapaa ohjelmisto: sinulla on vapaus muuttaa tai levittää tätä.\n"
+"Tälle ohjelmistolle EI myönnetä takuuta lain sallimissa rajoissa.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
@@ -217,8 +216,7 @@ msgstr "muisti loppui"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""

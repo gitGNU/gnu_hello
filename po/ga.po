@@ -1,18 +1,18 @@
 # Irish translations for hello.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2006.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2006, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.96\n"
+"Project-Id-Version: hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-06-26 15:18-0700\n"
-"PO-Revision-Date: 2006-11-15 15:48-0500\n"
+"PO-Revision-Date: 2007-07-04 15:48-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/hello.c:95
@@ -23,7 +23,7 @@ msgstr "%s: oibreann breise: %s\n"
 #: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fh·il.\n"
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fh√°il.\n"
 
 #: src/hello.c:104
 #, c-format
@@ -56,13 +56,13 @@ msgstr "Dia duit, a dhomhain!"
 #: src/hello.c:140
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "⁄s·id: %s [ROGHA]...\n"
+msgstr "√ös√°id: %s [ROGHA]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr "Priont·il beannacht chairdi˙il in-saincheaptha.\n"
+msgstr "Priont√°il beannacht chairdi√∫il in-saincheaptha.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -71,8 +71,8 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
 msgstr ""
-"  -h, --help          taispe·in an chabhair seo agus scoir\n"
-"  -v, --version       taispe·in eolas faoin leagan agus scoir\n"
+"  -h, --help          taispe√°in an chabhair seo agus scoir\n"
+"  -v, --version       taispe√°in eolas faoin leagan agus scoir\n"
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
@@ -82,9 +82,9 @@ msgid ""
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional       bain ˙s·id as beannacht ar an sean-nÛs\n"
-"  -n, --next-generation   bain ˙s·id as beannacht nua-aoiseach\n"
-"  -g, --greeting=TCHT     ˙s·id TCHT mar an bheannacht\n"
+"  -t, --traditional       bain √∫s√°id as beannacht ar an sean-n√≥s\n"
+"  -n, --next-generation   bain √∫s√°id as beannacht nua-aoiseach\n"
+"  -g, --greeting=TCHT     √∫s√°id TCHT mar an bheannacht\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
@@ -94,46 +94,45 @@ msgstr ""
 #: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
-msgstr "Seol tuairiscÌ fabhtanna chuig <%s>.\n"
+msgstr "Seol tuairisc√≠ fabhtanna chuig <%s>.\n"
 
 #: src/hello.c:187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"Copyright © %s Free Software Foundation, Inc.\n"
-"Cead˙nas: GNU GPL v2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Is saorbhogearra È seo.  NÌl bar·nta AR BITH ann, an oiread at· ceadaithe de "
-"rÈir dlÌ.\n"
+"Copyright ¬© %s Free Software Foundation, Inc.\n"
+"Cead√∫nas: GNU GPLv3+ GNU GPL, leagan 3 n√≥ n√≠os nua√≠ <http://gnu.org/licenses/gpl.html>\n"
+"Is saorbhogearra √© seo: ceada√≠tear duit √© a athr√∫ agus a athdh√°ileadh.\n"
+"N√≠l bar√°nta AR BITH ann, an oiread at√° ceadaithe de r√©ir dl√≠.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
-msgstr "Earr·id anaithnid chÛrais"
+msgstr "Earr√°id anaithnid ch√≥rais"
 
 #: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: T· an rogha `%s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `%s' d√©bhr√≠och\n"
 
 #: gnulib/lib/getopt.c:580 gnulib/lib/getopt.c:584
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `--%s'\n"
 
 #: gnulib/lib/getopt.c:593 gnulib/lib/getopt.c:598
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `%c%s'\n"
 
 #: gnulib/lib/getopt.c:641 gnulib/lib/getopt.c:660 gnulib/lib/getopt.c:976
 #: gnulib/lib/getopt.c:995
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha `%s'\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha `%s'\n"
 
 #: gnulib/lib/getopt.c:698 gnulib/lib/getopt.c:701
 #, c-format
@@ -153,27 +152,27 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: gnulib/lib/getopt.c:773 gnulib/lib/getopt.c:776
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailÌ -- %c\n"
+msgstr "%s: rogha neamhbhail√≠ -- %c\n"
 
 #: gnulib/lib/getopt.c:828 gnulib/lib/getopt.c:844 gnulib/lib/getopt.c:1048
 #: gnulib/lib/getopt.c:1066
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha -- %c\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha -- %c\n"
 
 #: gnulib/lib/getopt.c:897 gnulib/lib/getopt.c:913
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: T· an rogha `-W %s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `-W %s' d√©bhr√≠och\n"
 
 #: gnulib/lib/getopt.c:937 gnulib/lib/getopt.c:955
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `-W %s'\n"
 
 #: gnulib/lib/closeout.c:74
 msgid "write error"
-msgstr "earr·id sa scrÌobh"
+msgstr "earr√°id sa scr√≠obh"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -204,22 +203,22 @@ msgstr "'"
 
 #: gnulib/lib/xalloc-die.c:35
 msgid "memory exhausted"
-msgstr "cuimhne Ìdithe"
+msgstr "cuimhne √≠dithe"
 
 #~ msgid "Too many arguments\n"
-#~ msgstr "An iomarca argÛintÌ\n"
+#~ msgstr "An iomarca arg√≥int√≠\n"
 
 #~ msgid "GNU hello, THE greeting printing program.\n"
-#~ msgstr "GNU hello, nÌl rÌomhchl·r eile chun priont·il beannachtaÌ!\n"
+#~ msgstr "GNU hello, n√≠l r√≠omhchl√°r eile chun priont√°il beannachta√≠!\n"
 
 #~ msgid "%s: Incompatible flags: -m and -t\n"
-#~ msgstr "%s: Bratacha Èaguibhreannacha: -m agus -t\n"
+#~ msgstr "%s: Bratacha √©aguibhreannacha: -m agus -t\n"
 
 #~ msgid "%s: Who are you?\n"
-#~ msgstr "%s: CÈ th˙ fÈin?\n"
+#~ msgstr "%s: C√© th√∫ f√©in?\n"
 
 #~ msgid "%s: Cannot find your mail spool file.\n"
-#~ msgstr "%s: NÌ fÈidir an comhad a fh·il a bhfuil do spÛl poist ann.\n"
+#~ msgstr "%s: N√≠ f√©idir an comhad a fh√°il a bhfuil do sp√≥l poist ann.\n"
 
 #~ msgid "Nothing happens here."
-#~ msgstr "NÌ tharlaÌonn dada anseo."
+#~ msgstr "N√≠ tharla√≠onn dada anseo."
