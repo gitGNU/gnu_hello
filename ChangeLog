@@ -1,3 +1,7 @@
+2007-07-26  Karl Berry  <karl@gnu.org>
+
+	* configure.ac (AC_INIT_AUTOMAKE): let's skip dist-bzip2.
+
 2007-06-29  Karl Berry  <karl@gnu.org>
 
 	* Version 2.3.

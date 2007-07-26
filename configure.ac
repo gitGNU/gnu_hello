@@ -12,7 +12,7 @@ AC_INIT([GNU Hello], [2.3.90], [bug-hello@gnu.org])
 
 dnl Must come before AM_INIT_AUTOMAKE.
 AC_CONFIG_AUX_DIR([build-aux])
-AM_INIT_AUTOMAKE([dist-bzip2 readme-alpha])
+AM_INIT_AUTOMAKE([readme-alpha])
 
 # Minimum Autoconf version required.
 AC_PREREQ(2.60)
