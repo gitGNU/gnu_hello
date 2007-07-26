@@ -1,7 +1,0 @@
-absolute-header.m4
-gnulib-common.m4
-include_next.m4
-intlmacosx.m4
-stdlib_h.m4
-wchar.m4
-wctype.m4
