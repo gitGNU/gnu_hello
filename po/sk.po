@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2007-06-26 15:18-0700\n"
+"POT-Creation-Date: 2007-07-26 10:13-0700\n"
 "PO-Revision-Date: 2002-06-11 10:32+0200\n"
 "Last-Translator: Marcel Telka <marcel@telka.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -111,7 +111,7 @@ msgid ""
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 
-#: gnulib/lib/error.c:125
+#: gnulib/lib/error.c:126
 msgid "Unknown system error"
 msgstr ""
 

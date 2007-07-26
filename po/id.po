@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello-2.1.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2007-06-26 15:18-0700\n"
+"POT-Creation-Date: 2007-07-26 10:13-0700\n"
 "PO-Revision-Date: 2006-09-27 20:12+0700\n"
 "Last-Translator: Tedi Heriyanto <tedi_heriyanto@yahoo.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
@@ -113,7 +113,7 @@ msgstr ""
 "This is free software.  There is NO WARRANTY, to the extent permitted by "
 "law.\n"
 
-#: gnulib/lib/error.c:125
+#: gnulib/lib/error.c:126
 msgid "Unknown system error"
 msgstr "Kesalahan sistem tidak dikenal"
 

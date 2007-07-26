@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2007-06-26 15:18-0700\n"
+"POT-Creation-Date: 2007-07-26 10:13-0700\n"
 "PO-Revision-Date: 2007-07-01 14:51+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -103,7 +103,8 @@ msgstr ""
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
@@ -113,7 +114,7 @@ msgstr ""
 "Đây là phần mềm tự do. KHÔNG CÓ BẢO HÀNH NÀO CẢ,\n"
 "với điều kiện được pháp luật cho phép.\n"
 
-#: gnulib/lib/error.c:125
+#: gnulib/lib/error.c:126
 msgid "Unknown system error"
 msgstr "Lỗi hệ thống không rõ"
 

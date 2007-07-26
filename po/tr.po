@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2007-06-26 15:18-0700\n"
+"POT-Creation-Date: 2007-07-26 10:13-0700\n"
 "PO-Revision-Date: 2007-07-09 11:16+0300\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@buguner.name.tr>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
@@ -108,7 +108,8 @@ msgstr ""
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
@@ -117,7 +118,7 @@ msgstr ""
 "Bu bir özgür yazılım olduğundan yasaların izin verdiği ölçüde\n"
 "herhangi bir garanti verilmemektedir.\n"
 
-#: gnulib/lib/error.c:125
+#: gnulib/lib/error.c:126
 msgid "Unknown system error"
 msgstr "Bilinmeyen sistem hatası"
 

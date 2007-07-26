@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.93\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2007-06-26 15:18-0700\n"
+"POT-Creation-Date: 2007-07-26 10:13-0700\n"
 "PO-Revision-Date: 2006-10-26 12:32+0300\n"
 "Last-Translator: Toomas Soome <Toomas.Soome@microlink.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -109,7 +109,7 @@ msgstr ""
 "See on vaba tarkvara. Garantii puudub vastavalt seadustega määratud "
 "piiridele.\n"
 
-#: gnulib/lib/error.c:125
+#: gnulib/lib/error.c:126
 msgid "Unknown system error"
 msgstr "Tundmatu süsteemi viga"
 

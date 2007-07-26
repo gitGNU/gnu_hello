@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2007-06-26 15:18-0700\n"
+"POT-Creation-Date: 2007-07-26 10:13-0700\n"
 "PO-Revision-Date: 2006-11-16 22:54-0500\n"
 "Last-Translator: Aleksandar Jelenak <jelenak@verizon.net>\n"
 "Language-Team: Serbian <gnu@prevod.org>\n"
@@ -113,7 +113,7 @@ msgstr ""
 "Ово је слободни софтвер.  Без ИКАКВЕ ГАРАНЦИЈЕ, колико је законом "
 "дозвољено.\n"
 
-#: gnulib/lib/error.c:125
+#: gnulib/lib/error.c:126
 msgid "Unknown system error"
 msgstr "Непозната системска грешка"
 

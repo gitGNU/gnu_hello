@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.96\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2007-06-26 15:18-0700\n"
+"POT-Creation-Date: 2007-07-26 10:13-0700\n"
 "PO-Revision-Date: 2006-11-23 22:40+0200\n"
 "Last-Translator: Anton Zinoviev <zinoviev@debian.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -115,7 +115,7 @@ msgstr ""
 "Лицензия: GNU GPL версия 2+ <http://www.gnu.org/licenses/gpl.html>\n"
 "Това е свободен софтуер. БЕЗ ГАРАНЦИЯ, до степента позволявана от закона.\n"
 
-#: gnulib/lib/error.c:125
+#: gnulib/lib/error.c:126
 msgid "Unknown system error"
 msgstr "Непозната системна грешка"
 
