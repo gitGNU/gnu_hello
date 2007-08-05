@@ -1,16 +1,16 @@
 # Bulgarian translation of GNU Hello
 # Copyright (C) 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GNU Hello package.
-# Anton Zinoviev <zinoviev@debian.org>, 2006
+# Anton Zinoviev <zinoviev@debian.org>, 2006, 2007
 #
 # This file should be sent to translation@iro.umontreal.ca with the
 # following subject line: TP-Robot hello-VERSION.bg.po
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.96\n"
+"Project-Id-Version: hello 2.3.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-07-26 10:13-0700\n"
-"PO-Revision-Date: 2006-11-23 22:40+0200\n"
+"PO-Revision-Date: 2007-08-02 17:59+0300\n"
 "Last-Translator: Anton Zinoviev <zinoviev@debian.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
@@ -103,17 +103,17 @@ msgstr ""
 "За грешки в българския превод на <dict@fsa-bg.org>\n"
 
 #: src/hello.c:187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Авторски права: © %s Free Software Foundation, Inc.\n"
-"Лицензия: GNU GPL версия 2+ <http://www.gnu.org/licenses/gpl.html>\n"
-"Това е свободен софтуер. БЕЗ ГАРАНЦИЯ, до степента позволявана от закона.\n"
+"Лицензия: GNU GPL версия 3 или следваща <http://www.gnu.org/licenses/gpl.html>\n"
+"Това е свободен софтуер: свободни сте да го променяте и разпространявате.\n"
+"НЕ СЕ ДАВАТ НИКАКВИ ГАРАНЦИИ, доколкото закона позволява това.\n"
 
 #: gnulib/lib/error.c:126
 msgid "Unknown system error"
