@@ -11,6 +11,7 @@ See the manual for detailed information.
 * Distribution:
   . New (old) translations: ms (Malay), ro (Romansh).
   . Include en@quot and en@boldquot support.
+  . Remove obsolete translations de_DE and es_AR.
   . Other translation updates.
 
 

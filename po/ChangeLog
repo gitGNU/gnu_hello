@@ -1,3 +1,7 @@
+2007-11-02  Karl Berry  <karl@gnu.org>
+
+	* LINGUAS: remove de_DE and es_AR, add ms and ro.
+
 2007-07-11  Karl Berry  <karl@gnu.org>
 
 	* LINGUAS: add en@quot and en@boldquot, as recommended by the
