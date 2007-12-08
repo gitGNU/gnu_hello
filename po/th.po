@@ -1,0 +1,209 @@
+# Translation hello messages to Thai.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the hello package.
+# Seksan Poltree <seksan.poltree@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU hello 2.3.90\n"
+"Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
+"POT-Creation-Date: 2007-07-26 10:13-0700\n"
+"PO-Revision-Date: 2007-12-08 12:13+0700\n"
+"Last-Translator: Seksan Poltree <seksan.poltree@gmail.com>\n"
+"Language-Team: Thai <translation-team-th@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Thai\n"
+"X-Poedit-Country: THAILAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: src/hello.c:95
+#, c-format
+msgid "%s: extra operand: %s\n"
+msgstr "%s: ตัวดำเนินการมากเกินไป %s\n"
+
+#: src/hello.c:97
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "ลองใช้ `%s --help' เพื่อแสดงข้อมูลมากขึ้น.\n"
+
+#: src/hello.c:104
+#, c-format
+msgid "hello, world\n"
+msgstr "สวัสดี, ชาวโลก\n"
+
+#. TRANSLATORS: Use box drawing characters or other fancy stuff
+#. if your encoding (e.g., UTF-8) allows it.  If done so add the
+#. following note, please:
+#.
+#. [Note: For best viewing results use a UTF-8 locale, please.]
+#.
+#: src/hello.c:113
+#, c-format
+msgid ""
+"+---------------+\n"
+"| Hello, world! |\n"
+"+---------------+\n"
+msgstr ""
+"+-----------------+\n"
+"| สวัสดี, ชาวโลก! |\n"
+"+-----------------+\n"
+
+#: src/hello.c:122
+msgid "Hello, world!"
+msgstr "สวัสดี, ชาวโลก!"
+
+#. TRANSLATORS: --help output 1 (synopsis)
+#. no-wrap
+#: src/hello.c:140
+#, c-format
+msgid "Usage: %s [OPTION]...\n"
+msgstr "การใช้งาน: %s [ตัวเลือก]...\n"
+
+#. TRANSLATORS: --help output 2 (brief description)
+#. no-wrap
+#: src/hello.c:145
+msgid "Print a friendly, customizable greeting.\n"
+msgstr "พิมพ์คำทักทายที่เป็นมิตร, แบบเลือกได้ .\n"
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:151
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help         แสดงข้อความช่วยเหลือนี้แล้วออกจากโปรแกรม\n"
+"  -v, --version      แสดงข้อมูลหมายเลขเวอร์ชั่นแล้วออกจากโปรแกรม\n"
+
+#. TRANSLATORS: --help output 4: options 2/2
+#. no-wrap
+#: src/hello.c:158
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
+msgstr ""
+"  -t, --traditional       ใช้รูปแบบคำทักทายแบบดั้งเดิม\n"
+"  -n, --next-generation   ใช้รูปแบบคำทักทายแบบรุ่นใหม่\n"
+"  -g, --greeting=ข้อความ   ใช้ 'ข้อความ' เป็นข้อความในการทักทาย\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: the placeholder indicates the bug-reporting address
+#. for this application.  Please add _another line_ with the
+#. address for translation bugs.
+#. no-wrap
+#: src/hello.c:169
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr "รายงานบั๊กไปที่ <%s>.\n"
+
+#: src/hello.c:187
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"สงวนสิขสิทธิ์ (C) %s Free Software Foundation, Inc.\n"
+"สัญญาอนุญาต GPLv3: GNU GPL เวอร์ชั่น 3 หรือใหม่กว่า <http://www.gnu.org/licenses/gpl.html>\n"
+"นี่เป็นซอฟท์แวร์เสรี: คุณมีเสรีในการคิดค่าใช้จ่ายและการส่งต่อ.\n"
+"มีการไม่รับประกัน, จากขอบเขตที่อนุญาตโดยกฎหมาย.\n"
+
+#: gnulib/lib/error.c:126
+msgid "Unknown system error"
+msgstr "เกิดความผิดพลาดของระบบที่ไม่รู้จักขึ้น"
+
+#: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: ตัวเลือก `%s' ไม่ชัดเจน\n"
+
+#: gnulib/lib/getopt.c:580 gnulib/lib/getopt.c:584
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: ตัวเลือก `--%s' ไม่อนุญาตให้มีอาร์กิวเมนต์\n"
+
+#: gnulib/lib/getopt.c:593 gnulib/lib/getopt.c:598
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: ตัวเลือก `%c%s' ไม่อนุญาตให้มีอาร์กิวเมนต์\n"
+
+#: gnulib/lib/getopt.c:641 gnulib/lib/getopt.c:660 gnulib/lib/getopt.c:976
+#: gnulib/lib/getopt.c:995
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: ตัวเลือก `%s' ต้องการอาร์กิวเมนต์\n"
+
+#: gnulib/lib/getopt.c:698 gnulib/lib/getopt.c:701
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: ไม่สามารถจดจำตัวเลือก `--%s' ได้\n"
+
+#: gnulib/lib/getopt.c:709 gnulib/lib/getopt.c:712
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: ไม่สามารถจดจำตัวเลือก `%c%s' ได้\n"
+
+#: gnulib/lib/getopt.c:764 gnulib/lib/getopt.c:767
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: ตัวเลือกไม่ตรงตามกฎ -- %c\n"
+
+#: gnulib/lib/getopt.c:773 gnulib/lib/getopt.c:776
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: ตัวเลือกไม่ถูกต้อง -- %c\n"
+
+#: gnulib/lib/getopt.c:828 gnulib/lib/getopt.c:844 gnulib/lib/getopt.c:1048
+#: gnulib/lib/getopt.c:1066
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: ตัวเลือกที่ต้องการอาร์กิวเมนต์หนึ่งตัว -- %c\n"
+
+#: gnulib/lib/getopt.c:897 gnulib/lib/getopt.c:913
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: ตัวเลือก `-W %s' กำกวมไม่ชัดเจน\n"
+
+#: gnulib/lib/getopt.c:937 gnulib/lib/getopt.c:955
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: ตัวเลือก `-W %s' ไม่อนุญาตให้มีอาร์กิวเมนต์\n"
+
+#: gnulib/lib/closeout.c:74
+msgid "write error"
+msgstr "เกิดข้อผิดพลาดในการเขียน"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
+#.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
+#. and use glyphs suitable for your language.
+#: gnulib/lib/quotearg.c:229
+msgid "`"
+msgstr "`"
+
+#: gnulib/lib/quotearg.c:230
+msgid "'"
+msgstr "'"
+
+#: gnulib/lib/xalloc-die.c:35
+msgid "memory exhausted"
+msgstr "หน่วยความจำถูกใช้จนหมดแล้ว"
