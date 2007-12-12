@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GNU hello 2.3.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-07-26 10:13-0700\n"
-"PO-Revision-Date: 2007-12-08 12:13+0700\n"
+"PO-Revision-Date: 2007-12-12 23:18+0700\n"
 "Last-Translator: Seksan Poltree <seksan.poltree@gmail.com>\n"
 "Language-Team: Thai <translation-team-th@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr "%s: ตัวดำเนินการมากเกินไป %s\n"
+msgstr "%s: ตัวถูกดำเนินการมากเกินไป %s\n"
 
 #: src/hello.c:97
 #, c-format
@@ -75,7 +75,7 @@ msgid ""
 "  -v, --version       display version information and exit\n"
 msgstr ""
 "  -h, --help         แสดงข้อความช่วยเหลือนี้แล้วออกจากโปรแกรม\n"
-"  -v, --version      แสดงข้อมูลหมายเลขเวอร์ชั่นแล้วออกจากโปรแกรม\n"
+"  -v, --version      แสดงข้อมูลรุ่นแล้วออกจากโปรแกรม\n"
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
@@ -109,7 +109,7 @@ msgid ""
 msgstr ""
 "สงวนสิขสิทธิ์ (C) %s Free Software Foundation, Inc.\n"
 "สัญญาอนุญาต GPLv3: GNU GPL เวอร์ชั่น 3 หรือใหม่กว่า <http://www.gnu.org/licenses/gpl.html>\n"
-"นี่เป็นซอฟท์แวร์เสรี: คุณมีเสรีในการคิดค่าใช้จ่ายและการส่งต่อ.\n"
+"นี่เป็นซอฟต์แวร์เสรี: คุณมีอิสระในการคิดค่าใช้จ่ายและการส่งต่อ.\n"
 "มีการไม่รับประกัน, จากขอบเขตที่อนุญาตโดยกฎหมาย.\n"
 
 #: gnulib/lib/error.c:126
@@ -119,7 +119,7 @@ msgstr "เกิดความผิดพลาดของระบบที
 #: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: ตัวเลือก `%s' ไม่ชัดเจน\n"
+msgstr "%s: ตัวเลือก `%s' กำกวมไม่ชัดเจน\n"
 
 #: gnulib/lib/getopt.c:580 gnulib/lib/getopt.c:584
 #, c-format
