@@ -1,14 +1,14 @@
-# Traditional Chinese Messages for hello
+# Traditional Chinese Messages for hello.
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# Wei-Lun Chao <chaoweilun@pcmail.com.tw>, 2005
+# Wei-Lun Chao <chaoweilun@gmail.com>, 2005, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.1\n"
+"Project-Id-Version: hello 2.3.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-07-26 10:13-0700\n"
-"PO-Revision-Date: 2005-04-28 16:39+0800\n"
-"Last-Translator: Wei-Lun Chao <chaoweilun@pcmail.com.tw>\n"
+"PO-Revision-Date: 2007-12-20 20:03+0800\n"
+"Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,12 +18,12 @@ msgstr ""
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s：其他運算元：%s\n"
 
 #: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "請嘗試執行‘%s --help’來獲取更多資訊。\n"
+msgstr "請嘗試執行「%s --help」以獲得更多資訊。\n"
 
 #: src/hello.c:104
 #, c-format
@@ -54,15 +54,15 @@ msgstr "哈囉，大家好！"
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
 #: src/hello.c:140
-#, fuzzy, c-format
+#, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "用法：%s [選項]\n"
+msgstr "用法：%s [選項]…\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "印出友善的自訂問候。\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -71,13 +71,12 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
 msgstr ""
-"  -h, --help          顯示此輔助訊息並離開\n"
-"  -v, --version       顯示版本資訊並離開\n"
+"  -h, --help          顯示此說明然後離開\n"
+"  -v, --version       顯示版本資訊然後離開\n"
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
 #: src/hello.c:158
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -85,7 +84,7 @@ msgid ""
 msgstr ""
 "  -t, --traditional       使用傳統問候格式\n"
 "  -n, --next-generation   使用下一代問候格式\n"
-"  -m, --mail              印出您的電子郵件\n"
+"  -g, --greeting=TEXT     使用 TEXT 做為問候訊息\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
@@ -95,82 +94,85 @@ msgstr ""
 #: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
-msgstr "請向 <%s> 回報錯誤。\n"
+msgstr "將錯誤回報給 <%s>。\n"
 
 #: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"著作權 (C) %s 自由軟體基金會。\n"
+"授權 GPLv3+: GNU GPL 第三版或後續版本 <http://gnu.org/licenses/gpl.html>\n"
+"此為自由軟體：您可以自由變更和再次散布它。\n"
+"在法律所允許的範圍內，不做任何擔保。\n"
 
 #: gnulib/lib/error.c:126
 msgid "Unknown system error"
-msgstr ""
+msgstr "不明的系統錯誤"
 
 #: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s：選項‘%s’不明確\n"
+msgstr "%s：選項「%s」為模稜兩可的\n"
 
 #: gnulib/lib/getopt.c:580 gnulib/lib/getopt.c:584
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s：選項‘--%s’不可配合引數使用\n"
+msgstr "%s：選項「--%s」不允許使用引數\n"
 
 #: gnulib/lib/getopt.c:593 gnulib/lib/getopt.c:598
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s：選項‘%c%s’不可配合引數使用\n"
+msgstr "%s：選項「%c%s」不允許使用引數\n"
 
 #: gnulib/lib/getopt.c:641 gnulib/lib/getopt.c:660 gnulib/lib/getopt.c:976
 #: gnulib/lib/getopt.c:995
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s：選項‘%s’需要引數\n"
+msgstr "%s：選項「%s」需要一個引數\n"
 
 #: gnulib/lib/getopt.c:698 gnulib/lib/getopt.c:701
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s：無法識別的選項‘--%s’\n"
+msgstr "%s：無法辨識的選項「--%s」\n"
 
 #: gnulib/lib/getopt.c:709 gnulib/lib/getopt.c:712
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s：無法識別的選項‘%c%s’\n"
+msgstr "%s：無法辨識的選項「%c%s」\n"
 
 #: gnulib/lib/getopt.c:764 gnulib/lib/getopt.c:767
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s：不合法的選項 ─ %c\n"
+msgstr "%s：不合法的選項 -- %c\n"
 
 #: gnulib/lib/getopt.c:773 gnulib/lib/getopt.c:776
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s：無效的選項 ─ %c\n"
+msgstr "%s：無效的選項 -- %c\n"
 
 #: gnulib/lib/getopt.c:828 gnulib/lib/getopt.c:844 gnulib/lib/getopt.c:1048
 #: gnulib/lib/getopt.c:1066
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s：選項需要引數 ─ %c\n"
+msgstr "%s：選項需要一個引數 -- %c\n"
 
 #: gnulib/lib/getopt.c:897 gnulib/lib/getopt.c:913
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s：選項‘-W %s’不明確\n"
+msgstr "%s：選項「-W %s」為模稜兩可的\n"
 
 #: gnulib/lib/getopt.c:937 gnulib/lib/getopt.c:955
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s：選項‘-W %s’不可配合引數使用\n"
+msgstr "%s：選項「-W %s」不允許使用引數\n"
 
 #: gnulib/lib/closeout.c:74
 msgid "write error"
-msgstr ""
+msgstr "寫入錯誤"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -193,44 +195,12 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:229
 msgid "`"
-msgstr ""
+msgstr "「"
 
 #: gnulib/lib/quotearg.c:230
 msgid "'"
-msgstr ""
+msgstr "」"
 
 #: gnulib/lib/xalloc-die.c:35
-#, fuzzy
 msgid "memory exhausted"
-msgstr "%s: 虛擬記憶體已耗盡\n"
-
-#~ msgid "Too many arguments\n"
-#~ msgstr "引數過多\n"
-
-#~ msgid "GNU hello, THE greeting printing program.\n"
-#~ msgstr "GNU hello，問候印出程式。\n"
-
-#, fuzzy
-#~ msgid ""
-#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-#~ "under the terms of the GNU General Public License.\n"
-#~ "For more information about these matters, see the file named COPYING.\n"
-#~ msgstr ""
-#~ "版權所有 (C) %s 自由軟體基金會 (Free Software Foundation, Inc.)\n"
-#~ "本軟體不提供任何保證，甚至不會包括可售性和適用於任何特定目的的保證。\n"
-#~ "您可在 GNU 公共授權 (GNU General Public License) 的條款下散佈 GNU %s。\n"
-#~ "欲知更多的詳情, 請看檔名為 COPYING 的檔案。\n"
-
-#~ msgid "%s: Incompatible flags: -m and -t\n"
-#~ msgstr "%s: 不相容的旗標: -m 與 -t\n"
-
-#~ msgid "%s: Who are you?\n"
-#~ msgstr "%s: 您是哪位？\n"
-
-#~ msgid "%s: Cannot find your mail spool file.\n"
-#~ msgstr "%s：無法找到您的郵件排程檔案。\n"
-
-#~ msgid "Nothing happens here."
-#~ msgstr "這兒什麼也沒發生。"
+msgstr "記憶體已耗盡"
