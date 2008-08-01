@@ -1,24 +1,28 @@
+# translation of hello-2.3.90.po to Danish
 # Danish messages for GNU hello.
-# Copyright (C) 1996 Free Software Foundation, Inc.
-# Keld Simonsen <keld@dkuug.dk>, 2000-2002
-# Bo Vagner Hoejer <bo@petshop.ping.dk>, 1998.
+# This file is distributed under the same license as the hello package.
+# Copyright (C) 1996, 2008 Free Software Foundation, Inc.
 #
+# Keld Simonsen <keld@dkuug.dk>, 2000-2002, 2008.
+# Bo Vagner Hoejer <bo@petshop.ping.dk>, 1998.
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.0.50\n"
+"Project-Id-Version: hello-2.3.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2007-07-26 10:13-0700\n"
-"PO-Revision-Date: 2002-02-15 12:14+0200\n"
+"PO-Revision-Date: 2008-08-01 15:24+0200\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
-"Language-Team: Danish <dansk@klid.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: ekstra operand: %s\n"
 
 #: src/hello.c:97
 #, c-format
@@ -54,15 +58,15 @@ msgstr "Hej verden!"
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
 #: src/hello.c:140
-#, fuzzy, c-format
+#, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "Brug: %s [TILVALG]\n"
+msgstr "Brug: %s [TILVALG]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
 #: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Udskriv en venlig, tilpasselig hilsen.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -77,15 +81,14 @@ msgstr ""
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
 #: src/hello.c:158
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional   brug traditionel hilsen\n"
+"  -t, --traditional   brug traditionel format for hilsen\n"
 "  -n, --next-generation   brug næste-generations hilsnings-format\n"
-"  -m, --mail          udskriv din post\n"
+"  -g, --greeting=TEKST     brug TEKST som hilsenen\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
@@ -95,23 +98,24 @@ msgstr ""
 #: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
-msgstr ""
-"Rapportér fejl til <%s>. Rapportér fejl med danske oversættelser til "
-"<dansk@klid.dk>\n"
+msgstr "Rapportér fejl til <%s>. Rapportér fejl med danske oversættelser til <dansk@klid.dk>\n"
 
 #: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"Ophavsret © %s Free Software Foundation, Inc.\n"
+"Licens GPLv3+: GNU GPL version 3 eller senere <http://gnu.org/licenses/gpl.html>\n"
+"Dette er frit programmel: du må gerne ændre og redistribuere det.\n"
+"Der er ikke nogen GARANTIER, i det omfang loven tillader dette.\n"
 
 #: gnulib/lib/error.c:126
 msgid "Unknown system error"
-msgstr ""
+msgstr "Ukendt systemfejl"
 
 #: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
 #, c-format
@@ -172,7 +176,7 @@ msgstr "%s: tilvalg '-W %s' tillader ikke et argument\n"
 
 #: gnulib/lib/closeout.c:74
 msgid "write error"
-msgstr ""
+msgstr "skrivefejl"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -195,69 +199,12 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:229
 msgid "`"
-msgstr ""
+msgstr "`"
 
 #: gnulib/lib/quotearg.c:230
 msgid "'"
-msgstr ""
+msgstr "'"
 
 #: gnulib/lib/xalloc-die.c:35
-#, fuzzy
 msgid "memory exhausted"
-msgstr "%s: virtuel hukommelse er opbrugt\n"
-
-#~ msgid "Too many arguments\n"
-#~ msgstr "For mange argumenter\n"
-
-#~ msgid "GNU hello, THE greeting printing program.\n"
-#~ msgstr "Dette er GNU Hello, PROGRAMMET for udskrift af hilsner.\n"
-
-#, fuzzy
-#~ msgid ""
-#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-#~ "under the terms of the GNU General Public License.\n"
-#~ "For more information about these matters, see the file named COPYING.\n"
-#~ msgstr ""
-#~ "(Følgende tekst er en oversættelse som *kun* gives på en informativ "
-#~ "basis.\n"
-#~ "For alle juridiske tolkninger gælder den engelske originaltekst.)\n"
-#~ "\n"
-#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "Det er INGEN FORM FOR garanti; ikke engang for SALGBARHED eller EGNETHED\n"
-#~ "FOR NOGEN SPECIEL ANVENDELSE.  Du kan gendistribuere kopier af GNU %s "
-#~ "under\n"
-#~ "vilkårene givet i GNU General Public License.\n"
-#~ "For mere information om dette, se filen COPYING.\n"
-
-#~ msgid "%s: Incompatible flags: -m and -t\n"
-#~ msgstr "%s: Ugyldig kombination af tilvalg: -m og -t\n"
-
-#~ msgid "%s: Who are you?\n"
-#~ msgstr "%s: Hvem er du?\n"
-
-#~ msgid "%s: Cannot find your mail spool file.\n"
-#~ msgstr "%s: kan ikke finde din indgående post-fil.\n"
-
-#~ msgid "Nothing happens here."
-#~ msgstr "Her sker ingenting."
-
-#~ msgid ""
-#~ "This is GNU Hello, THE greeting printing program.\n"
-#~ "Usage: %s [OPTION]\n"
-#~ "  -h, --help          display this help and exit\n"
-#~ "  -v, --version       display version information and exit\n"
-#~ "  -t, --traditional   use traditional greeting format\n"
-#~ "  -m, --mail          print your mail\n"
-#~ "\n"
-#~ "Report bugs to bug-gnu-hello@prep.ai.mit.edu.\n"
-#~ msgstr ""
-#~ "Dette er GNU Hello, PROGRAMMET for udskrift af hilsner.\n"
-#~ "Brug: %s [TILVALG]\n"
-#~ "  -h, --help          vis denne hjælpetekst og afslut\n"
-#~ "  -v, --version       vis programversion og afslut\n"
-#~ "  -t, --traditional   brug traditionel hilsen\n"
-#~ "  -m, --mail          udskriv din post\n"
-#~ "\n"
-#~ "Fejl rapporteres til bug-gnu-hello@prep.ai.mit.edu.\n"
+msgstr "hukommelse er opbrugt"
