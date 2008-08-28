@@ -2,7 +2,8 @@
 # and all subdirectories).
 #
 # Makefile for the top-level directory of GNU hello.
-# Copyright (C) 1997, 1998, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Copyright (C) 1997, 1998, 2005, 2006, 2007, 2008 Free Software
+# Foundation, Inc.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -22,7 +23,7 @@
 ACLOCAL_AMFLAGS = -I gnulib/m4
 
 # Additional files to distribute.
-EXTRA_DIST = ChangeLog.O
+EXTRA_DIST = ChangeLog.O gnulib/m4/gnulib-cache.m4
 
 # Subdirectories to descend into.
 SUBDIRS = contrib gnulib/lib po src doc man tests

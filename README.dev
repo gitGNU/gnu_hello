@@ -1,6 +1,6 @@
 This README.dev file describes the development environment.
 
-  Copyright (C) 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
+  Copyright (C) 2002, 2003, 2005, 2006, 2008 Free Software Foundation, Inc.
 
   Copying and distribution of this file, with or without modification,
   are permitted in any medium without royalty provided the copyright
@@ -24,9 +24,11 @@ in the top-level directory.
 
 For the record, the first time invocation was
   gnulib-tool --import --m4-base=gnulib/m4 --source-base=gnulib/lib \
-    gettext
-Current gnulib information, including the gnulib-tool invocation with
-all the modules presently used, is recorded in gnulib/m4/gnulib-cache.m4.
+              --no-vc-files getopt
+Many more modules have been added since.  The currently-used gnulib
+modules and other gnulib information are recorded in
+gnulib/m4/gnulib-cache.m4.  Given a source checkout of gnulib, you can
+update the files with gnulib-tool --import.
 
 When updating gettext, besides the normal installation on the system, it
 is necessary to run gettextize -f in this hierarchy to update the po/

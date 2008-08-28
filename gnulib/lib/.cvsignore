@@ -5,3 +5,14 @@ stdlib.h
 unistd.h
 wchar.h
 wctype.h
+fpending.c
+fpending.h
+getopt
+intprops.h
+stdbool
+stdlib
+strerror.c
+string.h
+unistd
+wchar
+wctype
