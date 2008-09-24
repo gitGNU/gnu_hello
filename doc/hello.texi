@@ -9,8 +9,8 @@
 This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}),
 which prints a friendly greeting (and serves as an example GNU package).
 
-Copyright @copyright{} 1992, 1993, 1996, 2002, 2005, 2006, 2007 Free
-Software Foundation, Inc.
+Copyright @copyright{} 1992, 1993, 1996, 2002, 2005, 2006, 2007, 2008
+Free Software Foundation, Inc.
 
 @quotation
 Permission is granted to copy, distribute and/or modify this document
@@ -71,14 +71,12 @@ This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}).
 @cindex greetings
 @cindex overview
 
-The GNU @code{hello} program produces a familiar, friendly greeting.
-It allows nonprogrammers to use a classic computer science tool which
-would otherwise be unavailable to them.  Because it is protected by
-the GNU General Public License, users are free (in perpetuity) to
-share and change it.
-
-For the latest updates and other information, please visit the GNU
-Hello home page at @url{http://www.gnu.org/software/hello/}.
+The GNU @code{hello} program
+(@url{http://www.gnu.org/software/hello/}) produces a familiar,
+friendly greeting.  It allows nonprogrammers to use a classic computer
+science tool which would otherwise be unavailable to them.  Because it
+is protected by the GNU General Public License, users are free (in
+perpetuity) to share and change it.
 
 @cindex joke, not
 Not to spoil the joke, but of course the practical purpose of GNU
@@ -143,7 +141,7 @@ HTML, PDF, DVI, plain text, XML, and other formats.
 
 GNU Hello is implemented in C.  GNU Gettext contains ``hello world''
 examples in a variety of other programming languages; see the Gettext
-home page at @url{http://www.gnu.org/software/gettext/}.
+home page at @url{http://www.gnu.org/software/gettext/}.  
 
 @cindex authors
 @cindex Haertel, Mike
@@ -155,7 +153,7 @@ home page at @url{http://www.gnu.org/software/gettext/}.
 @cindex Eichwalder, Karl
 @cindex King, The
 @cindex Berry, Karl
-GNU @code{hello} was written by Mike Haertel, David MacKenzie, Jan
+GNU Hello was written by Mike Haertel, David MacKenzie, Jan
 Brittenson, Charles Hannum, Roland McGrath, Noah Friedman, Karl
 Eichwalder, Karl Berry, and @w{The King}.
 
@@ -166,7 +164,7 @@ Eichwalder, Karl Berry, and @w{The King}.
 @cindex sample output
 @cindex examples
 
-Here are some realistic examples of running GNU @code{hello}.
+Here are some realistic examples of running GNU Hello.
 
 This is the output of the command @samp{hello}:
 
@@ -246,7 +244,7 @@ than the more modern @samp{Hello, world!}.
 @itemx -v
 @opindex --version
 @opindex -v
-Print the version number and licensing information of @code{hello} on
+Print the version number and licensing information of Hello on
 standard output and then exit successfully.
 
 @end table
@@ -259,7 +257,7 @@ standard output and then exit successfully.
 @cindex problems
 @cindex reporting bugs
 
-To report bugs or suggest enhancements for GNU @code{hello}, please
+To report bugs or suggest enhancements for GNU Hello, please
 send electronic mail to @email{bug-hello@@gnu.org}.
 
 @cindex checklist for bug reports
