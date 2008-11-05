@@ -16,3 +16,4 @@ string.h
 unistd
 wchar
 wctype
+errno.in.h

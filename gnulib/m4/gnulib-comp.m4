@@ -47,6 +47,7 @@ AC_DEFUN([gl_INIT],
   gl_CLOSE_STREAM
   gl_MODULE_INDICATOR([close-stream])
   gl_CLOSEOUT
+  gl_HEADER_ERRNO_H
   gl_ERROR
   m4_ifdef([AM_XGETTEXT_OPTION],
     [AM_XGETTEXT_OPTION([--flag=error:3:c-format])
@@ -207,6 +208,7 @@ AC_DEFUN([gl_FILE_LIST], [
   lib/close-stream.h
   lib/closeout.c
   lib/closeout.h
+  lib/errno.in.h
   lib/error.c
   lib/error.h
   lib/exitfail.c
@@ -234,6 +236,7 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/close-stream.m4
   m4/closeout.m4
   m4/codeset.m4
+  m4/errno_h.m4
   m4/error.m4
   m4/exitfail.m4
   m4/extensions.m4

@@ -5,3 +5,4 @@ gnulib-comp.m4
 strerror.m4
 string_h.m4
 threadlib.m4
+errno_h.m4
