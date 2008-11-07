@@ -1,10 +1,10 @@
 .deps
 Makefile
 Makefile.in
-errno.in.h
-intprops.h
+errno.h
+getopt.h
+stdbool.h
 stdlib.h
-strerror.c
 string.h
 unistd.h
 wchar.h
