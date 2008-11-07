@@ -1,3 +1,7 @@
+2008-11-07  Karl Berry  <karl@tug.org>
+
+	* pretest version 2.3.91.
+
 2008-02-26  Karl Berry  <karl@gnu.org>
 
 	* autogen.sh: autoconf before autoheader, per autoreconf.

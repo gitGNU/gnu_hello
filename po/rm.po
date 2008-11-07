@@ -9,7 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
-"POT-Creation-Date: 2002-05-22 19:23+0200\n"
+"Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
+"POT-Creation-Date: 2008-11-07 02:26+0100\n"
 "PO-Revision-Date: 2003-12-13 23:38+0100\n"
 "Last-Translator: Florian Verdet _goto <fvgoto@linuxbourg.ch>\n"
 "Language-Team: Rhaeto-Romance <gnu-rumantsch@guglielmtux.ch>\n"
@@ -18,152 +19,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.2\n"
 
-#: src/getopt.c:693
+#: src/hello.c:95
 #, c-format
-msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: l'opziun `%s' ha duos sens\n"
+msgid "%s: extra operand: %s\n"
+msgstr ""
 
-#: src/getopt.c:718
-#, c-format
-msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: l'opziun `--%s' nu permetta ingün argumaint\n"
-
-#: src/getopt.c:723
-#, c-format
-msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: l'opziun `%c%s' nu permetta ingün argumaint\n"
-
-#: src/getopt.c:741 src/getopt.c:914
-#, c-format
-msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: l'opziun `%s' ha dabsögn d'ün argumaint\n"
-
-#: src/getopt.c:770
-#, c-format
-msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: opziun `--%s' incuntschainta\n"
-
-#: src/getopt.c:774
-#, c-format
-msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: opziun `%c%s' incuntschainta\n"
-
-#: src/getopt.c:800
-#, c-format
-msgid "%s: illegal option -- %c\n"
-msgstr "%s: opziun -- %c illegala\n"
-
-#: src/getopt.c:803
-#, c-format
-msgid "%s: invalid option -- %c\n"
-msgstr "%s: opziun -- %c na valabla\n"
-
-#: src/getopt.c:833 src/getopt.c:963
-#, c-format
-msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: l'opziun -- %c dovra ün argumaint\n"
-
-#: src/getopt.c:880
-#, c-format
-msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: l'opziun `-W %s' ha plüs sens\n"
-
-#: src/getopt.c:898
-#, c-format
-msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: l'opziun `-W %s' nu permetta ingün argumaint\n"
-
-#: src/hello.c:164
-msgid "Too many arguments\n"
-msgstr "Massa blers argumaints\n"
-
-#: src/hello.c:165
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Prouva `%s --help' per daplü infuormaziuns\n"
 
-#. TRANSLATORS: --help output 1
-#. no-wrap
-#: src/hello.c:177
-#, fuzzy
-msgid "GNU hello, THE greeting printing program.\n"
-msgstr "GNU hello, IL program chi squitscha salüds.\n"
-
-#. TRANSLATORS: --help output 2
-#. no-wrap
-#: src/hello.c:182
+#: src/hello.c:104
 #, c-format
-msgid "Usage: %s [OPTION]\n"
-msgstr "Adöver: %s [OPZIUN]\n"
-
-#. TRANSLATORS: --help output 3 : options 1/2
-#. no-wrap
-#: src/hello.c:188
-#, fuzzy
-msgid ""
-"  -h, --help          display this help and exit\n"
-"  -v, --version       display version information and exit\n"
-msgstr ""
-"  -h, --help          muossa quist agüd e schmetta\n"
-"  -v, --version       muossa infuormaziuns da versiun e schmetta\n"
-
-#. TRANSLATORS: --help output 4 : options 2/2
-#. no-wrap
-#: src/hello.c:195
-#, fuzzy
-msgid ""
-"  -t, --traditional       use traditional greeting format\n"
-"  -n, --next-generation   use next-generation greeting format\n"
-"  -m, --mail              print your mail\n"
-msgstr ""
-"  -t, --traditional       dovra format da salüd tradiziunal\n"
-"  -n, --next-generation   dovra format da salüd da la prossma generaziun\n"
-"  -m, --mail              squitscha teis mails\n"
-
-#. TRANSLATORS: --help output 5 (end)
-#. TRANSLATORS, please don't forget to add the contact address for
-#. your translation!
-#. no-wrap
-#: src/hello.c:205
-#, fuzzy, c-format
-msgid "Report bugs to <%s>.\n"
-msgstr "Fa a savair pideras a <%s>.\n"
-
-#: src/hello.c:217
-#, fuzzy, c-format
-msgid ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
-"of the GNU General Public License.\n"
-"For more information about these matters, see the file named COPYING.\n"
-msgstr ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"I nu da INGÜNA garanzia; neir na per MARCHADANTIBILITÀ o per l'OPPORTUNITÀ\n"
-"PER ÜN BéT PARTICULAR.  Tü poust distribuir copchas da GNU %s suot las noziuns\n"
-"da la GNU General Public License.\n"
-"Per daplü infuormaziuns sur da quistas chausas, guarda la datei COPYING.\n"
-
-#: src/hello.c:228
-#, c-format
-msgid "%s: Incompatible flags: -m and -t\n"
-msgstr "%s: Segns incompatibels: -m e -t\n"
-
-#: src/hello.c:260
-#, c-format
-msgid "%s: Who are you?\n"
-msgstr "%s: Chi est tü?\n"
-
-#: src/hello.c:282
-#, fuzzy, c-format
-msgid "%s: Cannot find your mail spool file.\n"
-msgstr "%s: Eu nu chatt tia datei mail spool.\n"
-
-#: src/hello.c:326
-msgid "Nothing happens here."
-msgstr "Quia nöglia nu capita."
-
-#: src/hello.c:332
 msgid "hello, world\n"
 msgstr "chau, muond\n"
 
@@ -173,7 +40,8 @@ msgstr "chau, muond\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:340
+#: src/hello.c:113
+#, c-format
 msgid ""
 "+---------------+\n"
 "| Hello, world! |\n"
@@ -183,11 +51,197 @@ msgstr ""
 "║ Chau, muond! ║\n"
 "╚══════════════╝\n"
 
-#: src/hello.c:346
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "Chau, muond!"
 
-#: src/hello.c:361
+#. TRANSLATORS: --help output 1 (synopsis)
+#. no-wrap
+#: src/hello.c:140
 #, fuzzy, c-format
-msgid "%s: Virtual memory exhausted\n"
+msgid "Usage: %s [OPTION]...\n"
+msgstr "Adöver: %s [OPZIUN]\n"
+
+#. TRANSLATORS: --help output 2 (brief description)
+#. no-wrap
+#: src/hello.c:145
+msgid "Print a friendly, customizable greeting.\n"
+msgstr ""
+
+#. TRANSLATORS: --help output 3: options 1/2
+#. no-wrap
+#: src/hello.c:151
+#, fuzzy
+msgid ""
+"  -h, --help          display this help and exit\n"
+"  -v, --version       display version information and exit\n"
+msgstr ""
+"  -h, --help          muossa quist agüd e schmetta\n"
+"  -v, --version       muossa infuormaziuns da versiun e schmetta\n"
+
+#. TRANSLATORS: --help output 4: options 2/2
+#. no-wrap
+#: src/hello.c:158
+#, fuzzy
+msgid ""
+"  -t, --traditional       use traditional greeting format\n"
+"  -n, --next-generation   use next-generation greeting format\n"
+"  -g, --greeting=TEXT     use TEXT as the greeting message\n"
+msgstr ""
+"  -t, --traditional       dovra format da salüd tradiziunal\n"
+"  -n, --next-generation   dovra format da salüd da la prossma generaziun\n"
+"  -m, --mail              squitscha teis mails\n"
+
+#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: the placeholder indicates the bug-reporting address
+#. for this application.  Please add _another line_ with the
+#. address for translation bugs.
+#. no-wrap
+#: src/hello.c:169
+#, fuzzy, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr "Fa a savair pideras a <%s>.\n"
+
+#: src/hello.c:187
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+
+#: gnulib/lib/error.c:125
+msgid "Unknown system error"
+msgstr ""
+
+#: gnulib/lib/getopt.c:526 gnulib/lib/getopt.c:542
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: l'opziun `%s' ha duos sens\n"
+
+#: gnulib/lib/getopt.c:575 gnulib/lib/getopt.c:579
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: l'opziun `--%s' nu permetta ingün argumaint\n"
+
+#: gnulib/lib/getopt.c:588 gnulib/lib/getopt.c:593
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: l'opziun `%c%s' nu permetta ingün argumaint\n"
+
+#: gnulib/lib/getopt.c:636 gnulib/lib/getopt.c:655 gnulib/lib/getopt.c:971
+#: gnulib/lib/getopt.c:990
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: l'opziun `%s' ha dabsögn d'ün argumaint\n"
+
+#: gnulib/lib/getopt.c:693 gnulib/lib/getopt.c:696
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: opziun `--%s' incuntschainta\n"
+
+#: gnulib/lib/getopt.c:704 gnulib/lib/getopt.c:707
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: opziun `%c%s' incuntschainta\n"
+
+#: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: opziun -- %c illegala\n"
+
+#: gnulib/lib/getopt.c:768 gnulib/lib/getopt.c:771
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: opziun -- %c na valabla\n"
+
+#: gnulib/lib/getopt.c:823 gnulib/lib/getopt.c:839 gnulib/lib/getopt.c:1043
+#: gnulib/lib/getopt.c:1061
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: l'opziun -- %c dovra ün argumaint\n"
+
+#: gnulib/lib/getopt.c:892 gnulib/lib/getopt.c:908
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: l'opziun `-W %s' ha plüs sens\n"
+
+#: gnulib/lib/getopt.c:932 gnulib/lib/getopt.c:950
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: l'opziun `-W %s' nu permetta ingün argumaint\n"
+
+#: gnulib/lib/closeout.c:112
+msgid "write error"
+msgstr ""
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
+#.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
+#. and use glyphs suitable for your language.
+#: gnulib/lib/quotearg.c:266
+msgid "`"
+msgstr ""
+
+#: gnulib/lib/quotearg.c:267
+msgid "'"
+msgstr ""
+
+#: gnulib/lib/xalloc-die.c:34
+#, fuzzy
+msgid "memory exhausted"
 msgstr "%s: Plü ingüna memoria virtuala\n"
+
+#~ msgid "Too many arguments\n"
+#~ msgstr "Massa blers argumaints\n"
+
+#, fuzzy
+#~ msgid "GNU hello, THE greeting printing program.\n"
+#~ msgstr "GNU hello, IL program chi squitscha salüds.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
+#~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
+#~ "terms\n"
+#~ "of the GNU General Public License.\n"
+#~ "For more information about these matters, see the file named COPYING.\n"
+#~ msgstr ""
+#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
+#~ "I nu da INGÜNA garanzia; neir na per MARCHADANTIBILITÀ o per "
+#~ "l'OPPORTUNITÀ\n"
+#~ "PER ÜN BéT PARTICULAR.  Tü poust distribuir copchas da GNU %s suot las "
+#~ "noziuns\n"
+#~ "da la GNU General Public License.\n"
+#~ "Per daplü infuormaziuns sur da quistas chausas, guarda la datei COPYING.\n"
+
+#~ msgid "%s: Incompatible flags: -m and -t\n"
+#~ msgstr "%s: Segns incompatibels: -m e -t\n"
+
+#~ msgid "%s: Who are you?\n"
+#~ msgstr "%s: Chi est tü?\n"
+
+#, fuzzy
+#~ msgid "%s: Cannot find your mail spool file.\n"
+#~ msgstr "%s: Eu nu chatt tia datei mail spool.\n"
+
+#~ msgid "Nothing happens here."
+#~ msgstr "Quia nöglia nu capita."
