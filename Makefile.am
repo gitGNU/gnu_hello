@@ -1,8 +1,8 @@
 # Process this file with automake to produce Makefile.in (in this,
 # and all subdirectories).
-#
 # Makefile for the top-level directory of GNU hello.
-# Copyright (C) 1997, 1998, 2005, 2006, 2007, 2008 Free Software
+# 
+# Copyright 1997, 1998, 2005, 2006, 2007, 2008 Free Software
 # Foundation, Inc.
 #
 # This program is free software; you can redistribute it and/or modify
@@ -16,8 +16,7 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software Foundation,
-# Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Find gnulib headers.
 ACLOCAL_AMFLAGS = -I gnulib/m4
