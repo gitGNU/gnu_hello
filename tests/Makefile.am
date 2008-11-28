@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-TESTS = greeting-1 greeting-2 hello-1 traditional-1
+TESTS = greeting-1 greeting-2 hello-1 last-1 traditional-1
 
 EXTRA_DIST = $(TESTS)
 

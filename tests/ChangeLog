@@ -1,3 +1,8 @@
+2008-11-28  Karl Berry  <karl@tug.org>
+
+	* Makefile.am (TESTS): add it.
+	* last-1: new test.
+
 2006-08-23  Bruno Haible  <bruno@clisp.org>
 
 	* greeting-1: Remove locale setting. This test must work in all
@@ -41,7 +46,7 @@ Mon Dec 30 17:29:37 1996  Karl Eichwalder  <ke@ke.Central.DE>
 
 	* testdata: Copied from `../src/'.
 
-Copyright (C) 1996, 1997, 2001, 2006 Free Software Foundation, Inc.
+Copyright 1996, 1997, 2001, 2006, 2008 Free Software Foundation, Inc.
 
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright
