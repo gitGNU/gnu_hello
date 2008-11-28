@@ -1,3 +1,8 @@
+2008-11-28  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Invoking hello): mention that the last-specified
+	greeting option is what counts.
+
 2008-11-05  Karl Berry  <karl@gnu.org>
 
 	* fdl.texi: update to 1.3.

@@ -1,3 +1,8 @@
+2008-11-28  Karl Berry  <karl@gnu.org>
+
+	* hello.c (greeting_type): new type.
+	(main): make last greeting option be the one that counts.
+
 2007-06-26  Karl Berry  <karl@gnu.org>
 
 	* hello.c (print_version): update notice in --version.

@@ -57,8 +57,8 @@ This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}).
 
 @menu
 * Overview::		General purpose and information.
-* Sample output::	Sample output from @code{hello}.
-* Invoking hello::	How to run @code{hello}.
+* Sample output::	Sample output from @command{hello}.
+* Invoking hello::	How to run @command{hello}.
 * Reporting bugs::	Sending bug reports and feature suggestions.
 * GNU Free Documentation License:: Copying and sharing this documentation.
 * Concept index::	Index of concepts.
@@ -71,7 +71,7 @@ This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}).
 @cindex greetings
 @cindex overview
 
-The GNU @code{hello} program
+The GNU @command{hello} program
 (@url{http://www.gnu.org/software/hello/}) produces a familiar,
 friendly greeting.  It allows nonprogrammers to use a classic computer
 science tool which would otherwise be unavailable to them.  Because it
@@ -186,27 +186,30 @@ hi
 
 
 @node Invoking hello
-@chapter Invoking @code{hello}
+@chapter Invoking @command{hello}
 
 @cindex invoking
 @cindex options
 @cindex usage
 @cindex help
 
-The format for running the @code{hello} program is:
+The format for running the @command{hello} program is:
 
 @example
 hello @var{option} @dots{}
 @end example
 
-@code{hello} supports the following options:
+With no options, @command{hello} prints the greeting @samp{Hello,
+world!}.
+
+@command{hello} supports the following options:
 
 @table @option
 @item --greeting=@var{text}
 @itemx -g @var{text}
 @opindex --greeting
 @opindex -g
-Output @var{text}.
+Output @var{text} instead of the default greeting.
 
 @item --help
 @itemx -h
@@ -226,10 +229,8 @@ be mentioned (Hello doesn't have any).
 @itemx -n
 @opindex --next-generation
 @opindex -n
-@cindex Unicode
-@cindex UTF-8
-Output a modern greeting, possibly including box-drawing
-characters or other fancy stuff, using the Unicode UTF-8 locale.
+Output @samp{Hello, world!}, but possibly including box-drawing
+characters or other fancy stuff.
 
 @item --traditional
 @itemx -t
@@ -237,8 +238,7 @@ characters or other fancy stuff, using the Unicode UTF-8 locale.
 @opindex -t
 @cindex traditional
 @cindex modern
-Use the traditional greeting message @samp{hello, world} rather
-than the more modern @samp{Hello, world!}.
+Output the traditional greeting message @samp{hello, world}.
 
 @item --version
 @itemx -v
@@ -248,6 +248,10 @@ Print the version number and licensing information of Hello on
 standard output and then exit successfully.
 
 @end table
+
+If more than one of the greeting options (@option{-g}, @option{-n},
+@option{-t}, and their long-named equivalents) is specified, whichever
+comes last takes precedence.
 
 
 @node Reporting bugs
@@ -296,7 +300,6 @@ Emacs Manual}).  Please follow the existing coding style.
 @node Concept index
 @unnumbered Concept index
 
-@cindex tail recursion
 @printindex cp
 
 @bye

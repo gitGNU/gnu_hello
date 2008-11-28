@@ -32,6 +32,12 @@ static const struct option longopts[] =
   { NULL, 0, NULL, 0 }
 };
 
+/* Different types of greetings; only one per invocation.  */
+typedef enum {
+  greet_gnu, greet_new, greet_traditional, greet_user
+} greeting_type;
+
+/* Forward declarations.  */
 static void print_help (void);
 static void print_version (void);
 
@@ -39,8 +45,9 @@ int
 main (int argc, char *argv[])
 {
   int optc;
-  int t = 0, n = 0, lose = 0;
-  const char *greeting = NULL;
+  int lose = 0;
+  const char *greeting_msg = NULL;
+  greeting_type g = greet_gnu;
 
   program_name = argv[0];
 
@@ -53,34 +60,33 @@ main (int argc, char *argv[])
   textdomain (PACKAGE);
 #endif
 
-  /* Even exiting has subtleties.  The /dev/full device on GNU/Linux
-     can be used for testing whether writes are checked properly.  For
-     instance, hello >/dev/full should exit unsuccessfully.  On exit,
-     if any writes failed, change the exit status.  This is
-     implemented in the Gnulib module "closeout".  */
+  /* Even exiting has subtleties.  On exit, if any writes failed, change
+     the exit status.  The /dev/full device on GNU/Linux can be used for
+     testing; for instance, hello >/dev/full should exit unsuccessfully.
+     This is implemented in the Gnulib module "closeout".  */
   atexit (close_stdout);
 
   while ((optc = getopt_long (argc, argv, "g:hntv", longopts, NULL)) != -1)
     switch (optc)
       {
-      /* One goal here is having --help and --version exit immediately,
-         per GNU coding standards.  */
+      /* --help and --version exit immediately, per GNU coding standards.  */
       case 'v':
         print_version ();
         exit (EXIT_SUCCESS);
         break;
       case 'g':
-        greeting = optarg;
+        greeting_msg = optarg;
+        g = greet_user;
         break;
       case 'h':
         print_help ();
         exit (EXIT_SUCCESS);
         break;
       case 'n':
-        n = 1;
+        g = greet_new;
         break;
       case 't':
-        t = 1;
+        g = greet_traditional;
         break;
       default:
         lose = 1;
@@ -99,10 +105,10 @@ main (int argc, char *argv[])
     }
 
   /* Print greeting message and exit. */
-  if (t)
+  if (g == greet_traditional)
     printf (_("hello, world\n"));
 
-  else if (n)
+  else if (g == greet_new)
     /* TRANSLATORS: Use box drawing characters or other fancy stuff
        if your encoding (e.g., UTF-8) allows it.  If done so add the
        following note, please:
@@ -115,13 +121,18 @@ main (int argc, char *argv[])
 +---------------+\n\
 "));
 
-  else
-    {
-      if (!greeting)
-        greeting = _("Hello, world!");
-      puts (greeting);
-    }
+  else if (g == greet_user)
+    puts (greeting_msg);
+
+  else if (g == greet_gnu)
+    puts (_("Hello, world!"));
   
+  else {
+    /* No need for this impossible message to be translated.  */
+    fprintf (stderr, "Impossible hello value %d\n", g);
+    exit (EXIT_FAILURE);
+  }
+
   exit (EXIT_SUCCESS);
 }
 
