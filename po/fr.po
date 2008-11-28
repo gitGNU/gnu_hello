@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2008-11-07 02:26+0100\n"
+"POT-Creation-Date: 2008-11-28 19:10+0100\n"
 "PO-Revision-Date: 2002-08-04 08:00-0500\n"
 "Last-Translator: Michel Robitaille <robitail@IRO.UMontreal.CA>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -14,17 +14,17 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:95
+#: src/hello.c:100
 #, c-format
 msgid "%s: extra operand: %s\n"
 msgstr ""
 
-#: src/hello.c:97
+#: src/hello.c:102
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Pour plus d'informations, faire: « %s --help ».\n"
 
-#: src/hello.c:104
+#: src/hello.c:109
 #, c-format
 msgid "hello, world\n"
 msgstr "Bonjour, le monde.\n"
@@ -35,7 +35,7 @@ msgstr "Bonjour, le monde.\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:113
+#: src/hello.c:118
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -46,26 +46,26 @@ msgstr ""
 "| Bonjour, le monde! |\n"
 "+--------------------+\n"
 
-#: src/hello.c:122
+#: src/hello.c:128
 msgid "Hello, world!"
 msgstr "Bonjour, le monde!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:140
+#: src/hello.c:150
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Usage: %s [OPTION]\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:145
+#: src/hello.c:155
 msgid "Print a friendly, customizable greeting.\n"
 msgstr ""
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:151
+#: src/hello.c:161
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -75,7 +75,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:158
+#: src/hello.c:168
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -92,12 +92,12 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:169
+#: src/hello.c:179
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "Rapporter toutes anomalies à <%s>.\n"
 
-#: src/hello.c:187
+#: src/hello.c:197
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"

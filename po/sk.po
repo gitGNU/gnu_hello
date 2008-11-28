@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2008-11-07 02:26+0100\n"
+"POT-Creation-Date: 2008-11-28 19:10+0100\n"
 "PO-Revision-Date: 2008-11-07 14:31+0100\n"
 "Last-Translator: Marcel Telka <marcel@telka.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:95
+#: src/hello.c:100
 #, c-format
 msgid "%s: extra operand: %s\n"
 msgstr "%s: operand navyše: %s\n"
 
-#: src/hello.c:97
+#: src/hello.c:102
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Skúste `%s --help' pre viac informácií.\n"
 
-#: src/hello.c:104
+#: src/hello.c:109
 #, c-format
 msgid "hello, world\n"
 msgstr "ahoj, svet\n"
@@ -38,7 +38,7 @@ msgstr "ahoj, svet\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:113
+#: src/hello.c:118
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -49,26 +49,26 @@ msgstr ""
 "| Ahoj, svet! |\n"
 "+-------------+\n"
 
-#: src/hello.c:122
+#: src/hello.c:128
 msgid "Hello, world!"
 msgstr "Ahoj, svet!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:140
+#: src/hello.c:150
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Použitie: %s [VOĽBA]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:145
+#: src/hello.c:155
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "Vytlačiť priateľský, nastaviteľný pozdrav.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:151
+#: src/hello.c:161
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -78,7 +78,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:158
+#: src/hello.c:168
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -93,23 +93,26 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:169
+#: src/hello.c:179
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Správy o chybách zasielajte na adresu <%s> (iba anglicky).\n"
-"Komentáre k slovenskému prekladu zasielajte na adresu <sk-i18n@lists.linux.sk>.\n"
+"Komentáre k slovenskému prekladu zasielajte na adresu <sk-i18n@lists.linux."
+"sk>.\n"
 
-#: src/hello.c:187
+#: src/hello.c:197
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Autorské práva © %s Free Software Foundation, Inc.\n"
-"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl.html>\n"
+"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl."
+"html>\n"
 "Toto je slobodný softvér: môžete ho slobodne meniť a ďalej šíriť.\n"
 "Neposkytuje sa ŽIADNA ZÁRUKA v rozsahu povolenom zákonmi.\n"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.3.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2008-11-07 02:26+0100\n"
+"POT-Creation-Date: 2008-11-28 19:10+0100\n"
 "PO-Revision-Date: 2007-10-16 19:00+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -16,18 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/hello.c:95
+#: src/hello.c:100
 #, c-format
 msgid "%s: extra operand: %s\n"
 msgstr "%s: overtollig argument: %s\n"
 
-#: src/hello.c:97
+#: src/hello.c:102
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Typ '%s --help' voor meer informatie.\n"
 
 # Ima to smisel prevajati? :-)
-#: src/hello.c:104
+#: src/hello.c:109
 #, c-format
 msgid "hello, world\n"
 msgstr "hallo, wereld\n"
@@ -38,7 +38,7 @@ msgstr "hallo, wereld\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:113
+#: src/hello.c:118
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -49,26 +49,26 @@ msgstr ""
 "| Hallo, wereld! |\n"
 "+----------------+\n"
 
-#: src/hello.c:122
+#: src/hello.c:128
 msgid "Hello, world!"
 msgstr "Hallo, wereld!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:140
+#: src/hello.c:150
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Gebruik:  %s [OPTIE]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:145
+#: src/hello.c:155
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "Een vriendelijke, aanpasbare groet weergeven.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:151
+#: src/hello.c:161
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -78,7 +78,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:158
+#: src/hello.c:168
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -93,14 +93,14 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:169
+#: src/hello.c:179
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Rapporteer gebreken in het programma aan <%s>;\n"
 "meld fouten in de vertaling aan <vertaling@vrijschrift.org>.\n"
 
-#: src/hello.c:187
+#: src/hello.c:197
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
