@@ -1,3 +1,7 @@
+2008-12-09  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Invoking hello): mention translation project.
+
 2008-11-28  Karl Berry  <karl@gnu.org>
 
 	* hello.texi (Invoking hello): mention that the last-specified

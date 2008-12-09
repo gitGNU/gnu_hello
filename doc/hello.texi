@@ -230,7 +230,9 @@ be mentioned (Hello doesn't have any).
 @opindex --next-generation
 @opindex -n
 Output @samp{Hello, world!}, but possibly including box-drawing
-characters or other fancy stuff.
+characters or other fancy stuff, especially in translated locales.
+(If you would like to volunteer to translate messages for GNU packages,
+please see @url{http://translationproject.org}.)
 
 @item --traditional
 @itemx -t

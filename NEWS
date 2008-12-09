@@ -8,11 +8,10 @@ See the manual for detailed information.
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
 
-
 
-Version 2.4
+Version 2.4 (9 December 2008)
 * last greeting option wins; before, the precedence was randomly hardwired.
-* FDL version 1.3 for the documentation.
+* FDL version 1.3+ for the documentation.
 * Distribution:
   . gnulib updates.
   . automake 1.10.2.

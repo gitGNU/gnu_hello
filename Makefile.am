@@ -31,7 +31,7 @@ SUBDIRS = contrib gnulib/lib po src doc man tests
 # .tar.gz's in the current directory.  This should only be done when an
 # official release is made (and only if you care to provide diffs).
 #
-hello_pre = 2.1.1
+hello_pre = 2.3
 #
 diff: diffcheck
 	@(echo "To apply these patches, cd to the main directory of the package"; \
