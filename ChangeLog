@@ -1,3 +1,7 @@
+2008-12-14  Karl Berry  <karl@gnu.org>
+
+	* Makefile.am (wwwdoc): doc fix.
+
 2008-12-09  Karl Berry  <karl@gnu.org>
 
 	* Version 2.4.

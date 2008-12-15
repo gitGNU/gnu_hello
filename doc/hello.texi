@@ -3,6 +3,12 @@
 @setfilename hello.info
 @include version.texi
 @settitle GNU Hello @value{VERSION}
+
+@c Define a new index for options.
+@defcodeindex op
+@c Combine everything into one index (arbitrarily chosen to be the
+@c concept index).
+@syncodeindex op cp
 @c %**end of header
 
 @copying
@@ -24,12 +30,6 @@ Texts.  A copy of the license is included in the section entitled
 @c If your manual is published on paper by the FSF, it should include
 @c the standard FSF Front-Cover and Back-Cover Texts, as given in
 @c maintain.texi.
-
-@c Define a new index for options.
-@defcodeindex op
-@c Combine everything into one index (arbitrarily chosen to be the
-@c concept index).
-@syncodeindex op cp
 
 @dircategory Basics
 @direntry
@@ -142,6 +142,25 @@ HTML, PDF, DVI, plain text, XML, and other formats.
 GNU Hello is implemented in C.  GNU Gettext contains ``hello world''
 examples in a variety of other programming languages; see the Gettext
 home page at @url{http://www.gnu.org/software/gettext/}.  
+
+@cindex @file{Makefile.am} targets
+The top-level @file{Makefile.am} in Hello also contains a few special
+targets for other projects to adapt as desired:
+
+@table @code
+@item diff
+Make a diff from the previous release, assuming the current tarball is
+in the current tarball.
+
+@item po-check
+Verify that all source files using @code{_()} are included for
+translation in @file{po/POTFILES.in}, so translators will have all the
+messages.
+
+@item wwwdoc
+Sample procedure for updating the manual on the GNU web site, in this
+case @url{http://www.gnu.org/software/hello/manual/}.
+@end table
 
 @cindex authors
 @cindex Haertel, Mike

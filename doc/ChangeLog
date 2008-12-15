@@ -1,3 +1,7 @@
+2008-12-14  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Overview): mention the special targets in Makefile.am.
+
 2008-12-09  Karl Berry  <karl@gnu.org>
 
 	* hello.texi (Invoking hello): mention translation project.
