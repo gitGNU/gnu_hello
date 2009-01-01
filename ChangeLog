@@ -1,3 +1,7 @@
+2009-01-01  Karl Berry  <karl@gnu.org>
+
+	* Makefile.am (wwwdoc, email): pass --email to gendocs.sh.
+
 2008-12-14  Karl Berry  <karl@gnu.org>
 
 	* Makefile.am (wwwdoc): doc fix.
