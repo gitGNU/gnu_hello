@@ -1,34 +1,38 @@
 # Korean messages for GNU hello.
+#
+# This file is distributed under the same license as the hello package.
+#
 # Copyright (C) 1996-1997, 1999, 2001, 2002 Free Software Foundation, Inc.
+#
 # Bang Jun-Young <bangjy@geocities.com>, 1996-1997
-# Changwoo Ryu <cwryu@debian.org> 1999-2002, 2007
+# Changwoo Ryu <cwryu@debian.org> 1999-2002, 2007, 2009
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.3\n"
+"Project-Id-Version: GNU hello 2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2008-12-09 10:50-0800\n"
-"PO-Revision-Date: 2007-07-05 21:09+0900\n"
+"POT-Creation-Date: 2008-11-07 02:26+0100\n"
+"PO-Revision-Date: 2009-01-13 11:45+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: Korean <translation-team-ko@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=EUC-KR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:100
+#: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr "%s: Ãß°¡ ¿ÀÆÛ·»µå: %s\n"
+msgstr "%s: ì¶”ê°€ ì˜¤í¼ë Œë“œ: %s\n"
 
-#: src/hello.c:102
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "´õ ¸¹Àº Á¤º¸¸¦ º¸·Á¸é `%s --help' ÇÏ½Ê½Ã¿À.\n"
+msgstr "ë” ë§ì´ ì•Œì•„ ë³´ë ¤ë©´ `%s --help' ì˜µì…˜ì„ ì‚¬ìš©í•˜ì‹­ì‹œì˜¤.\n"
 
-#: src/hello.c:109
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
-msgstr "¾È³ç, ¿©·¯ºĞ\n"
+msgstr "ì•ˆë…•, ì—¬ëŸ¬ë¶„\n"
 
 #. TRANSLATORS: Use box drawing characters or other fancy stuff
 #. if your encoding (e.g., UTF-8) allows it.  If done so add the
@@ -36,145 +40,143 @@ msgstr "¾È³ç, ¿©·¯ºĞ\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:118
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
 "| Hello, world! |\n"
 "+---------------+\n"
 msgstr ""
-"+---------------+\n"
-"| ¾È³ç, ¿©·¯ºĞ!  |\n"
-"+---------------+\n"
+"â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”\n"
+"â”‚ ì•ˆë…•, ì—¬ëŸ¬ë¶„! â”‚\n"
+"â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜\n"
 
-#: src/hello.c:128
+#: src/hello.c:122
 msgid "Hello, world!"
-msgstr "¾È³çÇÏ¼¼¿ä, ¿©·¯ºĞ!"
+msgstr "ì•ˆë…•í•˜ì„¸ìš”, ì—¬ëŸ¬ë¶„!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:150
+#: src/hello.c:140
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "»ç¿ë¹ı: %s [¿É¼Ç]...\n"
+msgstr "ì‚¬ìš©ë²•: %s [ì˜µì…˜]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:155
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr "¹İ°©°Ô ¼³Á¤ÇÒ ¼ö ÀÖ´Â ÀÎ»ç¸»À» Ãâ·ÂÇÕ´Ï´Ù.\n"
+msgstr "ë°˜ê°€ìš´ ì¸ì‚¬ë§ì„ (ì¸ì‚¬ë§ì€ ì„¤ì •í•  ìˆ˜ ìˆìŒ) ì¶œë ¥í•©ë‹ˆë‹¤.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:161
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
 msgstr ""
-"  -h, --help          ÀÌ µµ¿ò¸»À» Ãâ·ÂÇÏ°í ¸¶Ä¨´Ï´Ù\n"
-"  -v, --version       ¹öÀü Á¤º¸¸¦ Ç¥½ÃÇÏ°í ¸¶Ä¨´Ï´Ù\n"
+"  -h, --help          ì´ ë„ì›€ë§ì„ í‘œì‹œí•˜ê³  ë§ˆì¹©ë‹ˆë‹¤\n"
+"  -v, --version       ë²„ì „ ì •ë³´ë¥¼ í‘œì‹œí•˜ê³  ë§ˆì¹©ë‹ˆë‹¤\n"
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:168
+#: src/hello.c:158
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional       ÀüÅëÀûÀÎ ÀÎ»ç¸» Çü½ÄÀ» »ç¿ëÇÕ´Ï´Ù\n"
-"  -n, --next-generation   ½Å¼¼´ë ÀÎ»ç¸» Çü½ÄÀ» »ç¿ëÇÕ´Ï´Ù\n"
-"  -g, --greeting=TEXT     TEXT¸¦ ÀÎ»ç¸»·Î »ç¿ëÇÕ´Ï´Ù\n"
+"  -t, --traditional       ì „í†µì ì¸ ì¸ì‚¬ë§ í˜•ì‹ì„ ì‚¬ìš©í•©ë‹ˆë‹¤\n"
+"  -n, --next-generation   ì‹ ì„¸ëŒ€ ì¸ì‚¬ë§ í˜•ì‹ì„ ì‚¬ìš©í•©ë‹ˆë‹¤\n"
+"  -g, --greeting=<í…ìŠ¤íŠ¸> <í…ìŠ¤íŠ¸>ë¥¼ ì¸ì‚¬ë§ë¡œ ì‚¬ìš©í•©ë‹ˆë‹¤\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:179
+#: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
-msgstr "¹ö±×¸¦ %s·Î(À¸·Î) ¾Ë·Á ÁÖ¼¼¿ä.\n"
+msgstr "ë²„ê·¸ëŠ” %s ì£¼ì†Œë¡œ ì•Œë ¤ ì£¼ì‹­ì‹œì˜¤.\n"
 
-#: src/hello.c:197
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
-msgstr "¾Ë ¼ö ¾ø´Â ½Ã½ºÅÛ ¿À·ù"
+msgstr "ì•Œ ìˆ˜ ì—†ëŠ” ì‹œìŠ¤í…œ ì˜¤ë¥˜"
 
 #: gnulib/lib/getopt.c:526 gnulib/lib/getopt.c:542
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: `%s'Àº(´Â) ¸ğÈ£ÇÑ ¿É¼ÇÀÔ´Ï´Ù\n"
+msgstr "%s: `%s' ì˜µì…˜ì€ ëª¨í˜¸í•œ ì˜µì…˜ì…ë‹ˆë‹¤\n"
 
 #: gnulib/lib/getopt.c:575 gnulib/lib/getopt.c:579
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: `--%s' ¿É¼ÇÀº ÀÎ¼ö°¡ ÇÊ¿äÇÏÁö ¾Ê½À´Ï´Ù\n"
+msgstr "%s: `--%s' ì˜µì…˜ì€ ì¸ìˆ˜ê°€ í•„ìš” ì—†ìŠµë‹ˆë‹¤\n"
 
 #: gnulib/lib/getopt.c:588 gnulib/lib/getopt.c:593
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: `%c%s' ¿É¼ÇÀº ÀÎ¼ö°¡ ÇÊ¿äÇÏÁö ¾Ê½À´Ï´Ù\n"
+msgstr "%s: `%c%s' ì˜µì…˜ì€ ì¸ìˆ˜ê°€ í•„ìš” ì—†ìŠµë‹ˆë‹¤\n"
 
 #: gnulib/lib/getopt.c:636 gnulib/lib/getopt.c:655 gnulib/lib/getopt.c:971
 #: gnulib/lib/getopt.c:990
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: `%s' ¿É¼ÇÀº ÀÎ¼ö°¡ ÇÊ¿äÇÕ´Ï´Ù\n"
+msgstr "%s: `%s' ì˜µì…˜ì€ ì¸ìˆ˜ê°€ í•„ìš”í•©ë‹ˆë‹¤\n"
 
 #: gnulib/lib/getopt.c:693 gnulib/lib/getopt.c:696
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: ÀÎ½ÄÇÒ ¼ö ¾ø´Â ¿É¼Ç `--%s'\n"
+msgstr "%s: ì¸ì‹í•  ìˆ˜ ì—†ëŠ” ì˜µì…˜ `--%s'\n"
 
 #: gnulib/lib/getopt.c:704 gnulib/lib/getopt.c:707
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: ÀÎ½ÄÇÒ ¼ö ¾ø´Â ¿É¼Ç `%c%s'\n"
+msgstr "%s: ì¸ì‹í•  ìˆ˜ ì—†ëŠ” ì˜µì…˜ `%c%s'\n"
 
 #: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: Àß¸øµÈ ¿É¼Ç -- %c\n"
+msgstr "%s: ì˜ëª»ëœ ì˜µì…˜ -- %c\n"
 
 #: gnulib/lib/getopt.c:768 gnulib/lib/getopt.c:771
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: ºÎÀûÀıÇÑ ¿É¼Ç -- %c\n"
+msgstr "%s: í‹€ë¦° ì˜µì…˜ -- %c\n"
 
 #: gnulib/lib/getopt.c:823 gnulib/lib/getopt.c:839 gnulib/lib/getopt.c:1043
 #: gnulib/lib/getopt.c:1061
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ÀÎ¼ö°¡ ÇÊ¿äÇÑ ¿É¼ÇÀÔ´Ï´Ù -- %c\n"
+msgstr "%s: ì¸ìˆ˜ê°€ í•„ìš”í•œ ì˜µì…˜ì…ë‹ˆë‹¤ -- %c\n"
 
 #: gnulib/lib/getopt.c:892 gnulib/lib/getopt.c:908
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: `-W %s'Àº(´Â) ¸ğÈ£ÇÑ ¿É¼ÇÀÔ´Ï´Ù\n"
+msgstr "%s: `-W %s' ì˜µì…˜ì€ ëª¨í˜¸í•œ ì˜µì…˜ì…ë‹ˆë‹¤\n"
 
 #: gnulib/lib/getopt.c:932 gnulib/lib/getopt.c:950
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: `-W %s' ¿É¼ÇÀº ÀÎ¼ö¸¦ Çã¿ëÇÏÁö ¾Ê½À´Ï´Ù\n"
+msgstr "%s: `-W %s' ì˜µì…˜ì€ ì¸ìˆ˜ë¥¼ í—ˆìš©í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
-msgstr "¾²±â ¿À·ù"
+msgstr "ì“°ê¸° ì˜¤ë¥˜"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -197,12 +199,12 @@ msgstr "¾²±â ¿À·ù"
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:266
 msgid "`"
-msgstr "`"
+msgstr "â€œ"
 
 #: gnulib/lib/quotearg.c:267
 msgid "'"
-msgstr "'"
+msgstr "â€"
 
 #: gnulib/lib/xalloc-die.c:34
 msgid "memory exhausted"
-msgstr "¸Ş¸ğ¸®°¡ ¹Ù´Ú³²"
+msgstr "ë©”ëª¨ë¦¬ê°€ ë°”ë‹¥ë‚¨"
