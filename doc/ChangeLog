@@ -1,3 +1,13 @@
+2009-01-28  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Overview): automake/autoconf cross-manual names
+	are lowercase.  Report from Paul Goins, 28 Jan 2009 01:02:03.
+
+2009-01-25  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Top): use @insertcopying, so the copying notice
+	shows up in the plain text output.
+
 2008-12-14  Karl Berry  <karl@gnu.org>
 
 	* hello.texi (Overview): mention the special targets in Makefile.am.
