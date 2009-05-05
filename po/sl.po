@@ -1,33 +1,34 @@
 # -*- mode:po; coding:utf-8; -*- Slovenian message catalog for GNU hello.
-# Copyright (C) 1996 Free Software Foundation, Inc.
-# Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005.
+# Copyright (C) 1996, 2005, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the hello package.
+# Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005, 2009.
 #
-# $Id: sl.po,v 1.15 2008/12/09 18:52:28 karl Exp $
+# $Id: sl.po,v 1.16 2009/05/05 23:34:50 karl Exp $
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.1.1\n"
+"Project-Id-Version: hello 2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2008-12-09 10:50-0800\n"
-"PO-Revision-Date: 2005-08-31 12:06+0200\n"
+"POT-Creation-Date: 2008-11-07 02:26+0100\n"
+"PO-Revision-Date: 2009-05-05 11:12+0200\n"
 "Last-Translator: Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:100
+#: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: dodatni operand: %s\n"
 
-#: src/hello.c:102
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Poskusite »%s --help« za izčrpnejša navodila.\n"
 
 #  Ima to smisel prevajati? :-)
-#: src/hello.c:109
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
 msgstr "zdravo, svet\n"
@@ -38,7 +39,7 @@ msgstr "zdravo, svet\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:118
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -49,26 +50,26 @@ msgstr ""
 "| Zdravo, svet! |\n"
 "+---------------+\n"
 
-#: src/hello.c:128
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "Zdravo, svet!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:150
-#, fuzzy, c-format
+#: src/hello.c:140
+#, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "Uporaba: %s [IZBIRA]\n"
+msgstr "Uporaba: %s [IZBIRA]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:155
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Izpiše prijazen, nastavljiv pozdrav.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:161
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -78,42 +79,44 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:168
-#, fuzzy
+#: src/hello.c:158
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional      tradicionalna oblika pozdrava\n"
-"  -n, --next-generation  nova generacija oblike pozdrava\n"
-"  -m, --mail             izpis elektronske pošte\n"
+"  -t, --traditional       tradicionalna oblika pozdrava\n"
+"  -n, --next-generation   nova generacija oblike pozdrava\n"
+"  -g, --greeting=POZDRAV  uporabi POZDRAV kot pozdravno besedilo\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:179
+#: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Poročila o napakah javite na <%s>, poročila o napakah v slovenskem prevodu\n"
 "uporabniškega vmesnika na <primoz.peterlin@biofiz.mf.uni-lj.si>.\n"
 
-#: src/hello.c:197
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"GPLv3+: GNU GPL, 3. izdaja ali poznejša <http://www.gnu.org/licenses/gpl.html>\n"
+"To je prosto programje; lahko ga redistribuirate in/ali spreminjate.\n"
+"Za izdelek ni NOBENEGA JAMSTVA, do z zakonom dovoljene meje.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
-msgstr ""
+msgstr "Neznana sistemska napaka"
 
 #: gnulib/lib/getopt.c:526 gnulib/lib/getopt.c:542
 #, c-format
@@ -174,7 +177,7 @@ msgstr "%s: izbira »-W %s« ne dovoljuje argumenta\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
-msgstr ""
+msgstr "napaka pri pisanju"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -197,17 +200,16 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:266
 msgid "`"
-msgstr ""
+msgstr "»"
 
 #: gnulib/lib/quotearg.c:267
 msgid "'"
-msgstr ""
+msgstr "«"
 
 #  Morda ,,Zmanjkalo pomnilnika''?
 #: gnulib/lib/xalloc-die.c:34
-#, fuzzy
 msgid "memory exhausted"
-msgstr "%s: zmanjkalo virtualnega pomnilnika\n"
+msgstr "zmanjkalo pomnilnika"
 
 #~ msgid "Too many arguments\n"
 #~ msgstr "Preveč argumentov\n"
@@ -215,19 +217,16 @@ msgstr "%s: zmanjkalo virtualnega pomnilnika\n"
 #~ msgid "GNU hello, THE greeting printing program.\n"
 #~ msgstr "GNU hello: program, ki vas pozdravi.\n"
 
-#, fuzzy
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-#~ "under the terms of the GNU General Public License.\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Copyright (c) %s Free Software Foundation, Inc.\n"
-#~ "Ta program se razširja BREZ KAKRŠNEGAKOLI JAMSTVA, niti jamstva "
-#~ "USTREZNOSTI\n"
-#~ "ZA PRODAJO ali PRIMERNOSTI ZA UPORABO. Kopije GNU %s lahko razširjate "
-#~ "skladno\n"
+#~ "Ta program se razširja BREZ KAKRŠNEGAKOLI JAMSTVA, niti jamstva USTREZNOSTI\n"
+#~ "ZA PRODAJO ali PRIMERNOSTI ZA UPORABO. Kopije GNU %s lahko razširjate skladno\n"
 #~ "s pogoji »GNU General Public License«.\n"
 #~ "Za dodatne informacije si oglejte datoteko COPYING.\n"
 
