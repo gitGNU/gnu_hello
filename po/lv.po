@@ -1,30 +1,33 @@
-# Latvieğu paziòojumi GNU hello.
+# Latvian translation for hello.
+# This file is distributed under the same license as the hello package.
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Ilya Ketris <ilya@gde.to>, 1999.
+# Rihards Prieditis <rprieditis@gmail.com>,2009
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 1.3.23\n"
+"Project-Id-Version: GNU hello 2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2008-12-09 10:50-0800\n"
-"PO-Revision-Date: 1999-07-30 14:17 +0200\n"
-"Last-Translator: Ilya Ketris <ilya@gde.to>\n"
-"Language-Team: Latvian <translations@lv.quite.net>\n"
+"POT-Creation-Date: 2008-11-07 02:26+0100\n"
+"PO-Revision-Date: 2009-06-05 18:49+0200\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-13\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#: src/hello.c:100
+#: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: papildus operands: %s\n"
 
-#: src/hello.c:102
-#, fuzzy, c-format
+#: src/hello.c:97
+#, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Izpildiet \"%s --help\" tâlâkai informâcijai.\n"
+msgstr "MÄ“Ä£iniet \"%s --help\" tÄlÄkai informÄcijai.\n"
 
-#: src/hello.c:109
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
 msgstr "sveika, pasaule\n"
@@ -35,132 +38,143 @@ msgstr "sveika, pasaule\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:118
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
 "| Hello, world! |\n"
 "+---------------+\n"
 msgstr ""
+"+--------------------+\n"
+"| Sveika, pasaule! |\n"
+"+--------------------+\n"
 
-#: src/hello.c:128
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "Sveika, pasaule!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:150
+#: src/hello.c:140
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr ""
+msgstr "LietoÅ¡ana: %s [OPCIJAS]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:155
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Printerim draudzÄ«gs, pielÄgojums sveiciens.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:161
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
 msgstr ""
+"  -h, --help          attÄ“lo Å¡o palÄ«dzÄ«bas ziÅ†u un iziet\n"
+"  -v, --version       attÄ“lo versijas informÄciju un iziet\n"
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:168
+#: src/hello.c:158
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
+"  -t, --traditional       izmantot tradicionÄlo sveikÅ¡anas formÄtut\n"
+"  -n, --next-generation   izmantot nÄkamÄs paaudzÄ“s sveikÅ¡anas formÄtu\n"
+"  -g, --greeting=TEKST     izmantot TEKSTS, kÄ sveiciena ziÅ†ojumu\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:179
+#: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
-msgstr ""
+msgstr "ZiÅ†ojiet par kÄ¼Å«dÄm uz <%s>.\n"
 
-#: src/hello.c:197
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"AutortiesÄ«bas (C) %s BrÄ«vÄs ProgrammatÅ«ras Fondam, Inc.\n"
+"Licence GPLv3+: GNU GPL versija 3 vai vÄ“lÄks <http://gnu.org/licenses/gpl.html>\n"
+"Å Ä« ir brÄ«va programmatÅ«ra: jÅ«s varat brÄ«vi mainÄ«t un izplatÄ«t to.\n"
+"NAV NEKÄ€DAS GARANTIJAS, lÄ«dz likumÄ noteiktajam apjomam.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
-msgstr ""
+msgstr "NezinÄma sistÄ“mas kÄ¼Å«da"
 
 #: gnulib/lib/getopt.c:526 gnulib/lib/getopt.c:542
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: atslçga \"%s\" nav viennozîmîga.\n"
+msgstr "%s: opcija \"%s\" nav viennozÄ«mÄ«ga.\n"
 
 #: gnulib/lib/getopt.c:575 gnulib/lib/getopt.c:579
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: atslçga \"--%s\" nepieïauj argumentu.\n"
+msgstr "%s: opcija \"--%s\" nepieÄ¼auj argumentu.\n"
 
 #: gnulib/lib/getopt.c:588 gnulib/lib/getopt.c:593
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: atslçga \"%c%s\" nepieïauj argumentu.\n"
+msgstr "%s: opcija \"%c%s\" nepieÄ¼auj argumentu.\n"
 
 #: gnulib/lib/getopt.c:636 gnulib/lib/getopt.c:655 gnulib/lib/getopt.c:971
 #: gnulib/lib/getopt.c:990
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: atslçga \"%s\" prasa argumentu.\n"
+msgstr "%s: opcija \"%s\" prasa argumentu.\n"
 
 #: gnulib/lib/getopt.c:693 gnulib/lib/getopt.c:696
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: nezinâma atslçga \"--%s\".\n"
+msgstr "%s: nezinÄma opcija \"--%s\".\n"
 
 #: gnulib/lib/getopt.c:704 gnulib/lib/getopt.c:707
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: nezinâma atslçga \"%c%s\".\n"
+msgstr "%s: nezinÄma opcija \"%c%s\".\n"
 
 #: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: atslçga -- %c nav atïauta.\n"
+msgstr "%s: opcija -- %c nav atÄ¼auta.\n"
 
 #: gnulib/lib/getopt.c:768 gnulib/lib/getopt.c:771
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: atslçga %c nav pareiza.\n"
+msgstr "%s: opcija %c nav pareiza.\n"
 
 #: gnulib/lib/getopt.c:823 gnulib/lib/getopt.c:839 gnulib/lib/getopt.c:1043
 #: gnulib/lib/getopt.c:1061
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: atslçga \"%c\" prasa argumentu.\n"
+msgstr "%s: opcija \"%c\" prasa argumentu.\n"
 
 #: gnulib/lib/getopt.c:892 gnulib/lib/getopt.c:908
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: atslçga \"-W %s\" nav viennozîmîga.\n"
+msgstr "%s: opcija \"-W %s\" nav viennozÄ«mÄ«ga.\n"
 
 #: gnulib/lib/getopt.c:932 gnulib/lib/getopt.c:950
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: atslçga \"-W %s\" nepieïauj argumentu.\n"
+msgstr "%s: opcija \"-W %s\" nepieÄ¼auj argumentu.\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
-msgstr ""
+msgstr "rakstÄ«Å¡anas kÄ¼Å«da"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -183,54 +197,22 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:266
 msgid "`"
-msgstr ""
+msgstr "\""
 
 #: gnulib/lib/quotearg.c:267
 msgid "'"
-msgstr ""
+msgstr "\""
 
 #: gnulib/lib/xalloc-die.c:34
-#, fuzzy
 msgid "memory exhausted"
-msgstr "%s: virtuâlâ atmiòa izsmelta\n"
+msgstr "atmiÅ†a izsmelta"
 
 #~ msgid "Too many arguments\n"
 #~ msgstr "Par daudz argumentu.\n"
 
-#, fuzzy
 #~ msgid ""
-#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s\n"
-#~ "under the terms of the GNU General Public License.\n"
-#~ "For more information about these matters, see the file named COPYING.\n"
-#~ msgstr ""
-#~ "Copyright © %s Free Software Foundation, Inc.\n"
-#~ "Nekâdu garantiju; ne pat KOMERCIZMANTOĞANAI vai DERÎGUMAM\n"
-#~ "JEBKURAM NOLÛKAM.  Jûs varat izplatît GNU %s kopijas saskaòâ ar\n"
-#~ "GNU General Public License.\n"
-#~ "Tâlâkai informâcijai skatieties failu COPYING.\n"
-
-#, fuzzy
-#~ msgid "%s: Incompatible flags: -m and -t\n"
-#~ msgstr "%s: nesavietojamas atslçgas: -m un -t\n"
-
-#~ msgid "%s: Who are you?\n"
-#~ msgstr "%s: Kas jûs esat?\n"
-
-#, fuzzy
-#~ msgid "%s: Cannot find your mail spool file.\n"
-#~ msgstr "%s: nevar atrast jûsu pasta failu.\n"
-
-#~ msgid "Nothing happens here."
-#~ msgstr "Ğeit nekas nenotiek."
-
-#, fuzzy
-#~ msgid ""
-#~ "GNU hello, THE greeting printing program.\n"
-#~ "\n"
+#~ "This is GNU Hello, THE greeting printing program.\n"
 #~ "Usage: %s [OPTION]\n"
-#~ "\n"
 #~ "  -h, --help          display this help and exit\n"
 #~ "  -v, --version       display version information and exit\n"
 #~ "  -t, --traditional   use traditional greeting format\n"
@@ -238,24 +220,46 @@ msgstr "%s: virtuâlâ atmiòa izsmelta\n"
 #~ "\n"
 #~ "Report bugs to bug-gnu-hello@prep.ai.mit.edu.\n"
 #~ msgstr ""
-#~ "Tas ir GNU Hello, sveicinâjuma programma.\n"
-#~ "Izsaukums: %s [ATSLÇGA]\n"
-#~ "  -h, --help          izvadît palîdzîbu\n"
-#~ "  -v, --version       izvadît versiju\n"
-#~ "  -t, --traditional   izmantot tradicionâlo sveicinâjuma formâtu\n"
-#~ "  -m, --mail          drukât jûsu pastu\n"
+#~ "Tas ir GNU Hello, sveicinÄjuma programma.\n"
+#~ "Izsaukums: %s [ATSLÄ’GA]\n"
+#~ "  -h, --help          izvadÄ«t palÄ«dzÄ«bu\n"
+#~ "  -v, --version       izvadÄ«t versiju\n"
+#~ "  -t, --traditional   izmantot tradicionÄlo sveicinÄjuma formÄtu\n"
+#~ "  -m, --mail          drukÄt jÅ«su pastu\n"
 #~ "\n"
-#~ "Ziòojiet kïudas uz bug-gnu-hello@gnu.ai.mit.edu.\n"
+#~ "ZiÅ†ojiet kÄ¼udas uz bug-gnu-hello@gnu.ai.mit.edu.\n"
 
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "This is free software; see the source for copying conditions.  There is "
-#~ "NO\n"
-#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR "
-#~ "PURPOSE.\n"
+#~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "of the GNU General Public License.\n"
+#~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
-#~ "Copyright © %s Free Software Foundation, Inc.\n"
-#~ "Ğî prgrammatûra ir brîva; skatieties izplatîğanas noteikumus "
-#~ "izejtekstos.\n"
-#~ "Nekâdu garantiju; ne pat KOMERCIZMANTOĞANAI vai DERÎGUMAM\n"
-#~ "JEBKURAM NOLÛKAM.\n"
+#~ "Copyright Â© %s Free Software Foundation, Inc.\n"
+#~ "NekÄdu garantiju; ne pat KOMERCIZMANTOÅ ANAI vai DERÄªGUMAM\n"
+#~ "JEBKURAM NOLÅªKAM.  JÅ«s varat izplatÄ«t GNU %s kopijas saskaÅ†Ä ar\n"
+#~ "GNU General Public License.\n"
+#~ "TÄlÄkai informÄcijai skatieties failu COPYING.\n"
+
+#~ msgid "%s: incompatible flags: -m and -t\n"
+#~ msgstr "%s: nesavietojamas atslÄ“gas: -m un -t\n"
+
+#~ msgid "%s: Who are you?\n"
+#~ msgstr "%s: Kas jÅ«s esat?\n"
+
+#~ msgid "%s: cannot find your mail spool file.\n"
+#~ msgstr "%s: nevar atrast jÅ«su pasta failu.\n"
+
+#~ msgid "Nothing happens here."
+#~ msgstr "Å eit nekas nenotiek."
+
+#~ msgid ""
+#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
+#~ "This is free software; see the source for copying conditions.  There is NO\n"
+#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+#~ msgstr ""
+#~ "Copyright Â© %s Free Software Foundation, Inc.\n"
+#~ "Å Ä« prgrammatÅ«ra ir brÄ«va; skatieties izplatÄ«Å¡anas noteikumus izejtekstos.\n"
+#~ "NekÄdu garantiju; ne pat KOMERCIZMANTOÅ ANAI vai DERÄªGUMAM\n"
+#~ "JEBKURAM NOLÅªKAM.\n"
