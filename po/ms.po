@@ -1,31 +1,33 @@
-# THINK DIFFERENT, THINK OPENSOURE.
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# This file is distributed under the same license as the HELLO package.
-# NIK RAMADHAN NIK IDRIS <toknix@yahoo.com>, 2003.
+# translation of hello-2.3.91.ms.po to Malay
+# Copyright (C) 2003, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the hello package.
 #
+# NIK RAMADHAN NIK IDRIS <toknix@yahoo.com>, 2003.
+# Muhammad Najmi bin Ahmad Zabidi <najmi.zabidi@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: hello-2.1.1\n"
+"Project-Id-Version: hello-2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2008-12-09 10:50-0800\n"
-"PO-Revision-Date: 2002-12-19 14:22+0800\n"
-"Last-Translator: Nik Ramadhan Nik Idris <toknix@yahoo.com>\n"
+"POT-Creation-Date: 2008-11-07 02:26+0100\n"
+"PO-Revision-Date: 2009-07-16 15:26+0800\n"
+"Last-Translator: Muhammad Najmi bin Ahmad Zabidi <najmi.zabidi@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
 
-#: src/hello.c:100
+#: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: operan lebihan: %s\n"
 
-#: src/hello.c:102
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Cuba `%s --help' untuk lebih maklumat.\n"
 
-#: src/hello.c:109
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
 msgstr "Hello, Duniaku\n"
@@ -36,7 +38,7 @@ msgstr "Hello, Duniaku\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:118
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -47,26 +49,26 @@ msgstr ""
 "| Hello, Duniaku! |\n"
 "+---------------+\n"
 
-#: src/hello.c:128
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "Hello, Duniaku!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:150
-#, fuzzy, c-format
+#: src/hello.c:140
+#, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Penggunaan: %s [PILIHAN]\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:155
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Cetak ucapselamat yang mesra dan mudah diubah. \n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:161
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -76,40 +78,42 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:168
-#, fuzzy
+#: src/hello.c:158
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional             menggunakan format ucapan tradisional\n"
+"  -t, --traditional      menggunakan format ucapan tradisional\n"
 "  -n, --next-generation  menggunakan format ucapan generasi akan datang\n"
-"  -m, --mail                    cetak surat awak\n"
+"  -g, --greeting=TEKS    guna TEKS untuk ucapselamat\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:179
+#: src/hello.c:169
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr "Laporkan pepijat kepada <%s>.\n"
 
-#: src/hello.c:197
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"Hakcipta (C) %s Free Software Foundation, Inc.\n"
+"Lesen GPLv3+: GNU GPL version 3 atau kemudiannya <http://gnu.org/licenses/gpl.html>\n"
+"Ini adalah perisian bebas, anda boleh mengedarnya.\n"
+"TIADA WARANTI dalam had yang dibenarkan oleh undang-undang.\n"
 
 #: gnulib/lib/error.c:125
 msgid "Unknown system error"
-msgstr ""
+msgstr "Ralat sistem tidak diketahui"
 
 #: gnulib/lib/getopt.c:526 gnulib/lib/getopt.c:542
 #, c-format
@@ -170,7 +174,7 @@ msgstr "%s: pilihan `-W %s' tidak mengizinkan hujah\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
-msgstr ""
+msgstr "ralat tulis"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -193,48 +197,12 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:266
 msgid "`"
-msgstr ""
+msgstr "`"
 
 #: gnulib/lib/quotearg.c:267
 msgid "'"
-msgstr ""
+msgstr "'"
 
 #: gnulib/lib/xalloc-die.c:34
-#, fuzzy
 msgid "memory exhausted"
-msgstr "%s: Memori maya telah kehabisan\n"
-
-#~ msgid "Too many arguments\n"
-#~ msgstr "Terlalu banyak hujah\n"
-
-#~ msgid "GNU hello, THE greeting printing program.\n"
-#~ msgstr "GNU hello, program pencetakan ucapan.\n"
-
-#~ msgid ""
-#~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
-#~ "of the GNU General Public License.\n"
-#~ "For more information about these matters, see the file named COPYING.\n"
-#~ msgstr ""
-#~ "Hakcipta (C) %s Free Software Foundation, Inc.\n"
-#~ "Tiada jaminan disediakan, tidak juga untuk KEBOLEHANDAGANGAN atau "
-#~ "KEUPAYAAN UNTUK\n"
-#~ "SESUATU TUJUAN KHUSUS.  Kamu harus mengedarkan salinan GNU %s dibawah "
-#~ "syarat-syarat\n"
-#~ "Lesen Awan Umum GNU.\n"
-#~ "Untuk maklumat tambahan berkenaan masalah ini, sila rujuk nama fail "
-#~ "PENYALINAN.\n"
-
-#~ msgid "%s: Incompatible flags: -m and -t\n"
-#~ msgstr "%s: Bendera yang tidak serasi: -m and -t\n"
-
-#~ msgid "%s: Who are you?\n"
-#~ msgstr "%s: Siapakah anda?\n"
-
-#~ msgid "%s: Cannot find your mail spool file.\n"
-#~ msgstr "%s: Tidak menjumpai surat fail anda.\n"
-
-#~ msgid "Nothing happens here."
-#~ msgstr "Tiada apa yang berlaku disini."
+msgstr "memoritelah kehabisan"
