@@ -1,7 +1,7 @@
 /* hello.c -- print a greeting message and exit.
 
    Copyright 1992, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2005,
-   2006, 2007, 2008 Free Software Foundation, Inc.
+   2006, 2007, 2008, 2010 Free Software Foundation, Inc.
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -171,13 +171,25 @@ Print a friendly, customizable greeting.\n"), stdout);
   -g, --greeting=TEXT     use TEXT as the greeting message\n"), stdout);
 
   printf ("\n");
-  /* TRANSLATORS: --help output 5 (end)
+  /* TRANSLATORS: --help output 5+ (reports)
      TRANSLATORS: the placeholder indicates the bug-reporting address
      for this application.  Please add _another line_ with the
      address for translation bugs.
      no-wrap */
   printf (_("\
-Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
+Report bugs to: %s\n"), PACKAGE_BUGREPORT);
+#ifdef PACKAGE_PACKAGER_BUG_REPORTS
+  printf (_("Report %s bugs to: %s\n"), PACKAGE_PACKAGER,
+          PACKAGE_PACKAGER_BUG_REPORTS);
+#endif
+#ifdef PACKAGE_URL
+  printf (_("%s home page: <%s>\n"), PACKAGE_NAME, PACKAGE_URL);
+#else
+  printf (_("%s home page: <http://www.gnu.org/software/%s/>\n"),
+          PACKAGE_NAME, PACKAGE);
+#endif
+  fputs (_("General help using GNU software: <http://www.gnu.org/gethelp/>\n"),
+         stdout);
 }
 
 
@@ -199,5 +211,5 @@ Copyright (C) %s Free Software Foundation, Inc.\n\
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\
 This is free software: you are free to change and redistribute it.\n\
 There is NO WARRANTY, to the extent permitted by law.\n"),
-              "2008");
+              "2010");
 }

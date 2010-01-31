@@ -1,3 +1,9 @@
+2010-01-31  Karl Berry  <karl@gnu.org>
+
+	* hello.c (print_help): add lines for the package home page,
+	general help, etc.  Support packager-specific messages
+	a la version-etc in gnulib.
+
 2008-11-28  Karl Berry  <karl@gnu.org>
 
 	* hello.c (greeting_type): new type.
