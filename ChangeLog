@@ -1,3 +1,11 @@
+2010-01-31  Karl Berry  <karl@gnu.org>
+
+	* pretest version 2.4.90.
+
+	* gnulib/m4/gnulib-cache.m4 (gl_MODULES): explicitly remove getopt,
+	since it has been declared obsolete.
+	gnulib-tool --import getopt-gnu.  Other gnulib updates.
+
 2009-01-01  Karl Berry  <karl@gnu.org>
 
 	* Makefile.am (wwwdoc, email): pass --email to gendocs.sh.

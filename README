@@ -3,7 +3,7 @@ Hello prints a friendly greeting.  It also serves as a sample GNU
 package, showing practices that may be useful for GNU projects.
 
   Copyright (C) 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001,
-  2002, 2004, 2005, 2006 Free Software Foundation, Inc.
+  2002, 2004, 2005, 2006, 2010 Free Software Foundation, Inc.
 
   Copying and distribution of this file, with or without modification,
   are permitted in any medium without royalty provided the copyright
@@ -12,10 +12,10 @@ package, showing practices that may be useful for GNU projects.
 See the files ./INSTALL* for building and installation instructions.
 
 Primary distribution point: ftp://ftp.gnu.org/gnu/hello/
- (list of mirrors: http://www.gnu.org/prep/ftp.html)
+ automatic redirection: http://ftpmirror.gnu.org/hello
+ list of mirrors for manual selection: http://www.gnu.org/prep/ftp.html
 
 Home page: http://www.gnu.org/software/hello/
- (list of mirrors: http://www.gnu.org/server/list-mirrors.html)
 
 Mailing list: bug-hello@gnu.org
 - please use this list for all discussion: bug reports, enhancements, etc.
@@ -38,16 +38,16 @@ Bug reports:
 Patches are most welcome; if possible, please make them with diff -c and
 include ChangeLog entries.
 
-See README.dev for information on the Hello development environment --
-any interested parties are welcome.  If you're a programmer and wish to
+See README-dev for information on the development environment -- any
+interested parties are welcome.  If you're a programmer and wish to
 contribute, this should get you started.  If you're not a programmer,
-you can still make significant contributions by writing test cases,
-checking the documentation against the implementation, translating the
-program strings to other languages, etc.
+your help in writing test cases, checking the documentation against the
+implementation, translating the program strings to other languages,
+etc., would still be very much appreciated.
 
 The basic Hello algorithm was described by B.W. Kernighan and
-D.M. Ritchie.  The GNU implementation is an enhancement of the one
-published in that book, brought to you by the efforts of several people.
-Please see the ./AUTHORS file.
+D.M. Ritchie.  The GNU implementation is substantially more complex, in
+order to be a canonical example of a GNU package.  Many people have
+contributed; please see the ./AUTHORS and ./ChangeLog files.
 
 GNU Hello is free software.  See the file COPYING for copying conditions.

@@ -2,11 +2,17 @@ This NEWS file records noteworthy changes, very tersely.
 See the manual for detailed information.
 
   Copyright 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
-  2003, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+  2003, 2005, 2006, 2007, 2008, 2010 Free Software Foundation, Inc.
 
   Copying and distribution of this file, with or without modification,
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
+
+* Distribution:
+  . gnulib updates.
+  . autoconf 2.65, automake 1.11.1.
+    (Especially including the make dist security fix.)
+  . follow latest recommendations for --help and --version.
 
 
 Version 2.4 (9 December 2008)
