@@ -15,13 +15,13 @@
 
 
 # Specification in the form of a command-line invocation:
-#   gnulib-tool --import --dir=. --lib=libgnu --source-base=gnulib/lib --m4-base=gnulib/m4 --doc-base=doc --tests-base=tests --aux-dir=build-aux --no-libtool --macro-prefix=gl --no-vc-files closeout getopt gettext
+#   gnulib-tool --import --dir=. --lib=libgnu --source-base=gnulib/lib --m4-base=gnulib/m4 --doc-base=doc --tests-base=tests --aux-dir=build-aux --no-libtool --macro-prefix=gl --no-vc-files closeout getopt-gnu gettext
 
 # Specification in the form of a few gnulib-tool.m4 macro invocations:
 gl_LOCAL_DIR([])
 gl_MODULES([
   closeout
-  getopt
+  getopt-gnu
   gettext
 ])
 gl_AVOID([])
