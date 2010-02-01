@@ -1,13 +1,14 @@
 # Finnish messages for GNU hello
-# Copyright (C) 2000, 2001, 2002, 2006, 2007 Free Software Foundation, Inc.
-# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2000, 2001, 2002, 2006, 2007.
+# This file is distributed under the same license as the hello package.
+# Copyright (C) 2000, 2001, 2002, 2006, 2007, 2010 Free Software Foundation, Inc.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2000, 2001, 2002, 2006, 2007, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.3\n"
+"Project-Id-Version: hello 2.4.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2010-01-31 11:59-0800\n"
-"PO-Revision-Date: 2007-07-23 14:26+0300\n"
+"PO-Revision-Date: 2010-02-01 10:29+0200\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -92,45 +93,41 @@ msgstr ""
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
-#, fuzzy, c-format
+#, c-format
 msgid "Report bugs to: %s\n"
 msgstr ""
-"Kerro vioista (englanniksi) osoitteeseen <%s>.  Suomennoksen vioista\n"
-"voit ilmoittaa listalle <translation-team-fi@lists.sourceforge.net>.\n"
+"Kerro vioista (englanniksi) osoitteeseen: %s\n"
+"Suomennoksen vioista voit ilmoittaa listalle <translation-team-fi@lists.sourceforge.net>.\n"
 
 #: src/hello.c:182
-#, fuzzy, c-format
+#, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr ""
-"Kerro vioista (englanniksi) osoitteeseen <%s>.  Suomennoksen vioista\n"
-"voit ilmoittaa listalle <translation-team-fi@lists.sourceforge.net>.\n"
+msgstr "Kerro %s-vioista (englanniksi) osoitteeseen: %s\n"
 
 #: src/hello.c:186
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr ""
+msgstr "%s-kotisivu: <%s>\n"
 
 #: src/hello.c:188
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr ""
+msgstr "%s-kotisivu: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
+msgstr "Yleisiä ohjeita GNU-ohjelmistojen käytöstä: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
-"Lisenssi GPLv3+: GNU GPL versio 3 tai uudempi <http://gnu.org/licenses/gpl."
-"html>\n"
+"Lisenssi GPLv3+: GNU GPL versio 3 tai uudempi <http://gnu.org/licenses/gpl.html>\n"
 "Tämä on vapaa ohjelmisto: sinulla on vapaus muuttaa tai levittää tätä.\n"
 "Tälle ohjelmistolle EI myönnetä takuuta lain sallimissa rajoissa.\n"
 
@@ -139,56 +136,56 @@ msgid "Unknown system error"
 msgstr "Tuntematon järjestelmävirhe"
 
 #: gnulib/lib/getopt.c:529 gnulib/lib/getopt.c:545
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: valitsin \"%s\" on monitulkintainen\n"
+msgstr "%s: valitsin ”%s” on monitulkintainen\n"
 
 #: gnulib/lib/getopt.c:578 gnulib/lib/getopt.c:582
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: valitsin \"--%s\" ei salli argumenttia\n"
+msgstr "%s: valitsin ”--%s” ei salli argumenttia\n"
 
 #: gnulib/lib/getopt.c:591 gnulib/lib/getopt.c:596
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: valitsin \"%c%s\" ei salli argumenttia\n"
+msgstr "%s: valitsin ”%c%s” ei salli argumenttia\n"
 
 #: gnulib/lib/getopt.c:639 gnulib/lib/getopt.c:658 gnulib/lib/getopt.c:961
 #: gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' requires an argument\n"
-msgstr "%s: valitsin \"%s\" tarvitsee argumentin\n"
+msgstr "%s: valitsin ”%s” tarvitsee argumentin\n"
 
 #: gnulib/lib/getopt.c:696 gnulib/lib/getopt.c:699
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '--%s'\n"
-msgstr "%s: tuntematon valitsin \"--%s\"\n"
+msgstr "%s: tuntematon valitsin ”--%s”\n"
 
 #: gnulib/lib/getopt.c:707 gnulib/lib/getopt.c:710
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '%c%s'\n"
-msgstr "%s: tuntematon valitsin \"%c%s\"\n"
+msgstr "%s: tuntematon valitsin ”%c%s”\n"
 
 #: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: virheellinen valitsin -- %c\n"
+msgstr "%s: virheellinen valitsin -- ”%c”\n"
 
 #: gnulib/lib/getopt.c:812 gnulib/lib/getopt.c:829 gnulib/lib/getopt.c:1032
 #: gnulib/lib/getopt.c:1050
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: valitsin tarvitsee argumentin -- %c\n"
+msgstr "%s: valitsin tarvitsee argumentin -- ”%c”\n"
 
 #: gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:898
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
-msgstr "%s: valitsin \"-W %s\" on monitulkintainen\n"
+msgstr "%s: valitsin ”-W %s” on monitulkintainen\n"
 
 #: gnulib/lib/getopt.c:922 gnulib/lib/getopt.c:940
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: valitsin \"-W %s\" ei salli argumenttia\n"
+msgstr "%s: valitsin ”-W %s” ei salli argumenttia\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -237,8 +234,7 @@ msgstr "muisti loppui"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""

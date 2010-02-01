@@ -1,16 +1,16 @@
 # hello sk.po
-# Copyright (C) 1999, 2000, 2001, 2002, 2008 Free Software Foundation, Inc.
+# Copyright (C) 1999, 2000, 2001, 2002, 2008, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Marcel Telka <marcel@telka.sk>, 2002, 2008.
+# Marcel Telka <marcel@telka.sk>, 2002, 2008, 2010.
 # Stanislav Meduna <stano@meduna.org>, 2000, 2001.
 # Miroslav Vasko <vasko@debian.cz>, 1999.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.3.91\n"
+"Project-Id-Version: hello 2.4.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2010-01-31 11:59-0800\n"
-"PO-Revision-Date: 2008-11-07 14:31+0100\n"
+"PO-Revision-Date: 2010-02-01 09:52+0100\n"
 "Last-Translator: Marcel Telka <marcel@telka.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
@@ -94,47 +94,41 @@ msgstr ""
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
-#, fuzzy, c-format
+#, c-format
 msgid "Report bugs to: %s\n"
 msgstr ""
-"Správy o chybách zasielajte na adresu <%s> (iba anglicky).\n"
-"Komentáre k slovenskému prekladu zasielajte na adresu <sk-i18n@lists.linux."
-"sk>.\n"
+"Chyby hláste na: %s (po anglicky)\n"
+"Komentáre k slovenskému prekladu zasielajte na: sk-i18n@lists.linux.sk\n"
 
 #: src/hello.c:182
-#, fuzzy, c-format
+#, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr ""
-"Správy o chybách zasielajte na adresu <%s> (iba anglicky).\n"
-"Komentáre k slovenskému prekladu zasielajte na adresu <sk-i18n@lists.linux."
-"sk>.\n"
+msgstr "Chyby v %s hláste na: %s (po anglicky)\n"
 
 #: src/hello.c:186
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr ""
+msgstr "Domovská stránka %s: <%s>\n"
 
 #: src/hello.c:188
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr ""
+msgstr "Domovská stránka %s: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
+msgstr "Všeobecný návod na používanie softvéru GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Autorské práva © %s Free Software Foundation, Inc.\n"
-"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl."
-"html>\n"
+"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl.html>\n"
 "Toto je slobodný softvér: môžete ho slobodne meniť a ďalej šíriť.\n"
 "Neposkytuje sa ŽIADNA ZÁRUKA v rozsahu povolenom zákonmi.\n"
 
@@ -143,56 +137,56 @@ msgid "Unknown system error"
 msgstr "Neznáma systémová chyba"
 
 #: gnulib/lib/getopt.c:529 gnulib/lib/getopt.c:545
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: voľba `%s' je nejasná\n"
+msgstr "%s: voľba '%s' je nejasná\n"
 
 #: gnulib/lib/getopt.c:578 gnulib/lib/getopt.c:582
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: voľba `--%s' nepovoľuje argument\n"
+msgstr "%s: voľba '--%s' nepovoľuje argument\n"
 
 #: gnulib/lib/getopt.c:591 gnulib/lib/getopt.c:596
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: voľba `%c%s' nepovoľuje argument\n"
+msgstr "%s: voľba '%c%s' nepovoľuje argument\n"
 
 #: gnulib/lib/getopt.c:639 gnulib/lib/getopt.c:658 gnulib/lib/getopt.c:961
 #: gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' requires an argument\n"
-msgstr "%s: voľba `%s' vyžaduje argument\n"
+msgstr "%s: voľba '%s' vyžaduje argument\n"
 
 #: gnulib/lib/getopt.c:696 gnulib/lib/getopt.c:699
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '--%s'\n"
-msgstr "%s: neznáma voľba `--%s'\n"
+msgstr "%s: neznáma voľba '--%s'\n"
 
 #: gnulib/lib/getopt.c:707 gnulib/lib/getopt.c:710
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '%c%s'\n"
-msgstr "%s: neznáma voľba `%c%s'\n"
+msgstr "%s: neznáma voľba '%c%s'\n"
 
 #: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: neplatná voľba -- %c\n"
+msgstr "%s: neplatná voľba -- '%c'\n"
 
 #: gnulib/lib/getopt.c:812 gnulib/lib/getopt.c:829 gnulib/lib/getopt.c:1032
 #: gnulib/lib/getopt.c:1050
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: voľba vyžaduje argument -- %c\n"
+msgstr "%s: voľba vyžaduje argument -- '%c'\n"
 
 #: gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:898
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
-msgstr "%s: voľba `-W %s' je nejasná\n"
+msgstr "%s: voľba '-W %s' je nejasná\n"
 
 #: gnulib/lib/getopt.c:922 gnulib/lib/getopt.c:940
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: voľba `-W %s' nepovoľuje argument\n"
+msgstr "%s: voľba '-W %s' nepovoľuje argument\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -228,6 +222,3 @@ msgstr "“"
 #: gnulib/lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "vyčerpaná pamäť"
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: nepovolená voľba -- %c\n"
