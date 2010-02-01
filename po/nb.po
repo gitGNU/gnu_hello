@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-01-31 11:30-0800\n"
+"POT-Creation-Date: 2010-01-31 11:59-0800\n"
 "PO-Revision-Date: 2004-02-13 23:59+0100\n"
 "Last-Translator: Eivind Tagseth <eivindt@multinet.no>\n"
 "Language-Team: Norwegian Bokmaal <i18n-nb@lister.ping.uio.no>\n"
@@ -87,17 +87,36 @@ msgstr ""
 "  -n, --next-generation   bruk neste-generasjons hilsningsformat\n"
 "  -m, --mail              vis mailen din\n"
 
-#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: --help output 5+ (reports)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
-#, c-format
-msgid "Report bugs to <%s>.\n"
+#, fuzzy, c-format
+msgid "Report bugs to: %s\n"
 msgstr "Rapporter feil til <%s>.\n"
 
-#: src/hello.c:197
+#: src/hello.c:182
+#, fuzzy, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Rapporter feil til <%s>.\n"
+
+#: src/hello.c:186
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: src/hello.c:188
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr ""
+
+#: src/hello.c:191
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+
+#: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"

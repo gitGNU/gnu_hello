@@ -1,7 +1,7 @@
 # English translations for GNU Hello package.
-# Copyright (C) 2008 Free Software Foundation, Inc.
+# Copyright (C) 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GNU Hello package.
-# Automatically generated, 2008.
+# Automatically generated, 2010.
 #
 # All this catalog "translates" are quotation characters.
 # The msgids must be ASCII and therefore cannot contain real quotation
@@ -30,10 +30,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU Hello 2.4\n"
+"Project-Id-Version: GNU Hello 2.4.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-01-31 11:30-0800\n"
-"PO-Revision-Date: 2008-12-09 10:50-0800\n"
+"POT-Creation-Date: 2010-01-31 11:59-0800\n"
+"PO-Revision-Date: 2010-01-31 11:59-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -112,17 +112,36 @@ msgstr ""
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 
-#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: --help output 5+ (reports)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
 #, c-format
-msgid "Report bugs to <%s>.\n"
-msgstr "Report bugs to <%s>.\n"
+msgid "Report bugs to: %s\n"
+msgstr "Report bugs to: %s\n"
 
-#: src/hello.c:197
+#: src/hello.c:182
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Report %s bugs to: %s\n"
+
+#: src/hello.c:186
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s home page: <%s>\n"
+
+#: src/hello.c:188
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr "%s home page: <http://www.gnu.org/software/%s/>\n"
+
+#: src/hello.c:191
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+
+#: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -142,54 +161,54 @@ msgid "Unknown system error"
 msgstr "Unknown system error"
 
 #: gnulib/lib/getopt.c:529 gnulib/lib/getopt.c:545
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous\n"
 msgstr "%s: option ‘[1m%s[0m’ is ambiguous\n"
 
 #: gnulib/lib/getopt.c:578 gnulib/lib/getopt.c:582
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: option ‘[1m--%s[0m’ doesn't allow an argument\n"
 
 #: gnulib/lib/getopt.c:591 gnulib/lib/getopt.c:596
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: option ‘[1m%c%s[0m’ doesn't allow an argument\n"
 
 #: gnulib/lib/getopt.c:639 gnulib/lib/getopt.c:658 gnulib/lib/getopt.c:961
 #: gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' requires an argument\n"
 msgstr "%s: option ‘[1m%s[0m’ requires an argument\n"
 
 #: gnulib/lib/getopt.c:696 gnulib/lib/getopt.c:699
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: unrecognized option ‘[1m--%s[0m’\n"
 
 #: gnulib/lib/getopt.c:707 gnulib/lib/getopt.c:710
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: unrecognized option ‘[1m%c%s[0m’\n"
 
 #: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: invalid option -- %c\n"
+msgstr "%s: invalid option -- ‘[1m%c[0m’\n"
 
 #: gnulib/lib/getopt.c:812 gnulib/lib/getopt.c:829 gnulib/lib/getopt.c:1032
 #: gnulib/lib/getopt.c:1050
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: option requires an argument -- %c\n"
+msgstr "%s: option requires an argument -- ‘[1m%c[0m’\n"
 
 #: gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:898
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: option ‘[1m-W %s[0m’ is ambiguous\n"
 
 #: gnulib/lib/getopt.c:922 gnulib/lib/getopt.c:940
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: option ‘[1m-W %s[0m’ doesn't allow an argument\n"
 
@@ -227,6 +246,3 @@ msgstr "'"
 #: gnulib/lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "memory exhausted"
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: illegal option -- %c\n"

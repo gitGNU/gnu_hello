@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the hello package.
 # Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005, 2009.
 #
-# $Id: sl.po,v 1.17 2010/01/31 19:32:52 karl Exp $
+# $Id: sl.po,v 1.18 2010/02/01 17:35:19 karl Exp $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-01-31 11:30-0800\n"
+"POT-Creation-Date: 2010-01-31 11:59-0800\n"
 "PO-Revision-Date: 2009-05-05 11:12+0200\n"
 "Last-Translator: Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
@@ -89,19 +89,40 @@ msgstr ""
 "  -n, --next-generation   nova generacija oblike pozdrava\n"
 "  -g, --greeting=POZDRAV  uporabi POZDRAV kot pozdravno besedilo\n"
 
-#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: --help output 5+ (reports)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
-#, c-format
-msgid "Report bugs to <%s>.\n"
+#, fuzzy, c-format
+msgid "Report bugs to: %s\n"
 msgstr ""
 "Poročila o napakah javite na <%s>, poročila o napakah v slovenskem prevodu\n"
 "uporabniškega vmesnika na <primoz.peterlin@biofiz.mf.uni-lj.si>.\n"
 
-#: src/hello.c:197
+#: src/hello.c:182
+#, fuzzy, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr ""
+"Poročila o napakah javite na <%s>, poročila o napakah v slovenskem prevodu\n"
+"uporabniškega vmesnika na <primoz.peterlin@biofiz.mf.uni-lj.si>.\n"
+
+#: src/hello.c:186
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: src/hello.c:188
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr ""
+
+#: src/hello.c:191
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+
+#: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"

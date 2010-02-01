@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-01-31 11:30-0800\n"
+"POT-Creation-Date: 2010-01-31 11:59-0800\n"
 "PO-Revision-Date: 2009-11-10 21:18+0100\n"
 "Last-Translator: Roland Illig <roland.illig@gmx.de>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
@@ -91,20 +91,44 @@ msgstr ""
 
 # Add address for the german translation.
 # 2000-03-13 05:50:49 CET -ke-
-#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: --help output 5+ (reports)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
-#, c-format
-msgid "Report bugs to <%s>.\n"
+#, fuzzy, c-format
+msgid "Report bugs to: %s\n"
 msgstr ""
 "Fehler bitte an <%s> melden.\n"
 "Für die Verbesserung der deutschen Programm-Meldungen ist die Mailingliste\n"
 "<de@li.org> zuständig.\n"
 
-#: src/hello.c:197
+# Add address for the german translation.
+# 2000-03-13 05:50:49 CET -ke-
+#: src/hello.c:182
+#, fuzzy, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr ""
+"Fehler bitte an <%s> melden.\n"
+"Für die Verbesserung der deutschen Programm-Meldungen ist die Mailingliste\n"
+"<de@li.org> zuständig.\n"
+
+#: src/hello.c:186
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: src/hello.c:188
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr ""
+
+#: src/hello.c:191
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+
+#: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"

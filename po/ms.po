@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello-2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-01-31 11:30-0800\n"
+"POT-Creation-Date: 2010-01-31 11:59-0800\n"
 "PO-Revision-Date: 2009-07-16 15:26+0800\n"
 "Last-Translator: Muhammad Najmi bin Ahmad Zabidi <najmi.zabidi@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
@@ -88,17 +88,36 @@ msgstr ""
 "  -n, --next-generation  menggunakan format ucapan generasi akan datang\n"
 "  -g, --greeting=TEKS    guna TEKS untuk ucapselamat\n"
 
-#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: --help output 5+ (reports)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
-#, c-format
-msgid "Report bugs to <%s>.\n"
+#, fuzzy, c-format
+msgid "Report bugs to: %s\n"
 msgstr "Laporkan pepijat kepada <%s>.\n"
 
-#: src/hello.c:197
+#: src/hello.c:182
+#, fuzzy, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Laporkan pepijat kepada <%s>.\n"
+
+#: src/hello.c:186
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: src/hello.c:188
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr ""
+
+#: src/hello.c:191
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+
+#: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
