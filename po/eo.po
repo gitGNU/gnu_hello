@@ -1,13 +1,14 @@
 # Esperantaj mesaĝoj por GNU hello.
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2001-2002, 2006-2007.
+# This file is distributed under the same license as the hello package.
+# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2001-2002, 2006-2007, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.3\n"
+"Project-Id-Version: GNU hello 2.4.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2010-01-31 11:59-0800\n"
-"PO-Revision-Date: 2007-07-09 22:12+0100\n"
+"PO-Revision-Date: 2010-02-02 20:02+0000\n"
 "Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -91,41 +92,39 @@ msgstr ""
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
-#, fuzzy, c-format
+#, c-format
 msgid "Report bugs to: %s\n"
-msgstr "Raportu cimojn al <%s>.\n"
+msgstr "Raportu cimojn al: %s\n"
 
 #: src/hello.c:182
-#, fuzzy, c-format
+#, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr "Raportu cimojn al <%s>.\n"
+msgstr "Raportu %s-cimojn al: %s\n"
 
 #: src/hello.c:186
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr ""
+msgstr "%s hejmpaĝo: <%s>\n"
 
 #: src/hello.c:188
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr ""
+msgstr "%s hejmpaĝo: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
+msgstr "Ĝenerala helpo pri GNU-programoj: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Kopirajto (C) %s Free Software Foundation, Inc.\n"
-"Rajtigilo GPLv3+: GNU-GPL versio 3 aŭ posta <http://www.gnu.org/licenses/gpl."
-"html>\n"
+"Rajtigilo GPLv3+: GNU-GPL versio 3 aŭ posta <http://www.gnu.org/licenses/gpl.html>\n"
 "Ĉi tio estas libera programo: vi rajtas ŝanĝi kaj pludoni kopiojn.\n"
 "Estas NENIA GARANTIO, laŭ la grado leĝe permesata.\n"
 
@@ -134,56 +133,56 @@ msgid "Unknown system error"
 msgstr "Nekonata sistemeraro"
 
 #: gnulib/lib/getopt.c:529 gnulib/lib/getopt.c:545
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous\n"
 msgstr "%s: opcio '%s' estas plursenca\n"
 
 #: gnulib/lib/getopt.c:578 gnulib/lib/getopt.c:582
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: opcio '--%s' ne permesas argumenton\n"
+msgstr "%s: opcio '--%s' ne allasas argumenton\n"
 
 #: gnulib/lib/getopt.c:591 gnulib/lib/getopt.c:596
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: opcio '%c%s' ne permesas argumenton\n"
+msgstr "%s: opcio '%c%s' ne allasas argumenton\n"
 
 #: gnulib/lib/getopt.c:639 gnulib/lib/getopt.c:658 gnulib/lib/getopt.c:961
 #: gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' requires an argument\n"
 msgstr "%s: opcio '%s' bezonas argumenton\n"
 
 #: gnulib/lib/getopt.c:696 gnulib/lib/getopt.c:699
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '--%s'\n"
-msgstr "%s: nekonata opcio '--%s'\n"
+msgstr "%s: nerekonata opcio '--%s'\n"
 
 #: gnulib/lib/getopt.c:707 gnulib/lib/getopt.c:710
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '%c%s'\n"
-msgstr "%s: nekonata opcio '%c%s'\n"
+msgstr "%s: nerekonata opcio '%c%s'\n"
 
 #: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: nevalida opcio -- %c\n"
+msgstr "%s: nevalida opcio -- '%c'\n"
 
 #: gnulib/lib/getopt.c:812 gnulib/lib/getopt.c:829 gnulib/lib/getopt.c:1032
 #: gnulib/lib/getopt.c:1050
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: opcio bezonas argumenton -- %c\n"
+msgstr "%s: opcio bezonas argumenton -- '%c'\n"
 
 #: gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:898
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: opcio '-W %s' estas plursenca\n"
 
 #: gnulib/lib/getopt.c:922 gnulib/lib/getopt.c:940
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: opcio '-W %s' ne permesas argumenton\n"
+msgstr "%s: opcio '-W %s' ne allasas argumenton\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -229,8 +228,7 @@ msgstr "memoro elĉerpiĝis"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
