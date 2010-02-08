@@ -116,19 +116,23 @@ msgstr "%s halaman rumah: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Batuan umum menggunakan perangkat lunak GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Batuan umum menggunakan perangkat lunak GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Hak Cipta (C) %s Free Software Foundation, Inc.\n"
-"Lisensi GPLv3+: GNU GPL versi 3 atau selanjutnya <http://www.gnu.org/licenses/gpl.html>\n"
-"Ini adalah piranti lunak bebas.  Anda bebas untuk mengubah dan meredistribusikannya.\n"
+"Lisensi GPLv3+: GNU GPL versi 3 atau selanjutnya <http://www.gnu.org/"
+"licenses/gpl.html>\n"
+"Ini adalah piranti lunak bebas.  Anda bebas untuk mengubah dan "
+"meredistribusikannya.\n"
 "TIDAK ADA GARANSI, sampai batas yang diijinkan oleh hukum yang berlaku.\n"
 
 #: gnulib/lib/error.c:153

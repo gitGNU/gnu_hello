@@ -8,6 +8,7 @@ See the manual for detailed information.
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
 
+Version 2.5 (7 February 2010)
 * Distribution:
   . gnulib updates.
   . autoconf 2.65, automake 1.11.1.

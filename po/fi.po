@@ -97,7 +97,8 @@ msgstr ""
 msgid "Report bugs to: %s\n"
 msgstr ""
 "Kerro vioista (englanniksi) osoitteeseen: %s\n"
-"Suomennoksen vioista voit ilmoittaa listalle <translation-team-fi@lists.sourceforge.net>.\n"
+"Suomennoksen vioista voit ilmoittaa listalle <translation-team-fi@lists."
+"sourceforge.net>.\n"
 
 #: src/hello.c:182
 #, c-format
@@ -116,18 +117,21 @@ msgstr "%s-kotisivu: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Yleisiä ohjeita GNU-ohjelmistojen käytöstä: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Yleisiä ohjeita GNU-ohjelmistojen käytöstä: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
-"Lisenssi GPLv3+: GNU GPL versio 3 tai uudempi <http://gnu.org/licenses/gpl.html>\n"
+"Lisenssi GPLv3+: GNU GPL versio 3 tai uudempi <http://gnu.org/licenses/gpl."
+"html>\n"
 "Tämä on vapaa ohjelmisto: sinulla on vapaus muuttaa tai levittää tätä.\n"
 "Tälle ohjelmistolle EI myönnetä takuuta lain sallimissa rajoissa.\n"
 
@@ -234,7 +238,8 @@ msgstr "muisti loppui"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
+#~ "terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""

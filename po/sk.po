@@ -117,18 +117,21 @@ msgstr "Domovská stránka %s: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Všeobecný návod na používanie softvéru GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Všeobecný návod na používanie softvéru GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Autorské práva © %s Free Software Foundation, Inc.\n"
-"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl.html>\n"
+"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl."
+"html>\n"
 "Toto je slobodný softvér: môžete ho slobodne meniť a ďalej šíriť.\n"
 "Neposkytuje sa ŽIADNA ZÁRUKA v rozsahu povolenom zákonmi.\n"
 
