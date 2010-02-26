@@ -1,3 +1,7 @@
+2010-02-26  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.17.
+
 2007-11-02  Karl Berry  <karl@gnu.org>
 
 	* LINGUAS: remove de_DE and es_AR, add ms and ro.
