@@ -8,12 +8,20 @@ See the manual for detailed information.
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
 
+* Distribution:
+  . make distribution of .tar.xz as well as .tar.gz.
+  . gettext 0.17.
+  . gnulib updates.
+  . updated translations.
+
+
 Version 2.5 (7 February 2010)
 * Distribution:
   . gnulib updates.
   . autoconf 2.65, automake 1.11.1.
     (Especially including the make dist security fix.)
   . follow latest recommendations for --help and --version.
+  . updated translations.
 
 
 Version 2.4 (9 December 2008)

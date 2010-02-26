@@ -1,3 +1,7 @@
+2010-02-26  Karl Berry  <karl@gnu.org>
+
+	* configure.ac (AM_INIT_AUTOMAKE): enable dist-xz.
+
 2010-02-26  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* gnulib/m4/gettext.m4: Upgrade to gettext-0.17.
