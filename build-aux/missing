@@ -1,15 +1,15 @@
 #! /bin/sh
 # Common stub for a few missing GNU programs while installing.
 
-scriptversion=2008-11-24.07
+scriptversion=2009-04-28.21; # UTC
 
 # Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005, 2006,
-# 2008  Free Software Foundation, Inc.
+# 2008, 2009 Free Software Foundation, Inc.
 # Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
-# the Free Software Foundation; either version 3, or (at your option)
+# the Free Software Foundation; either version 2, or (at your option)
 # any later version.
 
 # This program is distributed in the hope that it will be useful,
@@ -108,7 +108,10 @@ Send bug reports to <bug-automake@gnu.org>."
 esac
 
 # normalize program name to check for.
-program=`echo "$1" | sed 's/^gnu-//; t; s/^gnu//; t; s/^g//; t'`
+program=`echo "$1" | sed '
+  s/^gnu-//; t
+  s/^gnu//; t
+  s/^g//; t'`
 
 # Now exit if we have it, but it failed.  Also exit now if we
 # don't have it and --version was passed (most likely to detect
@@ -282,7 +285,7 @@ WARNING: \`$1' is $msg.  You should only need it if
     else
 	test -z "$file" || exec >$file
 	echo ".ab help2man is required to generate this page"
-	exit 1
+	exit $?
     fi
     ;;
 
@@ -368,5 +371,6 @@ exit 0
 # eval: (add-hook 'write-file-hooks 'time-stamp)
 # time-stamp-start: "scriptversion="
 # time-stamp-format: "%:y-%02m-%02d.%02H"
-# time-stamp-end: "$"
+# time-stamp-time-zone: "UTC"
+# time-stamp-end: "; # UTC"
 # End:

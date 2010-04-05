@@ -1,3 +1,7 @@
+2010-04-05  Karl Berry  <karl@gnu.org>
+
+	* build-aux/srclist.txt: new file, input to (Gnulib's) srclist-update.
+
 2010-02-26  Karl Berry  <karl@gnu.org>
 
 	* configure.ac (AM_INIT_AUTOMAKE): enable dist-xz.

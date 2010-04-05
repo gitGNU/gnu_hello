@@ -1,3 +1,7 @@
+2010-04-05  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Overview): mention srclist-update.
+
 2010-01-31  Karl Berry  <karl@gnu.org>
 
 	* hello.texi (@copying): update copyright year, even though
