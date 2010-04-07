@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello-2.4.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-01-31 11:59-0800\n"
+"POT-Creation-Date: 2010-02-26 11:41-0800\n"
 "PO-Revision-Date: 2010-04-05 10:44+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -124,18 +124,21 @@ msgstr "Webpagina van %s: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Algemene hulp bij gebruik van GNU-software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Algemene hulp bij gebruik van GNU-software: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licentie GPLv3+: GNU GPL versie 3 of nieuwer <http://gnu.org/licenses/gpl.html>\n"
+"Licentie GPLv3+: GNU GPL versie 3 of nieuwer <http://gnu.org/licenses/gpl."
+"html>\n"
 "Dit is vrije software: u mag het vrijelijk wijzigen en verder verspreiden.\n"
 "Er is GEEN GARANTIE, voor zover de wet dit toestaat.\n"
 

@@ -8,7 +8,7 @@ See the manual for detailed information.
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
 
- Version 2.6 (5 April 2010)
+ Version 2.6 (7 April 2010)
 * Distribution:
   . make distribution of .tar.xz as well as .tar.gz.
   . gettext 0.17.
