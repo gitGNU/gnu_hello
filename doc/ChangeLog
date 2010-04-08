@@ -1,3 +1,7 @@
+2010-04-08  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Top): No need to repeat what the manual is.
+
 2010-04-05  Karl Berry  <karl@gnu.org>
 
 	* hello.texi (Overview): mention srclist-update.
