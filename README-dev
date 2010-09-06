@@ -39,12 +39,13 @@ then run
   /path/to/gnulib/gnulib-tool --import
 in our top-level directory.
 
-For the record, the first time invocation was
-  gnulib-tool --import --m4-base=gnulib/m4 --source-base=gnulib/lib \
-              --no-vc-files getopt
-Many more modules have been added since (and getopt has been replaced by
-getopt-gnu).  The currently-used gnulib modules and other gnulib
-information are recorded in gnulib/m4/gnulib-cache.m4.
+For the record, a first time invocation would be
+  gnulib-tool --add-import --m4-base=gnulib/m4 --source-base=gnulib/lib \
+              --no-vc-files getopt-gnu
+
+Many more modules have been added since.  The currently-used gnulib
+modules and other gnulib information are recorded in
+gnulib/m4/gnulib-cache.m4.
 
 
 srclist-update

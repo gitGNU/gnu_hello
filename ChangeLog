@@ -1,3 +1,8 @@
+2010-09-06  Karl Berry  <karl@gnu.org>
+
+	* README-dev: gnulib-tool invocation would now be --add-import.
+	From Bruno.
+
 2010-04-05  Karl Berry  <karl@gnu.org>
 
 	* build-aux/srclist.txt: new file, input to (Gnulib's) srclist-update.
