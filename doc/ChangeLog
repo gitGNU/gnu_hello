@@ -1,3 +1,7 @@
+2010-12-31  Karl Berry  <karl@gnu.org>
+
+	* hello.texi (Top): Don't use @insertcopying, per rms.
+
 2010-04-08  Karl Berry  <karl@gnu.org>
 
 	* hello.texi (Top): No need to repeat what the manual is.

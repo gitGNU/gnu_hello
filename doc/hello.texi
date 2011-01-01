@@ -52,7 +52,8 @@ Texts.  A copy of the license is included in the section entitled
 @node Top
 @top GNU Hello
 
-@insertcopying
+This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}),
+which prints a friendly greeting (and serves as an example GNU package).
 @end ifnottex
 
 @menu
