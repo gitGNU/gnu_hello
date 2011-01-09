@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the hello package.
 # Copyright (C) 1996, 2008 Free Software Foundation, Inc.
 #
-# Keld Simonsen <keld@dkuug.dk>, 2000-2002, 2008.
+# Keld Simonsen <keld@keldix.com>, 2000-2002, 2008,2011.
 # Bo Vagner Hoejer <bo@petshop.ping.dk>, 1998.
 msgid ""
 msgstr ""
-"Project-Id-Version: hello-2.3.90\n"
+"Project-Id-Version: hello-2.4.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-02-26 11:41-0800\n"
-"PO-Revision-Date: 2008-08-01 15:24+0200\n"
-"Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
+"POT-Creation-Date: 2010-01-31 11:59-0800\n"
+"PO-Revision-Date: 2011-01-09 07:24+0100\n"
+"Last-Translator: Keld Simonsen <keld@keldix.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -96,45 +96,39 @@ msgstr ""
 #. address for translation bugs.
 #. no-wrap
 #: src/hello.c:179
-#, fuzzy, c-format
+#, c-format
 msgid "Report bugs to: %s\n"
-msgstr ""
-"Rapportér fejl til <%s>. Rapportér fejl med danske oversættelser til "
-"<dansk@klid.dk>\n"
+msgstr "Rapportér fejl til %s. Rapportér fejl med danske oversættelser til <dansk@dansk-gruppen.dk>\n"
 
 #: src/hello.c:182
-#, fuzzy, c-format
+#, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr ""
-"Rapportér fejl til <%s>. Rapportér fejl med danske oversættelser til "
-"<dansk@klid.dk>\n"
+msgstr "Rapportér %s fejl til: %s. Rapportér fejl med danske oversættelser til <dansk@dansk-gruppen.dk>\n"
 
 #: src/hello.c:186
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr ""
+msgstr "%s hjemmeside <%s>\n"
 
 #: src/hello.c:188
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr ""
+msgstr "%s hjemmeside: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
+msgstr "Generel hjælp til brug af GNU-programmer: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Ophavsret © %s Free Software Foundation, Inc.\n"
-"Licens GPLv3+: GNU GPL version 3 eller senere <http://gnu.org/licenses/gpl."
-"html>\n"
+"Licens GPLv3+: GNU GPL version 3 eller senere <http://gnu.org/licenses/gpl.html>\n"
 "Dette er frit programmel: du må gerne ændre og redistribuere det.\n"
 "Der er ikke nogen GARANTIER, i det omfang loven tillader dette.\n"
 
@@ -143,54 +137,54 @@ msgid "Unknown system error"
 msgstr "Ukendt systemfejl"
 
 #: gnulib/lib/getopt.c:529 gnulib/lib/getopt.c:545
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: tilvalg '%s' er flertydig\n"
+msgstr "%s: tilvalg '%s' er flertydigt\n"
 
 #: gnulib/lib/getopt.c:578 gnulib/lib/getopt.c:582
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: tilvalg '--%s' tillader ikke et argument\n"
 
 #: gnulib/lib/getopt.c:591 gnulib/lib/getopt.c:596
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: tilvalg '%c%s' tillader ikke et argument\n"
 
 #: gnulib/lib/getopt.c:639 gnulib/lib/getopt.c:658 gnulib/lib/getopt.c:961
 #: gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' requires an argument\n"
 msgstr "%s: tilvalg '%s' kræver et argument\n"
 
 #: gnulib/lib/getopt.c:696 gnulib/lib/getopt.c:699
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: ukendt tilvalg '--%s'\n"
 
 #: gnulib/lib/getopt.c:707 gnulib/lib/getopt.c:710
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: ukendt tilvalg '%c%s'\n"
 
 #: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: ugyldigt tilvalg -- %c\n"
+msgstr "%s: ugyldigt tilvalg - %c\n"
 
 #: gnulib/lib/getopt.c:812 gnulib/lib/getopt.c:829 gnulib/lib/getopt.c:1032
 #: gnulib/lib/getopt.c:1050
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: tilvalg kræver et argument -- %c\n"
+msgstr "%s: tilvalg kræver et argument - '%c'\n"
 
 #: gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:898
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: tilvalg '-W %s' er flertydigt\n"
 
 #: gnulib/lib/getopt.c:922 gnulib/lib/getopt.c:940
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: tilvalg '-W %s' tillader ikke et argument\n"
 
@@ -219,7 +213,7 @@ msgstr "skrivefejl"
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:272
 msgid "`"
-msgstr "`"
+msgstr "'"
 
 #: gnulib/lib/quotearg.c:273
 msgid "'"
@@ -228,6 +222,3 @@ msgstr "'"
 #: gnulib/lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "hukommelse er opbrugt"
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: ulovligt tilvalg -- %c\n"
