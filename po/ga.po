@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.3\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-02-26 11:41-0800\n"
+"POT-Creation-Date: 2011-03-22 11:48-0700\n"
 "PO-Revision-Date: 2007-07-04 15:48-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,61 +131,65 @@ msgstr ""
 "Is saorbhogearra é seo: ceadaítear duit é a athrú agus a athdháileadh.\n"
 "Níl baránta AR BITH ann, an oiread atá ceadaithe de réir dlí.\n"
 
-#: gnulib/lib/error.c:153
+#: gnulib/lib/error.c:181
 msgid "Unknown system error"
 msgstr "Earráid anaithnid chórais"
 
-#: gnulib/lib/getopt.c:529 gnulib/lib/getopt.c:545
+#: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
 #, fuzzy, c-format
 msgid "%s: option '%s' is ambiguous\n"
 msgstr "%s: Tá an rogha `%s' débhríoch\n"
 
-#: gnulib/lib/getopt.c:578 gnulib/lib/getopt.c:582
+#: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
 #, fuzzy, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `--%s'\n"
 
-#: gnulib/lib/getopt.c:591 gnulib/lib/getopt.c:596
+#: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
 #, fuzzy, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
 
-#: gnulib/lib/getopt.c:639 gnulib/lib/getopt.c:658 gnulib/lib/getopt.c:961
-#: gnulib/lib/getopt.c:980
+#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
 #, fuzzy, c-format
-msgid "%s: option '%s' requires an argument\n"
+msgid "%s: option '--%s' requires an argument\n"
 msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
-#: gnulib/lib/getopt.c:696 gnulib/lib/getopt.c:699
+#: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, fuzzy, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: rogha anaithnid `--%s'\n"
 
-#: gnulib/lib/getopt.c:707 gnulib/lib/getopt.c:710
+#: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
 #, fuzzy, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: rogha anaithnid `%c%s'\n"
 
-#: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
+#: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
 #, fuzzy, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: rogha neamhbhailí -- %c\n"
 
-#: gnulib/lib/getopt.c:812 gnulib/lib/getopt.c:829 gnulib/lib/getopt.c:1032
-#: gnulib/lib/getopt.c:1050
+#: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
+#: gnulib/lib/getopt.c:1053
 #, fuzzy, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
 
-#: gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:898
+#: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
 #, fuzzy, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: Tá an rogha `-W %s' débhríoch\n"
 
-#: gnulib/lib/getopt.c:922 gnulib/lib/getopt.c:940
+#: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
 #, fuzzy, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
+
+#: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
+#, fuzzy, c-format
+msgid "%s: option '-W %s' requires an argument\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -209,11 +214,11 @@ msgstr "earráid sa scríobh"
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:272
+#: gnulib/lib/quotearg.c:271
 msgid "`"
 msgstr "`"
 
-#: gnulib/lib/quotearg.c:273
+#: gnulib/lib/quotearg.c:272
 msgid "'"
 msgstr "'"
 

@@ -11,10 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2010-02-26 11:41-0800\n"
+"POT-Creation-Date: 2011-03-22 11:48-0700\n"
 "PO-Revision-Date: 2009-01-13 11:45+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: Korean <translation-team-ko@lists.sourceforge.net>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
@@ -134,61 +135,65 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 
-#: gnulib/lib/error.c:153
+#: gnulib/lib/error.c:181
 msgid "Unknown system error"
 msgstr "알 수 없는 시스템 오류"
 
-#: gnulib/lib/getopt.c:529 gnulib/lib/getopt.c:545
+#: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
 #, fuzzy, c-format
 msgid "%s: option '%s' is ambiguous\n"
 msgstr "%s: `%s' 옵션은 모호한 옵션입니다\n"
 
-#: gnulib/lib/getopt.c:578 gnulib/lib/getopt.c:582
+#: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
 #, fuzzy, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: `--%s' 옵션은 인수가 필요 없습니다\n"
 
-#: gnulib/lib/getopt.c:591 gnulib/lib/getopt.c:596
+#: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
 #, fuzzy, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: `%c%s' 옵션은 인수가 필요 없습니다\n"
 
-#: gnulib/lib/getopt.c:639 gnulib/lib/getopt.c:658 gnulib/lib/getopt.c:961
-#: gnulib/lib/getopt.c:980
+#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
 #, fuzzy, c-format
-msgid "%s: option '%s' requires an argument\n"
+msgid "%s: option '--%s' requires an argument\n"
 msgstr "%s: `%s' 옵션은 인수가 필요합니다\n"
 
-#: gnulib/lib/getopt.c:696 gnulib/lib/getopt.c:699
+#: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, fuzzy, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: 인식할 수 없는 옵션 `--%s'\n"
 
-#: gnulib/lib/getopt.c:707 gnulib/lib/getopt.c:710
+#: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
 #, fuzzy, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: 인식할 수 없는 옵션 `%c%s'\n"
 
-#: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
+#: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
 #, fuzzy, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: 틀린 옵션 -- %c\n"
 
-#: gnulib/lib/getopt.c:812 gnulib/lib/getopt.c:829 gnulib/lib/getopt.c:1032
-#: gnulib/lib/getopt.c:1050
+#: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
+#: gnulib/lib/getopt.c:1053
 #, fuzzy, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: 인수가 필요한 옵션입니다 -- %c\n"
 
-#: gnulib/lib/getopt.c:882 gnulib/lib/getopt.c:898
+#: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
 #, fuzzy, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: `-W %s' 옵션은 모호한 옵션입니다\n"
 
-#: gnulib/lib/getopt.c:922 gnulib/lib/getopt.c:940
+#: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
 #, fuzzy, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: `-W %s' 옵션은 인수를 허용하지 않습니다\n"
+
+#: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
+#, fuzzy, c-format
+msgid "%s: option '-W %s' requires an argument\n"
+msgstr "%s: `%s' 옵션은 인수가 필요합니다\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -213,11 +218,11 @@ msgstr "쓰기 오류"
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:272
+#: gnulib/lib/quotearg.c:271
 msgid "`"
 msgstr "“"
 
-#: gnulib/lib/quotearg.c:273
+#: gnulib/lib/quotearg.c:272
 msgid "'"
 msgstr "”"
 
