@@ -16,7 +16,7 @@ This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}),
 which prints a friendly greeting (and serves as an example GNU package).
 
 Copyright @copyright{} 1992, 1993, 1996, 2002, 2005, 2006, 2007, 2008,
-2009, 2010 Free Software Foundation, Inc.
+2009, 2010, 2011 Free Software Foundation, Inc.
 
 @quotation
 Permission is granted to copy, distribute and/or modify this document
@@ -90,7 +90,7 @@ they document, that is part of the goal here.
 @cindex standards, GNU coding
 @cindex standards, GNU maintainer
 First, GNU Hello follows the GNU coding standards
-(@pxref{Top,,Preface,standards, GNU Coding Standards}) and GNU
+(@pxref{Top,,Preface,standards,GNU Coding Standards}) and GNU
 maintainer standards (@pxref{Top,,Preface,maintain, Information for
 GNU Maintainers}).  These are the basic documents which all GNU
 packages should adhere to.
@@ -99,7 +99,6 @@ The Hello package also implements recommended development practices
 not embodied in the standards, using other GNU packages and features:
 
 @itemize @bullet
-
 @item
 @cindex Automake
 @cindex Autoconf
@@ -111,7 +110,7 @@ for configuration.
 @cindex Gnulib
 @cindex @command{srclist-update} script
 @cindex @file{README-dev} source file
-It uses Gnulib (@pxref{Top,,Gnulib,gnulib,GNU Gnulib}) to enhance
+It uses Gnulib (@pxref{Top,,Introduction,gnulib,GNU Gnulib}) to enhance
 portability and avoid duplication of common sources.  Both
 @code{gnulib-tool} and @code{srclist-update} are used, for purposes of
 example.  See the @file{README-dev} file in the distribution.
@@ -144,9 +143,9 @@ HTML, PDF, DVI, plain text, XML, and other formats.
 
 @end itemize
 
-GNU Hello is implemented in C.  GNU Gettext contains ``hello world''
-examples in a variety of other programming languages; see the Gettext
-home page at @url{http://www.gnu.org/software/gettext/}.  
+GNU Hello is implemented in C.  The GNU Gettext distribution contains
+``hello world'' examples in many other programming languages; see the
+Gettext home page at @url{http://www.gnu.org/software/gettext/}.
 
 @cindex @file{Makefile.am} targets
 The top-level @file{Makefile.am} in Hello also contains a few special
@@ -188,7 +187,7 @@ Eichwalder, Karl Berry, and @w{The King}.
 @cindex sample output
 @cindex examples
 
-Here are some realistic examples of running GNU Hello.
+Here are some examples of running GNU Hello.
 
 This is the output of the command @samp{hello}:
 
