@@ -1,5 +1,5 @@
 # DO NOT EDIT! GENERATED AUTOMATICALLY!
-# Copyright (C) 2002-2010 Free Software Foundation, Inc.
+# Copyright (C) 2002-2011 Free Software Foundation, Inc.
 #
 # This file is free software, distributed under the terms of the GNU
 # General Public License.  As a special exception to the GNU General
@@ -12,7 +12,8 @@
 # This file represents the compiled summary of the specification in
 # gnulib-cache.m4. It lists the computed macro invocations that need
 # to be invoked from configure.ac.
-# In projects using CVS, this file can be treated like other built files.
+# In projects that use version control, this file can be treated like
+# other built files.
 
 
 # This macro should be invoked from ./configure.ac, in the section
@@ -25,7 +26,42 @@ AC_DEFUN([gl_EARLY],
   m4_pattern_allow([^gl_LIBOBJS$])dnl a variable
   m4_pattern_allow([^gl_LTLIBOBJS$])dnl a variable
   AC_REQUIRE([AC_PROG_RANLIB])
+  # Code from module arg-nonnull:
+  # Code from module c++defs:
+  # Code from module close-stream:
+  # Code from module closeout:
+  # Code from module configmake:
+  # Code from module errno:
+  # Code from module error:
+  # Code from module exitfail:
+  # Code from module extensions:
   AC_REQUIRE([gl_USE_SYSTEM_EXTENSIONS])
+  # Code from module fpending:
+  # Code from module getopt-gnu:
+  # Code from module getopt-posix:
+  # Code from module gettext:
+  # Code from module gettext-h:
+  # Code from module havelib:
+  # Code from module include_next:
+  # Code from module inline:
+  # Code from module intprops:
+  # Code from module localcharset:
+  # Code from module mbrtowc:
+  # Code from module mbsinit:
+  # Code from module quotearg:
+  # Code from module quotearg-simple:
+  # Code from module stdbool:
+  # Code from module stddef:
+  # Code from module streq:
+  # Code from module strerror:
+  # Code from module string:
+  # Code from module unistd:
+  # Code from module verify:
+  # Code from module warn-on-use:
+  # Code from module wchar:
+  # Code from module wctype-h:
+  # Code from module xalloc:
+  # Code from module xalloc-die:
 ])
 
 # This macro should be invoked from ./configure.ac, in the section
@@ -36,6 +72,7 @@ AC_DEFUN([gl_INIT],
   gl_cond_libtool=false
   gl_libdeps=
   gl_ltlibdeps=
+  gl_m4_base='gnulib/m4'
   m4_pushdef([AC_LIBOBJ], m4_defn([gl_LIBOBJ]))
   m4_pushdef([AC_REPLACE_FUNCS], m4_defn([gl_REPLACE_FUNCS]))
   m4_pushdef([AC_LIBSOURCES], m4_defn([gl_LIBSOURCES]))
@@ -43,44 +80,77 @@ AC_DEFUN([gl_INIT],
   m4_pushdef([gl_LIBSOURCES_DIR], [])
   gl_COMMON
   gl_source_base='gnulib/lib'
+  # Code from module arg-nonnull:
+  # Code from module c++defs:
+  # Code from module close-stream:
   gl_CLOSE_STREAM
   gl_MODULE_INDICATOR([close-stream])
+  # Code from module closeout:
   gl_CLOSEOUT
+  # Code from module configmake:
+  gl_CONFIGMAKE_PREP
+  # Code from module errno:
   gl_HEADER_ERRNO_H
+  # Code from module error:
   gl_ERROR
   m4_ifdef([AM_XGETTEXT_OPTION],
     [AM_][XGETTEXT_OPTION([--flag=error:3:c-format])
      AM_][XGETTEXT_OPTION([--flag=error_at_line:5:c-format])])
-  gl_EXITFAIL
+  # Code from module exitfail:
+  # Code from module extensions:
+  # Code from module fpending:
   gl_FUNC_FPENDING
+  # Code from module getopt-gnu:
   gl_FUNC_GETOPT_GNU
-  gl_MODULE_INDICATOR([getopt-gnu])
+  gl_MODULE_INDICATOR_FOR_TESTS([getopt-gnu])
+  # Code from module getopt-posix:
   gl_FUNC_GETOPT_POSIX
+  # Code from module gettext:
   dnl you must add AM_GNU_GETTEXT([external]) or similar to configure.ac.
-  AM_GNU_GETTEXT_VERSION([0.17])
+  AM_GNU_GETTEXT_VERSION([0.18.1])
+  # Code from module gettext-h:
   AC_SUBST([LIBINTL])
   AC_SUBST([LTLIBINTL])
+  # Code from module havelib:
+  # Code from module include_next:
+  # Code from module inline:
   gl_INLINE
+  # Code from module intprops:
+  # Code from module localcharset:
   gl_LOCALCHARSET
   LOCALCHARSET_TESTS_ENVIRONMENT="CHARSETALIASDIR=\"\$(top_builddir)/$gl_source_base\""
   AC_SUBST([LOCALCHARSET_TESTS_ENVIRONMENT])
+  # Code from module mbrtowc:
   gl_FUNC_MBRTOWC
   gl_WCHAR_MODULE_INDICATOR([mbrtowc])
+  # Code from module mbsinit:
   gl_FUNC_MBSINIT
   gl_WCHAR_MODULE_INDICATOR([mbsinit])
-  gl_MULTIARCH
+  # Code from module quotearg:
   gl_QUOTEARG
+  # Code from module quotearg-simple:
+  # Code from module stdbool:
   AM_STDBOOL_H
+  # Code from module stddef:
   gl_STDDEF_H
-  gl_STDINT_H
-  gl_STDLIB_H
+  # Code from module streq:
+  # Code from module strerror:
   gl_FUNC_STRERROR
   gl_STRING_MODULE_INDICATOR([strerror])
+  # Code from module string:
   gl_HEADER_STRING_H
+  # Code from module unistd:
   gl_UNISTD_H
+  # Code from module verify:
+  # Code from module warn-on-use:
+  # Code from module wchar:
   gl_WCHAR_H
+  # Code from module wctype-h:
   gl_WCTYPE_H
+  # Code from module xalloc:
   gl_XALLOC
+  # Code from module xalloc-die:
+  # End of code from modules
   m4_ifval(gl_LIBSOURCES_LIST, [
     m4_syscmd([test ! -d ]m4_defn([gl_LIBSOURCES_DIR])[ ||
       for gl_file in ]gl_LIBSOURCES_LIST[ ; do
@@ -120,6 +190,13 @@ AC_DEFUN([gl_INIT],
   m4_pushdef([gltests_LIBSOURCES_DIR], [])
   gl_COMMON
   gl_source_base='tests'
+changequote(,)dnl
+  gltests_WITNESS=IN_`echo "${PACKAGE-$PACKAGE_TARNAME}" | LC_ALL=C tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ | LC_ALL=C sed -e 's/[^A-Z0-9_]/_/g'`_GNULIB_TESTS
+changequote([, ])dnl
+  AC_SUBST([gltests_WITNESS])
+  gl_module_indicator_condition=$gltests_WITNESS
+  m4_pushdef([gl_MODULE_INDICATOR_CONDITION], [$gl_module_indicator_condition])
+  m4_popdef([gl_MODULE_INDICATOR_CONDITION])
   m4_ifval(gltests_LIBSOURCES_LIST, [
     m4_syscmd([test ! -d ]m4_defn([gltests_LIBSOURCES_DIR])[ ||
       for gl_file in ]gltests_LIBSOURCES_LIST[ ; do
@@ -214,6 +291,7 @@ AC_DEFUN([gltests_LIBSOURCES], [
 # gnulib-tool and may be removed by future gnulib-tool invocations.
 AC_DEFUN([gl_FILE_LIST], [
   build-aux/arg-nonnull.h
+  build-aux/c++defs.h
   build-aux/config.rpath
   build-aux/warn-on-use.h
   lib/close-stream.c
@@ -244,8 +322,6 @@ AC_DEFUN([gl_FILE_LIST], [
   lib/ref-del.sin
   lib/stdbool.in.h
   lib/stddef.in.h
-  lib/stdint.in.h
-  lib/stdlib.in.h
   lib/streq.h
   lib/strerror.c
   lib/string.in.h
@@ -260,9 +336,9 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/close-stream.m4
   m4/closeout.m4
   m4/codeset.m4
+  m4/configmake.m4
   m4/errno_h.m4
   m4/error.m4
-  m4/exitfail.m4
   m4/extensions.m4
   m4/fcntl-o.m4
   m4/fpending.m4
@@ -294,7 +370,6 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/mbrtowc.m4
   m4/mbsinit.m4
   m4/mbstate_t.m4
-  m4/multiarch.m4
   m4/nls.m4
   m4/po.m4
   m4/printf-posix.m4
@@ -303,9 +378,7 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/size_max.m4
   m4/stdbool.m4
   m4/stddef_h.m4
-  m4/stdint.m4
   m4/stdint_h.m4
-  m4/stdlib_h.m4
   m4/strerror.m4
   m4/string_h.m4
   m4/threadlib.m4
@@ -313,9 +386,9 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/unistd_h.m4
   m4/visibility.m4
   m4/warn-on-use.m4
-  m4/wchar.m4
+  m4/wchar_h.m4
   m4/wchar_t.m4
-  m4/wctype.m4
+  m4/wctype_h.m4
   m4/wint_t.m4
   m4/xalloc.m4
   m4/xsize.m4

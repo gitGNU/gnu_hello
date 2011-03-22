@@ -1,11 +1,12 @@
-Makefile
-Makefile.in
-stamp-vti
-hello.??
-hello.??s
 *.aux
 *.dvi
 *.info*
 *.log
 *.pdf
 *.toc
+Makefile
+Makefile.in
+hello.??
+hello.??s
+stamp-vti
+wwwtemp

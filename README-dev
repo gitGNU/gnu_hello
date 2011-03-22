@@ -1,6 +1,6 @@
 This README.dev file describes the development environment.
 
-  Copyright (C) 2002, 2003, 2005, 2006, 2008, 2010
+  Copyright (C) 2002, 2003, 2005, 2006, 2008, 2010, 2011
   Free Software Foundation, Inc.
 
   Copying and distribution of this file, with or without modification,
@@ -36,7 +36,7 @@ This distribution also uses Gnulib (http://www.gnu.org/software/gnulib)
 to share common files, with the files being checked in to CVS.  
 To update from the current gnulib, get a gnulib checkout, and
 then run
-  /path/to/gnulib/gnulib-tool --import
+  /path/to/gnulib/gnulib-tool --add-import
 in our top-level directory.
 
 For the record, a first time invocation would be

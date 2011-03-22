@@ -1,6 +1,7 @@
 .deps
 Makefile
 Makefile.in
+c++defs.h
 errno.h
 getopt.h
 stdbool.h

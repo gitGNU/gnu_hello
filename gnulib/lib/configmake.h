@@ -18,6 +18,7 @@
 #define PDFDIR "/usr/local/share/doc/hello"
 #define PSDIR "/usr/local/share/doc/hello"
 #define LIBDIR "/usr/local/lib"
+#define LISPDIR "/usr/local/share/emacs/site-lisp"
 #define LOCALEDIR "/usr/local/share/locale"
 #define MANDIR "/usr/local/share/man"
 #define PKGDATADIR "/usr/local/share/hello"
