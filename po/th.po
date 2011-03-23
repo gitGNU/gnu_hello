@@ -1,14 +1,14 @@
 # Translation hello messages to Thai.
-# Copyright (C) 2009 Free Software Foundation, Inc.
+# Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Seksan Poltree <seksan.poltree@gmail.com>, 2007-2010.
+# Seksan Poltree <seksan.poltree@gmail.com>, 2007-2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.4.90\n"
+"Project-Id-Version: GNU hello 2.6.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2011-03-22 11:48-0700\n"
-"PO-Revision-Date: 2010-03-18 17:52+0700\n"
+"PO-Revision-Date: 2011-03-24 03:34+0700\n"
 "Last-Translator: Seksan Poltree <seksan.poltree@gmail.com>\n"
 "Language-Team: Thai <translation-team-th@lists.sourceforge.net>\n"
 "Language: th\n"
@@ -123,14 +123,12 @@ msgstr "ความช่วยเหลือทั่วไปในการ
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "สงวนสิขสิทธิ์ (C) %s Free Software Foundation, Inc.\n"
-"สัญญาอนุญาต GPLv3: GNU GPL รุ่น 3 หรือใหม่กว่า <http://www.gnu.org/licenses/gpl."
-"html>\n"
+"สัญญาอนุญาต GPLv3: GNU GPL รุ่น 3 หรือใหม่กว่า <http://www.gnu.org/licenses/gpl.html>\n"
 "นี่เป็นซอฟต์แวร์เสรี: คุณมีอิสระในการปรับเปลี่ยนและการส่งต่อมัน.\n"
 "มีการไม่รับประกัน, จากขอบเขตที่อนุญาตโดยกฎหมาย.\n"
 
@@ -154,9 +152,9 @@ msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: ตัวเลือก '%c%s' ไม่อนุญาตให้มีอาร์กิวเมนต์\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: ตัวเลือก `%s' จำเป็นต้องมีอาร์กิวเมนต์\n"
+msgstr "%s: ตัวเลือก '--%s' จำเป็นต้องมีอาร์กิวเมนต์\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
@@ -190,9 +188,9 @@ msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: ตัวเลือก '-W %s' ไม่อนุญาตให้มีอาร์กิวเมนต์\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: ตัวเลือก `%s' จำเป็นต้องมีอาร์กิวเมนต์\n"
+msgstr "%s: ตัวเลือก '-W %s' จำเป็นต้องมีอาร์กิวเมนต์\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"

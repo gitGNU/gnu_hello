@@ -1,14 +1,14 @@
 # This file is distributed under the same license as the hello package.
 # Estonian translations for GNU hello.
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Toomas Soome <Toomas.Soome@microlink.ee>, 2010.
+# Toomas Soome <Toomas.Soome@microlink.ee>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.4.90\n"
+"Project-Id-Version: hello 2.6.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2011-03-22 11:48-0700\n"
-"PO-Revision-Date: 2010-08-04 16:47+0300\n"
+"PO-Revision-Date: 2011-03-23 21:51+0200\n"
 "Last-Translator: Toomas Soome <Toomas.Soome@microlink.ee>\n"
 "Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
 "Language: et\n"
@@ -120,16 +120,13 @@ msgstr "‹ldine abiinfo GNU tarkvara kohta: <http://www.gnu.org/gethelp/>\n"
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Autoriıigus (C) %s Free Software Foundation, Inc.\n"
-"Litsents GPLv3+: GNU GPL versioon 3 vıi uuem <http://www.gnu.org/licenses/"
-"gpl.html>\n"
-"See on vaba tarkvara. Garantii puudub vastavalt seadustega m‰‰ratud "
-"piiridele.\n"
+"Litsents GPLv3+: GNU GPL versioon 3 vıi uuem <http://www.gnu.org/licenses/gpl.html>\n"
+"See on vaba tarkvara. Garantii puudub vastavalt seadustega m‰‰ratud piiridele.\n"
 
 #: gnulib/lib/error.c:181
 msgid "Unknown system error"
@@ -151,9 +148,9 @@ msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: vıti '%c%s' ei luba argumenti\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: vıti '%s' nıuab argumenti\n"
+msgstr "%s: vıti '--%s' nıuab argumenti\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
@@ -187,9 +184,9 @@ msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: vıti '-W %s' ei luba argumenti\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: vıti '%s' nıuab argumenti\n"
+msgstr "%s: vıti '-W %s' nıuab argumenti\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"

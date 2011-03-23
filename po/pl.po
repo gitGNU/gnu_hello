@@ -1,16 +1,15 @@
 # Polish translations for the GNU hello messages
-# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006, 2007, 2008, 2010 Free Software Foundation, Inc.
+# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006, 2007, 2008, 2010, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Rafał Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006-2008, 2010.
+# Rafał Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006-2008, 2010-2011. „
 # corrections: Paweł Krawczyk <kravietz@pipeta.chemia.pk.edu.pl>, 1996
 # typos corrections in 2.1.1: PLD 2003
-# my „smart" mutt needs this line
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.4.90\n"
+"Project-Id-Version: GNU hello 2.6.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2011-03-22 11:48-0700\n"
-"PO-Revision-Date: 2010-02-01 14:10+0100\n"
+"PO-Revision-Date: 2011-03-23 21:30+0100\n"
 "Last-Translator: Rafał Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -125,16 +124,13 @@ msgstr "Pomoc w używaniu oprogramowania GNU: http://www.gnu.org/gethelp/\n"
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licencja GPLv3+: GNU GPL wersja 3 albo późniejsza  <http://gnu.org/licenses/"
-"gpl.html>\n"
-"To jest wolne oprogramowanie. Autorzy nie dają ŻADNYCH gwarancji w "
-"granicach\n"
+"Licencja GPLv3+: GNU GPL wersja 3 albo późniejsza  <http://gnu.org/licenses/gpl.html>\n"
+"To jest wolne oprogramowanie. Autorzy nie dają ŻADNYCH gwarancji w granicach\n"
 "dozwolonych prawem.\n"
 
 #: gnulib/lib/error.c:181
@@ -157,9 +153,9 @@ msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: opcja '%c%s' nie może mieć argumentu\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: opcja '%s' wymaga argumentu\n"
+msgstr "%s: opcja '--%s' wymaga argumentu\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
@@ -193,9 +189,9 @@ msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: opcja '-W %s' nie może mieć argumentu\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: opcja '%s' wymaga argumentu\n"
+msgstr "%s: opcja '-W %s' wymaga argumentu\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
