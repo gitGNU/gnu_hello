@@ -2,8 +2,8 @@
 # and all subdirectories).
 # Makefile for the top-level directory of GNU hello.
 # 
-# Copyright 1997, 1998, 2005, 2006, 2007, 2008, 2009, 2010 Free Software
-# Foundation, Inc.
+# Copyright 1997, 1998, 2005, 2006, 2007, 2008, 2009, 2010, 2011
+# Free Software Foundation, Inc.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -31,7 +31,7 @@ SUBDIRS = contrib gnulib/lib po src doc man tests
 # .tar.gz's in the current directory.  This should only be done when an
 # official release is made (and only if you care to provide diffs).
 #
-hello_pre = 2.3
+hello_pre = 2.6
 diff: diffcheck
 	@(echo "To apply these patches, cd to the main directory of the package"; \
 	  echo "and then use \`patch -p1 <hello-XXX.diff'."; \
@@ -54,6 +54,7 @@ diffcheck:
                 fi ; \
 	    fi ; \
 	done
+
 
 # Verify that all source files using _() are listed in po/POTFILES.in.
 # The idea is to run this before making pretests, as well as official
@@ -80,6 +81,7 @@ po-check:
 	  diff -u $@-1 $@-2 || exit 1;					\
 	  rm -f $@-1 $@-2;						\
 	fi
+
 
 # Example of updating the online web pages for the documentation
 # with the gendocs.sh script; see

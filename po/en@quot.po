@@ -27,10 +27,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.6.90\n"
+"Project-Id-Version: GNU hello 2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2011-03-22 11:48-0700\n"
-"PO-Revision-Date: 2011-03-22 11:48-0700\n"
+"POT-Creation-Date: 2011-03-28 07:00-0700\n"
+"PO-Revision-Date: 2011-03-28 07:00-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en@quot\n"
