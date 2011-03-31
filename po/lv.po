@@ -3,21 +3,20 @@
 # Copyright (C) 1999 Free Software Foundation, Inc.
 #
 # Ilya Ketris <ilya@gde.to>, 1999.
-# Rihards Prieditis <rprieditis@gmail.com>,2009, 2010.
+# Rihards Prieditis <rprieditis@gmail.com>,2009, 2010,2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.4.90\n"
+"Project-Id-Version: GNU hello 2.6.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2011-03-28 07:00-0700\n"
-"PO-Revision-Date: 2010-02-11 13:10+0000\n"
-"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"POT-Creation-Date: 2011-03-22 11:48-0700\n"
+"PO-Revision-Date: 2011-03-31 19:18-0000\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: src/hello.c:100
@@ -28,7 +27,7 @@ msgstr "%s: papildus operands: %s\n"
 #: src/hello.c:102
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Mēģiniet \"%s --help\" tālākai informācijai.\n"
+msgstr "Mēģiniet \"%s --help\" papildus informācijai.\n"
 
 #: src/hello.c:109
 #, c-format
@@ -49,7 +48,7 @@ msgid ""
 "+---------------+\n"
 msgstr ""
 "+----------------------+\n"
-"| Sveika, pasaule! |\n"
+"| Sveika, pasaule!    |\n"
 "+----------------------+\n"
 
 #: src/hello.c:128
@@ -61,13 +60,13 @@ msgstr "Sveika, pasaule!"
 #: src/hello.c:150
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "Lietošana: %s [IZVĒLES]...\n"
+msgstr "Lietošana: %s [OPCIJAS]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
 #: src/hello.c:155
 msgid "Print a friendly, customizable greeting.\n"
-msgstr "Printerim draudzīgs, pielāgojams sveiciens.\n"
+msgstr "Drukāt draudzīgu, pielāgojamu sveicienu.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -99,7 +98,7 @@ msgstr ""
 #: src/hello.c:179
 #, c-format
 msgid "Report bugs to: %s\n"
-msgstr "Ziņojiet kļūdas uz: %s.\n"
+msgstr "Ziņojiet par kļūdas uz: %s.\n"
 
 #: src/hello.c:182
 #, c-format
@@ -118,22 +117,18 @@ msgstr "%s mājas lapa: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Vispārējā palīdzība lietotojot GNU programmatūru: <http://www.gnu.org/"
-"gethelp/>\n"
+msgstr "Vispārējā palīdzība lietojot GNU programmatūru: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Autortiesības (C) %s Brīvās Programmatūras Fondam, Inc.\n"
-"Licence GPLv3+: GNU GPL versija 3 vai vēlāks <http://gnu.org/licenses/gpl."
-"html>\n"
+"Licence GPLv3+: GNU GPL versija 3 vai vēlāks <http://gnu.org/licenses/gpl.html>\n"
 "Šī ir brīva programmatūra: jūs varat brīvi mainīt un izplatīt to.\n"
 "BEZ JEBKĀDĀM GARANTIJĀM, līdz likumā noteiktajam apjomam.\n"
 
@@ -144,58 +139,58 @@ msgstr "Nezināma sistēmas kļūda"
 #: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
 #, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: iespēja \"%s\" nav viennozīmīga\n"
+msgstr "%s: opcija \"%s\" nav viennozīmīga\n"
 
 #: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: iespēja \"--%s\" nepieļauj argumentu\n"
+msgstr "%s: opcija \"--%s\" neatļauj argumentu\n"
 
 #: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: iespēja \"%c%s\" nepieļauj argumentu\n"
+msgstr "%s: opcija \"%c%s\" neatļauj argumentu\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: iespēja \"%s\" prasa argumentu\n"
+msgstr "%s: opcijai \"--%s\" nepieciešams arguments\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
-msgstr "%s: nezināma iespēja \"--%s\"\n"
+msgstr "%s: neatpazīta opcija \"--%s\"\n"
 
 #: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
-msgstr "%s: neatpazita iespēja \"%c%s\"\n"
+msgstr "%s: neatpazita opcija \"%c%s\"\n"
 
 #: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: nederiga iespēja -- \"%c\"\n"
+msgstr "%s: nederiga opcija -- \"%c\"\n"
 
 #: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
 #: gnulib/lib/getopt.c:1053
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: iespējai nepieciešams arguments -- \"%c\"\n"
+msgstr "%s: opcijai nepieciešams arguments -- \"%c\"\n"
 
 #: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
-msgstr "%s: iespēja \"-W %s\" nav viennozīmīga\n"
+msgstr "%s: opcija \"-W %s\" nav viennozīmīga\n"
 
 #: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: iespēja \"-W %s\" nepieļauj argumentu\n"
+msgstr "%s: opcija \"-W %s\" nepieļauj argumentu\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: iespēja \"%s\" prasa argumentu\n"
+msgstr "%s: opcijai \"-W %s\" nepieciešams arguments\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -260,8 +255,7 @@ msgstr "atmiņa izsmelta"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
@@ -285,13 +279,10 @@ msgstr "atmiņa izsmelta"
 
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "This is free software; see the source for copying conditions.  There is "
-#~ "NO\n"
-#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR "
-#~ "PURPOSE.\n"
+#~ "This is free software; see the source for copying conditions.  There is NO\n"
+#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 #~ msgstr ""
 #~ "Copyright © %s Free Software Foundation, Inc.\n"
-#~ "Šī prgrammatūra ir brīva; skatieties izplatīšanas noteikumus "
-#~ "izejtekstos.\n"
+#~ "Šī prgrammatūra ir brīva; skatieties izplatīšanas noteikumus izejtekstos.\n"
 #~ "Nekādu garantiju; ne pat KOMERCIZMANTOŠANAI vai DERĪGUMAM\n"
 #~ "JEBKURAM NOLŪKAM.\n"
