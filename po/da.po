@@ -7,10 +7,10 @@
 # Bo Vagner Hoejer <bo@petshop.ping.dk>, 1998.
 msgid ""
 msgstr ""
-"Project-Id-Version: hello-2.4.90\n"
+"Project-Id-Version: hello-2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2011-03-28 07:00-0700\n"
-"PO-Revision-Date: 2011-02-06 07:24+0100\n"
+"PO-Revision-Date: 2011-04-12 07:24+0100\n"
 "Last-Translator: Keld Simonsen <keld@keldix.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -99,16 +99,12 @@ msgstr ""
 #: src/hello.c:179
 #, c-format
 msgid "Report bugs to: %s\n"
-msgstr ""
-"Rapportér fejl til %s. Rapportér fejl med danske oversættelser til "
-"<dansk@dansk-gruppen.dk>\n"
+msgstr "Rapportér fejl til %s. Rapportér fejl med danske oversættelser til <dansk@dansk-gruppen.dk>\n"
 
 #: src/hello.c:182
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr ""
-"Rapportér %s fejl til: %s. Rapportér fejl med danske oversættelser til "
-"<dansk@dansk-gruppen.dk>\n"
+msgstr "Rapportér %s fejl til: %s. Rapportér fejl med danske oversættelser til <dansk@dansk-gruppen.dk>\n"
 
 #: src/hello.c:186
 #, c-format
@@ -122,21 +118,18 @@ msgstr "%s hjemmeside: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Generel hjælp til brug af GNU-programmer: <http://www.gnu.org/gethelp/>\n"
+msgstr "Generel hjælp til brug af GNU-programmer: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Ophavsret © %s Free Software Foundation, Inc.\n"
-"Licens GPLv3+: GNU GPL version 3 eller senere <http://gnu.org/licenses/gpl."
-"html>\n"
+"Licens GPLv3+: GNU GPL version 3 eller senere <http://gnu.org/licenses/gpl.html>\n"
 "Dette er frit programmel: du må gerne ændre og redistribuere det.\n"
 "Der er ikke nogen GARANTIER, i det omfang loven tillader dette.\n"
 
@@ -160,9 +153,9 @@ msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: tilvalg '%c%s' tillader ikke et argument\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: tilvalg '%s' kræver et argument\n"
+msgstr "%s: tilvalg '--%s' kræver et argument\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
@@ -196,9 +189,9 @@ msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: tilvalg '-W %s' tillader ikke et argument\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: tilvalg '%s' kræver et argument\n"
+msgstr "%s: tilvalg '-w %s' kræver et argument\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"

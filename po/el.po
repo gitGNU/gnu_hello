@@ -1,34 +1,36 @@
 # Greek messages for GNU hello.
+# This file is distributed under the same license as the hello package.
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Simos Xenitellis <S.Xenitellis@rhbnc.ac.uk>, 1999.
+# Savvas Radevic <vicedar@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 1.3.21\n"
+"Project-Id-Version: hello 2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2011-03-28 07:00-0700\n"
-"PO-Revision-Date: 2001-03-19 06:34+01:00\n"
-"Last-Translator: Simos Xenitellis <S.Xenitellis@rhbnc.ac.uk>\n"
-"Language-Team: Greek <S.Xenitellis@rhbnc.ac.uk>\n"
+"PO-Revision-Date: 2011-04-06 11:49+0100\n"
+"Last-Translator: Savvas Radevic <vicedar@gmail.com>\n"
+"Language-Team: Greek <team@lists.gnome.gr>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-7\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: src/hello.c:100
 #, c-format
 msgid "%s: extra operand: %s\n"
-msgstr ""
+msgstr "%s: ΞµΟ€ΞΉΟ€Ξ»Ξ­ΞΏΞ½ Ο„ΞµΞ»ΞµΟƒΟ„Ξ®Ο‚: %s\n"
 
 #: src/hello.c:102
-#, fuzzy, c-format
+#, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Δοκιμάστε `%s --help' για περισσότερες πληροφορίες\n"
+msgstr "Ξ”ΞΏΞΊΞΉΞΌΞ¬ΟƒΟ„Ξµ `%s --help' Ξ³ΞΉΞ± Ο€ΞµΟΞΉΟƒΟƒΟΟ„ΞµΟΞµΟ‚ Ο€Ξ»Ξ·ΟΞΏΟ†ΞΏΟΞ―ΞµΟ‚.\n"
 
 #: src/hello.c:109
 #, c-format
 msgid "hello, world\n"
-msgstr "γειά σου, κόσμε\n"
+msgstr "Ξ³ΞµΞΉΞ¬ ΟƒΞΏΟ…, ΞΊΟΟƒΞΌΞµ\n"
 
 #. TRANSLATORS: Use box drawing characters or other fancy stuff
 #. if your encoding (e.g., UTF-8) allows it.  If done so add the
@@ -43,23 +45,26 @@ msgid ""
 "| Hello, world! |\n"
 "+---------------+\n"
 msgstr ""
+"+------------------+\n"
+"| Ξ“ΞµΞΉΞ± ΟƒΞΏΟ…, ΞΊΟΟƒΞΌΞµ! |\n"
+"+------------------+\n"
 
 #: src/hello.c:128
 msgid "Hello, world!"
-msgstr "Γεια σου, κόσμε!"
+msgstr "Ξ“ΞµΞΉΞ± ΟƒΞΏΟ…, ΞΊΟΟƒΞΌΞµ!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
 #: src/hello.c:150
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr ""
+msgstr "Ξ§ΟΞ®ΟƒΞ·: %s [Ξ•Ξ Ξ™Ξ›ΞΞ“Ξ—]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
 #: src/hello.c:155
 msgid "Print a friendly, customizable greeting.\n"
-msgstr ""
+msgstr "Ξ•ΞΊΟ„ΟΟ€Ο‰ΟƒΞµ Ξ­Ξ½Ξ± Ο†ΞΉΞ»ΞΉΞΊΟ, Ο€ΟΞΏΟƒΞ±ΟΞΌΟΟƒΞΉΞΌΞΏ Ο‡Ξ±ΞΉΟΞµΟ„ΞΉΟƒΞΌΟ.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -68,6 +73,8 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
 msgstr ""
+"  -h, --help          ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ξ±Ο…Ο„Ξ®Ο‚ Ο„Ξ·Ο‚ Ξ²ΞΏΞ®ΞΈΞµΞΉΞ±Ο‚ ΞΊΞ±ΞΉ Ο„ΞµΟΞΌΞ±Ο„ΞΉΟƒΞΌΟΟ‚\n"
+"  -v, --version       ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο€Ξ»Ξ·ΟΞΏΟ†ΞΏΟΞΉΟΞ½ Ξ­ΞΊΞ΄ΞΏΟƒΞ·Ο‚ ΞΊΞ±ΞΉ Ο„ΞµΟΞΌΞ±Ο„ΞΉΟƒΞΌΟΟ‚\n"
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
@@ -77,6 +84,9 @@ msgid ""
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
+"  -t, --traditional       Ο‡ΟΞ®ΟƒΞ· Ο€Ξ±ΟΞ±Ξ΄ΞΏΟƒΞΉΞ±ΞΊΞ®Ο‚ ΞΌΞΏΟΟ†Ξ®Ο‚ Ο‡Ξ±ΞΉΟΞµΟ„ΞΉΟƒΞΌΞΏΟ\n"
+"  -n, --next-generation   Ο‡ΟΞ®ΟƒΞ· ΞΌΞΏΟΟ†Ξ®Ο‚ Ο‡Ξ±ΞΉΟΞµΟ„ΞΉΟƒΞΌΞΏΟ ΞµΟ€ΟΞΌΞµΞ½Ξ·Ο‚ Ξ³ΞµΞ½ΞµΞ¬Ο‚\n"
+"  -g, --greeting=TEXT     Ο‡ΟΞ®ΟƒΞ· ΞΊΞµΞΉΞΌΞ­Ξ½ΞΏΟ… TEXT Ο‰Ο‚ ΞΌΞ®Ξ½Ο…ΞΌΞ± Ο‡Ξ±ΞΉΟΞµΟ„ΞΉΟƒΞΌΞΏΟ\n"
 
 #. TRANSLATORS: --help output 5+ (reports)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
@@ -86,100 +96,103 @@ msgstr ""
 #: src/hello.c:179
 #, c-format
 msgid "Report bugs to: %s\n"
-msgstr ""
+msgstr "Ξ‘Ξ½Ξ±Ο†ΞΏΟΞ¬ ΟƒΟ†Ξ±Ξ»ΞΌΞ¬Ο„Ο‰Ξ½ ΟƒΟ„ΞΏ: %s\n"
 
 #: src/hello.c:182
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr ""
+msgstr "Ξ‘Ξ½Ξ±Ο†ΞΏΟΞ¬ %s ΟƒΟ†Ξ±Ξ»ΞΌΞ¬Ο„Ο‰Ξ½ ΟƒΟ„ΞΏ: %s\n"
 
 #: src/hello.c:186
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr ""
+msgstr "%s ΞΉΟƒΟ„ΞΏΟƒΞµΞ»Ξ―Ξ΄Ξ±: <%s>\n"
 
 #: src/hello.c:188
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr ""
+msgstr "%s ΞΉΟƒΟ„ΞΏΟƒΞµΞ»Ξ―Ξ΄Ξ±: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
+msgstr "Ξ“ΞµΞ½ΞΉΞΊΞ® Ξ²ΞΏΞ®ΞΈΞµΞΉΞ± Ξ³ΞΉΞ± Ξ½Ξ± Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞ®ΟƒΞµΟ„Ξµ Ο„ΞΏ Ξ»ΞΏΞ³ΞΉΟƒΞΌΞΉΞΊΟ GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"Ξ†Ξ΄ΞµΞΉΞ± Ο‡ΟΞ®ΟƒΞ·Ο‚ GPLv3+: GNU GPL Ξ­ΞΊΞ΄ΞΏΟƒΞ· 3 Ξ® ΞΌΞµΟ„Ξ±Ξ³ΞµΞ½Ξ­ΟƒΟ„ΞµΟΞ· <http://gnu.org/licenses/gpl.html>\n"
+"Ξ‘Ο…Ο„Ο ΞµΞ―Ξ½Ξ±ΞΉ ΞµΞ»ΞµΟΞΈΞµΟΞΏ Ξ»ΞΏΞ³ΞΉΟƒΞΌΞΉΞΊΟ: Ξ•Ξ―ΟƒΟ„Ξµ ΞµΞ»ΞµΟΞΈΞµΟΞΏΞΉ Ξ½Ξ± Ο„ΞΏ Ξ±Ξ»Ξ»Ξ¬ΞΎΞµΟ„Ξµ ΞΊΞ±ΞΉ Ξ½Ξ± Ο„ΞΏ Ξ±Ξ½Ξ±Ξ΄ΞΉΞ±Ξ½Ξ­ΞΌΞµΟ„Ξµ.\n"
+"Ξ”ΞµΞ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ ΞΞ‘ΞΞ™Ξ‘ Ξ•Ξ“Ξ“Ξ¥Ξ—Ξ£Ξ— ΟƒΟ„Ξ·Ξ½ Ξ­ΞΊΟ„Ξ±ΟƒΞ· Ο€ΞΏΟ… ΞµΟ€ΞΉΟ„ΟΞ­Ο€ΞµΟ„Ξ±ΞΉ Ξ±Ο€Ο Ο„ΞΏ Ξ½ΟΞΌΞΏ.\n"
 
 #: gnulib/lib/error.c:181
 msgid "Unknown system error"
-msgstr ""
+msgstr "Ξ†Ξ³Ξ½Ο‰ΟƒΟ„ΞΏ ΟƒΟ†Ξ¬Ξ»ΞΌΞ± ΟƒΟ…ΟƒΟ„Ξ®ΞΌΞ±Ο„ΞΏΟ‚"
 
 #: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: η επιλογή `%s' είναι διφορούμενη\n"
+msgstr "%s: Ξ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '%s' ΞµΞ―Ξ½Ξ±ΞΉ Ξ΄ΞΉΟ†ΞΏΟΞΏΟΞΌΞµΞ½Ξ·\n"
 
 #: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: η επιλογή `--%s' δεν δέχεται ορίσματα\n"
+msgstr "%s: Ξ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '--%s' Ξ΄ΞµΞ½ Ξ΄Ξ­Ο‡ΞµΟ„Ξ±ΞΉ ΞΏΟΞ―ΟƒΞΌΞ±Ο„Ξ±\n"
 
 #: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: η επιλογή `%c%s' δεν δέχεται ορίσματα\n"
+msgstr "%s: Ξ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '%c%s' Ξ΄ΞµΞ½ Ξ΄Ξ­Ο‡ΞµΟ„Ξ±ΞΉ ΞΏΟΞ―ΟƒΞΌΞ±Ο„Ξ±\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: η επιλογή `%s' απαιτεί όρισμα\n"
+msgstr "%s: Ξ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '--%s' Ξ±Ο€Ξ±ΞΉΟ„ΞµΞ― ΟΟΞΉΟƒΞΌΞ±\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '--%s'\n"
-msgstr "%s: μη αναγνωρίσιμη επιλογή `--%s'\n"
+msgstr "%s: ΞΌΞ· Ξ±Ξ½Ξ±Ξ³Ξ½Ο‰ΟΞ―ΟƒΞΉΞΌΞ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '--%s'\n"
 
 #: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unrecognized option '%c%s'\n"
-msgstr "%s: μη αναγνωρίσιμη επιλογή `%c%s'\n"
+msgstr "%s: ΞΌΞ· Ξ±Ξ½Ξ±Ξ³Ξ½Ο‰ΟΞ―ΟƒΞΉΞΌΞ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '%c%s'\n"
 
 #: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: μη έγκυρη επιλογή -- %c\n"
+msgstr "%s: ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® -- '%c'\n"
 
 #: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
 #: gnulib/lib/getopt.c:1053
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: η επιλογή απαιτεί ένα όρισμα -- %c\n"
+msgstr "%s: Ξ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® Ξ±Ο€Ξ±ΞΉΟ„ΞµΞ― Ξ­Ξ½Ξ± ΟΟΞΉΟƒΞΌΞ± -- '%c'\n"
 
 #: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
-msgstr "%s: η επιλογή `-W %s' είναι δοφορούμενη\n"
+msgstr "%s: Ξ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '-W %s' ΞµΞ―Ξ½Ξ±ΞΉ Ξ΄ΞΏΟ†ΞΏΟΞΏΟΞΌΞµΞ½Ξ·\n"
 
 #: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: η επιλογή `-W %s' δεν δέχεται ορίσματα\n"
+msgstr "%s: Ξ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '-W %s' Ξ΄ΞµΞ½ Ξ΄Ξ­Ο‡ΞµΟ„Ξ±ΞΉ ΞΏΟΞ―ΟƒΞΌΞ±Ο„Ξ±\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: η επιλογή `%s' απαιτεί όρισμα\n"
+msgstr "%s: Ξ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® '-W %s' Ξ±Ο€Ξ±ΞΉΟ„ΞµΞ― ΟΟΞΉΟƒΞΌΞ±\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
-msgstr ""
+msgstr "ΟƒΟ†Ξ¬Ξ»ΞΌΞ± ΞµΞ³Ξ³ΟΞ±Ο†Ξ®Ο‚"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -202,24 +215,23 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:271
 msgid "`"
-msgstr ""
+msgstr "Β«"
 
 #: gnulib/lib/quotearg.c:272
 msgid "'"
-msgstr ""
+msgstr "Β»"
 
 #: gnulib/lib/xalloc-die.c:34
-#, fuzzy
 msgid "memory exhausted"
-msgstr "%s: η ιδεατή μνήμη εξαντλήθηκε\n"
+msgstr "Ξ· ΞΉΞ΄ΞµΞ±Ο„Ξ® ΞΌΞ½Ξ®ΞΌΞ· ΞµΞΎΞ±Ξ½Ο„Ξ»Ξ®ΞΈΞ·ΞΊΞµ"
 
 #~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: μη έγκυρη επιλογή -- %c\n"
+#~ msgstr "%s: ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ· ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ® -- %c\n"
 
 #~ msgid "Too many arguments\n"
-#~ msgstr "Πάρα πολλά ορίσματα\n"
+#~ msgstr "Ξ Ξ¬ΟΞ± Ο€ΞΏΞ»Ξ»Ξ¬ ΞΏΟΞ―ΟƒΞΌΞ±Ο„Ξ±\n"
 
-# Please check "ΔΕΝ υπάρχει εγγύηση?..."; msgmerge compleain about an invalid
+# Please check "Ξ”Ξ•Ξ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ ΞµΞ³Ξ³ΟΞ·ΟƒΞ·?..."; msgmerge compleain about an invalid
 # multibyte sequence.
 # 2001-03-19 06:33:58 CET -ke-
 #
@@ -234,23 +246,23 @@ msgstr "%s: η ιδεατή μνήμη εξαντλήθηκε\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "ΔΕΝ υπάρχει εγγύηση? ούτε ακόμη για ΛΕΙΤΟΥΡΓIΚΟΤΗΤΑ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑ\n"
-#~ "ΓΙΑ ΚΑΠΟΙΟ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ. Μπορείτε να αναδιανείμετε αντίγραφα\n"
-#~ "του GNU προγράμματος %s κάτω από τη GNU Γενική Δημόσια ¶δεια.\n"
+#~ "Ξ”Ξ•Ξ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ ΞµΞ³Ξ³ΟΞ·ΟƒΞ·? ΞΏΟΟ„Ξµ Ξ±ΞΊΟΞΌΞ· Ξ³ΞΉΞ± Ξ›Ξ•Ξ™Ξ¤ΞΞ¥Ξ΅Ξ“IΞΞΞ¤Ξ—Ξ¤Ξ‘ Ξ® ΞΞ‘Ξ¤Ξ‘Ξ›Ξ›Ξ—Ξ›ΞΞ¤Ξ—Ξ¤Ξ‘\n"
+#~ "Ξ“Ξ™Ξ‘ ΞΞ‘Ξ ΞΞ™Ξ Ξ£Ξ¥Ξ“ΞΞ•ΞΞ΅Ξ™ΞΞ•ΞΞ Ξ£ΞΞΞ Ξ. ΞΟ€ΞΏΟΞµΞ―Ο„Ξµ Ξ½Ξ± Ξ±Ξ½Ξ±Ξ΄ΞΉΞ±Ξ½ΞµΞ―ΞΌΞµΟ„Ξµ Ξ±Ξ½Ο„Ξ―Ξ³ΟΞ±Ο†Ξ±\n"
+#~ "Ο„ΞΏΟ… GNU Ο€ΟΞΏΞ³ΟΞ¬ΞΌΞΌΞ±Ο„ΞΏΟ‚ %s ΞΊΞ¬Ο„Ο‰ Ξ±Ο€Ο Ο„Ξ· GNU Ξ“ΞµΞ½ΞΉΞΊΞ® Ξ”Ξ·ΞΌΟΟƒΞΉΞ± Ξ†Ξ΄ΞµΞΉΞ±.\n"
 
 #, fuzzy
 #~ msgid "%s: Incompatible flags: -m and -t\n"
-#~ msgstr "%s: μη συμβατές σημαίες: -m και -t \n"
+#~ msgstr "%s: ΞΌΞ· ΟƒΟ…ΞΌΞ²Ξ±Ο„Ξ­Ο‚ ΟƒΞ·ΞΌΞ±Ξ―ΞµΟ‚: -m ΞΊΞ±ΞΉ -t \n"
 
 #~ msgid "%s: Who are you?\n"
-#~ msgstr "%s: Ποιός είστε\n"
+#~ msgstr "%s: Ξ ΞΏΞΉΟΟ‚ ΞµΞ―ΟƒΟ„Ξµ\n"
 
 #, fuzzy
 #~ msgid "%s: Cannot find your mail spool file.\n"
-#~ msgstr "%s: αδυνατώ να βρω το αρχείο της αλληλογραφίας σας.\n"
+#~ msgstr "%s: Ξ±Ξ΄Ο…Ξ½Ξ±Ο„Ο Ξ½Ξ± Ξ²ΟΟ‰ Ο„ΞΏ Ξ±ΟΟ‡ΞµΞ―ΞΏ Ο„Ξ·Ο‚ Ξ±Ξ»Ξ»Ξ·Ξ»ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚ ΟƒΞ±Ο‚.\n"
 
 #~ msgid "Nothing happens here."
-#~ msgstr "Δεν συμβαίνει τίποτα εδώ."
+#~ msgstr "Ξ”ΞµΞ½ ΟƒΟ…ΞΌΞ²Ξ±Ξ―Ξ½ΞµΞΉ Ο„Ξ―Ο€ΞΏΟ„Ξ± ΞµΞ΄Ο."
 
 #, fuzzy
 #~ msgid ""
@@ -265,11 +277,11 @@ msgstr "%s: η ιδεατή μνήμη εξαντλήθηκε\n"
 #~ "\n"
 #~ "Report bugs to bug-gnu-hello@prep.ai.mit.edu.\n"
 #~ msgstr ""
-#~ "Αυτό είναι το GNU Hello, το πρόγραμμα εμφάνισης χαιρετισμού.\n"
-#~ "Χρήση: %s [ΕΠΙΛΟΓΗ]\n"
-#~ "  -h, --help          εμφάνιση αυτής της βοήθειας και έξοδος\n"
-#~ "  -v, --version       εμφάνιση πληροφοριών έκδοσης και έξοδος\n"
-#~ "  -t, --traditional   χρήση της παραδοσιακής μορφής χαιρετισμού\n"
-#~ "  -m, --mail          εμφάνιση της αλληλογραφίας\n"
+#~ "Ξ‘Ο…Ο„Ο ΞµΞ―Ξ½Ξ±ΞΉ Ο„ΞΏ GNU Hello, Ο„ΞΏ Ο€ΟΟΞ³ΟΞ±ΞΌΞΌΞ± ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ Ο‡Ξ±ΞΉΟΞµΟ„ΞΉΟƒΞΌΞΏΟ.\n"
+#~ "Ξ§ΟΞ®ΟƒΞ·: %s [Ξ•Ξ Ξ™Ξ›ΞΞ“Ξ—]\n"
+#~ "  -h, --help          ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ξ±Ο…Ο„Ξ®Ο‚ Ο„Ξ·Ο‚ Ξ²ΞΏΞ®ΞΈΞµΞΉΞ±Ο‚ ΞΊΞ±ΞΉ Ξ­ΞΎΞΏΞ΄ΞΏΟ‚\n"
+#~ "  -v, --version       ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο€Ξ»Ξ·ΟΞΏΟ†ΞΏΟΞΉΟΞ½ Ξ­ΞΊΞ΄ΞΏΟƒΞ·Ο‚ ΞΊΞ±ΞΉ Ξ­ΞΎΞΏΞ΄ΞΏΟ‚\n"
+#~ "  -t, --traditional   Ο‡ΟΞ®ΟƒΞ· Ο„Ξ·Ο‚ Ο€Ξ±ΟΞ±Ξ΄ΞΏΟƒΞΉΞ±ΞΊΞ®Ο‚ ΞΌΞΏΟΟ†Ξ®Ο‚ Ο‡Ξ±ΞΉΟΞµΟ„ΞΉΟƒΞΌΞΏΟ\n"
+#~ "  -m, --mail          ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„Ξ·Ο‚ Ξ±Ξ»Ξ»Ξ·Ξ»ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚\n"
 #~ "\n"
-#~ "Αναφερατε σφάλματα στο bug-gnu-hello@prep.ai.mit.edu.\n"
+#~ "Ξ‘Ξ½Ξ±Ο†ΞµΟΞ±Ο„Ξµ ΟƒΟ†Ξ¬Ξ»ΞΌΞ±Ο„Ξ± ΟƒΟ„ΞΏ bug-gnu-hello@prep.ai.mit.edu.\n"

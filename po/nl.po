@@ -1,16 +1,16 @@
-# Dutch translations for hello.
-# Copyright (C) 2010 Free Software Foundation, Inc.
+# Dutch translations for GNU hello.
+# Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
 #
-# Erick Branderhorst <branderh@debian.org>, 1996.
+# Benno Schulenberg <benno@vertaalt.nl>, 2007, 2010, 2011.
 # Ivo Timmermans <ivo@debian.org>, 2000, 2002.
-# Benno Schulenberg <benno@vertaalt.nl>, 2007, 2010.
+# Erick Branderhorst <branderh@debian.org>, 1996.
 msgid ""
 msgstr ""
-"Project-Id-Version: hello-2.4.90\n"
+"Project-Id-Version: hello-2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2011-03-28 07:00-0700\n"
-"PO-Revision-Date: 2010-04-05 10:44+0200\n"
+"PO-Revision-Date: 2011-04-12 10:37+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -116,30 +116,27 @@ msgstr ""
 #: src/hello.c:186
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "Webpagina van %s: <%s>\n"
+msgstr "Webpagina van '%s': <%s>\n"
 
 #: src/hello.c:188
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr "Webpagina van %s: <http://www.gnu.org/software/%s/>\n"
+msgstr "Webpagina van '%s': <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Algemene hulp bij gebruik van GNU-software: <http://www.gnu.org/gethelp/>\n"
+msgstr "Algemene hulp bij gebruik van GNU-software: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licentie GPLv3+: GNU GPL versie 3 of nieuwer <http://gnu.org/licenses/gpl."
-"html>\n"
+"Licentie GPLv3+: GNU GPL versie 3 of nieuwer <http://gnu.org/licenses/gpl.html>\n"
 "Dit is vrije software: u mag het vrijelijk wijzigen en verder verspreiden.\n"
 "Er is GEEN GARANTIE, voor zover de wet dit toestaat.\n"
 
@@ -163,9 +160,9 @@ msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: optie '%c%s' staat geen argument toe\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: optie '%s' vereist een argument\n"
+msgstr "%s: optie '--%s' vereist een argument\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
@@ -199,9 +196,9 @@ msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: optie '-W %s' staat geen argument toe\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: optie '%s' vereist een argument\n"
+msgstr "%s: optie '-W %s' vereist een argument\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
