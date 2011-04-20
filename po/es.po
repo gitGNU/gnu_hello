@@ -1,20 +1,20 @@
-# Mensajes en espaÒol para GNU hello.
-# Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2006, 2010 Free Software Foundation, Inc.
+# Mensajes en espa√±ol para GNU hello.
+# Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2006, 2010, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Javier RomaÒach <jromanac@dial.eunet.es>, 1996.
-# Santiago Vila Doncel <sanvila@unex.es>, 1997, 1998, 1999, 2000, 2001, 2002, 2006, 2010.
+# Javier Roma√±ach <jromanac@dial.eunet.es>, 1996.
+# Santiago Vila Doncel <sanvila@unex.es>, 1997, 1998, 1999, 2000, 2001, 2002, 2006, 2010, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.4.90\n"
+"Project-Id-Version: GNU hello 2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2011-03-28 07:00-0700\n"
-"PO-Revision-Date: 2010-02-14 12:20+0100\n"
+"PO-Revision-Date: 2011-04-18 13:19+0200\n"
 "Last-Translator: Santiago Vila Doncel <sanvila@unex.es>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: src/hello.c:100
@@ -25,7 +25,7 @@ msgstr "%s: operando extra: %s\n"
 #: src/hello.c:102
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Pruebe `%s --help' para m·s informaciÛn.\n"
+msgstr "Pruebe `%s --help' para m√°s informaci√≥n.\n"
 
 #: src/hello.c:109
 #, c-format
@@ -46,19 +46,19 @@ msgid ""
 "+---------------+\n"
 msgstr ""
 "+---------------+\n"
-"| °Hola, mundo! |\n"
+"| ¬°Hola, mundo! |\n"
 "+---------------+\n"
 
 #: src/hello.c:128
 msgid "Hello, world!"
-msgstr "°Hola mundo!"
+msgstr "¬°Hola mundo!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
 #: src/hello.c:150
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "Modo de empleo: %s [OPCI”N]...\n"
+msgstr "Modo de empleo: %s [OPCI√ìN]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
@@ -74,7 +74,7 @@ msgid ""
 "  -v, --version       display version information and exit\n"
 msgstr ""
 "  -h, --help          muestra esta ayuda y finaliza\n"
-"  -v, --version       muestra informaciÛn sobre la versiÛn y termina\n"
+"  -v, --version       muestra informaci√≥n sobre la versi√≥n y termina\n"
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
@@ -85,13 +85,13 @@ msgid ""
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
 "  -t, --traditional       utiliza el formato de saludo tradicional\n"
-"  -n, --next-generation   utiliza el formato de saludo m·s novedoso\n"
+"  -n, --next-generation   utiliza el formato de saludo m√°s novedoso\n"
 "  -g, --greeting=TEXTO    utiliza TEXTO como mensaje de saludo\n"
 
-# Nota: Edsger W. Dijkstra tiene un artÌculo muy interesante en el que explica, entre otras cosas,
-# por quÈ no debe llamarse "bugs" (en inglÈs) a los errores de los programas.
+# Nota: Edsger W. Dijkstra tiene un art√≠culo muy interesante en el que explica, entre otras cosas,
+# por qu√© no debe llamarse "bugs" (en ingl√©s) a los errores de los programas.
 #
-# VÈase "On the cruelty of really teaching computing science" en esta direcciÛn:
+# V√©ase "On the cruelty of really teaching computing science" en esta direcci√≥n:
 #
 # http://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html
 #. TRANSLATORS: --help output 5+ (reports)
@@ -104,7 +104,7 @@ msgstr ""
 msgid "Report bugs to: %s\n"
 msgstr ""
 "Comunicar errores en el programa a: %s\n"
-"Comunicar errores de traducciÛn a es@li.org y al ˙ltimo traductor.\n"
+"Comunicar errores de traducci√≥n a es@li.org y al √∫ltimo traductor.\n"
 
 #: src/hello.c:182
 #, c-format
@@ -114,33 +114,29 @@ msgstr "Comunicar errores de %s a: %s\n"
 #: src/hello.c:186
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "%s p·gina inicial: <%s>\n"
+msgstr "%s p√°gina inicial: <%s>\n"
 
 #: src/hello.c:188
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr "%s p·gina inicial: <http://www.gnu.org/software/%s/>\n"
+msgstr "%s p√°gina inicial: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Ayuda general sobre el uso de software de GNU: <http://www.gnu.org/gethelp/"
-">\n"
+msgstr "Ayuda general sobre el uso de software de GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licencia GPLv3+: GPL de GNU versiÛn 3 o posterior <http://gnu.org/licenses/"
-"gpl.html>\n"
+"Licencia GPLv3+: GPL de GNU versi√≥n 3 o posterior <http://gnu.org/licenses/gpl.html>\n"
 "Esto es software libre, usted es libre de cambiarlo y redistribuirlo.\n"
-"No hay NINGUNA GARANTÕA, hasta donde permite la ley.\n"
+"No hay NINGUNA GARANT√çA, hasta donde permite la ley.\n"
 
 #: gnulib/lib/error.c:181
 msgid "Unknown system error"
@@ -149,58 +145,58 @@ msgstr "Error del sistema desconocido"
 #: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
 #, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: la opciÛn '%s' es ambigua\n"
+msgstr "%s: la opci√≥n '%s' es ambigua\n"
 
 #: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: la opciÛn '--%s' no admite ning˙n argumento\n"
+msgstr "%s: la opci√≥n '--%s' no admite ning√∫n argumento\n"
 
 #: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: la opciÛn '%c%s' no admite ning˙n argumento\n"
+msgstr "%s: la opci√≥n '%c%s' no admite ning√∫n argumento\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: la opciÛn '%s' requiere un argumento\n"
+msgstr "%s: la opci√≥n '--%s' requiere un argumento\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
-msgstr "%s: opciÛn no reconocida '--%s'\n"
+msgstr "%s: opci√≥n no reconocida '--%s'\n"
 
 #: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
-msgstr "%s: opciÛn no reconocida '%c%s'\n"
+msgstr "%s: opci√≥n no reconocida '%c%s'\n"
 
 #: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: opciÛn inv·lida -- '%c'\n"
+msgstr "%s: opci√≥n inv√°lida -- '%c'\n"
 
 #: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
 #: gnulib/lib/getopt.c:1053
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: la opciÛn requiere un argumento -- '%c'\n"
+msgstr "%s: la opci√≥n requiere un argumento -- '%c'\n"
 
 #: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
-msgstr "%s: la opciÛn '-W %s' es ambigua\n"
+msgstr "%s: la opci√≥n '-W %s' es ambigua\n"
 
 #: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: la opciÛn '-W %s' no admite ning˙n argumento\n"
+msgstr "%s: la opci√≥n '-W %s' no admite ning√∫n argumento\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: la opciÛn '%s' requiere un argumento\n"
+msgstr "%s: la opci√≥n '-W %s' requiere un argumento\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -227,18 +223,18 @@ msgstr "error de escritura"
 #. and use glyphs suitable for your language.
 #: gnulib/lib/quotearg.c:271
 msgid "`"
-msgstr "´"
+msgstr "¬´"
 
 #: gnulib/lib/quotearg.c:272
 msgid "'"
-msgstr "ª"
+msgstr "¬ª"
 
 #: gnulib/lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "memoria agotada"
 
 #~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: opciÛn ilegal -- %c\n"
+#~ msgstr "%s: opci√≥n ilegal -- %c\n"
 
 #~ msgid "Too many arguments\n"
 #~ msgstr "Demasiados argumentos\n"
@@ -249,32 +245,28 @@ msgstr "memoria agotada"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "No hay NINGUNA garantÌa; ni siquiera de COMERCIABILIDAD o IDONEIDAD PARA "
-#~ "UN\n"
-#~ "FIN DETERMINADO. Se pueden redistribuir copias de GNU %s bajo los "
-#~ "tÈrminos\n"
-#~ "de la Licencia P˙blica General de GNU.\n"
-#~ "Para m·s informaciÛn sobre estas cuestiones, vea el fichero llamado "
-#~ "COPYING.\n"
+#~ "No hay NINGUNA garant√≠a; ni siquiera de COMERCIABILIDAD o IDONEIDAD PARA UN\n"
+#~ "FIN DETERMINADO. Se pueden redistribuir copias de GNU %s bajo los t√©rminos\n"
+#~ "de la Licencia P√∫blica General de GNU.\n"
+#~ "Para m√°s informaci√≥n sobre estas cuestiones, vea el fichero llamado COPYING.\n"
 
 #~ msgid "%s: Incompatible flags: -m and -t\n"
 #~ msgstr "%s: Opciones incompatibles: -m y -t\n"
 
 #~ msgid "%s: Who are you?\n"
-#~ msgstr "%s: øQuiÈn es usted?\n"
+#~ msgstr "%s: ¬øQui√©n es usted?\n"
 
-# SÈ que habrÌa que buscar alguna otra palabra para `spool', pero ahora
-# mismo no se me ocurre ninguna apropiada, *y que adem·s se entienda*.
+# S√© que habr√≠a que buscar alguna otra palabra para `spool', pero ahora
+# mismo no se me ocurre ninguna apropiada, *y que adem√°s se entienda*.
 #~ msgid "%s: Cannot find your mail spool file.\n"
 #~ msgstr "%s: No se puede encontrar el fichero de `spool' de su correo.\n"
 
 # Sugerencia: No sucede, no ocurre. sv
-# preferirÌa mantener la informalidad. jr
+# preferir√≠a mantener la informalidad. jr
 #~ msgid "Nothing happens here."
-#~ msgstr "AquÌ no pasa nada."
+#~ msgstr "Aqu√≠ no pasa nada."
