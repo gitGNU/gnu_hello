@@ -2,13 +2,13 @@
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
 # Meng Jie <zuxyhere@eastday.com>, 2004.
-# Ji ZhengYu <zhengyuji@gmail.com>, 2008, 2009, 2010
+# Ji ZhengYu <zhengyuji@gmail.com>, 2008, 2009, 2010, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.4.90\n"
+"Project-Id-Version: hello 2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2011-03-28 07:00-0700\n"
-"PO-Revision-Date: 2010-02-02 18:25+0800\n"
+"PO-Revision-Date: 2011-04-28 20:23+0800\n"
 "Last-Translator: Ji ZhengYu <zhengyuji@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -138,14 +138,12 @@ msgstr "使用GNU 软件的通用帮助: <http://www.gnu.org/gethelp/>\n"
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 
@@ -169,9 +167,9 @@ msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: 选项\"%c%s\"不要参数\n"
 
 #: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: 选项\"%s\" 必须带参数。\n"
+msgstr "%s: 选项\"--%s\" 必须带参数。\n"
 
 #: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
@@ -205,9 +203,9 @@ msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: 选项\"-W %s\"不要参数\n"
 
 #: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: 选项\"%s\" 必须带参数。\n"
+msgstr "%s: 选项\"-W %s\" 必须带参数。\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -258,8 +256,7 @@ msgstr "虚拟内存已耗尽"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
