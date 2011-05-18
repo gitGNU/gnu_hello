@@ -286,8 +286,8 @@ comes last takes precedence.
 @cindex problems
 @cindex reporting bugs
 
-To report bugs or suggest enhancements for GNU Hello, please
-send electronic mail to @email{bug-hello@@gnu.org}.
+To report bugs, suggest enhancements or otherwise discuss GNU Hello,
+please send electronic mail to @email{bug-hello@@gnu.org}.
 
 @cindex checklist for bug reports
 For bug reports, please include enough information for the maintainers

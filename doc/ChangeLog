@@ -1,3 +1,8 @@
+2011-05-18  Reuben Thomas  <rrt@sc3d.org>
+
+	* hello.texi (Reporting bugs): point out that bug-hello is for all
+	discussions, not just bugs. (From Karl Berry.)
+
 2011-03-22  Karl Berry  <karl@gnu.org>
 
 	* hello.texi: 2011.
