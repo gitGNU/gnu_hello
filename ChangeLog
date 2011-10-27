@@ -1,3 +1,7 @@
+2011-10-27  Reuben Thomas  <rrt@sc3d.org>
+
+	* doc/hello.texi: Small whitespace fix from Patrice Dumas.
+
 2011-03-22  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* gnulib/m4/gettext.m4: Upgrade to gettext-0.18.1.
@@ -69,7 +73,7 @@
 
 2008-11-27  Karl Berry  <karl@gnu.org>
 
-	* Makefile.am, and all other source files: use new GPLv3 notice 
+	* Makefile.am, and all other source files: use new GPLv3 notice
 	without physical FSF address.
 
 2008-11-07  Karl Berry  <karl@tug.org>
@@ -95,7 +99,7 @@
 2006-11-23  Karl Berry  <karl@gnu.org>
 
 	* Version 2.2.
-	
+
 	* Makefile.am (po-check): add utility target (from coreutils).
 
 2006-11-09  Karl Berry  <karl@gnu.org>

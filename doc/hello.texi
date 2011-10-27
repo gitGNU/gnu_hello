@@ -143,7 +143,7 @@ HTML, PDF, DVI, plain text, XML, and other formats.
 
 @end itemize
 
-GNU Hello is implemented in C.  The GNU Gettext distribution contains
+GNU Hello is implemented in C@.  The GNU Gettext distribution contains
 ``hello world'' examples in many other programming languages; see the
 Gettext home page at @url{http://www.gnu.org/software/gettext/}.
 
