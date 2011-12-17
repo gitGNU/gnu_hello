@@ -20,17 +20,12 @@
 
 # include <stddef.h>
 
+# include "xalloc-oversized.h"
 
 # ifdef __cplusplus
 extern "C" {
 # endif
 
-
-# if __GNUC__ > 2 || (__GNUC__ == 2 && __GNUC_MINOR__ >= 8)
-#  define _GL_ATTRIBUTE_NORETURN __attribute__ ((__noreturn__))
-# else
-#  define _GL_ATTRIBUTE_NORETURN /* empty */
-# endif
 
 # if __GNUC__ >= 3
 #  define _GL_ATTRIBUTE_MALLOC __attribute__ ((__malloc__))
@@ -49,7 +44,7 @@ extern "C" {
    or by using gnulib's xalloc-die module.  This is the
    function to call when one wants the program to die because of a
    memory allocation failure.  */
-extern void xalloc_die (void) _GL_ATTRIBUTE_NORETURN;
+extern _Noreturn void xalloc_die (void);
 
 void *xmalloc (size_t s)
       _GL_ATTRIBUTE_MALLOC _GL_ATTRIBUTE_ALLOC_SIZE ((1));
@@ -64,22 +59,6 @@ void *xmemdup (void const *p, size_t s)
       _GL_ATTRIBUTE_MALLOC _GL_ATTRIBUTE_ALLOC_SIZE ((2));
 char *xstrdup (char const *str)
       _GL_ATTRIBUTE_MALLOC;
-
-/* Return 1 if an array of N objects, each of size S, cannot exist due
-   to size arithmetic overflow.  S must be positive and N must be
-   nonnegative.  This is a macro, not an inline function, so that it
-   works correctly even when SIZE_MAX < N.
-
-   By gnulib convention, SIZE_MAX represents overflow in size
-   calculations, so the conservative dividend to use here is
-   SIZE_MAX - 1, since SIZE_MAX might represent an overflowed value.
-   However, malloc (SIZE_MAX) fails on all known hosts where
-   sizeof (ptrdiff_t) <= sizeof (size_t), so do not bother to test for
-   exactly-SIZE_MAX allocations on such hosts; this avoids a test and
-   branch when S is known to be 1.  */
-# define xalloc_oversized(n, s) \
-    ((size_t) (sizeof (ptrdiff_t) <= sizeof (size_t) ? -1 : -2) / (s) < (n))
-
 
 /* In the following macros, T must be an elementary or structure/union or
    typedef'ed type, or a pointer to such a type.  To apply one of the
@@ -213,9 +192,9 @@ x2nrealloc (void *p, size_t *pn, size_t s)
         {
           /* The approximate size to use for initial small allocation
              requests, when the invoking code specifies an old size of
-             zero.  64 bytes is the largest "small" request for the
-             GNU C library malloc.  */
-          enum { DEFAULT_MXFAST = 64 };
+             zero.  This is the largest "small" request for the GNU C
+             library malloc.  */
+          enum { DEFAULT_MXFAST = 64 * sizeof (size_t) / 4 };
 
           n = DEFAULT_MXFAST / s;
           n += !n;

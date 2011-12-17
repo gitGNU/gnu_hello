@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.0.50\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2011-03-28 07:00-0700\n"
+"POT-Creation-Date: 2011-12-17 12:00+0100\n"
 "PO-Revision-Date: 2002-04-30 11:59+MET/DST (UTC+2)\n"
 "Last-Translator: Mirsad Todorovac <mtodorov_69@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -130,62 +130,62 @@ msgid ""
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 
-#: gnulib/lib/error.c:181
+#: gnulib/lib/error.c:187
 msgid "Unknown system error"
 msgstr ""
 
-#: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
+#: gnulib/lib/getopt.c:547 gnulib/lib/getopt.c:576
 #, fuzzy, c-format
-msgid "%s: option '%s' is ambiguous\n"
+msgid "%s: option '%s' is ambiguous; possibilities:"
 msgstr "%s: opcija `%s' nije jednoznaèna\n"
 
-#: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
+#: gnulib/lib/getopt.c:624 gnulib/lib/getopt.c:628
 #, fuzzy, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: opcija `--%s' ne dozvoljava argument\n"
 
-#: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
+#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:642
 #, fuzzy, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: opcija `%c%s' ne dozvoljava argument\n"
 
-#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
+#: gnulib/lib/getopt.c:685 gnulib/lib/getopt.c:704
 #, fuzzy, c-format
 msgid "%s: option '--%s' requires an argument\n"
 msgstr "%s: opcija `%s' zahtijeva neophodan argument\n"
 
-#: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
+#: gnulib/lib/getopt.c:742 gnulib/lib/getopt.c:745
 #, fuzzy, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: ne prepoznajem opciju `--%s'\n"
 
-#: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
+#: gnulib/lib/getopt.c:753 gnulib/lib/getopt.c:756
 #, fuzzy, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: ne prepoznajem opciju `%c%s'\n"
 
-#: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
+#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
 #, fuzzy, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: pogre¹na opcija -- %c\n"
 
-#: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
-#: gnulib/lib/getopt.c:1053
+#: gnulib/lib/getopt.c:861 gnulib/lib/getopt.c:878 gnulib/lib/getopt.c:1088
+#: gnulib/lib/getopt.c:1106
 #, fuzzy, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: opcija zahtijeva neophodan argument -- %c\n"
 
-#: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
+#: gnulib/lib/getopt.c:934 gnulib/lib/getopt.c:950
 #, fuzzy, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: opcija `-W %s' nije jednoznaèna\n"
 
-#: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
+#: gnulib/lib/getopt.c:974 gnulib/lib/getopt.c:992
 #, fuzzy, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: opcija `-W %s' ne dozvoljava argument\n"
 
-#: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
+#: gnulib/lib/getopt.c:1013 gnulib/lib/getopt.c:1031
 #, fuzzy, c-format
 msgid "%s: option '-W %s' requires an argument\n"
 msgstr "%s: opcija `%s' zahtijeva neophodan argument\n"
@@ -213,11 +213,11 @@ msgstr ""
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:271
+#: gnulib/lib/quotearg.c:278
 msgid "`"
 msgstr ""
 
-#: gnulib/lib/quotearg.c:272
+#: gnulib/lib/quotearg.c:279
 msgid "'"
 msgstr ""
 

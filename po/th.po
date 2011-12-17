@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.6.90\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2011-03-28 07:00-0700\n"
+"POT-Creation-Date: 2011-12-17 12:00+0100\n"
 "PO-Revision-Date: 2011-03-24 03:34+0700\n"
 "Last-Translator: Seksan Poltree <seksan.poltree@gmail.com>\n"
 "Language-Team: Thai <translation-team-th@lists.sourceforge.net>\n"
@@ -134,62 +134,62 @@ msgstr ""
 "นี่เป็นซอฟต์แวร์เสรี: คุณมีอิสระในการปรับเปลี่ยนและการส่งต่อมัน.\n"
 "มีการไม่รับประกัน, จากขอบเขตที่อนุญาตโดยกฎหมาย.\n"
 
-#: gnulib/lib/error.c:181
+#: gnulib/lib/error.c:187
 msgid "Unknown system error"
 msgstr "เกิดความผิดพลาดของระบบที่ไม่รู้จักขึ้น"
 
-#: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
-#, c-format
-msgid "%s: option '%s' is ambiguous\n"
+#: gnulib/lib/getopt.c:547 gnulib/lib/getopt.c:576
+#, fuzzy, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
 msgstr "%s: ตัวเลือก `%s' กำกวมไม่ชัดเจน\n"
 
-#: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
+#: gnulib/lib/getopt.c:624 gnulib/lib/getopt.c:628
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: ตัวเลือก '--%s' ไม่อนุญาตให้มีอาร์กิวเมนต์\n"
 
-#: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
+#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:642
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: ตัวเลือก '%c%s' ไม่อนุญาตให้มีอาร์กิวเมนต์\n"
 
-#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
+#: gnulib/lib/getopt.c:685 gnulib/lib/getopt.c:704
 #, c-format
 msgid "%s: option '--%s' requires an argument\n"
 msgstr "%s: ตัวเลือก '--%s' จำเป็นต้องมีอาร์กิวเมนต์\n"
 
-#: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
+#: gnulib/lib/getopt.c:742 gnulib/lib/getopt.c:745
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s:  ไม่สามารถจดจำตัวเลือก `--%s' \n"
 
-#: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
+#: gnulib/lib/getopt.c:753 gnulib/lib/getopt.c:756
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: ไม่สามารถจดจำตัวเลือก '%c%s' ได้\n"
 
-#: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
+#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: ตัวเลือกไม่ถูกต้อง -- '%c'\n"
 
-#: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
-#: gnulib/lib/getopt.c:1053
+#: gnulib/lib/getopt.c:861 gnulib/lib/getopt.c:878 gnulib/lib/getopt.c:1088
+#: gnulib/lib/getopt.c:1106
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: ตัวเลือกที่ต้องการอาร์กิวเมนต์หนึ่งตัว -- '%c'\n"
 
-#: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
+#: gnulib/lib/getopt.c:934 gnulib/lib/getopt.c:950
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: ตัวเลือก '-W %s' กำกวมไม่ชัดเจน\n"
 
-#: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
+#: gnulib/lib/getopt.c:974 gnulib/lib/getopt.c:992
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: ตัวเลือก '-W %s' ไม่อนุญาตให้มีอาร์กิวเมนต์\n"
 
-#: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
+#: gnulib/lib/getopt.c:1013 gnulib/lib/getopt.c:1031
 #, c-format
 msgid "%s: option '-W %s' requires an argument\n"
 msgstr "%s: ตัวเลือก '-W %s' จำเป็นต้องมีอาร์กิวเมนต์\n"
@@ -217,11 +217,11 @@ msgstr "เกิดข้อผิดพลาดในการเขียน
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:271
+#: gnulib/lib/quotearg.c:278
 msgid "`"
 msgstr "`"
 
-#: gnulib/lib/quotearg.c:272
+#: gnulib/lib/quotearg.c:279
 msgid "'"
 msgstr "'"
 

@@ -1,7 +1,0 @@
-Makefile
-Makefile.in
-POTFILES
-messages
-stamp-po
-*.gmo
-*.pot

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2011-03-28 07:00-0700\n"
+"POT-Creation-Date: 2011-12-17 12:00+0100\n"
 "PO-Revision-Date: 2011-04-28 20:23+0800\n"
 "Last-Translator: Ji ZhengYu <zhengyuji@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -138,71 +138,73 @@ msgstr "使用GNU 软件的通用帮助: <http://www.gnu.org/gethelp/>\n"
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 
-#: gnulib/lib/error.c:181
+#: gnulib/lib/error.c:187
 msgid "Unknown system error"
 msgstr "未知的系统错误"
 
-#: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
-#, c-format
-msgid "%s: option '%s' is ambiguous\n"
+#: gnulib/lib/getopt.c:547 gnulib/lib/getopt.c:576
+#, fuzzy, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
 msgstr "%s: 选项\"%s\"有歧义\n"
 
-#: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
+#: gnulib/lib/getopt.c:624 gnulib/lib/getopt.c:628
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: 选项\"--%s\"不要参数\n"
 
-#: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
+#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:642
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: 选项\"%c%s\"不要参数\n"
 
-#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
+#: gnulib/lib/getopt.c:685 gnulib/lib/getopt.c:704
 #, c-format
 msgid "%s: option '--%s' requires an argument\n"
 msgstr "%s: 选项\"--%s\" 必须带参数。\n"
 
-#: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
+#: gnulib/lib/getopt.c:742 gnulib/lib/getopt.c:745
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: 无法识别的选项\"--%s\"\n"
 
-#: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
+#: gnulib/lib/getopt.c:753 gnulib/lib/getopt.c:756
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: 无法识别的选项\"%c%s\"\n"
 
-#: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
+#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: 选项无效 -- \"%c\"\n"
 
-#: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
-#: gnulib/lib/getopt.c:1053
+#: gnulib/lib/getopt.c:861 gnulib/lib/getopt.c:878 gnulib/lib/getopt.c:1088
+#: gnulib/lib/getopt.c:1106
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: 选项必须带参数 -- \"%c\"\n"
 
-#: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
+#: gnulib/lib/getopt.c:934 gnulib/lib/getopt.c:950
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: 选项\"-W %s\"有歧义\n"
 
-#: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
+#: gnulib/lib/getopt.c:974 gnulib/lib/getopt.c:992
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: 选项\"-W %s\"不要参数\n"
 
-#: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
+#: gnulib/lib/getopt.c:1013 gnulib/lib/getopt.c:1031
 #, c-format
 msgid "%s: option '-W %s' requires an argument\n"
 msgstr "%s: 选项\"-W %s\" 必须带参数。\n"
@@ -230,11 +232,11 @@ msgstr "写错误"
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:271
+#: gnulib/lib/quotearg.c:278
 msgid "`"
 msgstr "‘"
 
-#: gnulib/lib/quotearg.c:272
+#: gnulib/lib/quotearg.c:279
 msgid "'"
 msgstr "’"
 
@@ -256,7 +258,8 @@ msgstr "虚拟内存已耗尽"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
+#~ "terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""

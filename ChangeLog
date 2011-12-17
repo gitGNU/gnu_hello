@@ -1,3 +1,17 @@
+2011-12-17  Reuben Thomas  <rrt@sc3d.org>
+
+	* gnulib: Update.
+	* .bzrignore: Add.
+	* .cvsignore: Remove.
+	* contrib/.cvsignore: Likewise.
+	* doc/.cvsignore: Likewise.
+	* man/.cvsignore: Likewise.
+	* po/.cvsignore: Likewise.
+	* src/.cvsignore: Likewise.
+	* tests/.cvsignore: Likewise.
+	* build/mkinstalldirs: Remove: no longer needed.
+	* po: Update.
+
 2011-10-27  Reuben Thomas  <rrt@sc3d.org>
 
 	* doc/hello.texi: Small whitespace fix from Patrice Dumas.

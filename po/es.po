@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2011-03-28 07:00-0700\n"
+"POT-Creation-Date: 2011-12-17 12:00+0100\n"
 "PO-Revision-Date: 2011-04-18 13:19+0200\n"
 "Last-Translator: Santiago Vila Doncel <sanvila@unex.es>\n"
 "Language-Team: Spanish <es@li.org>\n"
@@ -123,77 +123,81 @@ msgstr "%s página inicial: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:191
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Ayuda general sobre el uso de software de GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Ayuda general sobre el uso de software de GNU: <http://www.gnu.org/gethelp/"
+">\n"
 
 #: src/hello.c:209
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licencia GPLv3+: GPL de GNU versión 3 o posterior <http://gnu.org/licenses/gpl.html>\n"
+"Licencia GPLv3+: GPL de GNU versión 3 o posterior <http://gnu.org/licenses/"
+"gpl.html>\n"
 "Esto es software libre, usted es libre de cambiarlo y redistribuirlo.\n"
 "No hay NINGUNA GARANTÍA, hasta donde permite la ley.\n"
 
-#: gnulib/lib/error.c:181
+#: gnulib/lib/error.c:187
 msgid "Unknown system error"
 msgstr "Error del sistema desconocido"
 
-#: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
-#, c-format
-msgid "%s: option '%s' is ambiguous\n"
+#: gnulib/lib/getopt.c:547 gnulib/lib/getopt.c:576
+#, fuzzy, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
 msgstr "%s: la opción '%s' es ambigua\n"
 
-#: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
+#: gnulib/lib/getopt.c:624 gnulib/lib/getopt.c:628
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: la opción '--%s' no admite ningún argumento\n"
 
-#: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
+#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:642
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: la opción '%c%s' no admite ningún argumento\n"
 
-#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
+#: gnulib/lib/getopt.c:685 gnulib/lib/getopt.c:704
 #, c-format
 msgid "%s: option '--%s' requires an argument\n"
 msgstr "%s: la opción '--%s' requiere un argumento\n"
 
-#: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
+#: gnulib/lib/getopt.c:742 gnulib/lib/getopt.c:745
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: opción no reconocida '--%s'\n"
 
-#: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
+#: gnulib/lib/getopt.c:753 gnulib/lib/getopt.c:756
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: opción no reconocida '%c%s'\n"
 
-#: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
+#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: opción inválida -- '%c'\n"
 
-#: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
-#: gnulib/lib/getopt.c:1053
+#: gnulib/lib/getopt.c:861 gnulib/lib/getopt.c:878 gnulib/lib/getopt.c:1088
+#: gnulib/lib/getopt.c:1106
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: la opción requiere un argumento -- '%c'\n"
 
-#: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
+#: gnulib/lib/getopt.c:934 gnulib/lib/getopt.c:950
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: la opción '-W %s' es ambigua\n"
 
-#: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
+#: gnulib/lib/getopt.c:974 gnulib/lib/getopt.c:992
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: la opción '-W %s' no admite ningún argumento\n"
 
-#: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
+#: gnulib/lib/getopt.c:1013 gnulib/lib/getopt.c:1031
 #, c-format
 msgid "%s: option '-W %s' requires an argument\n"
 msgstr "%s: la opción '-W %s' requiere un argumento\n"
@@ -221,11 +225,11 @@ msgstr "error de escritura"
 #. If you don't know what to put here, please see
 #. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:271
+#: gnulib/lib/quotearg.c:278
 msgid "`"
 msgstr "«"
 
-#: gnulib/lib/quotearg.c:272
+#: gnulib/lib/quotearg.c:279
 msgid "'"
 msgstr "»"
 
@@ -245,15 +249,19 @@ msgstr "memoria agotada"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
+#~ "terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "No hay NINGUNA garantía; ni siquiera de COMERCIABILIDAD o IDONEIDAD PARA UN\n"
-#~ "FIN DETERMINADO. Se pueden redistribuir copias de GNU %s bajo los términos\n"
+#~ "No hay NINGUNA garantía; ni siquiera de COMERCIABILIDAD o IDONEIDAD PARA "
+#~ "UN\n"
+#~ "FIN DETERMINADO. Se pueden redistribuir copias de GNU %s bajo los "
+#~ "términos\n"
 #~ "de la Licencia Pública General de GNU.\n"
-#~ "Para más información sobre estas cuestiones, vea el fichero llamado COPYING.\n"
+#~ "Para más información sobre estas cuestiones, vea el fichero llamado "
+#~ "COPYING.\n"
 
 #~ msgid "%s: Incompatible flags: -m and -t\n"
 #~ msgstr "%s: Opciones incompatibles: -m y -t\n"
