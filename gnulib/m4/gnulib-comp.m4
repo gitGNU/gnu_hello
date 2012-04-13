@@ -1,5 +1,5 @@
 # DO NOT EDIT! GENERATED AUTOMATICALLY!
-# Copyright (C) 2002-2011 Free Software Foundation, Inc.
+# Copyright (C) 2002-2012 Free Software Foundation, Inc.
 #
 # This file is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -38,6 +38,9 @@ AC_DEFUN([gl_EARLY],
   m4_pattern_allow([^gl_LIBOBJS$])dnl a variable
   m4_pattern_allow([^gl_LTLIBOBJS$])dnl a variable
   AC_REQUIRE([gl_PROG_AR_RANLIB])
+  # Code from module c-ctype:
+  # Code from module c-strcase:
+  # Code from module c-strcaseeq:
   # Code from module close-stream:
   # Code from module closeout:
   # Code from module configmake:
@@ -332,6 +335,12 @@ AC_DEFUN([gl_FILE_LIST], [
   build-aux/snippet/arg-nonnull.h
   build-aux/snippet/c++defs.h
   build-aux/snippet/warn-on-use.h
+  lib/c-ctype.c
+  lib/c-ctype.h
+  lib/c-strcase.h
+  lib/c-strcasecmp.c
+  lib/c-strcaseeq.h
+  lib/c-strncasecmp.c
   lib/close-stream.c
   lib/close-stream.h
   lib/closeout.c
@@ -358,6 +367,7 @@ AC_DEFUN([gl_FILE_LIST], [
   lib/msvc-inval.h
   lib/msvc-nothrow.c
   lib/msvc-nothrow.h
+  lib/quote.h
   lib/quotearg.c
   lib/quotearg.h
   lib/ref-add.sin
