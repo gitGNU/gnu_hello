@@ -27,35 +27,6 @@ EXTRA_DIST = ChangeLog.O gnulib/m4/gnulib-cache.m4
 # Subdirectories to descend into.
 SUBDIRS = contrib gnulib/lib po src doc man tests
 
-# `make diff' produces a diff against the previous version, given both
-# .tar.gz's in the current directory.  This should only be done when an
-# official release is made (and only if you care to provide diffs).
-#
-hello_pre = 2.6
-diff: diffcheck
-	@(echo "To apply these patches, cd to the main directory of the package"; \
-	  echo "and then use \`patch -p1 <hello-XXX.diff'."; \
-	  echo "Before building the program, run \`autogen.sh'."; ) > \
-	    $(PACKAGE)-$(hello_pre)-$(VERSION).diff
-	-diff -rc2P --exclude=configure --exclude=config.h.in --exclude=*.info \
-	    --exclude=*.gmo --exclude=aclocal.m4 \
-	    $(PACKAGE)-$(hello_pre) $(PACKAGE)-$(VERSION) >> \
-	    $(PACKAGE)-$(hello_pre)-$(VERSION).diff
-	gzip --force --best $(PACKAGE)-$(hello_pre)-$(VERSION).diff
-
-diffcheck:
-	for d in $(PACKAGE)-$(hello_pre) $(PACKAGE)-$(VERSION) ; do \
-	    if test ! -d $$d ; then \
-	        if test -r $$d.tar.gz ; then \
-	            tar -zxf $$d.tar.gz ; \
-                else \
-	            echo subdir $$d does not exist. ; \
-	            exit 1 ; \
-                fi ; \
-	    fi ; \
-	done
-
-
 # Verify that all source files using _() are listed in po/POTFILES.in.
 # The idea is to run this before making pretests, as well as official
 # releases, so that translators will be sure to have all the messages.
