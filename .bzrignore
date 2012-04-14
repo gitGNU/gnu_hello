@@ -39,3 +39,4 @@ gnulib/lib/wchar.h
 gnulib/lib/wctype.h
 hello-*.tar.*
 stamp-h1
+.sc-start-sc*
