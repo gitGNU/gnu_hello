@@ -77,5 +77,5 @@ wwwdoc:
 	&& ln -s ../*.texi . \
 	&& env $(gendocs_envvars) $(gendocs) $(gendocs_args)
 	cp -arf $(doctemp)/manual/. $(www_target)
-	ls -ltu $(www_target)/html_node | tail  # cvs rm -f obsolete files
-# followed by cvs add of new files and cvs commit.
+	ls -ltu $(www_target)/html_node | tail  # $VCS rm -f obsolete files
+# followed by $VCS add of new files and cvs commit.
