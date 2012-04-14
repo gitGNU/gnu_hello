@@ -27,14 +27,18 @@
 
 
 # Specification in the form of a command-line invocation:
-#   gnulib-tool --import --dir=. --lib=libgnu --source-base=gnulib/lib --m4-base=gnulib/m4 --doc-base=doc --tests-base=tests --aux-dir=build-aux --no-conditional-dependencies --no-libtool --macro-prefix=gl --no-vc-files closeout getopt-gnu gettext
+#   gnulib-tool --import --dir=. --lib=libgnu --source-base=gnulib/lib --m4-base=gnulib/m4 --doc-base=doc --tests-base=tests --aux-dir=build-aux --no-conditional-dependencies --no-libtool --macro-prefix=gl --no-vc-files closeout gendocs getopt-gnu gettext gnupload maintainer-makefile readme-release
 
 # Specification in the form of a few gnulib-tool.m4 macro invocations:
 gl_LOCAL_DIR([])
 gl_MODULES([
   closeout
+  gendocs
   getopt-gnu
   gettext
+  gnupload
+  maintainer-makefile
+  readme-release
 ])
 gl_AVOID([])
 gl_SOURCE_BASE([gnulib/lib])

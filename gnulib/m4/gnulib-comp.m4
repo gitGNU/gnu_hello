@@ -50,15 +50,19 @@ AC_DEFUN([gl_EARLY],
   # Code from module extensions:
   AC_REQUIRE([gl_USE_SYSTEM_EXTENSIONS])
   # Code from module fpending:
+  # Code from module gendocs:
   # Code from module getopt-gnu:
   # Code from module getopt-posix:
   # Code from module gettext:
   # Code from module gettext-h:
+  # Code from module gnumakefile:
+  # Code from module gnupload:
   # Code from module havelib:
   # Code from module include_next:
   # Code from module inline:
   # Code from module intprops:
   # Code from module localcharset:
+  # Code from module maintainer-makefile:
   # Code from module mbrtowc:
   # Code from module mbsinit:
   # Code from module msvc-inval:
@@ -66,6 +70,7 @@ AC_DEFUN([gl_EARLY],
   # Code from module nocrash:
   # Code from module quotearg:
   # Code from module quotearg-simple:
+  # Code from module readme-release:
   # Code from module snippet/_Noreturn:
   # Code from module snippet/arg-nonnull:
   # Code from module snippet/c++defs:
@@ -79,6 +84,8 @@ AC_DEFUN([gl_EARLY],
   # Code from module strerror-override:
   # Code from module string:
   # Code from module unistd:
+  # Code from module useless-if-before-free:
+  # Code from module vc-list-files:
   # Code from module verify:
   # Code from module wchar:
   # Code from module wctype-h:
@@ -144,10 +151,22 @@ dnl you must add AM_GNU_GETTEXT([external]) or similar to configure.ac.
 AM_GNU_GETTEXT_VERSION([0.18.1])
 AC_SUBST([LIBINTL])
 AC_SUBST([LTLIBINTL])
+# Autoconf 2.61a.99 and earlier don't support linking a file only
+# in VPATH builds.  But since GNUmakefile is for maintainer use
+# only, it does not matter if we skip the link with older autoconf.
+# Automake 1.10.1 and earlier try to remove GNUmakefile in non-VPATH
+# builds, so use a shell variable to bypass this.
+GNUmakefile=GNUmakefile
+m4_if(m4_version_compare([2.61a.100],
+        m4_defn([m4_PACKAGE_VERSION])), [1], [],
+      [AC_CONFIG_LINKS([$GNUmakefile:$GNUmakefile], [],
+        [GNUmakefile=$GNUmakefile])])
 gl_INLINE
 gl_LOCALCHARSET
 LOCALCHARSET_TESTS_ENVIRONMENT="CHARSETALIASDIR=\"\$(abs_top_builddir)/$gl_source_base\""
 AC_SUBST([LOCALCHARSET_TESTS_ENVIRONMENT])
+AC_CONFIG_COMMANDS_PRE([m4_ifdef([AH_HEADER],
+  [AC_SUBST([CONFIG_INCLUDE], m4_defn([AH_HEADER]))])])
 gl_FUNC_MBRTOWC
 if test $HAVE_MBRTOWC = 0 || test $REPLACE_MBRTOWC = 1; then
   AC_LIBOBJ([mbrtowc])
@@ -331,10 +350,15 @@ AC_DEFUN([gltests_LIBSOURCES], [
 # gnulib-tool and may be removed by future gnulib-tool invocations.
 AC_DEFUN([gl_FILE_LIST], [
   build-aux/config.rpath
+  build-aux/gendocs.sh
+  build-aux/gnupload
   build-aux/snippet/_Noreturn.h
   build-aux/snippet/arg-nonnull.h
   build-aux/snippet/c++defs.h
   build-aux/snippet/warn-on-use.h
+  build-aux/useless-if-before-free
+  build-aux/vc-list-files
+  doc/gendocs_template
   lib/c-ctype.c
   lib/c-ctype.h
   lib/c-strcase.h
@@ -454,4 +478,7 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/wint_t.m4
   m4/xalloc.m4
   m4/xsize.m4
+  top/GNUmakefile
+  top/README-release
+  top/maint.mk
 ])
