@@ -8,27 +8,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello-2.3.91\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2012-04-14 15:06+0100\n"
+"POT-Creation-Date: 2008-11-07 02:26+0100\n"
 "PO-Revision-Date: 2009-07-16 15:26+0800\n"
 "Last-Translator: Muhammad Najmi bin Ahmad Zabidi <najmi.zabidi@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
-"Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: src/hello.c:100
+#: src/hello.c:95
 #, c-format
 msgid "%s: extra operand: %s\n"
 msgstr "%s: operan lebihan: %s\n"
 
-#: src/hello.c:102
+#: src/hello.c:97
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Cuba `%s --help' untuk lebih maklumat.\n"
 
-#: src/hello.c:109
+#: src/hello.c:104
 #, c-format
 msgid "hello, world\n"
 msgstr "Hello, Duniaku\n"
@@ -39,7 +38,7 @@ msgstr "Hello, Duniaku\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:118
+#: src/hello.c:113
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -50,26 +49,26 @@ msgstr ""
 "| Hello, Duniaku! |\n"
 "+---------------+\n"
 
-#: src/hello.c:128
+#: src/hello.c:122
 msgid "Hello, world!"
 msgstr "Hello, Duniaku!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:150
+#: src/hello.c:140
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Penggunaan: %s [PILIHAN]\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:155
+#: src/hello.c:145
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "Cetak ucapselamat yang mesra dan mudah diubah. \n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:161
+#: src/hello.c:151
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -79,7 +78,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:168
+#: src/hello.c:158
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -89,109 +88,89 @@ msgstr ""
 "  -n, --next-generation  menggunakan format ucapan generasi akan datang\n"
 "  -g, --greeting=TEKS    guna TEKS untuk ucapselamat\n"
 
-#. TRANSLATORS: --help output 5+ (reports)
+#. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:179
-#, fuzzy, c-format
-msgid "Report bugs to: %s\n"
+#: src/hello.c:169
+#, c-format
+msgid "Report bugs to <%s>.\n"
 msgstr "Laporkan pepijat kepada <%s>.\n"
 
-#: src/hello.c:182
-#, fuzzy, c-format
-msgid "Report %s bugs to: %s\n"
-msgstr "Laporkan pepijat kepada <%s>.\n"
-
-#: src/hello.c:186
-#, c-format
-msgid "%s home page: <%s>\n"
-msgstr ""
-
-#: src/hello.c:188
-#, c-format
-msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr ""
-
-#: src/hello.c:191
-msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-
-#: src/hello.c:209
+#: src/hello.c:187
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Hakcipta (C) %s Free Software Foundation, Inc.\n"
-"Lesen GPLv3+: GNU GPL version 3 atau kemudiannya <http://gnu.org/licenses/"
-"gpl.html>\n"
+"Lesen GPLv3+: GNU GPL version 3 atau kemudiannya <http://gnu.org/licenses/gpl.html>\n"
 "Ini adalah perisian bebas, anda boleh mengedarnya.\n"
 "TIADA WARANTI dalam had yang dibenarkan oleh undang-undang.\n"
 
-#: gnulib/lib/error.c:188
+#: gnulib/lib/error.c:125
 msgid "Unknown system error"
 msgstr "Ralat sistem tidak diketahui"
 
-#: gnulib/lib/getopt.c:547 gnulib/lib/getopt.c:576
-#, fuzzy, c-format
-msgid "%s: option '%s' is ambiguous; possibilities:"
+#: gnulib/lib/getopt.c:526 gnulib/lib/getopt.c:542
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
 msgstr "%s: pilihan `%s' adalah kabur\n"
 
-#: gnulib/lib/getopt.c:624 gnulib/lib/getopt.c:628
-#, fuzzy, c-format
-msgid "%s: option '--%s' doesn't allow an argument\n"
+#: gnulib/lib/getopt.c:575 gnulib/lib/getopt.c:579
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
 msgstr "%s: pilihan `--%s' tidak mengizinkan hujah\n"
 
-#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:642
-#, fuzzy, c-format
-msgid "%s: option '%c%s' doesn't allow an argument\n"
+#: gnulib/lib/getopt.c:588 gnulib/lib/getopt.c:593
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
 msgstr "%s: pilihan `%c %s' tidak mengizinkan hujah\n"
 
-#: gnulib/lib/getopt.c:685 gnulib/lib/getopt.c:704
-#, fuzzy, c-format
-msgid "%s: option '--%s' requires an argument\n"
+#: gnulib/lib/getopt.c:636 gnulib/lib/getopt.c:655 gnulib/lib/getopt.c:971
+#: gnulib/lib/getopt.c:990
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
 msgstr "%s: pilihan `%s' memerlukan hujah\n"
 
-#: gnulib/lib/getopt.c:742 gnulib/lib/getopt.c:745
-#, fuzzy, c-format
-msgid "%s: unrecognized option '--%s'\n"
+#: gnulib/lib/getopt.c:693 gnulib/lib/getopt.c:696
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
 msgstr "%s: pilihan tidak dapat dikenalpasti `--%s'\n"
 
-#: gnulib/lib/getopt.c:753 gnulib/lib/getopt.c:756
-#, fuzzy, c-format
-msgid "%s: unrecognized option '%c%s'\n"
+#: gnulib/lib/getopt.c:704 gnulib/lib/getopt.c:707
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
 msgstr "%s: pilihan tidak dapat dikenalpasti `%c%s'\n"
 
-#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
-#, fuzzy, c-format
-msgid "%s: invalid option -- '%c'\n"
+#: gnulib/lib/getopt.c:759 gnulib/lib/getopt.c:762
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: pilihan adalah salah  -- %c\n"
+
+#: gnulib/lib/getopt.c:768 gnulib/lib/getopt.c:771
+#, c-format
+msgid "%s: invalid option -- %c\n"
 msgstr "%s: pilihan tidak sah -- %c\n"
 
-#: gnulib/lib/getopt.c:861 gnulib/lib/getopt.c:878 gnulib/lib/getopt.c:1088
-#: gnulib/lib/getopt.c:1106
-#, fuzzy, c-format
-msgid "%s: option requires an argument -- '%c'\n"
+#: gnulib/lib/getopt.c:823 gnulib/lib/getopt.c:839 gnulib/lib/getopt.c:1043
+#: gnulib/lib/getopt.c:1061
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
 msgstr "%s: pilihan memerlukan hujah -- %c\n"
 
-#: gnulib/lib/getopt.c:934 gnulib/lib/getopt.c:950
-#, fuzzy, c-format
-msgid "%s: option '-W %s' is ambiguous\n"
+#: gnulib/lib/getopt.c:892 gnulib/lib/getopt.c:908
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
 msgstr "%s: pilihan `-W %s' adalah kabur\n"
 
-#: gnulib/lib/getopt.c:974 gnulib/lib/getopt.c:992
-#, fuzzy, c-format
-msgid "%s: option '-W %s' doesn't allow an argument\n"
+#: gnulib/lib/getopt.c:932 gnulib/lib/getopt.c:950
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: pilihan `-W %s' tidak mengizinkan hujah\n"
-
-#: gnulib/lib/getopt.c:1013 gnulib/lib/getopt.c:1031
-#, fuzzy, c-format
-msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: pilihan `%s' memerlukan hujah\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -199,36 +178,31 @@ msgstr "ralat tulis"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
+#.
 #. The message catalog should translate "`" to a left
 #. quotation mark suitable for the locale, and similarly for
-#. "'".  For example, a French Unicode local should translate
-#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
-#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
-#. QUOTATION MARK), respectively.
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
 #.
-#. If the catalog has no translation, we will try to
-#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
-#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
-#. current locale is not Unicode, locale_quoting_style
-#. will quote 'like this', and clocale_quoting_style will
-#. quote "like this".  You should always include translations
-#. for "`" and "'" even if U+2018 and U+2019 are appropriate
-#. for your locale.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
 #.
 #. If you don't know what to put here, please see
-#. <http://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:312
+#: gnulib/lib/quotearg.c:266
 msgid "`"
 msgstr "`"
 
-#: gnulib/lib/quotearg.c:313
+#: gnulib/lib/quotearg.c:267
 msgid "'"
 msgstr "'"
 
 #: gnulib/lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "memoritelah kehabisan"
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: pilihan adalah salah  -- %c\n"

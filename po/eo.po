@@ -1,14 +1,14 @@
 # Esperantaj mesaĝoj por GNU hello.
 # Copyright (C) 2001 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2001-2002, 2006-2007, 2010.
+# Edmund GRIMLEY EVANS <edmundo@rano.org>, 2001-2002, 2006-2007, 2010-2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.4.90\n"
+"Project-Id-Version: GNU hello 2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2012-04-14 15:06+0100\n"
-"PO-Revision-Date: 2010-02-02 20:02+0000\n"
+"POT-Creation-Date: 2011-03-28 07:00-0700\n"
+"PO-Revision-Date: 2011-04-16 22:16+0100\n"
 "Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "Language: eo\n"
@@ -120,76 +120,74 @@ msgstr "Ĝenerala helpo pri GNU-programoj: <http://www.gnu.org/gethelp/>\n"
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Kopirajto (C) %s Free Software Foundation, Inc.\n"
-"Rajtigilo GPLv3+: GNU-GPL versio 3 aŭ posta <http://www.gnu.org/licenses/gpl."
-"html>\n"
+"Rajtigilo GPLv3+: GNU-GPL versio 3 aŭ posta <http://www.gnu.org/licenses/gpl.html>\n"
 "Ĉi tio estas libera programo: vi rajtas ŝanĝi kaj pludoni kopiojn.\n"
 "Estas NENIA GARANTIO, laŭ la grado leĝe permesata.\n"
 
-#: gnulib/lib/error.c:188
+#: gnulib/lib/error.c:181
 msgid "Unknown system error"
 msgstr "Nekonata sistemeraro"
 
-#: gnulib/lib/getopt.c:547 gnulib/lib/getopt.c:576
-#, fuzzy, c-format
-msgid "%s: option '%s' is ambiguous; possibilities:"
+#: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
+#, c-format
+msgid "%s: option '%s' is ambiguous\n"
 msgstr "%s: opcio '%s' estas plursenca\n"
 
-#: gnulib/lib/getopt.c:624 gnulib/lib/getopt.c:628
+#: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: opcio '--%s' ne allasas argumenton\n"
 
-#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:642
+#: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: opcio '%c%s' ne allasas argumenton\n"
 
-#: gnulib/lib/getopt.c:685 gnulib/lib/getopt.c:704
-#, fuzzy, c-format
+#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
+#, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: opcio '%s' bezonas argumenton\n"
+msgstr "%s: opcio '--%s' bezonas argumenton\n"
 
-#: gnulib/lib/getopt.c:742 gnulib/lib/getopt.c:745
+#: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: nerekonata opcio '--%s'\n"
 
-#: gnulib/lib/getopt.c:753 gnulib/lib/getopt.c:756
+#: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: nerekonata opcio '%c%s'\n"
 
-#: gnulib/lib/getopt.c:805 gnulib/lib/getopt.c:808
+#: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: nevalida opcio -- '%c'\n"
 
-#: gnulib/lib/getopt.c:861 gnulib/lib/getopt.c:878 gnulib/lib/getopt.c:1088
-#: gnulib/lib/getopt.c:1106
+#: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
+#: gnulib/lib/getopt.c:1053
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: opcio bezonas argumenton -- '%c'\n"
 
-#: gnulib/lib/getopt.c:934 gnulib/lib/getopt.c:950
+#: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: opcio '-W %s' estas plursenca\n"
 
-#: gnulib/lib/getopt.c:974 gnulib/lib/getopt.c:992
+#: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: opcio '-W %s' ne allasas argumenton\n"
 
-#: gnulib/lib/getopt.c:1013 gnulib/lib/getopt.c:1031
-#, fuzzy, c-format
+#: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
+#, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: opcio '%s' bezonas argumenton\n"
+msgstr "%s: opcio '-W %s' bezonas argumenton\n"
 
 #: gnulib/lib/closeout.c:112
 msgid "write error"
@@ -197,30 +195,28 @@ msgstr "skriberaro"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
+#.
 #. The message catalog should translate "`" to a left
 #. quotation mark suitable for the locale, and similarly for
-#. "'".  For example, a French Unicode local should translate
-#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
-#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
-#. QUOTATION MARK), respectively.
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
 #.
-#. If the catalog has no translation, we will try to
-#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
-#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
-#. current locale is not Unicode, locale_quoting_style
-#. will quote 'like this', and clocale_quoting_style will
-#. quote "like this".  You should always include translations
-#. for "`" and "'" even if U+2018 and U+2019 are appropriate
-#. for your locale.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK)
+#. and U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
 #.
 #. If you don't know what to put here, please see
-#. <http://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:312
+#: gnulib/lib/quotearg.c:271
 msgid "`"
 msgstr "“"
 
-#: gnulib/lib/quotearg.c:313
+#: gnulib/lib/quotearg.c:272
 msgid "'"
 msgstr "”"
 
@@ -237,8 +233,7 @@ msgstr "memoro elĉerpiĝis"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
-#~ "terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
