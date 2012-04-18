@@ -6,25 +6,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2007-07-26 10:13-0700\n"
+"POT-Creation-Date: 2012-04-19 00:36+0100\n"
 "PO-Revision-Date: 2003-02-25 13:00+0400\n"
 "Last-Translator: Nugzar Nebieridze <nugzar@nebieridze.com>\n"
 "Language-Team: Georgian <ka@li.org>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/hello.c:95
+#: src/hello.c:98
 #, c-format
 msgid "%s: extra operand: %s\n"
 msgstr ""
 
-#: src/hello.c:97
+#: src/hello.c:100
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "აკრიბეთ `%s --help' დამატებითი ინფორმაციისთვის.\n"
 
-#: src/hello.c:104
+#: src/hello.c:107
 #, c-format
 msgid "hello, world\n"
 msgstr "სალამი მსოფლიოს!\n"
@@ -35,7 +36,7 @@ msgstr "სალამი მსოფლიოს!\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:113
+#: src/hello.c:116
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -46,26 +47,26 @@ msgstr ""
 "| სალამი მსოფლიოს! |\n"
 "+------------------+\n"
 
-#: src/hello.c:122
+#: src/hello.c:126
 msgid "Hello, world!"
 msgstr "სალამი მსოფლიოს!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:140
+#: src/hello.c:148
 #, fuzzy, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "გამოძახება: %s [პარამეტრი]\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:145
+#: src/hello.c:153
 msgid "Print a friendly, customizable greeting.\n"
 msgstr ""
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:151
+#: src/hello.c:159
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -75,7 +76,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:158
+#: src/hello.c:166
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
@@ -86,17 +87,36 @@ msgstr ""
 "  -n, --next-generation   მომავალი თაობის მისალმება\n"
 "  -m, --mail              თქვენი ფოსტის ჩვენება\n"
 
-#. TRANSLATORS: --help output 5 (end)
+#. TRANSLATORS: --help output 5+ (reports)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:169
-#, c-format
-msgid "Report bugs to <%s>.\n"
+#: src/hello.c:177
+#, fuzzy, c-format
+msgid "Report bugs to: %s\n"
 msgstr "შეცდომების შესახებ გააგზავნეთ შეტყობინებები <%s>.\n"
 
-#: src/hello.c:187
+#: src/hello.c:180
+#, fuzzy, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "შეცდომების შესახებ გააგზავნეთ შეტყობინებები <%s>.\n"
+
+#: src/hello.c:184
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: src/hello.c:186
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr ""
+
+#: src/hello.c:189
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+
+#: src/hello.c:207
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
@@ -106,102 +126,105 @@ msgid ""
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 
-#: gnulib/lib/error.c:126
+#: lib/error.c:188
 msgid "Unknown system error"
 msgstr ""
 
-#: gnulib/lib/getopt.c:531 gnulib/lib/getopt.c:547
-#, c-format
-msgid "%s: option `%s' is ambiguous\n"
+#: lib/getopt.c:547 lib/getopt.c:576
+#, fuzzy, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
 msgstr "%s: `%s' პარამეტრი გაურკვეველია\n"
 
-#: gnulib/lib/getopt.c:580 gnulib/lib/getopt.c:584
-#, c-format
-msgid "%s: option `--%s' doesn't allow an argument\n"
+#: lib/getopt.c:624 lib/getopt.c:628
+#, fuzzy, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: `--%s' პარამეტრს მნიშვნელობა არ გადაეცემა\n"
 
-#: gnulib/lib/getopt.c:593 gnulib/lib/getopt.c:598
-#, c-format
-msgid "%s: option `%c%s' doesn't allow an argument\n"
+#: lib/getopt.c:637 lib/getopt.c:642
+#, fuzzy, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: `%c%s' პარამეტრს მნიშვნელობა არ გადაეცემა\n"
 
-#: gnulib/lib/getopt.c:641 gnulib/lib/getopt.c:660 gnulib/lib/getopt.c:976
-#: gnulib/lib/getopt.c:995
-#, c-format
-msgid "%s: option `%s' requires an argument\n"
+#: lib/getopt.c:685 lib/getopt.c:704
+#, fuzzy, c-format
+msgid "%s: option '--%s' requires an argument\n"
 msgstr "%s: საჭიროა `%s' პარამეტრისთვის მნიშვნელობის გადაცემა\n"
 
-#: gnulib/lib/getopt.c:698 gnulib/lib/getopt.c:701
-#, c-format
-msgid "%s: unrecognized option `--%s'\n"
+#: lib/getopt.c:742 lib/getopt.c:745
+#, fuzzy, c-format
+msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: უცნობი პარამეტრი `--%s'\n"
 
-#: gnulib/lib/getopt.c:709 gnulib/lib/getopt.c:712
-#, c-format
-msgid "%s: unrecognized option `%c%s'\n"
+#: lib/getopt.c:753 lib/getopt.c:756
+#, fuzzy, c-format
+msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: უცნობი პარამეტრი `--%c%s'\n"
 
-#: gnulib/lib/getopt.c:764 gnulib/lib/getopt.c:767
-#, c-format
-msgid "%s: illegal option -- %c\n"
-msgstr "%s: დაუშვებელი პარამეტრი -- %c\n"
-
-#: gnulib/lib/getopt.c:773 gnulib/lib/getopt.c:776
-#, c-format
-msgid "%s: invalid option -- %c\n"
+#: lib/getopt.c:805 lib/getopt.c:808
+#, fuzzy, c-format
+msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: არასწორი პარამეტრი -- %c\n"
 
-#: gnulib/lib/getopt.c:828 gnulib/lib/getopt.c:844 gnulib/lib/getopt.c:1048
-#: gnulib/lib/getopt.c:1066
-#, c-format
-msgid "%s: option requires an argument -- %c\n"
+#: lib/getopt.c:861 lib/getopt.c:878 lib/getopt.c:1088 lib/getopt.c:1106
+#, fuzzy, c-format
+msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: საჭიროა %c პარამეტრისთვის მნიშვნელობის გადაცემა\n"
 
-#: gnulib/lib/getopt.c:897 gnulib/lib/getopt.c:913
-#, c-format
-msgid "%s: option `-W %s' is ambiguous\n"
+#: lib/getopt.c:934 lib/getopt.c:950
+#, fuzzy, c-format
+msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: `-W %s' პარამეტრი გაურკვეველია\n"
 
-#: gnulib/lib/getopt.c:937 gnulib/lib/getopt.c:955
-#, c-format
-msgid "%s: option `-W %s' doesn't allow an argument\n"
+#: lib/getopt.c:974 lib/getopt.c:992
+#, fuzzy, c-format
+msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: `-W %s' პარამეტრს მნიშვნელობა არ გადაეცემა\n"
 
-#: gnulib/lib/closeout.c:74
+#: lib/getopt.c:1013 lib/getopt.c:1031
+#, fuzzy, c-format
+msgid "%s: option '-W %s' requires an argument\n"
+msgstr "%s: საჭიროა `%s' პარამეტრისთვის მნიშვნელობის გადაცემა\n"
+
+#: lib/closeout.c:112
 msgid "write error"
 msgstr ""
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
-#.
 #. The message catalog should translate "`" to a left
 #. quotation mark suitable for the locale, and similarly for
-#. "'".  If the catalog has no translation,
-#. locale_quoting_style quotes `like this', and
-#. clocale_quoting_style quotes "like this".
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
 #.
-#. For example, an American English Unicode locale should
-#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
-#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
-#. MARK).  A British English Unicode locale should instead
-#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK) and
-#. U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
 #.
 #. If you don't know what to put here, please see
-#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
+#. <http://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:229
+#: lib/quotearg.c:312
 msgid "`"
 msgstr ""
 
-#: gnulib/lib/quotearg.c:230
+#: lib/quotearg.c:313
 msgid "'"
 msgstr ""
 
-#: gnulib/lib/xalloc-die.c:35
+#: lib/xalloc-die.c:34
 #, fuzzy
 msgid "memory exhausted"
 msgstr "%s: ვირტუალური მეხსიერება ამოწურულია\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: დაუშვებელი პარამეტრი -- %c\n"
 
 #~ msgid "Too many arguments\n"
 #~ msgstr "ზედმეტი პარამეტრები\n"

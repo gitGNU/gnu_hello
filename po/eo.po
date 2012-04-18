@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.7\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2011-03-28 07:00-0700\n"
+"POT-Creation-Date: 2012-04-19 00:36+0100\n"
 "PO-Revision-Date: 2011-04-16 22:16+0100\n"
 "Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:100
+#: src/hello.c:98
 #, c-format
 msgid "%s: extra operand: %s\n"
 msgstr "%s: kroma argumento: %s\n"
 
-#: src/hello.c:102
+#: src/hello.c:100
 #, c-format
 msgid "Try `%s --help' for more information.\n"
 msgstr "Provu '%s --help' por pli da informoj.\n"
 
-#: src/hello.c:109
+#: src/hello.c:107
 #, c-format
 msgid "hello, world\n"
 msgstr "saluton, mondo\n"
@@ -37,7 +37,7 @@ msgstr "saluton, mondo\n"
 #.
 #. [Note: For best viewing results use a UTF-8 locale, please.]
 #.
-#: src/hello.c:118
+#: src/hello.c:116
 #, c-format
 msgid ""
 "+---------------+\n"
@@ -48,26 +48,26 @@ msgstr ""
 "| Saluton, mondo! |\n"
 "+-----------------+\n"
 
-#: src/hello.c:128
+#: src/hello.c:126
 msgid "Hello, world!"
 msgstr "Saluton, mondo!"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:150
+#: src/hello.c:148
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Uzado: %s [OPCIO]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:155
+#: src/hello.c:153
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "Eltajpi amikan, adapteblan saluton.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:161
+#: src/hello.c:159
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -77,7 +77,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:168
+#: src/hello.c:166
 msgid ""
 "  -t, --traditional       use traditional greeting format\n"
 "  -n, --next-generation   use next-generation greeting format\n"
@@ -92,135 +92,138 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:179
+#: src/hello.c:177
 #, c-format
 msgid "Report bugs to: %s\n"
 msgstr "Raportu cimojn al: %s\n"
 
-#: src/hello.c:182
+#: src/hello.c:180
 #, c-format
 msgid "Report %s bugs to: %s\n"
 msgstr "Raportu %s-cimojn al: %s\n"
 
-#: src/hello.c:186
+#: src/hello.c:184
 #, c-format
 msgid "%s home page: <%s>\n"
 msgstr "%s hejmpaĝo: <%s>\n"
 
-#: src/hello.c:188
+#: src/hello.c:186
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
 msgstr "%s hejmpaĝo: <http://www.gnu.org/software/%s/>\n"
 
-#: src/hello.c:191
+#: src/hello.c:189
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
 msgstr "Ĝenerala helpo pri GNU-programoj: <http://www.gnu.org/gethelp/>\n"
 
-#: src/hello.c:209
+#: src/hello.c:207
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Kopirajto (C) %s Free Software Foundation, Inc.\n"
-"Rajtigilo GPLv3+: GNU-GPL versio 3 aŭ posta <http://www.gnu.org/licenses/gpl.html>\n"
+"Rajtigilo GPLv3+: GNU-GPL versio 3 aŭ posta <http://www.gnu.org/licenses/gpl."
+"html>\n"
 "Ĉi tio estas libera programo: vi rajtas ŝanĝi kaj pludoni kopiojn.\n"
 "Estas NENIA GARANTIO, laŭ la grado leĝe permesata.\n"
 
-#: gnulib/lib/error.c:181
+#: lib/error.c:188
 msgid "Unknown system error"
 msgstr "Nekonata sistemeraro"
 
-#: gnulib/lib/getopt.c:527 gnulib/lib/getopt.c:543
-#, c-format
-msgid "%s: option '%s' is ambiguous\n"
+#: lib/getopt.c:547 lib/getopt.c:576
+#, fuzzy, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
 msgstr "%s: opcio '%s' estas plursenca\n"
 
-#: gnulib/lib/getopt.c:576 gnulib/lib/getopt.c:580
+#: lib/getopt.c:624 lib/getopt.c:628
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
 msgstr "%s: opcio '--%s' ne allasas argumenton\n"
 
-#: gnulib/lib/getopt.c:589 gnulib/lib/getopt.c:594
+#: lib/getopt.c:637 lib/getopt.c:642
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
 msgstr "%s: opcio '%c%s' ne allasas argumenton\n"
 
-#: gnulib/lib/getopt.c:637 gnulib/lib/getopt.c:656
+#: lib/getopt.c:685 lib/getopt.c:704
 #, c-format
 msgid "%s: option '--%s' requires an argument\n"
 msgstr "%s: opcio '--%s' bezonas argumenton\n"
 
-#: gnulib/lib/getopt.c:694 gnulib/lib/getopt.c:697
+#: lib/getopt.c:742 lib/getopt.c:745
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
 msgstr "%s: nerekonata opcio '--%s'\n"
 
-#: gnulib/lib/getopt.c:705 gnulib/lib/getopt.c:708
+#: lib/getopt.c:753 lib/getopt.c:756
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
 msgstr "%s: nerekonata opcio '%c%s'\n"
 
-#: gnulib/lib/getopt.c:757 gnulib/lib/getopt.c:760
+#: lib/getopt.c:805 lib/getopt.c:808
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: nevalida opcio -- '%c'\n"
 
-#: gnulib/lib/getopt.c:810 gnulib/lib/getopt.c:827 gnulib/lib/getopt.c:1035
-#: gnulib/lib/getopt.c:1053
+#: lib/getopt.c:861 lib/getopt.c:878 lib/getopt.c:1088 lib/getopt.c:1106
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: opcio bezonas argumenton -- '%c'\n"
 
-#: gnulib/lib/getopt.c:883 gnulib/lib/getopt.c:899
+#: lib/getopt.c:934 lib/getopt.c:950
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
 msgstr "%s: opcio '-W %s' estas plursenca\n"
 
-#: gnulib/lib/getopt.c:923 gnulib/lib/getopt.c:941
+#: lib/getopt.c:974 lib/getopt.c:992
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
 msgstr "%s: opcio '-W %s' ne allasas argumenton\n"
 
-#: gnulib/lib/getopt.c:962 gnulib/lib/getopt.c:980
+#: lib/getopt.c:1013 lib/getopt.c:1031
 #, c-format
 msgid "%s: option '-W %s' requires an argument\n"
 msgstr "%s: opcio '-W %s' bezonas argumenton\n"
 
-#: gnulib/lib/closeout.c:112
+#: lib/closeout.c:112
 msgid "write error"
 msgstr "skriberaro"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
-#.
 #. The message catalog should translate "`" to a left
 #. quotation mark suitable for the locale, and similarly for
-#. "'".  If the catalog has no translation,
-#. locale_quoting_style quotes `like this', and
-#. clocale_quoting_style quotes "like this".
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
 #.
-#. For example, an American English Unicode locale should
-#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
-#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
-#. MARK).  A British English Unicode locale should instead
-#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK)
-#. and U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
 #.
 #. If you don't know what to put here, please see
-#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
+#. <http://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
 #. and use glyphs suitable for your language.
-#: gnulib/lib/quotearg.c:271
+#: lib/quotearg.c:312
 msgid "`"
 msgstr "“"
 
-#: gnulib/lib/quotearg.c:272
+#: lib/quotearg.c:313
 msgid "'"
 msgstr "”"
 
-#: gnulib/lib/xalloc-die.c:34
+#: lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "memoro elĉerpiĝis"
 
@@ -233,7 +236,8 @@ msgstr "memoro elĉerpiĝis"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
+#~ "terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
