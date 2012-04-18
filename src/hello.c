@@ -18,9 +18,7 @@
 
 #include <config.h>
 #include "system.h"
-
-/* String containing name the program is called with.  */
-const char *program_name;
+#include "progname.h"
 
 static const struct option longopts[] =
 {
@@ -49,7 +47,7 @@ main (int argc, char *argv[])
   const char *greeting_msg = NULL;
   greeting_type g = greet_gnu;
 
-  program_name = argv[0];
+  set_program_name (argv[0]);
 
   /* Set locale via LC_ALL.  */
   setlocale (LC_ALL, "");
@@ -98,7 +96,7 @@ main (int argc, char *argv[])
       /* Print error message and exit.  */
       if (optind < argc)
         fprintf (stderr, _("%s: extra operand: %s\n"),
-		 program_name, argv[optind]);
+                 program_name, argv[optind]);
       fprintf (stderr, _("Try `%s --help' for more information.\n"),
                program_name);
       exit (EXIT_FAILURE);
@@ -115,7 +113,7 @@ main (int argc, char *argv[])
 
        [Note: For best viewing results use a UTF-8 locale, please.]
     */
-	printf (_("\
+        printf (_("\
 +---------------+\n\
 | Hello, world! |\n\
 +---------------+\n\
@@ -126,7 +124,7 @@ main (int argc, char *argv[])
 
   else if (g == greet_gnu)
     puts (_("Hello, world!"));
-  
+
   else {
     /* No need for this impossible message to be translated.  */
     fprintf (stderr, "Impossible hello value %d\n", g);
@@ -202,7 +200,7 @@ print_version (void)
   printf ("hello (GNU %s) %s\n", PACKAGE, VERSION);
   /* xgettext: no-wrap */
   puts ("");
-  
+
   /* It is important to separate the year from the rest of the message,
      as done here, to avoid having to retranslate the message when a new
      year comes around.  */

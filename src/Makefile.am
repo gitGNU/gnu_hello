@@ -19,9 +19,9 @@
 bin_PROGRAMS = hello
 hello_SOURCES = hello.c system.h
 
-hello_LDADD = @LIBINTL@ $(top_builddir)/lib/lib$(PACKAGE).a
+hello_LDADD = $(LIBINTL) $(top_builddir)/lib/lib$(PACKAGE).a
 
 localedir = $(datadir)/locale
 
-AM_CPPFLAGS = -I$(top_srcdir)/gnulib/lib -I$(top_builddir)/gnulib/lib
+AM_CPPFLAGS = -I$(top_srcdir)/lib -I$(top_builddir)/lib
 DEFS = -DLOCALEDIR=\"$(localedir)\" @DEFS@

@@ -2,8 +2,8 @@
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
 # Igor Sachko <kick@tcs.com.ua>, 2004.
-# 
-# 
+#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
