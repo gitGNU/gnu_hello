@@ -49,7 +49,7 @@ AM_GNU_GETTEXT([external])
 AC_CONFIG_FILES([Makefile
            contrib/Makefile
            doc/Makefile
-           gnulib/lib/Makefile
+           lib/Makefile
            man/Makefile
            po/Makefile.in
            src/Makefile

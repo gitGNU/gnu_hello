@@ -1,7 +1,7 @@
 # Process this file with automake to produce Makefile.in (in this,
 # and all subdirectories).
 # Makefile for the top-level directory of GNU hello.
-# 
+#
 # Copyright 1997, 1998, 2005, 2006, 2007, 2008, 2009, 2010, 2011
 # Free Software Foundation, Inc.
 #
@@ -19,13 +19,13 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Find gnulib headers.
-ACLOCAL_AMFLAGS = -I gnulib/m4
+ACLOCAL_AMFLAGS = -I m4
 
 # Additional files to distribute.
-EXTRA_DIST = ChangeLog.O gnulib/m4/gnulib-cache.m4
+EXTRA_DIST = ChangeLog.O m4/gnulib-cache.m4
 
 # Subdirectories to descend into.
-SUBDIRS = contrib gnulib/lib po src doc man tests
+SUBDIRS = contrib lib po src doc man tests
 
 # Verify that all source files using _() are listed in po/POTFILES.in.
 # The idea is to run this before making pretests, as well as official
@@ -58,10 +58,8 @@ po-check:
 # with the gendocs.sh script; see
 # http://www.gnu.org/prep/maintain/html_node/Invoking-gendocs_002esh.html
 #
-gnulib = $(HOME)/gnu/src/gnulib
-gendocs = $(gnulib)/build-aux/gendocs.sh
-gendocs_templates = $(gnulib)/doc
-gendocs_envvars = GENDOCS_TEMPLATE_DIR=$(gendocs_templates)
+gendocs = build-aux/gendocs.sh
+gendocs_envvars = GENDOCS_TEMPLATE_DIR=doc
 #
 manual = hello
 manual_title = "Hello, GNU World"

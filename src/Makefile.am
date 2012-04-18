@@ -19,7 +19,7 @@
 bin_PROGRAMS = hello
 hello_SOURCES = hello.c system.h
 
-hello_LDADD = @LIBINTL@ ../gnulib/lib/libgnu.a
+hello_LDADD = @LIBINTL@ $(top_builddir)/lib/lib$(PACKAGE).a
 
 localedir = $(datadir)/locale
 
