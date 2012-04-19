@@ -2,6 +2,10 @@
 
 * Noteworthy changes in release 2.8 (2012-04-19) [stable]
 
+The build system has been overhauled to be more in line with
+mainstream modern GNU practice, and various translations have been
+updated (thanks to the Translation Project!).
+
 Version 2.7 (28 March 2011)
 * Distribution:
   . gettext 0.18.1.
