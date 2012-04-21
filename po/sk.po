@@ -1,16 +1,16 @@
 # hello sk.po
-# Copyright (C) 1999, 2000, 2001, 2002, 2008, 2010, 2011 Free Software Foundation, Inc.
+# Copyright (C) 1999, 2000, 2001, 2002, 2008, 2010, 2011, 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Marcel Telka <marcel@telka.sk>, 2002, 2008, 2010, 2011.
+# Marcel Telka <marcel@telka.sk>, 2002, 2008, 2010, 2011, 2012.
 # Stanislav Meduna <stano@meduna.org>, 2000, 2001.
 # Miroslav Vasko <vasko@debian.cz>, 1999.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.6.90\n"
+"Project-Id-Version: hello 2.8\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2012-04-19 14:45+0100\n"
-"PO-Revision-Date: 2011-03-24 06:35+0100\n"
+"PO-Revision-Date: 2012-04-21 18:18+0200\n"
 "Last-Translator: Marcel Telka <marcel@telka.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
@@ -118,21 +118,18 @@ msgstr "Domovská stránka %s: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:189
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Všeobecný návod na používanie softvéru GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr "Všeobecný návod na používanie softvéru GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:207
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Autorské práva © %s Free Software Foundation, Inc.\n"
-"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl."
-"html>\n"
+"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl.html>\n"
 "Toto je slobodný softvér: môžete ho slobodne meniť a ďalej šíriť.\n"
 "Neposkytuje sa ŽIADNA ZÁRUKA v rozsahu povolenom zákonmi.\n"
 
@@ -141,9 +138,9 @@ msgid "Unknown system error"
 msgstr "Neznáma systémová chyba"
 
 #: lib/getopt.c:547 lib/getopt.c:576
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: voľba '%s' je nejasná\n"
+msgstr "%s: voľba '%s' je nejasná; možnosti:"
 
 #: lib/getopt.c:624 lib/getopt.c:628
 #, c-format
