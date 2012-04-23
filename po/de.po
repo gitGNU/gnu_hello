@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the hello package.
 # Karl Eichwalder <ke@suse.de>, 1998, 2000, 2001, 2002, 2006.
 # Karl Eichwalder <ke@ke.Central.DE>, 1996-97.
-# Roland Illig <roland.illig@gmx.de>, 2009, 2011.
+# Roland Illig <roland.illig@gmx.de>, 2009, 2011, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.7\n"
+"Project-Id-Version: GNU hello 2.8\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2012-04-19 14:45+0100\n"
-"PO-Revision-Date: 2011-04-12 22:19+0100\n"
+"PO-Revision-Date: 2012-04-22 19:48+0100\n"
 "Last-Translator: Roland Illig <roland.illig@gmx.de>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
@@ -86,8 +86,7 @@ msgid ""
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
 "  -t, --traditional       Traditionelles Begrüßungsformat verwenden\n"
-"  -n, --next-generation   Begrüßungsformat der „Nächsten Generation“ "
-"verwenden\n"
+"  -n, --next-generation   Begrüßungsformat der „Nächsten Generation“ verwenden\n"
 "  -g, --greeting=TEXT     TEXT als Begrüßungsmeldung verwenden\n"
 
 # Add address for the german translation.
@@ -102,8 +101,7 @@ msgstr ""
 msgid "Report bugs to: %s\n"
 msgstr ""
 "Melden Sie Fehler an: %s\n"
-"Melden Sie Übersetzungsfehler an: <translation-team-de@lists.sourceforge."
-"net>\n"
+"Melden Sie Übersetzungsfehler an: <translation-team-de@lists.sourceforge.net>\n"
 
 # Add address for the german translation.
 # 2000-03-13 05:50:49 CET -ke-
@@ -112,8 +110,7 @@ msgstr ""
 msgid "Report %s bugs to: %s\n"
 msgstr ""
 "Melden Sie Fehler in %s an: %s\n"
-"Melden Sie Übersetzungsfehler an: <translation-team-de@lists.sourceforge."
-"net>\n"
+"Melden Sie Übersetzungsfehler an: <translation-team-de@lists.sourceforge.net>\n"
 
 #: src/hello.c:184
 #, c-format
@@ -127,22 +124,18 @@ msgstr "%s-Homepage: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:189
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Allgemeine Hilfe zum Benutzen von GNU-Software: <http://www.gnu.org/gethelp/"
-">\n"
+msgstr "Allgemeine Hilfe zum Benutzen von GNU-Software: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:207
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Lizenz: GPLv3+: GNU GPL Version 3 oder neuer <http://gnu.org/licenses/gpl."
-"html>\n"
+"Lizenz: GPLv3+: GNU GPL Version 3 oder neuer <http://gnu.org/licenses/gpl.html>\n"
 "Dies ist Freie Software: Sie dürfen sie ändern und weiterverteilen.\n"
 "Es gibt KEINE GARANTIE, soweit es das Gesetz zulässt.\n"
 
@@ -151,9 +144,9 @@ msgid "Unknown system error"
 msgstr "Unbekannter Systemfehler"
 
 #: lib/getopt.c:547 lib/getopt.c:576
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: Option »%s« ist mehrdeutig\n"
+msgstr "%s: Option »%s« ist mehrdeutig; Möglichkeiten:"
 
 #: lib/getopt.c:624 lib/getopt.c:628
 #, c-format

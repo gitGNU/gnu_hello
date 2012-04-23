@@ -1,14 +1,14 @@
 # Translation hello messages to Thai.
-# Copyright (C) 2011 Free Software Foundation, Inc.
+# Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Seksan Poltree <seksan.poltree@gmail.com>, 2007-2011.
+# Seksan Poltree <seksan.poltree@gmail.com>, 2007-2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.6.90\n"
+"Project-Id-Version: GNU hello 2.8\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2012-04-19 14:45+0100\n"
-"PO-Revision-Date: 2011-03-24 03:34+0700\n"
+"PO-Revision-Date: 2012-04-22 04:24+0700\n"
 "Last-Translator: Seksan Poltree <seksan.poltree@gmail.com>\n"
 "Language-Team: Thai <translation-team-th@lists.sourceforge.net>\n"
 "Language: th\n"
@@ -123,14 +123,12 @@ msgstr "ความช่วยเหลือทั่วไปในการ
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "สงวนสิขสิทธิ์ (C) %s Free Software Foundation, Inc.\n"
-"สัญญาอนุญาต GPLv3: GNU GPL รุ่น 3 หรือใหม่กว่า <http://www.gnu.org/licenses/gpl."
-"html>\n"
+"สัญญาอนุญาต GPLv3: GNU GPL รุ่น 3 หรือใหม่กว่า <http://www.gnu.org/licenses/gpl.html>\n"
 "นี่เป็นซอฟต์แวร์เสรี: คุณมีอิสระในการปรับเปลี่ยนและการส่งต่อมัน.\n"
 "มีการไม่รับประกัน, จากขอบเขตที่อนุญาตโดยกฎหมาย.\n"
 
@@ -139,9 +137,9 @@ msgid "Unknown system error"
 msgstr "เกิดความผิดพลาดของระบบที่ไม่รู้จักขึ้น"
 
 #: lib/getopt.c:547 lib/getopt.c:576
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: ตัวเลือก `%s' กำกวมไม่ชัดเจน\n"
+msgstr "%s: ตัวเลือก '%s' กำกวมไม่ชัดเจน; น่าจะเป็น:"
 
 #: lib/getopt.c:624 lib/getopt.c:628
 #, c-format

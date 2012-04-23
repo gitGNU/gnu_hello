@@ -2,7 +2,7 @@
 # Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
 #
-# Ich finde man dürfte nur rauchen in seinem eigenen Haus.
+# Ich finde man dürfte nur in seinem eigenen Haus rauchen.
 #
 # Benno Schulenberg <benno@vertaalt.nl>, 2007, 2010, 2011, 2012.
 # Ivo Timmermans <ivo@debian.org>, 2000, 2002.

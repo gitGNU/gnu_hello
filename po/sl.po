@@ -1,15 +1,15 @@
 # Slovenian translation for hello.
-# Copyright (C) 1996, 2005, 2009, 2011 Free Software Foundation, Inc.
+# Copyright (C) 1996 - 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
 # Primož Peterlin <primozz.peterlin@gmail.com>, 1996, 2005, 2009.
-# Klemen Košir <klemen.kosir@gmx.com>, 2011.
+# Klemen Košir <klemen.kosir@gmx.com>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.7\n"
+"Project-Id-Version: hello 2.8\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2012-04-19 14:45+0100\n"
-"PO-Revision-Date: 2011-04-18 17:03+0100\n"
+"PO-Revision-Date: 2012-04-23 10:22+0100\n"
 "Last-Translator: Klemen Košir <klemen.kosir@gmx.com>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
 "Language: sl\n"
@@ -119,22 +119,18 @@ msgstr "Domača stran %s: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:189
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Splošna pomoč pri uporabi programske opreme GNU: <http://www.gnu.org/gethelp/"
-">\n"
+msgstr "Splošna pomoč pri uporabi programske opreme GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:207
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Avtorske pravice (C) %s Free Software Foundation, Inc.\n"
-"Dovoljenje GPLv3+: GNU GPL različice 3 ali kasnejše <http://gnu.org/licenses/"
-"gpl.html>\n"
+"Dovoljenje GPLv3+: GNU GPL različice 3 ali kasnejše <http://gnu.org/licenses/gpl.html>\n"
 "To je prosta programska oprema; lahko jo spreminjate in/ali razširjate.\n"
 "Ta programska oprema NIMA GARANCIJE, do z zakonom dovoljene meje.\n"
 
@@ -143,9 +139,9 @@ msgid "Unknown system error"
 msgstr "Neznana sistemska napaka"
 
 #: lib/getopt.c:547 lib/getopt.c:576
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: možnost '%s' je dvoumna\n"
+msgstr "%s: možnost '%s' je dvoumna; možnosti:"
 
 #: lib/getopt.c:624 lib/getopt.c:628
 #, c-format
