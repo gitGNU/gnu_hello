@@ -1,15 +1,15 @@
 # Polish translations for the GNU hello messages
-# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006, 2007, 2008, 2010, 2011 Free Software Foundation, Inc.
+# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006, 2007, 2008, 2010, 2011, 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Rafał Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006-2008, 2010-2011. „
+# Rafał Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006-2008, 2010-2012.
 # corrections: Paweł Krawczyk <kravietz@pipeta.chemia.pk.edu.pl>, 1996
 # typos corrections in 2.1.1: PLD 2003
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.6.90\n"
+"Project-Id-Version: GNU hello 2.8\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2012-04-19 14:45+0100\n"
-"PO-Revision-Date: 2011-03-23 21:30+0100\n"
+"PO-Revision-Date: 2012-04-23 18:00+0200\n"
 "Last-Translator: Rafał Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -124,16 +124,13 @@ msgstr "Pomoc w używaniu oprogramowania GNU: http://www.gnu.org/gethelp/\n"
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licencja GPLv3+: GNU GPL wersja 3 albo późniejsza  <http://gnu.org/licenses/"
-"gpl.html>\n"
-"To jest wolne oprogramowanie. Autorzy nie dają ŻADNYCH gwarancji w "
-"granicach\n"
+"Licencja GPLv3+: GNU GPL wersja 3 albo późniejsza  <http://gnu.org/licenses/gpl.html>\n"
+"To jest wolne oprogramowanie. Autorzy nie dają ŻADNYCH gwarancji w granicach\n"
 "dozwolonych prawem.\n"
 
 #: lib/error.c:188
@@ -141,9 +138,9 @@ msgid "Unknown system error"
 msgstr "Nieznany błąd systemu"
 
 #: lib/getopt.c:547 lib/getopt.c:576
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: opcja '%s' jest niejednoznaczna\n"
+msgstr "%s: opcja '%s' jest niejednoznaczna; możliwości:"
 
 #: lib/getopt.c:624 lib/getopt.c:628
 #, c-format
@@ -226,7 +223,7 @@ msgstr "„"
 
 #: lib/quotearg.c:313
 msgid "'"
-msgstr "\""
+msgstr "”"
 
 # Morda ,,Zmanjkalo pomnilnika''?
 #: lib/xalloc-die.c:34

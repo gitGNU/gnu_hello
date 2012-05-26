@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.7\n"
+"Project-Id-Version: hello 2.8\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2012-04-19 14:45+0100\n"
-"PO-Revision-Date: 2012-04-11 23:03+0800\n"
+"PO-Revision-Date: 2012-05-02 23:03+0800\n"
 "Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -121,8 +121,7 @@ msgstr "使用 GNU 軟體的一般說明：<http://www.gnu.org/gethelp/>\n"
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
@@ -136,9 +135,9 @@ msgid "Unknown system error"
 msgstr "不明的系統錯誤"
 
 #: lib/getopt.c:547 lib/getopt.c:576
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s：選項「%s」為模稜兩可的\n"
+msgstr "%s：選項「%s」為模稜兩可；可能是："
 
 #: lib/getopt.c:624 lib/getopt.c:628
 #, c-format
