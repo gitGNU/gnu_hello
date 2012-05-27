@@ -22,7 +22,7 @@
 ACLOCAL_AMFLAGS = -I m4
 
 # Additional files to distribute.
-EXTRA_DIST = ChangeLog.O m4/gnulib-cache.m4
+EXTRA_DIST = README-dev ChangeLog.O m4/gnulib-cache.m4
 
 # Subdirectories to descend into.
 SUBDIRS = contrib lib po src doc man tests
