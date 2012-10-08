@@ -120,13 +120,15 @@ msgstr "Trang chủ %s: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:189
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Nơi lưu trợ giúp chung cho các phần mềm GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Nơi lưu trợ giúp chung cho các phần mềm GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:207
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""

@@ -115,19 +115,24 @@ msgstr "%s ιστοσελίδα: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:189
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Γενική βοήθεια για να χρησιμοποιήσετε το λογισμικό GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Γενική βοήθεια για να χρησιμοποιήσετε το λογισμικό GNU: <http://www.gnu.org/"
+"gethelp/>\n"
 
 #: src/hello.c:207
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Άδεια χρήσης GPLv3+: GNU GPL έκδοση 3 ή μεταγενέστερη <http://gnu.org/licenses/gpl.html>\n"
-"Αυτό είναι ελεύθερο λογισμικό: Είστε ελεύθεροι να το αλλάξετε και να το αναδιανέμετε.\n"
+"Άδεια χρήσης GPLv3+: GNU GPL έκδοση 3 ή μεταγενέστερη <http://gnu.org/"
+"licenses/gpl.html>\n"
+"Αυτό είναι ελεύθερο λογισμικό: Είστε ελεύθεροι να το αλλάξετε και να το "
+"αναδιανέμετε.\n"
 "Δεν υπάρχει ΚΑΜΙΑ ΕΓΓΥΗΣΗ στην έκταση που επιτρέπεται από το νόμο.\n"
 
 #: lib/error.c:188
