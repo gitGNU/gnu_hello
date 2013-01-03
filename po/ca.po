@@ -1,14 +1,14 @@
 # Catalan translation of hello.
-# Copyright © 2010, 2011 Free Software Foundation, Inc.
+# Copyright © 2010, 2011, 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Jordi Mallach <jordi@sindominio.net>, 2010, 2011.
+# Jordi Mallach <jordi@sindominio.net>, 2010, 2011, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.7\n"
+"Project-Id-Version: hello 2.8\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2012-04-19 14:45+0100\n"
-"PO-Revision-Date: 2011-04-11 22:35+0200\n"
+"PO-Revision-Date: 2013-01-02 18:29+0100\n"
 "Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
 "Language: ca\n"
@@ -115,21 +115,18 @@ msgstr "Pàgina inicial de %s: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:189
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Ajuda general sobre l'ús de programari GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr "Ajuda general sobre l'ús de programari GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:207
 #, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
-"GPLv3+: llicència GNU GPL ver. 3 o posterior <http://gnu.org/licenses/gpl."
-"html>\n"
+"GPLv3+: llicència GNU GPL ver. 3 o posterior <http://gnu.org/licenses/gpl.html>\n"
 "Aquest és programari lliure: podeu modificar‐lo i redistribuir‐lo si voleu.\n"
 "No hi ha CAP GARANTIA, en la mesura que ho permeta la llei.\n"
 
@@ -138,9 +135,9 @@ msgid "Unknown system error"
 msgstr "S'ha produït un error del sistema desconegut"
 
 #: lib/getopt.c:547 lib/getopt.c:576
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: l'opció «%s» és ambigua\n"
+msgstr "%s: l'opció «%s» és ambigua; possibilitats:"
 
 #: lib/getopt.c:624 lib/getopt.c:628
 #, c-format
