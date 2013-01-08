@@ -164,8 +164,8 @@ Print a friendly, customizable greeting.\n"), stdout);
   /* TRANSLATORS: --help output 4: options 2/2
      no-wrap */
   fputs (_("\
-  -t, --traditional       use traditional greeting format\n\
-  -n, --next-generation   use next-generation greeting format\n\
+  -t, --traditional       use traditional greeting\n\
+  -n, --next-generation   use next-generation greeting\n\
   -g, --greeting=TEXT     use TEXT as the greeting message\n"), stdout);
 
   printf ("\n");
