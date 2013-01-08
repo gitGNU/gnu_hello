@@ -38,3 +38,5 @@ m4
 hello-*.tar.*
 stamp-h1
 .sc-start-sc*
+/GNUmakefile
+/README-release
