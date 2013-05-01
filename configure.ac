@@ -12,10 +12,10 @@ AC_INIT([GNU Hello], [2.8], [bug-hello@gnu.org])
 
 dnl Must come before AM_INIT_AUTOMAKE.
 AC_CONFIG_AUX_DIR([build-aux])
-AM_INIT_AUTOMAKE([readme-alpha])
+AM_INIT_AUTOMAKE([1.11.1 readme-alpha parallel-tests])
 
 # Minimum Autoconf version required.
-AC_PREREQ(2.60)
+AC_PREREQ([2.62])
 
 # Where to generate output; srcdir location.
 AC_CONFIG_HEADERS([config.h:config.in])dnl Keep filename to 8.3 for MS-DOS.

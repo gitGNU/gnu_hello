@@ -1,6 +1,7 @@
 # Makefile for hello/tests.
 #
-# Copyright 1996, 2005, 2006, 2007, 2008, 2010 Free Software Foundation, Inc.
+# Copyright 1996, 2005, 2006, 2007, 2008, 2010, 2013 Free Software
+# Foundation, Inc.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,6 +20,10 @@ TESTS = greeting-1 greeting-2 hello-1 last-1 traditional-1
 
 EXTRA_DIST = $(TESTS)
 
-TESTS_ENVIRONMENT = top_srcdir=$(top_srcdir) PATH=.$(PATH_SEPARATOR)../src$(PATH_SEPARATOR)$$PATH \
-		    HELLO=`echo hello|sed '$(transform)'` \
-		    $(SHELL)
+LOG_COMPILER = $(SHELL)
+
+AM_TESTS_ENVIRONMENT = \
+  top_srcdir=$(top_srcdir) \
+  PATH=.$(PATH_SEPARATOR)../src$(PATH_SEPARATOR)$$PATH \
+  HELLO=`echo hello | sed '$(transform)'`;
+  export HELLO PATH top_srcdir;
