@@ -25,5 +25,5 @@ LOG_COMPILER = $(SHELL)
 AM_TESTS_ENVIRONMENT = \
   top_srcdir=$(top_srcdir) \
   PATH=.$(PATH_SEPARATOR)../src$(PATH_SEPARATOR)$$PATH \
-  HELLO=`echo hello | sed '$(transform)'`;
+  HELLO=`echo hello | sed '$(transform)'`; \
   export HELLO PATH top_srcdir;
