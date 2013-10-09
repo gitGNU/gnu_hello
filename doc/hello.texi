@@ -15,7 +15,7 @@
 This manual is for GNU Hello (version @value{VERSION}, @value{UPDATED}),
 which prints a friendly greeting (and serves as an example GNU package).
 
-Copyright @copyright{} 1992, 1993, 1996, 2002, 2005-2012 Free Software Foundation, Inc.
+Copyright @copyright{} 1992, 1993, 1996, 2002, 2005-2013 Free Software Foundation, Inc.
 
 @quotation
 Permission is granted to copy, distribute and/or modify this document
@@ -252,7 +252,7 @@ be mentioned (Hello doesn't have any).
 @itemx -n
 @opindex --next-generation
 @opindex -n
-Output @samp{Hello, world!}, but possibly including box-drawing
+Output the greeting, but possibly including box-drawing
 characters or other fancy stuff, especially in translated locales.
 (If you would like to volunteer to translate messages for GNU packages,
 please see @url{http://translationproject.org}.)
