@@ -8,41 +8,41 @@ dnl This program is distributed in the hope that it will be useful, but
 dnl WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
 dnl implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-AC_INIT([GNU Hello], [2.8], [bug-hello@gnu.org])
+AC_INIT([GNU Hello], [2.8], [bug-hello@gnu.org],,[http://www.gnu.org/software/hello/])
 
 dnl Must come before AM_INIT_AUTOMAKE.
 AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([1.11.1 readme-alpha parallel-tests])
 
-# Minimum Autoconf version required.
+dnl Minimum Autoconf version required.
 AC_PREREQ([2.62])
 
-# Where to generate output; srcdir location.
+dnl Where to generate output; srcdir location.
 AC_CONFIG_HEADERS([config.h:config.in])dnl Keep filename to 8.3 for MS-DOS.
 AC_CONFIG_SRCDIR([src/hello.c])
 
 dnl Checks for programs.
-# We need a C compiler.
+dnl We need a C compiler.
 AC_PROG_CC
 
-# Since we use gnulib: gl_EARLY must be called as soon as possible after
-# the C compiler is checked.  The others could be later, but we just
-# keep everything together.
+dnl Since we use gnulib: gl_EARLY must be called as soon as possible after
+dnl the C compiler is checked.  The others could be later, but we just
+dnl keep everything together.
 gl_EARLY
 gl_INIT
 
-# GNU help2man creates man pages from --help output; in many cases, this
-# is sufficient, and obviates the need to maintain man pages separately.
-# However, this means invoking executables, which we generally cannot do
-# when cross-compiling, so we test to avoid that (the variable
-# "cross_compiling" is set by AC_PROG_CC).
-if test $cross_compiling = no; then
-  AM_MISSING_PROG(HELP2MAN, help2man)
-else
+dnl GNU help2man creates man pages from --help output; in many cases, this
+dnl is sufficient, and obviates the need to maintain man pages separately.
+dnl However, this means invoking executables, which we generally cannot do
+dnl when cross-compiling, so we test to avoid that (the variable
+dnl "cross_compiling" is set by AC_PROG_CC).
+AS_IF([test $cross_compiling = no], [
+  AM_MISSING_PROG([HELP2MAN], [help2man])
+], [
   HELP2MAN=:
-fi
+])
 
-# i18n support from GNU gettext.
+dnl i18n support from GNU gettext.
 AM_GNU_GETTEXT_VERSION([0.18.1])
 AM_GNU_GETTEXT([external])
 
