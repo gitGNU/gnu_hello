@@ -8,7 +8,7 @@ dnl This program is distributed in the hope that it will be useful, but
 dnl WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
 dnl implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-AC_INIT([GNU Hello], [2.8], [bug-hello@gnu.org],,[http://www.gnu.org/software/hello/])
+AC_INIT([GNU Hello], [2.9], [bug-hello@gnu.org],,[http://www.gnu.org/software/hello/])
 
 dnl Must come before AM_INIT_AUTOMAKE.
 AC_CONFIG_AUX_DIR([build-aux])
