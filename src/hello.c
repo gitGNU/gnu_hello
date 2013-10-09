@@ -19,6 +19,7 @@
 #include <config.h>
 #include "system.h"
 #include "progname.h"
+#include "xalloc.h"
 
 static const struct option longopts[] = {
   {"greeting", required_argument, NULL, 'g'},
@@ -39,7 +40,7 @@ typedef enum
 /* Forward declarations.  */
 static void print_help (void);
 static void print_version (void);
-static void print_frame (const char *greeting_msg);
+static void print_frame (const size_t len);
 
 int
 main (int argc, char *argv[])
@@ -47,6 +48,8 @@ main (int argc, char *argv[])
   int optc;
   int lose = 0;
   const char *greeting_msg = _("Hello, world!");
+  wchar_t *mb_greeting;
+  size_t len;
   greeting_type g = greet_traditional;
 
   set_program_name (argv[0]);
@@ -104,15 +107,25 @@ main (int argc, char *argv[])
       exit (EXIT_FAILURE);
     }
 
+  len = mbsrtowcs(NULL, &greeting_msg, 0, NULL);
+  if (len == (size_t)-1)
+    {
+      fprintf (stderr, _("%s: conversion to a multibyte string failed\n"), program_name);
+      exit (EXIT_FAILURE);
+    }
+  mb_greeting = xmalloc((len + 1) * sizeof(wchar_t));
+  mbsrtowcs(mb_greeting, &greeting_msg, len + 1, NULL);
+
   /* Print greeting message and exit. */
   if (g != greet_new)
-    puts (greeting_msg);
+    wprintf (L"%ls\n", mb_greeting);
   else
     {
-      print_frame (greeting_msg);
-      printf ("| %s |\n", greeting_msg);
-      print_frame (greeting_msg);
+      print_frame (len);
+      wprintf (L"| %ls |\n", mb_greeting);
+      print_frame (len);
     }
+  free(mb_greeting);
 
   exit (EXIT_SUCCESS);
 }
@@ -121,13 +134,13 @@ main (int argc, char *argv[])
 /* Print new format upper and lower frame.  */
 
 void
-print_frame (const char *greeting_msg)
+print_frame (const size_t len)
 {
-  size_t i, len = strlen (greeting_msg);
-  fputs ("+-", stdout);
+  size_t i;
+  fputws (L"+-", stdout);
   for (i = 0; i < len; i++)
-    putchar ('-');
-  fputs ("-+\n", stdout);
+    putwchar (L'-');
+  fputws (L"-+\n", stdout);
 }
 
 

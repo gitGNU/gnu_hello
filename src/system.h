@@ -29,6 +29,10 @@
 # include <getopt.h>
 # include <unistd.h>
 
+/* Unicode. */
+#include <wchar.h>
+#include <wctype.h>
+
 /* Internationalization.  */
 # include "gettext.h"
 # define _(str) gettext (str)
