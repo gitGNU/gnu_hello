@@ -32,20 +32,22 @@ static const struct option longopts[] =
 
 /* Different types of greetings; only one per invocation.  */
 typedef enum {
-  greet_gnu, greet_new, greet_traditional, greet_user
+  greet_traditional,
+  greet_new
 } greeting_type;
 
 /* Forward declarations.  */
 static void print_help (void);
 static void print_version (void);
+static void print_frame (const char *greeting_msg);
 
 int
 main (int argc, char *argv[])
 {
   int optc;
   int lose = 0;
-  const char *greeting_msg = NULL;
-  greeting_type g = greet_gnu;
+  const char *greeting_msg = _("Hello, world!");
+  greeting_type g = greet_traditional;
 
   set_program_name (argv[0]);
 
@@ -74,7 +76,6 @@ main (int argc, char *argv[])
         break;
       case 'g':
         greeting_msg = optarg;
-        g = greet_user;
         break;
       case 'h':
         print_help ();
@@ -84,7 +85,8 @@ main (int argc, char *argv[])
         g = greet_new;
         break;
       case 't':
-        g = greet_traditional;
+	g = greet_traditional;
+	greeting_msg = _("hello, world");
         break;
       default:
         lose = 1;
@@ -103,37 +105,31 @@ main (int argc, char *argv[])
     }
 
   /* Print greeting message and exit. */
-  if (g == greet_traditional)
-    printf (_("hello, world\n"));
-
-  else if (g == greet_new)
-    /* TRANSLATORS: Use box drawing characters or other fancy stuff
-       if your encoding (e.g., UTF-8) allows it.  If done so add the
-       following note, please:
-
-       [Note: For best viewing results use a UTF-8 locale, please.]
-    */
-        printf (_("\
-+---------------+\n\
-| Hello, world! |\n\
-+---------------+\n\
-"));
-
-  else if (g == greet_user)
+  if (g != greet_new)
     puts (greeting_msg);
-
-  else if (g == greet_gnu)
-    puts (_("Hello, world!"));
-
-  else {
-    /* No need for this impossible message to be translated.  */
-    fprintf (stderr, "Impossible hello value %d\n", g);
-    exit (EXIT_FAILURE);
-  }
+  else
+    {
+      print_frame (greeting_msg);
+      printf ("| %s |\n", greeting_msg);
+      print_frame (greeting_msg);
+    }
 
   exit (EXIT_SUCCESS);
 }
 
+
+
+/* Print new format upper and lower frame.  */
+
+void
+print_frame (const char *greeting_msg)
+{
+  size_t i, len = strlen (greeting_msg);
+  fputs ("+-", stdout);
+  for (i = 0; i < len; i++)
+    putchar ('-');
+  fputs ("-+\n", stdout);
+}
 
 
 /* Print help info.  This long message is split into

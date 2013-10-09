@@ -21,7 +21,9 @@ export LANGUAGE LC_ALL LC_MESSAGES LANG
 
 tmpfiles="last-test1.ok"
 cat <<EOF > last-test1.ok
-my hello
++----------+
+| my hello |
++----------+
 EOF
 
 tmpfiles="$tmpfiles last-test1.out"
