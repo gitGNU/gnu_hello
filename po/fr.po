@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.8\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
-"POT-Creation-Date: 2012-04-19 14:45+0100\n"
+"POT-Creation-Date: 2013-10-10 00:45+0100\n"
 "PO-Revision-Date: 2012-10-07 13:43-0400\n"
 "Last-Translator: David Prévot <david@tilapin.org>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -19,58 +19,47 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: src/hello.c:98
+#: src/hello.c:50
+msgid "Hello, world!"
+msgstr "Bonjour, le monde !"
+
+#: src/hello.c:92
+#, fuzzy
+msgid "hello, world"
+msgstr "Bonjour, le monde.\n"
+
+#: src/hello.c:103
 #, c-format
 msgid "%s: extra operand: %s\n"
 msgstr "%s : opérateur supplémentaire : %s\n"
 
-#: src/hello.c:100
+#: src/hello.c:105
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Exécutez « %s --help » pour obtenir des renseignements complémentaires.\n"
-
-#: src/hello.c:107
-#, c-format
-msgid "hello, world\n"
-msgstr "Bonjour, le monde.\n"
-
-#. TRANSLATORS: Use box drawing characters or other fancy stuff
-#. if your encoding (e.g., UTF-8) allows it.  If done so add the
-#. following note, please:
-#.
-#. [Note: For best viewing results use a UTF-8 locale, please.]
-#.
-#: src/hello.c:116
-#, c-format
-msgid ""
-"+---------------+\n"
-"| Hello, world! |\n"
-"+---------------+\n"
 msgstr ""
-"+---------------------+\n"
-"| Bonjour, le monde ! |\n"
-"+---------------------+\n"
+"Exécutez « %s --help » pour obtenir des renseignements complémentaires.\n"
 
-#: src/hello.c:126
-msgid "Hello, world!"
-msgstr "Bonjour, le monde !"
+#: src/hello.c:113
+#, c-format
+msgid "%s: conversion to a multibyte string failed\n"
+msgstr ""
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:148
+#: src/hello.c:156
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Utilisation : %s [OPTION]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:153
+#: src/hello.c:161
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "Afficher un message de salutations amical et paramétrable.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:159
+#: src/hello.c:167
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -80,10 +69,11 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:166
+#: src/hello.c:174
+#, fuzzy
 msgid ""
-"  -t, --traditional       use traditional greeting format\n"
-"  -n, --next-generation   use next-generation greeting format\n"
+"  -t, --traditional       use traditional greeting\n"
+"  -n, --next-generation   use next-generation greeting\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
 "  -t, --traditional       utiliser le format traditionnel de salutations\n"
@@ -95,40 +85,43 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:177
+#: src/hello.c:185
 #, c-format
 msgid "Report bugs to: %s\n"
 msgstr "Signalez toute anomalie à : %s\n"
 
-#: src/hello.c:180
+#: src/hello.c:188
 #, c-format
 msgid "Report %s bugs to: %s\n"
 msgstr "Signalez les anomalies de %s à : %s\n"
 
-#: src/hello.c:184
+#: src/hello.c:192
 #, c-format
 msgid "%s home page: <%s>\n"
 msgstr "Page d'accueil de %s : <%s>\n"
 
-#: src/hello.c:186
+#: src/hello.c:194
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
 msgstr "Page d'accueil de %s : <http://www.gnu.org/software/%s/>\n"
 
-#: src/hello.c:189
+#: src/hello.c:197
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Aide globale sur les logiciels GNU : <http://www.gnu.org/help/gethelp>\n"
+msgstr ""
+"Aide globale sur les logiciels GNU : <http://www.gnu.org/help/gethelp>\n"
 
-#: src/hello.c:207
-#, c-format
+#: src/hello.c:215
+#, fuzzy, c-format
 msgid ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"Copyright (C) %d Free Software Foundation, Inc.\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
-"Licence GPLv3+ : GNU GPL version 3 ou ultérieure <http://gnuorg/licenses/gpl.html>\n"
+"Licence GPLv3+ : GNU GPL version 3 ou ultérieure <http://gnuorg/licenses/gpl."
+"html>\n"
 "Logiciel libre : vous êtes libre de le modifier ou de le redistribuer.\n"
 "Il n'y a AUCUNE GARANTIE, dans les limites permises par la loi.\n"
 
@@ -228,6 +221,15 @@ msgstr " »"
 msgid "memory exhausted"
 msgstr "mémoire épuisée"
 
+#~ msgid ""
+#~ "+---------------+\n"
+#~ "| Hello, world! |\n"
+#~ "+---------------+\n"
+#~ msgstr ""
+#~ "+---------------------+\n"
+#~ "| Bonjour, le monde ! |\n"
+#~ "+---------------------+\n"
+
 #~ msgid "%s: illegal option -- %c\n"
 #~ msgstr "%s: l'option -- %c est illégale.\n"
 
@@ -240,13 +242,15 @@ msgstr "mémoire épuisée"
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
 #~ "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
+#~ "PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the "
+#~ "terms\n"
 #~ "of the GNU General Public License.\n"
 #~ "For more information about these matters, see the file named COPYING.\n"
 #~ msgstr ""
 #~ "Copyright © %s Free Software Foundation, Inc.\n"
 #~ "AUCUNE garantie n'est donnée; tant pour des raisons COMMERCIALES que\n"
-#~ "pour RÉPONDRE À UN BESOIN PARTICULIER.  Vous pouvez redistribuer des copies\n"
+#~ "pour RÉPONDRE À UN BESOIN PARTICULIER.  Vous pouvez redistribuer des "
+#~ "copies\n"
 #~ "du progiciel %s de GNU selon les termes de la licence\n"
 #~ "GNU General Public License.\n"
 #~ "Pour plus d'informations, consulter le fichier COPYING.\n"
@@ -287,8 +291,10 @@ msgstr "mémoire épuisée"
 
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "This is free software; see the source for copying conditions.  There is NO\n"
-#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+#~ "This is free software; see the source for copying conditions.  There is "
+#~ "NO\n"
+#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR "
+#~ "PURPOSE.\n"
 #~ msgstr ""
 #~ "Copyright © %s Free Software Foundation, Inc.\n"
 #~ "Ce logiciel est libre; voir les sources pour les conditions de\n"
