@@ -63,7 +63,7 @@ gendocs_envvars = GENDOCS_TEMPLATE_DIR=doc
 #
 manual = hello
 manual_title = "Hello, GNU World"
-email = bug-hello@gnu.org
+email = $(PACKAGE_BUGREPORT)
 gendocs_args = --email $(email) $(manual) $(manual_title)
 #
 www_target = $(HOME)/gnu/www/hello/manual
