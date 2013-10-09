@@ -2,6 +2,11 @@
 
 * Noteworthy changes in release ?.? (????-??-??) [?]
 
+A series of patches from Sami Kerola has modernized and improved the
+build system, added the possibility of user-defined new-style
+greetings, and added support for Unicode.
+
+Various translations have been updated (thanks to the Translation Project).
 
 * Noteworthy changes in release 2.8 (2012-04-19) [stable]
 
