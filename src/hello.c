@@ -20,18 +20,18 @@
 #include "system.h"
 #include "progname.h"
 
-static const struct option longopts[] =
-{
-  { "greeting", required_argument, NULL, 'g' },
-  { "help", no_argument, NULL, 'h' },
-  { "next-generation", no_argument, NULL, 'n' },
-  { "traditional", no_argument, NULL, 't' },
-  { "version", no_argument, NULL, 'v' },
-  { NULL, 0, NULL, 0 }
+static const struct option longopts[] = {
+  {"greeting", required_argument, NULL, 'g'},
+  {"help", no_argument, NULL, 'h'},
+  {"next-generation", no_argument, NULL, 'n'},
+  {"traditional", no_argument, NULL, 't'},
+  {"version", no_argument, NULL, 'v'},
+  {NULL, 0, NULL, 0}
 };
 
 /* Different types of greetings; only one per invocation.  */
-typedef enum {
+typedef enum
+{
   greet_traditional,
   greet_new
 } greeting_type;
@@ -69,38 +69,38 @@ main (int argc, char *argv[])
   while ((optc = getopt_long (argc, argv, "g:hntv", longopts, NULL)) != -1)
     switch (optc)
       {
-      /* --help and --version exit immediately, per GNU coding standards.  */
+	/* --help and --version exit immediately, per GNU coding standards.  */
       case 'v':
-        print_version ();
-        exit (EXIT_SUCCESS);
-        break;
+	print_version ();
+	exit (EXIT_SUCCESS);
+	break;
       case 'g':
-        greeting_msg = optarg;
-        break;
+	greeting_msg = optarg;
+	break;
       case 'h':
-        print_help ();
-        exit (EXIT_SUCCESS);
-        break;
+	print_help ();
+	exit (EXIT_SUCCESS);
+	break;
       case 'n':
-        g = greet_new;
-        break;
+	g = greet_new;
+	break;
       case 't':
 	g = greet_traditional;
 	greeting_msg = _("hello, world");
-        break;
+	break;
       default:
-        lose = 1;
-        break;
+	lose = 1;
+	break;
       }
 
   if (lose || optind < argc)
     {
       /* Print error message and exit.  */
       if (optind < argc)
-        fprintf (stderr, _("%s: extra operand: %s\n"),
-                 program_name, argv[optind]);
+	fprintf (stderr, _("%s: extra operand: %s\n"), program_name,
+		 argv[optind]);
       fprintf (stderr, _("Try `%s --help' for more information.\n"),
-               program_name);
+	       program_name);
       exit (EXIT_FAILURE);
     }
 
@@ -116,9 +116,8 @@ main (int argc, char *argv[])
 
   exit (EXIT_SUCCESS);
 }
-
-
 
+
 /* Print new format upper and lower frame.  */
 
 void
@@ -130,8 +129,8 @@ print_frame (const char *greeting_msg)
     putchar ('-');
   fputs ("-+\n", stdout);
 }
-
 
+
 /* Print help info.  This long message is split into
    several pieces to help translators be able to align different
    blocks and identify the various pieces.  */
@@ -141,7 +140,7 @@ print_help (void)
 {
   /* TRANSLATORS: --help output 1 (synopsis)
      no-wrap */
-        printf (_("\
+  printf (_("\
 Usage: %s [OPTION]...\n"), program_name);
 
   /* TRANSLATORS: --help output 2 (brief description)
@@ -174,7 +173,7 @@ Print a friendly, customizable greeting.\n"), stdout);
 Report bugs to: %s\n"), PACKAGE_BUGREPORT);
 #ifdef PACKAGE_PACKAGER_BUG_REPORTS
   printf (_("Report %s bugs to: %s\n"), PACKAGE_PACKAGER,
-          PACKAGE_PACKAGER_BUG_REPORTS);
+	  PACKAGE_PACKAGER_BUG_REPORTS);
 #endif
 #ifdef PACKAGE_URL
   printf (_("%s home page: <%s>\n"), PACKAGE_NAME, PACKAGE_URL);
@@ -183,11 +182,11 @@ Report bugs to: %s\n"), PACKAGE_BUGREPORT);
 	  PACKAGE_NAME, PACKAGE);
 #endif
   fputs (_("General help using GNU software: <http://www.gnu.org/gethelp/>\n"),
-         stdout);
+	 stdout);
 }
-
-
 
+
+
 /* Print version and copyright information.  */
 
 static void
@@ -204,6 +203,5 @@ print_version (void)
 Copyright (C) %s Free Software Foundation, Inc.\n\
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\
 This is free software: you are free to change and redistribute it.\n\
-There is NO WARRANTY, to the extent permitted by law.\n"),
-              "2011");
+There is NO WARRANTY, to the extent permitted by law.\n"), "2011");
 }

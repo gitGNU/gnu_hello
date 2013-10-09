@@ -16,25 +16,25 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
 
 #ifndef HELLO_SYSTEM_H
-#define HELLO_SYSTEM_H
+# define HELLO_SYSTEM_H
 
 /* Assume ANSI C89 headers are available.  */
-#include <locale.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+# include <locale.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
 
 /* Use POSIX headers.  If they are not available, we use the substitute
    provided by gnulib.  */
-#include <getopt.h>
-#include <unistd.h>
+# include <getopt.h>
+# include <unistd.h>
 
 /* Internationalization.  */
-#include "gettext.h"
-#define _(str) gettext (str)
-#define N_(str) gettext_noop (str)
+# include "gettext.h"
+# define _(str) gettext (str)
+# define N_(str) gettext_noop (str)
 
 /* Check for errors on write.  */
-#include "closeout.h"
+# include "closeout.h"
 
 #endif /* HELLO_SYSTEM_H */
