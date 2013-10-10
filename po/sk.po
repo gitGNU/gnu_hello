@@ -1,16 +1,16 @@
 # hello sk.po
-# Copyright (C) 1999, 2000, 2001, 2002, 2008, 2010, 2011, 2012 Free Software Foundation, Inc.
+# Copyright (C) 1999, 2000, 2001, 2002, 2008, 2010, 2011, 2012, 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Marcel Telka <marcel@telka.sk>, 2002, 2008, 2010, 2011, 2012.
+# Marcel Telka <marcel@telka.sk>, 2002, 2008, 2010, 2011, 2012, 2013.
 # Stanislav Meduna <stano@meduna.org>, 2000, 2001.
 # Miroslav Vasko <vasko@debian.cz>, 1999.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.8\n"
+"Project-Id-Version: hello 2.9\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2013-10-10 00:45+0100\n"
-"PO-Revision-Date: 2012-04-21 18:18+0200\n"
+"PO-Revision-Date: 2013-10-10 14:16+0200\n"
 "Last-Translator: Marcel Telka <marcel@telka.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
@@ -23,9 +23,8 @@ msgid "Hello, world!"
 msgstr "Ahoj, svet!"
 
 #: src/hello.c:92
-#, fuzzy
 msgid "hello, world"
-msgstr "ahoj, svet\n"
+msgstr "ahoj, svet"
 
 #: src/hello.c:103
 #, c-format
@@ -40,7 +39,7 @@ msgstr "Skúste `%s --help' pre viac informácií.\n"
 #: src/hello.c:113
 #, c-format
 msgid "%s: conversion to a multibyte string failed\n"
-msgstr ""
+msgstr "%s: konverzia na viacbajtový reťazec zlyhala\n"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
@@ -68,14 +67,13 @@ msgstr ""
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
 #: src/hello.c:174
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting\n"
 "  -n, --next-generation   use next-generation greeting\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional       použiť tradičný formát pozdravu\n"
-"  -n, --next-generation   použiť formát pozdravu ďalšej generácie\n"
+"  -t, --traditional       použiť tradičný pozdrav\n"
+"  -n, --next-generation   použiť pozdrav budúcej generácie\n"
 "  -g, --greeting=TEXT     použiť TEXT ako správu pozdravu\n"
 
 #. TRANSLATORS: --help output 5+ (reports)
@@ -107,21 +105,18 @@ msgstr "Domovská stránka %s: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:197
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Všeobecný návod na používanie softvéru GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr "Všeobecný návod na používanie softvéru GNU: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:215
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %d Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"Autorské práva © %s Free Software Foundation, Inc.\n"
-"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl."
-"html>\n"
+"Autorské práva © %d Free Software Foundation, Inc.\n"
+"Licencia GPLv3+: GNU GPL verzia 3 alebo novšia <http://gnu.org/licenses/gpl.html>\n"
 "Toto je slobodný softvér: môžete ho slobodne meniť a ďalej šíriť.\n"
 "Neposkytuje sa ŽIADNA ZÁRUKA v rozsahu povolenom zákonmi.\n"
 
@@ -220,12 +215,3 @@ msgstr "“"
 #: lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "vyčerpaná pamäť"
-
-#~ msgid ""
-#~ "+---------------+\n"
-#~ "| Hello, world! |\n"
-#~ "+---------------+\n"
-#~ msgstr ""
-#~ "+-------------+\n"
-#~ "| Ahoj, svet! |\n"
-#~ "+-------------+\n"
