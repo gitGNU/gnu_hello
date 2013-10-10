@@ -17,12 +17,18 @@ Primary distribution point: ftp://ftp.gnu.org/gnu/hello/
 
 Home page: http://www.gnu.org/software/hello/
 
+Developer page: http://savannah.gnu.org/projects/hello/
+- please file bug reports, patches and feature requests here if
+  possible (otherwise, feel free to use the mailing list)
+- significant contributions require a copyright assignment to the Free
+  Software Foundation. The maintainer will be happy to answer
+  questions about the process.
+
 Mailing list: bug-hello@gnu.org
-- please use this list for all discussion: bug reports, enhancements, etc.
+- please use this list for all discussion
 - archived at: http://lists.gnu.org/pipermail/bug-hello
 - anyone is welcome to join the list; to do so, visit
   http://lists.gnu.org/mailman/listinfo/bug-hello
-- there is no corresponding newsgroup.
 
 Bug reports:
  Please include enough information for the maintainers to reproduce the
@@ -35,8 +41,8 @@ Bug reports:
 - unusual options you gave to configure, if any (see config.status).
 - anything else that you think would be helpful.
 
-Patches are most welcome; if possible, please make them with diff -c and
-include ChangeLog entries.
+Patches are most welcome; if possible, please make them in git-am
+format, and include a suitable commit message.
 
 See README-dev for information on the development environment -- any
 interested parties are welcome.  If you're a programmer and wish to
@@ -48,6 +54,6 @@ etc., would still be very much appreciated.
 The basic Hello algorithm was described by B.W. Kernighan and
 D.M. Ritchie.  The GNU implementation is substantially more complex, in
 order to be a canonical example of a GNU package.  Many people have
-contributed; please see the ./AUTHORS and ./ChangeLog files.
+contributed; please see the AUTHORS and ChangeLog files.
 
 GNU Hello is free software.  See the file COPYING for copying conditions.
