@@ -62,7 +62,7 @@ gendocs = build-aux/gendocs.sh
 gendocs_envvars = GENDOCS_TEMPLATE_DIR=doc
 #
 manual = hello
-manual_title = "Hello, GNU World"
+manual_title=Hello, GNU World
 email = $(PACKAGE_BUGREPORT)
 gendocs_args = --email $(email) $(manual) $(manual_title)
 #
