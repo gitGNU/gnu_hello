@@ -1,18 +1,18 @@
 # Dutch translations for GNU hello.
-# Copyright (C) 2012 Free Software Foundation, Inc.
+# Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
 #
-# Ich finde man dürfte nur in seinem eigenen Haus rauchen.
+# “Two nice loaves in denim, please.”
 #
-# Benno Schulenberg <benno@vertaalt.nl>, 2007, 2010, 2011, 2012.
+# Benno Schulenberg <benno@vertaalt.nl>, 2007, 2010, 2011, 2012, 2013.
 # Ivo Timmermans <ivo@debian.org>, 2000, 2002.
 # Erick Branderhorst <branderh@debian.org>, 1996.
 msgid ""
 msgstr ""
-"Project-Id-Version: hello-2.8\n"
+"Project-Id-Version: hello-2.9\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2013-10-10 00:45+0100\n"
-"PO-Revision-Date: 2012-04-21 20:12+0200\n"
+"PO-Revision-Date: 2013-10-10 14:23+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -28,9 +28,8 @@ msgstr "Hallo, wereld!"
 
 # Ima to smisel prevajati? :-)
 #: src/hello.c:92
-#, fuzzy
 msgid "hello, world"
-msgstr "hallo, wereld\n"
+msgstr "hallo, wereld"
 
 #: src/hello.c:103
 #, c-format
@@ -45,7 +44,7 @@ msgstr "Typ '%s --help' voor meer informatie.\n"
 #: src/hello.c:113
 #, c-format
 msgid "%s: conversion to a multibyte string failed\n"
-msgstr ""
+msgstr "%s: omzetting naar een multibyte-tekenreeks is mislukt\n"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
@@ -60,7 +59,7 @@ msgstr ""
 #. no-wrap
 #: src/hello.c:161
 msgid "Print a friendly, customizable greeting.\n"
-msgstr "Een vriendelijke, aanpasbare groet weergeven.\n"
+msgstr "Toont een vriendelijke, aanpasbare groet.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
@@ -75,7 +74,6 @@ msgstr ""
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
 #: src/hello.c:174
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting\n"
 "  -n, --next-generation   use next-generation greeting\n"
@@ -116,21 +114,18 @@ msgstr "Webpagina van '%s': <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:197
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Algemene hulp bij gebruik van GNU-software: <http://www.gnu.org/gethelp/>\n"
+msgstr "Algemene hulp bij gebruik van GNU-software: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:215
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %d Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licentie GPLv3+: GNU GPL versie 3 of nieuwer <http://gnu.org/licenses/gpl."
-"html>\n"
+"Copyright (C) %d Free Software Foundation, Inc.\n"
+"Licentie GPLv3+: GNU GPL versie 3 of nieuwer <http://gnu.org/licenses/gpl.html>\n"
 "Dit is vrije software: u mag het vrijelijk wijzigen en verder verspreiden.\n"
 "Er is GEEN GARANTIE, voor zover de wet dit toestaat.\n"
 
