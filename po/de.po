@@ -3,29 +3,29 @@
 # This file is distributed under the same license as the hello package.
 # Karl Eichwalder <ke@suse.de>, 1998, 2000, 2001, 2002, 2006.
 # Karl Eichwalder <ke@ke.Central.DE>, 1996-97.
-# Roland Illig <roland.illig@gmx.de>, 2009, 2011, 2012.
+# Roland Illig <roland.illig@gmx.de>, 2009, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.8\n"
+"Project-Id-Version: GNU hello 2.9\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2013-10-10 00:45+0100\n"
-"PO-Revision-Date: 2012-04-22 19:48+0100\n"
+"PO-Revision-Date: 2013-10-13 17:35+0100\n"
 "Last-Translator: Roland Illig <roland.illig@gmx.de>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: src/hello.c:50
 msgid "Hello, world!"
 msgstr "Hallo, Welt!"
 
 #: src/hello.c:92
-#, fuzzy
 msgid "hello, world"
-msgstr "hallo, Welt\n"
+msgstr "hallo, Welt"
 
 #: src/hello.c:103
 #, c-format
@@ -40,7 +40,7 @@ msgstr "Versuchen Sie »%s --help« für weitere Informationen.\n"
 #: src/hello.c:113
 #, c-format
 msgid "%s: conversion to a multibyte string failed\n"
-msgstr ""
+msgstr "%s: Umwandlung in einen Multibyte-String fehlgeschlagen\n"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
@@ -68,15 +68,13 @@ msgstr ""
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
 #: src/hello.c:174
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting\n"
 "  -n, --next-generation   use next-generation greeting\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
 "  -t, --traditional       Traditionelles Begrüßungsformat verwenden\n"
-"  -n, --next-generation   Begrüßungsformat der „Nächsten Generation“ "
-"verwenden\n"
+"  -n, --next-generation   Begrüßungsformat der „Nächsten Generation“ verwenden\n"
 "  -g, --greeting=TEXT     TEXT als Begrüßungsmeldung verwenden\n"
 
 # Add address for the german translation.
@@ -91,8 +89,7 @@ msgstr ""
 msgid "Report bugs to: %s\n"
 msgstr ""
 "Melden Sie Fehler an: %s\n"
-"Melden Sie Übersetzungsfehler an: <translation-team-de@lists.sourceforge."
-"net>\n"
+"Melden Sie Übersetzungsfehler an: <translation-team-de@lists.sourceforge.net>\n"
 
 # Add address for the german translation.
 # 2000-03-13 05:50:49 CET -ke-
@@ -101,8 +98,7 @@ msgstr ""
 msgid "Report %s bugs to: %s\n"
 msgstr ""
 "Melden Sie Fehler in %s an: %s\n"
-"Melden Sie Übersetzungsfehler an: <translation-team-de@lists.sourceforge."
-"net>\n"
+"Melden Sie Übersetzungsfehler an: <translation-team-de@lists.sourceforge.net>\n"
 
 #: src/hello.c:192
 #, c-format
@@ -116,24 +112,20 @@ msgstr "%s-Homepage: <http://www.gnu.org/software/%s/>\n"
 
 #: src/hello.c:197
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Allgemeine Hilfe zum Benutzen von GNU-Software: <http://www.gnu.org/gethelp/"
-">\n"
+msgstr "Allgemeine Hilfe zum Benutzen von GNU-Software: <http://www.gnu.org/gethelp/>\n"
 
 #: src/hello.c:215
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %d Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"Lizenz: GPLv3+: GNU GPL Version 3 oder neuer <http://gnu.org/licenses/gpl."
-"html>\n"
+"Copyright (C) %d Free Software Foundation, Inc.\n"
+"Lizenz: GPLv3+: GNU GPL Version 3 oder neuer <http://gnu.org/licenses/gpl.html>\n"
 "Dies ist Freie Software: Sie dürfen sie ändern und weiterverteilen.\n"
-"Es gibt KEINE GARANTIE, soweit es das Gesetz zulässt.\n"
+"Es gibt KEINE GARANTIE, soweit rechtlich zulässig.\n"
 
 #: lib/error.c:188
 msgid "Unknown system error"

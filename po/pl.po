@@ -1,15 +1,15 @@
 # Polish translations for the GNU hello messages
-# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006, 2007, 2008, 2010, 2011, 2012 Free Software Foundation, Inc.
+# Copyright (C) 1996, 1997, 1999, 2000, 2001, 2003, 2004, 2006, 2007, 2008, 2010, 2011, 2012, 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hello package.
-# Rafał Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006-2008, 2010-2012.
+# Rafał Maszkowski <rzm@icm.edu.pl>, 1996-1997, 1999-2001, 2003, 2004, 2006-2008, 2010-2013.
 # corrections: Paweł Krawczyk <kravietz@pipeta.chemia.pk.edu.pl>, 1996
 # typos corrections in 2.1.1: PLD 2003
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 2.8\n"
+"Project-Id-Version: GNU hello 2.9\n"
 "Report-Msgid-Bugs-To: bug-hello@gnu.org\n"
 "POT-Creation-Date: 2013-10-10 00:45+0100\n"
-"PO-Revision-Date: 2012-04-23 18:00+0200\n"
+"PO-Revision-Date: 2013-10-10 20:00+0200\n"
 "Last-Translator: Rafał Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -23,9 +23,8 @@ msgstr "Witaj świecie!"
 
 # Ima to smisel prevajati? :-)
 #: src/hello.c:92
-#, fuzzy
 msgid "hello, world"
-msgstr "witaj świecie\n"
+msgstr "witaj świecie"
 
 #: src/hello.c:103
 #, c-format
@@ -40,7 +39,7 @@ msgstr "Użyj `%s --help' dla uzyskania informacji.\n"
 #: src/hello.c:113
 #, c-format
 msgid "%s: conversion to a multibyte string failed\n"
-msgstr ""
+msgstr "%s: nieudana konwersja do napisu wielobajtowego\n"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
@@ -68,14 +67,13 @@ msgstr ""
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
 #: src/hello.c:174
-#, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting\n"
 "  -n, --next-generation   use next-generation greeting\n"
 "  -g, --greeting=TEXT     use TEXT as the greeting message\n"
 msgstr ""
-"  -t, --traditional       tradycyjny format przywitania\n"
-"  -n, --next-generation   użycie formatu powitania nowej generacji\n"
+"  -t, --traditional       tradycyjne przywitanie\n"
+"  -n, --next-generation   powitanie nowej generacji\n"
 "  -g, --greeting=TEKST    użycie TEKSTU jako powitania\n"
 
 #. TRANSLATORS: --help output 5+ (reports)
@@ -110,19 +108,16 @@ msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
 msgstr "Pomoc w używaniu oprogramowania GNU: http://www.gnu.org/gethelp/\n"
 
 #: src/hello.c:215
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %d Free Software Foundation, Inc.\n"
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licencja GPLv3+: GNU GPL wersja 3 albo późniejsza  <http://gnu.org/licenses/"
-"gpl.html>\n"
-"To jest wolne oprogramowanie. Autorzy nie dają ŻADNYCH gwarancji w "
-"granicach\n"
+"Copyright (C) %d Free Software Foundation, Inc.\n"
+"Licencja GPLv3+: GNU GPL wersja 3 albo późniejsza  <http://gnu.org/licenses/gpl.html>\n"
+"To jest wolne oprogramowanie. Autorzy nie dają ŻADNYCH gwarancji w granicach\n"
 "dozwolonych prawem.\n"
 
 #: lib/error.c:188
@@ -221,12 +216,3 @@ msgstr "”"
 #: lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "pamięć wyczerpana"
-
-#~ msgid ""
-#~ "+---------------+\n"
-#~ "| Hello, world! |\n"
-#~ "+---------------+\n"
-#~ msgstr ""
-#~ "+----------------+\n"
-#~ "| Witaj świecie! |\n"
-#~ "+----------------+\n"
