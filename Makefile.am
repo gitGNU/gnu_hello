@@ -21,11 +21,55 @@
 # Find gnulib headers.
 ACLOCAL_AMFLAGS = -I m4
 
+AM_CPPFLAGS = -Ilib -I$(top_srcdir)/lib -Isrc -I$(top_srcdir)/src
+
 # Additional files to distribute.
-EXTRA_DIST = README-dev ChangeLog.O m4/gnulib-cache.m4
+EXTRA_DIST = \
+	README-dev \
+	ChangeLog.O \
+	m4/gnulib-cache.m4 \
+	contrib/de_franconian_po.txt \
+	contrib/evolution.txt
 
 # Subdirectories to descend into.
-SUBDIRS = contrib lib po src doc man tests
+SUBDIRS = po
+
+bin_PROGRAMS = hello
+hello_SOURCES = src/hello.c src/system.h
+
+hello_LDADD = $(LIBINTL) $(top_builddir)/lib/lib$(PACKAGE).a
+
+localedir = $(datadir)/locale
+DEFS = -DLOCALEDIR=\"$(localedir)\" @DEFS@
+
+man_MANS = hello.1
+EXTRA_DIST += $(man_MANS)
+CLEANFILES = $(man_MANS)
+
+hello.1: hello
+	$(HELP2MAN) --name="friendly greeting program" $(top_builddir)/hello -o $@
+
+TESTS = \
+	tests/greeting-1 \
+	tests/greeting-2 \
+	tests/hello-1 \
+	tests/last-1 \
+	tests/traditional-1
+
+EXTRA_DIST += $(TESTS)
+
+noinst_LIBRARIES =
+MOSTLYCLEANFILES =
+MOSTLYCLEANDIRS =
+BUILT_SOURCES =
+
+LOG_COMPILER = $(SHELL)
+
+AM_TESTS_ENVIRONMENT = \
+  top_srcdir=$(top_srcdir) \
+  PATH=.$(PATH_SEPARATOR)$(PATH_SEPARATOR)$$PATH \
+  HELLO=`echo hello | sed '$(transform)'`; \
+  export HELLO PATH top_srcdir;
 
 # Verify that all source files using _() are listed in po/POTFILES.in.
 # The idea is to run this before making pretests, as well as official
@@ -77,3 +121,6 @@ wwwdoc:
 	cp -arf $(doctemp)/manual/. $(www_target)
 	ls -ltu $(www_target)/html_node | tail  # $VCS rm -f obsolete files
 # followed by $VCS add of new files and cvs commit.
+
+include $(top_srcdir)/lib/local.mk
+include $(top_srcdir)/doc/local.mk

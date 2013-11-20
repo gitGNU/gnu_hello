@@ -1,5 +1,7 @@
+/ABOUT-NLS
 *~
 *.[oa]
+.dirstamp
 ABOUT-NLS
 INSTALL
 Makefile
@@ -15,14 +17,14 @@ stamp.h*
 *.cache
 src/.libs
 src/.deps
-src/hello
+hello
 po/.reference
 po/*.gmo
 po/POTFILES
 po/messages
 po/stamp-po
 po/*.pot
-man/hello.1
+hello.1
 doc/*.aux
 doc/*.dvi
 doc/*.info*

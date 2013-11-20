@@ -15,7 +15,12 @@ AC_INIT([GNU Hello],
 
 dnl Must come before AM_INIT_AUTOMAKE.
 AC_CONFIG_AUX_DIR([build-aux])
-AM_INIT_AUTOMAKE([1.11.1 readme-alpha parallel-tests])
+AM_INIT_AUTOMAKE([
+	1.11.1
+	readme-alpha
+	parallel-tests
+	subdir-objects
+])
 
 dnl Minimum Autoconf version required.
 AC_PREREQ([2.62])
@@ -54,11 +59,5 @@ AM_GNU_GETTEXT_VERSION([0.18.1])
 AM_GNU_GETTEXT([external])
 
 AC_CONFIG_FILES([Makefile
-           contrib/Makefile
-           doc/Makefile
-           lib/Makefile
-           man/Makefile
-           po/Makefile.in
-           src/Makefile
-           tests/Makefile])
+           po/Makefile.in])
 AC_OUTPUT
