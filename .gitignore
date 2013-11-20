@@ -6,6 +6,7 @@
 
 /.sc-start-sc*
 /aclocal.m4
+/ChangeLog
 /config.h
 /config.in
 /config.log
