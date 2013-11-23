@@ -41,6 +41,22 @@ Bug reports:
 - unusual options you gave to configure, if any (see config.status).
 - anything else that you think would be helpful.
 
+Patching process:
+- All changes must be sent to mailing list.
+- Changes are reviewed by maintainers.
+- Maintainer does not review own changes.
+  * In case of single maintainer, or unresponsive co-maintainer, mailing
+    list subscribers may perform the review.
+- Review means either a patch approval, comments to author, or a reject.
+  * Approved patches are taken to upstream git.
+  * Commented patches will require work before they can be approved.
+    Comments can be untechnical, such as a change author must submit a
+    copyright assignment to FSF.
+  * Authors are encouraged to discontinue work with rejected changes, as
+    the reject is permanent.
+- Maintainers keep track of rejected changes so that developers can avoid
+  proposing the same in future.
+
 Patches are most welcome; if possible, please make them in git-am
 format, and include a suitable commit message.
 
