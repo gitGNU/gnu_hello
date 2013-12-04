@@ -40,6 +40,7 @@ typedef enum
 /* Forward declarations.  */
 static void print_help (void);
 static void print_version (void);
+static void print_box (wchar_t * mb_greeting);
 static void print_frame (const size_t len);
 
 int
@@ -120,14 +121,61 @@ main (int argc, char *argv[])
   if (g != greet_new)
     wprintf (L"%ls\n", mb_greeting);
   else
-    {
-      print_frame (len);
-      wprintf (L"| %ls |\n", mb_greeting);
-      print_frame (len);
-    }
+    print_box(mb_greeting);
   free(mb_greeting);
 
   exit (EXIT_SUCCESS);
+}
+
+
+/* New format message in box.  */
+
+void
+print_box (wchar_t * greeting)
+{
+  wchar_t *ignored;
+  size_t longest_line = 0;
+
+  struct parts
+  {
+    wchar_t *str;
+    size_t len;
+    struct parts *next;
+  };
+  struct parts *first, *p;
+
+  first = xmalloc (sizeof (struct parts));
+  first->next = NULL;
+  p = first;
+
+  p->str = wcstok (greeting, L"\n", &ignored);
+  p->len = wcslen (p->str);
+  while (p->str != NULL)
+    {
+      size_t i, len_tabs = 0;
+      for (i = 0; *(p->str + i) != '\0'; i++)
+	{
+	  if (*(p->str + i) == '\t')
+	    len_tabs += 8 - (len_tabs + 2) % 8;
+	  else
+	    len_tabs++;
+	}
+      p->len = len_tabs - i;
+      if (longest_line < len_tabs)
+	longest_line = len_tabs;
+      p->next = xmalloc (sizeof (struct parts));
+      p = p->next;
+      p->str = wcstok (NULL, L"\n", &ignored);
+    }
+
+  print_frame (longest_line);
+  for (p = first; p->str != NULL; p = p->next)
+    {
+      wprintf (L"| %-*ls |\n", longest_line - p->len, p->str);
+      free (p);
+    }
+  print_frame (longest_line);
+  free (p);
 }
 
 

@@ -54,6 +54,7 @@ TESTS = \
 	tests/greeting-2 \
 	tests/hello-1 \
 	tests/last-1 \
+	tests/multiline-box-1 \
 	tests/traditional-1
 
 EXTRA_DIST += $(TESTS)
