@@ -28,6 +28,7 @@ EXTRA_DIST = \
 	README-dev \
 	ChangeLog.O \
 	m4/gnulib-cache.m4 \
+	man/hello.x \
 	contrib/de_franconian_po.txt \
 	contrib/evolution.txt
 
@@ -47,7 +48,7 @@ EXTRA_DIST += $(man_MANS)
 CLEANFILES = $(man_MANS)
 
 hello.1: hello
-	$(HELP2MAN) --name="friendly greeting program" $(top_builddir)/hello -o $@
+	$(HELP2MAN) --include=$(top_srcdir)/man/hello.x $(top_builddir)/hello -o $@
 
 TESTS = \
 	tests/greeting-1 \
