@@ -1,7 +1,7 @@
 /* hello.c -- print a greeting message and exit.
 
    Copyright 1992, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2005,
-   2006, 2007, 2008, 2010, 2011 Free Software Foundation, Inc.
+   2006, 2007, 2008, 2010, 2011, 2013 Free Software Foundation, Inc.
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -48,7 +48,7 @@ main (int argc, char *argv[])
 {
   int optc;
   int lose = 0;
-  const char *greeting_msg = _("Hello, world!");
+  const char *greeting_msg;
   wchar_t *mb_greeting;
   size_t len;
   greeting_type g = greet_traditional;
@@ -63,6 +63,9 @@ main (int argc, char *argv[])
   bindtextdomain (PACKAGE, LOCALEDIR);
   textdomain (PACKAGE);
 #endif
+
+  /* Having initialized gettext, get the default message. */
+  greeting_msg = _("Hello, world!");
 
   /* Even exiting has subtleties.  On exit, if any writes failed, change
      the exit status.  The /dev/full device on GNU/Linux can be used for
