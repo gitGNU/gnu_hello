@@ -24,24 +24,14 @@
 static const struct option longopts[] = {
   {"greeting", required_argument, NULL, 'g'},
   {"help", no_argument, NULL, 'h'},
-  {"next-generation", no_argument, NULL, 'n'},
   {"traditional", no_argument, NULL, 't'},
   {"version", no_argument, NULL, 'v'},
   {NULL, 0, NULL, 0}
 };
 
-/* Different types of greetings; only one per invocation.  */
-typedef enum
-{
-  greet_traditional,
-  greet_new
-} greeting_type;
-
 /* Forward declarations.  */
 static void print_help (void);
 static void print_version (void);
-static void print_box (wchar_t * mb_greeting);
-static void print_frame (const size_t len);
 
 int
 main (int argc, char *argv[])
@@ -51,7 +41,6 @@ main (int argc, char *argv[])
   const char *greeting_msg;
   wchar_t *mb_greeting;
   size_t len;
-  greeting_type g = greet_traditional;
 
   set_program_name (argv[0]);
 
@@ -73,7 +62,7 @@ main (int argc, char *argv[])
      This is implemented in the Gnulib module "closeout".  */
   atexit (close_stdout);
 
-  while ((optc = getopt_long (argc, argv, "g:hntv", longopts, NULL)) != -1)
+  while ((optc = getopt_long (argc, argv, "g:htv", longopts, NULL)) != -1)
     switch (optc)
       {
 	/* --help and --version exit immediately, per GNU coding standards.  */
@@ -88,11 +77,7 @@ main (int argc, char *argv[])
 	print_help ();
 	exit (EXIT_SUCCESS);
 	break;
-      case 'n':
-	g = greet_new;
-	break;
       case 't':
-	g = greet_traditional;
 	greeting_msg = _("hello, world");
 	break;
       default:
@@ -121,77 +106,10 @@ main (int argc, char *argv[])
   mbsrtowcs(mb_greeting, &greeting_msg, len + 1, NULL);
 
   /* Print greeting message and exit. */
-  if (g != greet_new)
-    wprintf (L"%ls\n", mb_greeting);
-  else
-    print_box(mb_greeting);
+  wprintf (L"%ls\n", mb_greeting);
   free(mb_greeting);
 
   exit (EXIT_SUCCESS);
-}
-
-
-/* New format message in box.  */
-
-void
-print_box (wchar_t * greeting)
-{
-  wchar_t *ignored;
-  size_t longest_line = 0;
-
-  struct parts
-  {
-    wchar_t *str;
-    size_t len;
-    struct parts *next;
-  };
-  struct parts *first, *p;
-
-  first = xmalloc (sizeof (struct parts));
-  first->next = NULL;
-  p = first;
-
-  p->str = wcstok (greeting, L"\n", &ignored);
-  p->len = wcslen (p->str);
-  while (p->str != NULL)
-    {
-      size_t i, len_tabs = 0;
-      for (i = 0; *(p->str + i) != '\0'; i++)
-	{
-	  if (*(p->str + i) == '\t')
-	    len_tabs += 8 - (len_tabs + 2) % 8;
-	  else
-	    len_tabs++;
-	}
-      p->len = len_tabs - i;
-      if (longest_line < len_tabs)
-	longest_line = len_tabs;
-      p->next = xmalloc (sizeof (struct parts));
-      p = p->next;
-      p->str = wcstok (NULL, L"\n", &ignored);
-    }
-
-  print_frame (longest_line);
-  for (p = first; p->str != NULL; p = p->next)
-    {
-      wprintf (L"| %-*ls |\n", longest_line - p->len, p->str);
-      free (p);
-    }
-  print_frame (longest_line);
-  free (p);
-}
-
-
-/* Print new format upper and lower frame.  */
-
-void
-print_frame (const size_t len)
-{
-  size_t i;
-  fputws (L"+-", stdout);
-  for (i = 0; i < len; i++)
-    putwchar (L'-');
-  fputws (L"-+\n", stdout);
 }
 
 
@@ -224,7 +142,6 @@ Print a friendly, customizable greeting.\n"), stdout);
      no-wrap */
   fputs (_("\
   -t, --traditional       use traditional greeting\n\
-  -n, --next-generation   use next-generation greeting\n\
   -g, --greeting=TEXT     use TEXT as the greeting message\n"), stdout);
 
   printf ("\n");

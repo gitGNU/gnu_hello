@@ -21,14 +21,12 @@ export LANGUAGE LC_ALL LC_MESSAGES LANG
 
 tmpfiles="last-test1.ok"
 cat <<EOF > last-test1.ok
-+----------+
-| my hello |
-+----------+
+my hello
 EOF
 
 tmpfiles="$tmpfiles last-test1.out"
 : ${HELLO=hello}
-${HELLO} -t -n -g 'my hello' | tr -d '\r' \
+${HELLO} -t -g 'my hello' | tr -d '\r' \
 | tr -d '\r' >last-test1.out
 
 : ${DIFF=diff}
