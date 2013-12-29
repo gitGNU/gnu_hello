@@ -83,7 +83,7 @@ po-check:
 	  files=;							\
 	  for file in $$($(CVS_LIST_EXCEPT)) `find * -name '*.[ch]'`; do \
 	    case $$file in						\
-	    djgpp/* | man/*) continue;;					\
+	    gnulib/* | man/*) continue;;				\
 	    esac;							\
 	    case $$file in						\
 	    *.[ch])							\

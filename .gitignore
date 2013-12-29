@@ -33,6 +33,8 @@
 /Makefile
 /Makefile.in
 /man/hello.1
+/po-check-1
+/po-check-2
 /po/*.gmo
 /po/*.pot
 /po/.reference

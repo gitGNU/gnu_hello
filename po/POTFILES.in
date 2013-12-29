@@ -8,6 +8,7 @@
 
 # Package source files.
 src/hello.c
+src/system.h
 
 # Gnulib source files.
 lib/error.c
