@@ -48,7 +48,9 @@ EXTRA_DIST += $(man_MANS)
 CLEANFILES = $(man_MANS)
 
 hello.1: hello
-	$(HELP2MAN) --include=$(top_srcdir)/man/hello.x $(top_builddir)/hello -o $@
+	$(HELP2MAN) --include=$(top_srcdir)/man/hello.x $(top_builddir)/hello -o $@-t
+	chmod a=r $@-t
+	mv -f $@-t $@
 
 TESTS = \
 	tests/greeting-1 \
