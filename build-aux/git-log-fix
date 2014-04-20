@@ -1,9 +1,3 @@
 # This file is expected to be used via gitlog-to-changelog's --amend=FILE
 # option.  It specifies what changes to make to each given SHA1's commit
 # log and metadata, using Perl-eval'able expressions.
-
-# Here is an example, with leading "#" to comment it out:
-#
-#e480417a611ac479f235d423322fadfc1c99f1d7
-## Use full commit id in title:
-#s/714f2a2/714f2a2cef287c51dfd0b49fad0b8d8830565993/
