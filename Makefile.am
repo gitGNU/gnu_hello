@@ -43,14 +43,21 @@ hello_LDADD = $(LIBINTL) $(top_builddir)/lib/lib$(PACKAGE).a
 localedir = $(datadir)/locale
 DEFS = -DLOCALEDIR=\"$(localedir)\" @DEFS@
 
+CLEANFILES =
+
+if !GIT_CROSS_COMPILING
 man_MANS = hello.1
 EXTRA_DIST += $(man_MANS)
-CLEANFILES = $(man_MANS)
+endif
 
+if BUILD_FROM_GIT
 hello.1: hello
 	$(HELP2MAN) --include=$(top_srcdir)/man/hello.x $(top_builddir)/hello -o $@-t
 	chmod a=r $@-t
 	mv -f $@-t $@
+
+CLEANFILES += $(man_MANS)
+endif
 
 TESTS = \
 	tests/greeting-1 \

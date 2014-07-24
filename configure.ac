@@ -43,6 +43,13 @@ dnl Copyright will apply as long as these sources are in use, e.g., are
 dnl being compiled, which is reasonable year to claim the copyright.
 AC_DEFINE([COPYRIGHT_YEAR], [m4_esyscmd([date +%Y])], [year in copyright message])
 
+dnl Are we building from git checked-out sources, or a tarball ?
+dnl This is used in "Makefile.am" to avoid re-generating the manpage
+dnl when building from tarballs.
+AM_CONDITIONAL([BUILD_FROM_GIT], [test -d "$srcdir/.git"])
+AM_CONDITIONAL([GIT_CROSS_COMPILING],
+               [test -d "$srcdir/.git" && test $cross_compiling = yes])
+
 dnl GNU help2man creates man pages from --help output; in many cases, this
 dnl is sufficient, and obviates the need to maintain man pages separately.
 dnl However, this means invoking executables, which we generally cannot do
