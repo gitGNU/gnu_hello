@@ -18,7 +18,6 @@ AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([
 	1.11.1
 	readme-alpha
-	parallel-tests
 	subdir-objects
 ])
 

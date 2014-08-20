@@ -75,7 +75,7 @@ BUILT_SOURCES =
 
 LOG_COMPILER = $(SHELL)
 
-AM_TESTS_ENVIRONMENT = \
+TESTS_ENVIRONMENT = \
   top_srcdir=$(top_srcdir) \
   PATH=.$(PATH_SEPARATOR)$(PATH_SEPARATOR)$$PATH \
   HELLO=`echo hello | sed '$(transform)'`; \
