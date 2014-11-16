@@ -19,4 +19,4 @@ GNULIB_SRCDIR ?= $(srcdir)/gnulib
 gnulib_dir = $(GNULIB_SRCDIR)
 
 # Set format of NEWS
-old_NEWS_hash := 17bc7afec20fb514032522ebff7a5a2b
+old_NEWS_hash := db15df6458fe88ef5d0585717fc5de57
