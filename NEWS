@@ -2,6 +2,15 @@
 
 * Noteworthy changes in release ?.? (????-??-??) [?]
 
+Most importantly this release include the 'Hello, World' message to be
+part of translations.  The translation bug was introduced in release 2.9.
+
+Other changes in this release include; Make use of none-recursive build.
+Removal of user-defined new-style.  Include an example how to add a
+section to a manual page, such as BUGS.  Rather than 'fprintf (stderr'
+use libc 'error()' reporting facility.  Start using 'make
+update-copyright' facility.  Generate ChangeLog from git commit logs.
+Avoid manual page generation errors when cross-compiling.
 
 * Noteworthy changes in release 2.9 (2013-10-10) [stable]
 
