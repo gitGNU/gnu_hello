@@ -107,31 +107,6 @@ po-check:
 	  rm -f $@-1 $@-2;						\
 	fi
 
-
-# Example of updating the online web pages for the documentation
-# with the gendocs.sh script; see
-# http://www.gnu.org/prep/maintain/html_node/Invoking-gendocs_002esh.html
-#
-gendocs = build-aux/gendocs.sh
-gendocs_envvars = GENDOCS_TEMPLATE_DIR=doc
-#
-manual = hello
-manual_title=Hello, GNU World
-email = $(PACKAGE_BUGREPORT)
-gendocs_args = --email $(email) $(manual) $(manual_title)
-#
-www_target = $(HOME)/gnu/www/hello/manual
-#
-doctemp = doc/wwwtemp
-wwwdoc:
-	rm -rf $(doctemp) && mkdir $(doctemp)
-	cd $(doctemp) \
-	&& ln -s ../*.texi . \
-	&& env $(gendocs_envvars) $(gendocs) $(gendocs_args)
-	cp -arf $(doctemp)/manual/. $(www_target)
-	ls -ltu $(www_target)/html_node | tail  # $VCS rm -f obsolete files
-# followed by $VCS add of new files and cvs commit.
-
 include $(top_srcdir)/lib/local.mk
 include $(top_srcdir)/doc/local.mk
 
