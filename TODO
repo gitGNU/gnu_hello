@@ -2,6 +2,8 @@ GNU hello --- TODO
 
 Todo:
 
-    * submit a new hello.pot.
+    * submit a new hello.pot, see
+      http://translationproject.org/html/maintainers.html
+    * update copyright every January 1st, use 'make update-copyright'
 
 end of file TODO
