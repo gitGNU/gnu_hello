@@ -33,7 +33,7 @@ static const struct option longopts[] = {
 };
 
 /* Forward declarations.  */
-static void print_help (void);
+static void print_help (FILE *out);
 static void print_version (void);
 
 int
@@ -77,7 +77,7 @@ main (int argc, char *argv[])
 	greeting_msg = optarg;
 	break;
       case 'h':
-	print_help ();
+	print_help (stdout);
 	exit (EXIT_SUCCESS);
 	break;
       case 't':
@@ -92,7 +92,7 @@ main (int argc, char *argv[])
     {
       /* Print error message and exit.  */
       error (0, 0, "%s: %s", _("extra operand"), argv[optind]);
-      print_help ();
+      print_help (stderr);
     }
 
   len = mbsrtowcs(NULL, &greeting_msg, 0, NULL);
@@ -114,52 +114,53 @@ main (int argc, char *argv[])
    blocks and identify the various pieces.  */
 
 static void
-print_help (void)
+print_help (FILE *out)
 {
+  const char *lc_messages = setlocale (LC_MESSAGES, NULL);
   /* TRANSLATORS: --help output 1 (synopsis)
      no-wrap */
-  printf (_("\
-Usage: %s [OPTION]...\n"), program_name);
-
+  fprintf (out, _("Usage: %s [OPTION]...\n"), program_name);
   /* TRANSLATORS: --help output 2 (brief description)
      no-wrap */
-  fputs (_("\
-Print a friendly, customizable greeting.\n"), stdout);
-
-  puts ("");
-  /* TRANSLATORS: --help output 3: options 1/2
+  fputs (_("Print a friendly, customizable greeting.\n"), out);
+  fputs ("\n", out);
+  /* TRANSLATORS: --help output 3: options
      no-wrap */
-  fputs (_("\
-  -h, --help          display this help and exit\n\
-  -v, --version       display version information and exit\n"), stdout);
-
-  puts ("");
-  /* TRANSLATORS: --help output 4: options 2/2
-     no-wrap */
-  fputs (_("\
-  -t, --traditional       use traditional greeting\n\
-  -g, --greeting=TEXT     use TEXT as the greeting message\n"), stdout);
-
-  printf ("\n");
-  /* TRANSLATORS: --help output 5+ (reports)
+  fputs (_("  -t, --traditional       use traditional greeting\n"), out);
+  fputs (_("  -g, --greeting=TEXT     use TEXT as the greeting message\n"), out);
+  fputs ("\n", out);
+  fputs (_("  -h, --help     display this help and exit\n"), out);
+  fputs (_("  -v, --version  output version information and exit\n"), out);
+  fputs ("\n", out);
+  /* TRANSLATORS: --help output 4+ (reports)
      TRANSLATORS: the placeholder indicates the bug-reporting address
-     for this application.  Please add _another line_ with the
-     address for translation bugs.
+     for this application.
      no-wrap */
-  printf (_("\
-Report bugs to: %s\n"), PACKAGE_BUGREPORT);
+  fprintf (out, _("Report bugs to: %s\n"), PACKAGE_BUGREPORT);
+  /* Don't output this redundant message for English locales.
+     Note we still output for 'C' so that it gets included in the man page.  */
+  if (lc_messages && STRNCMP_LIT (lc_messages, "en_"))
+    {
+      /* TRANSLATORS: Replace LANG_CODE in this URL with your language code
+	 <http://translationproject.org/team/LANG_CODE.html> to form one of
+	 the URLs at http://translationproject.org/team/.  Otherwise, replace
+	 the entire URL with your translation team's email address.  */
+      fprintf (out, _("Report %s translation bugs to "
+		"<http://translationproject.org/team/>\n"), PACKAGE_NAME);
+    }
 #ifdef PACKAGE_PACKAGER_BUG_REPORTS
-  printf (_("Report %s bugs to: %s\n"), PACKAGE_PACKAGER,
+  fprintf (out, _("Report %s bugs to: %s\n"), PACKAGE_PACKAGER,
 	  PACKAGE_PACKAGER_BUG_REPORTS);
 #endif
 #ifdef PACKAGE_URL
-  printf (_("%s home page: <%s>\n"), PACKAGE_NAME, PACKAGE_URL);
+  fprintf (out, _("%s home page: <%s>\n"), PACKAGE_NAME, PACKAGE_URL);
 #else
-  printf (_("%s home page: <http://www.gnu.org/software/%s/>\n"),
+  fprintf (out, _("%s home page: <http://www.gnu.org/software/%s/>\n"),
 	  PACKAGE_NAME, PACKAGE);
 #endif
   fputs (_("General help using GNU software: <http://www.gnu.org/gethelp/>\n"),
-	 stdout);
+	 out);
+  exit(out == stderr ? EXIT_FAILURE : EXIT_SUCCESS);
 }
 
 
