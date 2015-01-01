@@ -20,6 +20,7 @@
 # define HELLO_SYSTEM_H
 
 /* Assume ANSI C89 headers are available.  */
+# include <limits.h>
 # include <locale.h>
 # include <stdio.h>
 # include <stdlib.h>

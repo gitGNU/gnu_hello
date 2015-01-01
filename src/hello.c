@@ -24,14 +24,6 @@
 #include "progname.h"
 #include "xalloc.h"
 
-static const struct option longopts[] = {
-  {"greeting", required_argument, NULL, 'g'},
-  {"help", no_argument, NULL, 'h'},
-  {"traditional", no_argument, NULL, 't'},
-  {"version", no_argument, NULL, 'v'},
-  {NULL, 0, NULL, 0}
-};
-
 /* Forward declarations.  */
 static void print_help (FILE *out);
 static void print_version (void);
@@ -44,6 +36,18 @@ main (int argc, char *argv[])
   const char *greeting_msg;
   wchar_t *mb_greeting;
   size_t len;
+
+  enum {
+    OPT_HELP = CHAR_MAX + 1,
+    OPT_VERSION
+  };
+  static const struct option longopts[] = {
+    {"greeting", required_argument, NULL, 'g'},
+    {"traditional", no_argument, NULL, 't'},
+    {"help", no_argument, NULL, OPT_HELP},
+    {"version", no_argument, NULL, OPT_VERSION},
+    {NULL, 0, NULL, 0}
+  };
 
   set_program_name (argv[0]);
 
@@ -65,18 +69,18 @@ main (int argc, char *argv[])
      This is implemented in the Gnulib module "closeout".  */
   atexit (close_stdout);
 
-  while ((optc = getopt_long (argc, argv, "g:htv", longopts, NULL)) != -1)
+  while ((optc = getopt_long (argc, argv, "g:t", longopts, NULL)) != -1)
     switch (optc)
       {
 	/* --help and --version exit immediately, per GNU coding standards.  */
-      case 'v':
+      case OPT_VERSION:
 	print_version ();
 	exit (EXIT_SUCCESS);
 	break;
       case 'g':
 	greeting_msg = optarg;
 	break;
-      case 'h':
+      case OPT_HELP:
 	print_help (stdout);
 	exit (EXIT_SUCCESS);
 	break;
@@ -129,8 +133,8 @@ print_help (FILE *out)
   fputs (_("  -t, --traditional       use traditional greeting\n"), out);
   fputs (_("  -g, --greeting=TEXT     use TEXT as the greeting message\n"), out);
   fputs ("\n", out);
-  fputs (_("  -h, --help     display this help and exit\n"), out);
-  fputs (_("  -v, --version  output version information and exit\n"), out);
+  fputs (_("      --help     display this help and exit\n"), out);
+  fputs (_("      --version  output version information and exit\n"), out);
   fputs ("\n", out);
   /* TRANSLATORS: --help output 4+ (reports)
      TRANSLATORS: the placeholder indicates the bug-reporting address
