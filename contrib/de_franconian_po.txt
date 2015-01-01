@@ -4,7 +4,7 @@ dann humorvoll:
 ----------------------------------------------------------------------
 # German messages for GNU hello.
 # Fränkische Meldungen für GNU hello.
-# Copyright © 1998 Free Software Foundation, Inc.
+# Copyright (C) 1998, 2015 Free Software Foundation, Inc.
 # Karl Eichwalder <ke@ke.Central.DE>, 1996-97.
 # Karl Eichwalder <ke@suse.de>, 1998.
 # Uwe Seifert, 2000 (translation german » franconian)
