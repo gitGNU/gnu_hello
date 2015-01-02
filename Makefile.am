@@ -111,6 +111,7 @@ include $(top_srcdir)/lib/local.mk
 include $(top_srcdir)/doc/local.mk
 
 dist-hook: gen-ChangeLog
+	chmod u+w $(distdir)/$(man_MANS)
 
 gen_start_date = 2011-12-17
 .PHONY: gen-ChangeLog
