@@ -2,7 +2,7 @@
 # Test very long --greeting argument, and also show skipping a test.
 # (And one way to compute full moons.)
 #
-# Copyright (C) 2001, 2006, 2014, 2015 Free Software Foundation, Inc.
+# Copyright (C) 2001, 2006, 2014-2016 Free Software Foundation, Inc.
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -16,7 +16,7 @@ Wuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
 EOF
 
 # Werewolves cry at full moon only.
-set - `TZ=GMT date +"%Y %j %H %M %S"`
+set x `TZ=GMT date +"%Y %j %H %M %S"`; shift
 year=$1; day=$2; hours=$3; minutes=$4; seconds=$5
 years_since_2000=`expr $year - 2000`
 days_since_2000=`expr '(' $years_since_2000 '*' 365 ')' + '(' '(' $years_since_2000 - 1 ')' / 4 ')' + $day`
