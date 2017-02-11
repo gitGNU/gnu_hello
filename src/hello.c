@@ -18,11 +18,19 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
 
 #include <config.h>
+
+#include <getopt.h>
 #include <stdnoreturn.h>
+#include <wchar.h>
 
 #include "system.h"
+
+#include "closeout.h"
+#include "configmake.h"
+#include "dirname.h"
 #include "errno.h"
 #include "error.h"
+#include "gettext.h"
 #include "progname.h"
 #include "xalloc.h"
 
