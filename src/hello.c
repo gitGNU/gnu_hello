@@ -18,6 +18,8 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
 
 #include <config.h>
+#include <stdnoreturn.h>
+
 #include "system.h"
 #include "errno.h"
 #include "error.h"
@@ -25,7 +27,7 @@
 #include "xalloc.h"
 
 /* Forward declarations.  */
-static void print_help (FILE *out);
+static _Noreturn void print_help (FILE *restrict out);
 static void print_version (void);
 
 int
@@ -82,8 +84,6 @@ main (int argc, char *argv[])
 	break;
       case OPT_HELP:
 	print_help (stdout);
-	exit (EXIT_SUCCESS);
-	break;
       case 't':
 	greeting_msg = _("hello, world");
 	break;
@@ -117,8 +117,8 @@ main (int argc, char *argv[])
    several pieces to help translators be able to align different
    blocks and identify the various pieces.  */
 
-static void
-print_help (FILE *out)
+static _Noreturn void
+print_help (FILE *restrict out)
 {
   const char *lc_messages = setlocale (LC_MESSAGES, NULL);
   /* TRANSLATORS: --help output 1 (synopsis)
